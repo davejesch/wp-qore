@@ -21,7 +21,7 @@ WordPress Security and Performance Plugin.
 
 ## Installation
 
-1. Download this repository as a zip file and extreact it.
+1. Download this repository as a zip file and extract it.
 2. Copy the `wp-qore` directory into your `wp-content/plugins` directory
 3. Navigate to the *Plugins* dashboard page
 4. Locate the *WP Qore* plugin
