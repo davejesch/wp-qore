@@ -7,11 +7,11 @@ Stable tag: 4.8
 License: GNU GPL 3.0
 License URI: http://www.gnu.org/licenses/gpl.html
 
-WordPress Security and Performance Plugin.
+WordPress Security, Developer Tools Plugin.
 
 == Description ==
 
-<a href="http://wpqore.com/">WP Qore</a>, a plugin that provides additional security and performance functionality that can be turned on or off at any time. A great plugin for WordPress developers.
+<a href="http://wpqore.com/">WP Qore</a>, a plugin that provides additional security, performance functionality, developer tools that can be turned on or off at any time. A great plugin for WordPress developers.
 
 Features:
 
