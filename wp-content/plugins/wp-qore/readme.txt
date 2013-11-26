@@ -56,6 +56,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.0.2 =
+* Deprecated self-hosted plugin updater in preparation for the WordPress.org repository.
+
 = 1.0.1 =
 * Fixed a bug in updater. This was pre-wp repo.
 
@@ -63,6 +66,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Upgrade now for the latest version.
 
 = 1.0.1 =
 * Upgrade now to make sure you do not miss any future updates. This update fixes the WordPress updater to notify users upon new version upgrades.
