@@ -71,7 +71,7 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Upgrade Notice ==
 
-= 1.0.2 =
+= 1.0.3 =
 * Upgrade adds new functionality.
 
 = 1.0.2 =
