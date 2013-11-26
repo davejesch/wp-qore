@@ -56,6 +56,10 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.0.3 =
+* Enabled php in widgets. 
+* Updated project description.
+
 = 1.0.2 =
 * Deprecated self-hosted plugin updater in preparation for the WordPress.org repository.
 
@@ -66,6 +70,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Upgrade adds new functionality.
 
 = 1.0.2 =
 * Upgrade now for the latest version.
