@@ -1,0 +1,11 @@
+.widget-expodata .title { border: solid 1px #DFDFDF; background-color: #F1F1F1; }
+.widget-expodata .title h3 { margin: 0; padding: 8px 10px; }
+.widget-expodata .title .widget-selection-error { display:none; margin: 0; float: right; color: #FF0000; padding: 10px 10px 0 0; }
+.widget-expodata .sidebars { border: solid 1px #DFDFDF; }
+.widget-expodata .sidebars .sidebar h4 { margin: 0; padding: 8px 20px; background:#eee; }
+.widget-expodata .sidebars .sidebar .widgets input[type="checkbox"] { margin-right:3px; }
+.widget-expodata .sidebars .sidebar .widgets .import-form-row { padding-left:30px; background-color:#FFF; }
+.widget-expodata .sidebars .sidebar .widgets .import-form-row:nth-child(even){ background-color:#F9F9F9; }
+.widget-expodata form#upload-widget-expodata span.file-name { min-width:300px; display:inline-block; height:20px; top:7px; border: solid 1px #bbb; position: relative; }
+.widget-expodata form#upload-widget-expodata #upload-button { margin:4px 0 0 10px; }
+.widget-expodata .button-bottom { margin-top: 10px; }
