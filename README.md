@@ -1,6 +1,6 @@
 # WP Qore
 
-WordPress Security and Performance Plugin.
+WordPress Security, Developer Tools Plugin.
 
 ## Features
 
@@ -12,6 +12,8 @@ WordPress Security and Performance Plugin.
 * admin bar removal
 * use jquery cdn
 * shortcode in widget
+* php in widgets
+* import/export widgets
 * remove wp version
 * minify your html
 * gzip compression
@@ -21,13 +23,13 @@ WordPress Security and Performance Plugin.
 
 ## Installation
 
-1. Download this repository as a zip file and extract it.
-2. Copy the `wp-qore` directory into your `wp-content/plugins` directory
-3. Navigate to the *Plugins* dashboard page
-4. Locate the *WP Qore* plugin
-5. Click on *Activate*
+This will activate the WP Qore WordPress Plugin.
 
-This will activate the WP Qore WordPress Plugin. Once activated, please update your options via the WP Qore menu located within the left side of the wp-admin.
+1. Upload `wp-qore` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Adjust options within 'WP Qore' admin menu
+
+Once activated, please update your options via the WP Qore menu located within the left side of the wp-admin.
 
 ## License
 
