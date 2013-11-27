@@ -58,6 +58,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.1.0 =
+* Moved import/export widgets to the wp-admin > Tools menu via add_admin_menus().
+
 = 1.0.9 =
 * Updated code to use prepare() with queries to protect them from sql injections.
 
@@ -91,6 +94,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+* Upgrade to fix minor bug in export widgets.
 
 = 1.0.9 =
 * Upgrade to fix possible security vulnerbility.
