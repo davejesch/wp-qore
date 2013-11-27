@@ -101,12 +101,3 @@ if (get_option("wpqorefunc_exportwidget")=='checked') {
 	require('functions/widget-expodata.php');
 	add_action( 'init', array( 'Widget_EXPOData', 'init' ) );
 }
-
-/**
- * Hides Failed Login Attempt Notifications
- * include_once('functions/failed_login.php');
- * 
- * Customize admin message "Howdy" to "Welcome"
- * include_once('functions/howdy.php');
- * 
- */
