@@ -23,6 +23,8 @@ Features:
 * admin bar removal
 * use jquery cdn
 * shortcode in widget
+* php in widgets
+* import/export widgets
 * remove wp version
 * minify your html
 * gzip compression
@@ -56,6 +58,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.0.8 =
+* Visual fix. Added two line breaks on db audit panel.
+
 = 1.0.7 =
 * Disabled calling wp-load directly on line 4.
 
@@ -83,6 +88,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+* Fix to Database Optimization Audit panel.
 
 = 1.0.7 =
 * Upgrade to fix possible security vulnerbility.
