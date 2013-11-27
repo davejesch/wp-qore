@@ -91,7 +91,7 @@ function wpqorefunc_redirect_admin() {
     if ($wpqorefuncredirect==1) {
     if (isset($_GET[get_option("wpqorefunc_secret_arg")])) {
 
-/**** OFF ****
+/*
     // first step pass
     if (isset($_POST["firststeppass"]) and $_POST["firststeppass"]==get_option("wpqorefunc_1st_pass")) {
 
@@ -104,7 +104,7 @@ function wpqorefunc_redirect_admin() {
     die();
 
     }
-**** OFF ****/
+*/
 
     }
 }
