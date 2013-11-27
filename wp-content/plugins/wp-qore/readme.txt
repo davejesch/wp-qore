@@ -56,6 +56,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.0.6 =
+* Replaced deprecated function in functions.php, has_cap to manage_options.
+
 = 1.0.5 =
 * Fixed minor bug with import/export widgets
 
@@ -77,6 +80,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.6 =
+* Upgrade to fix deprecated function in functions.php.
 
 = 1.0.5 =
 * Upgrade to fix minor bug with import/export widgets.
