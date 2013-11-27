@@ -19,14 +19,14 @@ class Widget_EXPOData {
 	 */
 	public static function add_admin_menus() {
 		// export
-		//$export_page = add_management_page( 'Export Widgets', 'Export Widgets', 'manage_options', 'widget-settings-export', array( __CLASS__, 'export_settings_page' ) );
+		$export_page = add_management_page( 'Export Widgets', 'Export Widgets', 'manage_options', 'widget-settings-export', array( __CLASS__, 'export_settings_page' ) );
 
-$export_page = add_submenu_page( 'wp-qore/functions.php', 'Export Widgets', 'Export Widgets', 'manage_options', 'widget-settings-export', array( __CLASS__, 'export_settings_page' ));
+		//$export_page = add_submenu_page( 'wp-qore/functions.php', 'Export Widgets', 'Export Widgets', 'manage_options', 'widget-settings-export', array( __CLASS__, 'export_settings_page' ));
 
 		//import
-		//$import_page = add_management_page( 'Import Widgets', 'Import Widgets', 'manage_options', 'widget-settings-import', array( __CLASS__, 'import_settings_page' ) );
+		$import_page = add_management_page( 'Import Widgets', 'Import Widgets', 'manage_options', 'widget-settings-import', array( __CLASS__, 'import_settings_page' ) );
 
-$import_page = add_submenu_page( 'wp-qore/functions.php', 'Import Widgets', 'Import Widgets', 'manage_options', 'widget-settings-import', array( __CLASS__, 'import_settings_page' ) );
+		//$import_page = add_submenu_page( 'wp-qore/functions.php', 'Import Widgets', 'Import Widgets', 'manage_options', 'widget-settings-import', array( __CLASS__, 'import_settings_page' ) );
 
 		add_action( 'admin_enqueue_scripts', function($hook) use ($export_page, $import_page){
 			if( !in_array( $hook, array( $export_page, $import_page ) ) )
