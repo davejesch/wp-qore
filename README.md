@@ -1,6 +1,6 @@
 # WP Qore
 
-WordPress Security, Developer Tools Plugin.
+WordPress Security and Developer Tools Plugin.
 
 ## Features
 
