@@ -166,7 +166,7 @@ function wpqorefunc_ajax_db_callback() {
 
     if ($table_prefix!='wp_') echo '<span class="wpqorefunc_gray">Database table prefix is '.$table_prefix.' . It is ok.</span>'; 
 
-    else echo '<span class="wpqorefunc_red">Your current WP database table prefix is '.$table_prefix.' . It is not secure. We advice you to change it.<br> It is very easy before install, but as you have already installed website, please do the following for fixing it: <br> </span>Solution: This <a target="_blank" href="https://www.evernote.com/shard/s18/sh/18113a5c-3e44-4c2f-b6c4-8140badb4746/31651887f28a34a4d5beb2b7dae65fbd">link</a> will explain you what to do for changing wp_ prefix. ';
+    else echo '<span class="wpqorefunc_red">Your current WP database table prefix is '.$table_prefix.' . It is not secure. We advice you to change it.<br> It is very easy before install, but as you have already installed website, please do the following for fixing it: <br> </span>Solution: This <a target="_blank" href="http://www.wpbeginner.com/wp-tutorials/how-to-change-the-wordpress-database-prefix-to-improve-security/">link</a> will explain to you what you can do for changing wp_ prefix. Alternatively, you may consider trying <a target="" href="http://wordpress.org/plugins/db-prefix-change/">Change DB Prefix</a> from the WordPress.org plugins directory. Its super easy!';
 
     echo '</p><p><b>2. WP admin username</b><br>';
 
