@@ -1,7 +1,7 @@
 <?php
 
 // WordPress Administration Bootstrap
-require_once( ABSPATH . 'wp-load.php' );
+//require_once( ABSPATH . 'wp-load.php' ); //disabled on 1.0.6 to prevent calling wp-load directly
 require_once( ABSPATH . 'wp-admin/admin.php' );
 require_once( ABSPATH . 'wp-admin/admin-header.php' );
 
