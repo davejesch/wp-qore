@@ -56,6 +56,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 
 == Changelog ==
 
+= 1.0.7 =
+* Disabled calling wp-load directly on line 4.
+
 = 1.0.6 =
 * Replaced deprecated function in functions.php, has_cap to manage_options.
 
@@ -80,6 +83,9 @@ Yes. We currently have WP Qore on Github. You may find the project here: https:/
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.7 =
+* Upgrade to fix possible security vulnerbility.
 
 = 1.0.6 =
 * Upgrade to fix deprecated function in functions.php.
