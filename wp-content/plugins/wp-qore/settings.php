@@ -184,7 +184,8 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 <input name="wpqorefunc_reregjquery" type="checkbox" id="wpqorefunc_reregjquery" value="1" <?php echo get_option("wpqorefunc_reregjquery");?>>
 <label><i></i></label>
 </div>
-<i>Use Google hosted jQuery instead of Wordpress core.</i>
+<i>Use Google hosted jQuery instead of Wordpress core.</i><br>
+<b>Attention:</b> If this doesn't play well with your theme, then simply turn it off.
 </label>
 </td>
 </tr>
@@ -212,7 +213,8 @@ This enables shortcode in widgets. In the instance you need to use shortcode wit
 <label><i></i></label>
 </div>
 <i>Check to enable</i><br>
-This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.
+This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br>
+<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk.
 </label>
 </td>
 </tr>
