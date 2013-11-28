@@ -50,7 +50,7 @@ I can't say this plugin compares with the others. It wasn't created to compete w
 
 = Do you have a Github repository, too? =
 
-Yes. We currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
+Yes. I currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
 
 == Screenshots ==
 
