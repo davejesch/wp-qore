@@ -195,12 +195,6 @@ function wpqorefunc_ajax_db_callback() {
 
 echo '</p>';
 
-    //select * FROM wp_terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0 );
-
-        /*
-DELETE a,b,c FROM wp_posts a WHERE a.post_type = 'revision' LEFT JOIN wp_term_relationships b ON (a.ID = b.object_id) LEFT JOIN wp_postmeta c ON (a.ID = c.post_id);
-        */
-
     die(); // this is required to return a proper result
 }
 
