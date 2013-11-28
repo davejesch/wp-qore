@@ -33,7 +33,7 @@ Once activated, please update your options via the WP Qore menu located within t
 
 ## License
 
-The WordPress Plugin Boilerplate is licensed under the GPL v3 or later.
+WP Qore is licensed under the GPL v3 or later.
 
 > This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 3, as
