@@ -1,6 +1,6 @@
 <?php
 
-$loginlockdown_db_version = "5.4";
+$loginlockdown_db_version = "5.2";
 
 $loginlockdownOptions = get_loginlockdownOptions();
 
