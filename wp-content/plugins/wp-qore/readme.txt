@@ -58,6 +58,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.1.2 =
+* Deprecated WordPress Admin Bootstrap.
+
 = 1.1.1 =
 * Replaced checkboxes with on/off toggle buttons.
 
@@ -97,6 +100,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+* Upgrade to fix possible security vulnerbility.
 
 = 1.1.1 =
 * Upgrade to add cosmetic changes.
