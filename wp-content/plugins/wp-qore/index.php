@@ -12,10 +12,6 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 
 /**
- * WP Qore is copyrighted within the United States in 2013 by Jason Jersey of wpqore.com. 
- * All rights reserved. Everyone is permitted to copy and distribute verbatim copies of 
- * this licensed WordPress plugin, but changing it is not allowed (License: GNU GPL 3.0).
- * 
  * THERE IS NO WARRANTY FOR THIS PLUGIN, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT 
  * WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE 
  * PLUGIN "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, 
