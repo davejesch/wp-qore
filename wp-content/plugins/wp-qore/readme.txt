@@ -58,6 +58,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.1.3 =
+* Updated login-security.php with $wpdb->prepare() to fix any unsafe SQL queries. 
+
 = 1.1.2 =
 * Deprecated WordPress Admin Bootstrap.
 
@@ -100,6 +103,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.3 =
+* Upgrade to fix possible security vulnerbility.
 
 = 1.1.2 =
 * Upgrade to fix possible security vulnerbility.
