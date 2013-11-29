@@ -9,7 +9,7 @@ function loginLockdown_install() {
 	global $wpdb;
 	$table_name = $wpdb->prefix . "login_fails";
 
-	if( $wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name ) {
+	if( $wpdb->get_var( $wpdb->prepare("SHOW TABLES LIKE '$table_name'" )) != $table_name ) {
 
 		$sql = "CREATE TABLE " . $table_name . " (
 
@@ -30,7 +30,7 @@ function loginLockdown_install() {
 
 	$table_name = $wpdb->prefix . "lockdowns";
 
-	if( $wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name ) {
+	if( $wpdb->get_var( $wpdb->prepare("SHOW TABLES LIKE '$table_name'") ) != $table_name ) {
 
 		$sql = "CREATE TABLE " . $table_name . " (
 
@@ -63,13 +63,13 @@ function countFails($username = "") {
 
 	$class_c = substr ($ip, 0 , strrpos ( $ip, "." ));
 
-	$numFails = $wpdb->get_var("SELECT COUNT(login_attempt_ID) FROM $table_name " . 
+	$numFails = $wpdb->get_var( $wpdb->prepare("SELECT COUNT(login_attempt_ID) FROM $table_name " . 
 
 					"WHERE login_attempt_date + INTERVAL " .
 
 					$loginlockdownOptions['retries_within'] . " MINUTE > now() AND " . 
 
-					"login_attempt_IP LIKE '" . $wpdb->escape($class_c) . "%'");
+					"login_attempt_IP LIKE '" . $wpdb->escape($class_c) . "%'") );
 
 	return $numFails;
 
@@ -90,7 +90,7 @@ function incrementFails($username = "") {
 
 				"VALUES ('" . $user->ID . "', now(), '" . $wpdb->escape($ip) . "')";
 
-		$results = $wpdb->query($insert);
+		$results = $wpdb->query( $wpdb->prepare($insert) );
 
 	}
 }
@@ -111,7 +111,7 @@ function lockDown($username = "") {
 				"VALUES ('" . $user->ID . "', now(), date_add(now(), INTERVAL " .
 				$loginlockdownOptions['lockout_length'] . " MINUTE), '" . $wpdb->escape($ip) . "')";
 
-		$results = $wpdb->query($insert);
+		$results = $wpdb->query( $wpdb->prepare($insert) );
 
 	}
 }
@@ -122,9 +122,9 @@ function isLockedDown() {
 	$table_name = $wpdb->prefix . "lockdowns";
 	$ip = $_SERVER['REMOTE_ADDR'];
 	$class_c = substr ($ip, 0 , strrpos ( $ip, "." ));
-	$stillLocked = $wpdb->get_var("SELECT user_id FROM $table_name " . 
+	$stillLocked = $wpdb->get_var( $wpdb->prepare("SELECT user_id FROM $table_name " . 
 					"WHERE release_date > now() AND " . 
-					"lockdown_IP LIKE '" . $wpdb->escape($class_c) . "%'");
+					"lockdown_IP LIKE '" . $wpdb->escape($class_c) . "%'") );
 
 	return $stillLocked;
 
@@ -136,8 +136,8 @@ function listLockedDown() {
 
 	$table_name = $wpdb->prefix . "lockdowns";
 
-	$listLocked = $wpdb->get_results("SELECT lockdown_ID, floor((UNIX_TIMESTAMP(release_date)-UNIX_TIMESTAMP(now()))/60) AS minutes_left, ".
-					"lockdown_IP FROM $table_name WHERE release_date > now()", ARRAY_A);
+	$listLocked = $wpdb->get_results( $wpdb->prepare("SELECT lockdown_ID, floor((UNIX_TIMESTAMP(release_date)-UNIX_TIMESTAMP(now()))/60) AS minutes_left, ".
+					"lockdown_IP FROM $table_name WHERE release_date > now()", ARRAY_A) );
 
 	return $listLocked;
 
@@ -231,9 +231,9 @@ function print_loginlockdownAdminPage() {
 
 			foreach ( $released as $release_id ) {
 
-				$results = $wpdb->query("UPDATE $table_name SET release_date = now() " .
+				$results = $wpdb->query( $wpdb->prepare("UPDATE $table_name SET release_date = now() " .
 
-							"WHERE lockdown_ID = " . $wpdb->escape($release_id) . "");
+							"WHERE lockdown_ID = " . $wpdb->escape($release_id) . "") );
 
 			}
 
