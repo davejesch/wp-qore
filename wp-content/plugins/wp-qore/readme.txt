@@ -15,7 +15,6 @@ WordPress Security, Developer Tools Plugin.
 
 Features:
 
-* login security
 * customize login page
 * hide login page
 * replace dashboard
@@ -57,6 +56,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 
 == Changelog ==
+
+= 1.1.4 =
+* Debut version in WordPress.org plugin repository.
 
 = 1.1.3 =
 * Deprecated submenu item > login-security.php. 
@@ -103,6 +105,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.4 =
+* Upgrade for the latest version.
 
 = 1.1.3 =
 * Upgrade to fix possible security vulnerbility.
