@@ -32,7 +32,7 @@
 <div class="dashboard_icons"><div  class="dash_text">My Profile</div><a href="profile.php" title="My Profile"><img src="<?php echo plugins_url( '../images/dashboard/profile.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Import</div><a href="import.php" title="Import Content"><img src="<?php echo plugins_url( '../images/dashboard/import.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Export</div><a href="export.php" title="Export Content"><img src="<?php echo plugins_url( '../images/dashboard/export.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">General</div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
+<div class="dashboard_icons"><div  class="dash_text">Settings</div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
 
 </div>
 </div>
