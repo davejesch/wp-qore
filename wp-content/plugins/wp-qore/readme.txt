@@ -57,6 +57,10 @@ screenshot-1.png
 
 == Changelog ==
 
+= 1.1.5 =
+* Replaced dashboard icons.
+* Fixed dashboard css (adjusted icon opacity).
+
 = 1.1.4 =
 * Debut version in WordPress.org plugin repository.
 
@@ -105,6 +109,9 @@ screenshot-1.png
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.5 =
+* Upgrade for the latest version.
 
 = 1.1.4 =
 * Upgrade for the latest version.
