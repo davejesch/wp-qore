@@ -59,7 +59,7 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 == Changelog ==
 
 = 1.1.3 =
-* Updated login-security.php with $wpdb->prepare() to fix any unsafe SQL queries. 
+* Deprecated submenu item > login-security.php. 
 
 = 1.1.2 =
 * Deprecated WordPress Admin Bootstrap.
