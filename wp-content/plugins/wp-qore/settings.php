@@ -327,7 +327,7 @@ This checks your Database and then gives you suggestions about security and maki
 </div>
 
 <style type="text/css" media="all" >
-@import url("../wp-content/plugins/wp-qore/css/on-off.css");
+@import url("<?php echo plugins_url( 'css/on-off.css' , __FILE__ ); ?>");
 </style>
 
 <style type="text/css">
