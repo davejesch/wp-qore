@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore, formerly known as Qore Functions, is a WordPress plugin that provides additional security, performance functionality, developer tools that can be turned on or off at any time.
-Version: 1.1.3
+Version: 1.1.4
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -25,7 +25,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.1.3';
+    echo '1.1.4';
 }
 
 // exit if accessed directly
@@ -84,7 +84,6 @@ add_action('admin_menu', 'wpqorefunc_fp_admin');
 // on & off checkboxes
 if (get_option("wpqorefunc_2steplogin")=='checked') add_action( 'init', 'wpqorefunc_redirect_admin');
 if (get_option("wpqorefunc_compresshtml")=='checked') include_once('functions/compress_html.php');
-if (get_option("wpqorefunc_login-sec")=='checked') include_once('login-security.php');
 if (get_option("wpqorefunc_dashboard")=='checked') include_once('functions/dashboard_func.php');
 if (get_option("wpqorefunc_gzip")=='checked') include_once('functions/gzip.php');
 if (get_option("wpqorefunc_wphidenag")=='checked') include_once('functions/wphidenag.php');
