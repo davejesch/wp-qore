@@ -12,7 +12,7 @@
 
 <div style="margin-top:0px">
 
-<div class="dashboard_icons"><div  class="dash_text">Posts</div><a href="edit.php" title="Posts"><img src="<?php echo plugins_url( '../images/dashboard/edit.png' , __FILE__ ); ?>"/></a></div>
+<div class="dashboard_icons"><div  class="dash_text">All Posts</div><a href="edit.php" title="View All Posts"><img src="<?php echo plugins_url( '../images/dashboard/edit.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Add Posts</div><a href="post-new.php" title="Add New Post"><img src="<?php echo plugins_url( '../images/dashboard/add.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Categories</div><a href="edit-tags.php?taxonomy=category" title="Categories"><img src="<?php echo plugins_url( '../images/dashboard/category.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Tags</div><a href="edit-tags.php?taxonomy=post_tag" title="Tags"><img src="<?php echo plugins_url( '../images/dashboard/tags.png' , __FILE__ ); ?>"/></a></div>
@@ -21,9 +21,9 @@
 <div class="dashboard_icons"><div  class="dash_text">Comments</div><a href="edit-comments.php" title="Comments"><img src="<?php echo plugins_url( '../images/dashboard/comments.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Add Page</div><a href="edit.php?post_type=page" title="Add New Page"><img src="<?php echo plugins_url( '../images/dashboard/add_page.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Themes</div><a href="themes.php" title="Themes"><img src="<?php echo plugins_url( '../images/dashboard/themes.png' , __FILE__ ); ?>"/></a></div>
+<div class="dashboard_icons"><div  class="dash_text">Theme Editor</div><a href="theme-editor.php" title="Theme Editor"><img src="<?php echo plugins_url( '../images/dashboard/theme_editor.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Widgets</div><a href="widgets.php" title="Widgets"><img src="<?php echo plugins_url( '../images/dashboard/widgets.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Menus</div><a href="nav-menus.php" title="Menus"><img src="<?php echo plugins_url( '../images/dashboard/menus.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Theme Editor</div><a href="theme-editor.php" title="Theme Editor"><img src="<?php echo plugins_url( '../images/dashboard/theme_editor.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Plugins</div><a href="plugins.php" title="Plugins"><img src="<?php echo plugins_url( '../images/dashboard/plugins.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Add Plugin</div><a href="plugin-install.php" title="Add New Plugin"><img src="<?php echo plugins_url( '../images/dashboard/add-plugin.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Plugins Editor</div><a href="plugin-editor.php" title="Plugin Editor"><img src="<?php echo plugins_url( '../images/dashboard/edit-plugin.png' , __FILE__ ); ?>"/></a></div>
@@ -33,11 +33,6 @@
 <div class="dashboard_icons"><div  class="dash_text">Import</div><a href="import.php" title="Import Content"><img src="<?php echo plugins_url( '../images/dashboard/import.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">Export</div><a href="export.php" title="Export Content"><img src="<?php echo plugins_url( '../images/dashboard/export.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text">General</div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Writing</div><a href="options-writing.php" title="Writing Settings"><img src="<?php echo plugins_url( '../images/dashboard/writing-settings.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Reading</div><a href="options-reading.php" title="Reading Settings"><img src="<?php echo plugins_url( '../images/dashboard/reading-settings.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Discussion</div><a href="options-discussion.php" title="Discussion Settings"><img src="<?php echo plugins_url( '../images/dashboard/discussion-settings.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Media</div><a href="options-media.php" title="Media Settings"><img src="<?php echo plugins_url( '../images/dashboard/media-settings.png' , __FILE__ ); ?>"/></a></div>
-<div class="dashboard_icons"><div  class="dash_text">Permalink</div><a href="options-permalink.php" title="Permalink Settings"><img src="<?php echo plugins_url( '../images/dashboard/permalink.png' , __FILE__ ); ?>"/></a></div>
 
 </div>
 </div>
@@ -46,9 +41,5 @@
 @import url("<?php echo plugins_url( '../css/dashboard.css' , __FILE__ ); ?>");
 </style>
 
-<?php 
-
-include( ABSPATH . 'wp-admin/admin-footer.php' ); 
-
-//wp-admin dashboard : end 
+<?php //wp-admin dashboard : end 
  ?>
