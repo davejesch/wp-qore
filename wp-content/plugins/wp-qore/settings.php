@@ -16,7 +16,6 @@ wpqorefunc_is_checked("wpqorefunc_removeversion");
 wpqorefunc_is_checked("wpqorefunc_rmheader");
 wpqorefunc_is_checked("wpqorefunc_2steplogin");
 wpqorefunc_is_checked("wpqorefunc_compresshtml");
-wpqorefunc_is_checked("wpqorefunc_login-sec");
 wpqorefunc_is_checked("wpqorefunc_dashboard");
 wpqorefunc_is_checked("wpqorefunc_gzip");
 wpqorefunc_is_checked("wpqorefunc_wphidenag");
@@ -43,22 +42,6 @@ wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 <tbody>
 
 <h3>Login Settings:</h3>
-
-<tr valign="top">
-<th scope="row"><label for="home">Enable Login Security</label></th>
-<td>
-<label for="wpqorefunc_login-sec">
-
-<div class="switch toggle3">
-<input name="wpqorefunc_login-sec" type="checkbox" id="wpqorefunc_login-sec" value="1" <?php echo get_option("wpqorefunc_login-sec");?>>
-<label><i></i></label>
-</div>
-
-<i>Check to enable (Recommended)</i><br>
-Protects your wp-admin login from brute-force attacks. Once enabled, a submenu labeled 'Login Security' will appear within the WP Qore menu.
-</label>
-</td>
-</tr>
 
 <tr valign="top">
 <th scope="row"><label for="home">Customize login page</label></th>
