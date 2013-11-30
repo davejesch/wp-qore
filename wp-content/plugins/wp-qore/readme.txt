@@ -53,6 +53,10 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.1.6 =
+* Removed dashboard icon opacity css.
+* Added push button effect css to dashboard icons.
+
 = 1.1.5 =
 * Replaced dashboard icons.
 * Fixed dashboard css (adjusted icon opacity).
@@ -105,6 +109,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.6 =
+* Upgrade for the latest version.
 
 = 1.1.5 =
 * Upgrade for the latest version.
