@@ -4,7 +4,6 @@ WordPress Security and Developer Tools Plugin.
 
 ## Features
 
-* login security
 * customize login page
 * hide login page
 * replace dashboard
