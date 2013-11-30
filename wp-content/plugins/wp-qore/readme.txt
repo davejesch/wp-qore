@@ -53,7 +53,7 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Screenshots ==
 
-
+screenshot-1.png
 
 == Changelog ==
 
