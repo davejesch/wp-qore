@@ -24,6 +24,7 @@ wpqorefunc_is_checked("wpqorefunc_shortcode");
 wpqorefunc_is_checked("wpqorefunc_exportwidget");
 wpqorefunc_is_checked("wpqorefunc_hide-adminbar-sub");
 wpqorefunc_is_checked("wpqorefunc_phpwidget");
+wpqorefunc_is_checked("wpqorefunc_post_revisions");
 wpqorefunc_is_checked("wpqorefunc_coreupdate");
 wpqorefunc_string_setting("wpqorefunc_secret_arg",'secretkey1');
 wpqorefunc_string_setting("wpqorefunc_login_logo_url",'');
@@ -158,6 +159,20 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 <i>Check to disable</i><br>
 This completely disables new WordPress version notifications and updates from being done.<br>
 <b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only.
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Post Revisions</label></th>
+<td>
+<label for="wpqorefunc_post_revisions">
+<div class="switch toggle3">
+<input name="wpqorefunc_post_revisions" type="checkbox" id="wpqorefunc_post_revisions" value="1" <?php echo get_option("wpqorefunc_post_revisions");?>>
+<label><i></i></label>
+</div>
+<i>Check to disable</i><br>
+This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such.
 </label>
 </td>
 </tr>
