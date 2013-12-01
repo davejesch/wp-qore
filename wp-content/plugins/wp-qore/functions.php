@@ -3,7 +3,7 @@
 // load defaults
 function wpqorefunc_load_defaults  (){
 
-    if (get_option("wpqorefunc_secret_arg")===false) update_option("wpqorefunc_secret_arg","myadmin");
+    if (get_option("wpqorefunc_secret_arg")===false) update_option("wpqorefunc_secret_arg","secretkey1");
     if (get_option("wpqorefunc_showadminbar")===false) update_option("wpqorefunc_showadminbar","0");
     if (get_option("wpqorefunc_reregjquery")===false) update_option("wpqorefunc_reregjquery","0");
     if (get_option("wpqorefunc_removeversion")===false) update_option("wpqorefunc_removeversion","checked");
