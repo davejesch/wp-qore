@@ -19,6 +19,7 @@ Features:
 * hide login page
 * replace dashboard
 * disable nag updates
+* disable core updates
 * admin bar removal
 * use jquery cdn
 * shortcode in widget
@@ -52,6 +53,9 @@ I can't say this plugin compares with the others. It wasn't created to compete w
 Yes. I currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
 
 == Changelog ==
+
+= 1.1.8 =
+* Added option to disable core updates. Used for dev sites.
 
 = 1.1.7 =
 * Replaced CSS import with enqueue for both dashboard and WP Qore admin options page.
@@ -112,6 +116,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.8 =
+* Upgrade for the latest version.
 
 = 1.1.7 =
 * Upgrade for the latest version.
