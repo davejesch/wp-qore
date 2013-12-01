@@ -37,9 +37,5 @@
 </div>
 </div>
 
-<style type="text/css" media="all" >
-@import url("<?php echo plugins_url( '../css/dashboard.css' , __FILE__ ); ?>");
-</style>
-
 <?php //wp-admin dashboard : end 
  ?>
