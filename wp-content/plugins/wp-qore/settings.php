@@ -156,7 +156,7 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 <label><i></i></label>
 </div>
 <i>Check to disable</i><br>
-This disables updating and installing plugins and themes, as well as WordPress version updates from being done.<br>
+This completely disables new WordPress version notifications and updates from being done.<br>
 <b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only.
 </label>
 </td>
