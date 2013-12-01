@@ -326,10 +326,6 @@ This checks your Database and then gives you suggestions about security and maki
 </form>
 </div>
 
-<style type="text/css" media="all" >
-@import url("<?php echo plugins_url( 'css/on-off.css' , __FILE__ ); ?>");
-</style>
-
 <style type="text/css">
 th,td{border-left: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;border-top: 1px solid #e1e1e1;}
 th label{font-weight:bold;color:#464646;}
