@@ -17,6 +17,7 @@ function wpqorefunc_load_defaults  (){
     if (get_option("wpqorefunc_shortcode")===false) update_option("wpqorefunc_shortcode","0");
     if (get_option("wpqorefunc_phpwidget")===false) update_option("wpqorefunc_phpwidget","0");
     if (get_option("wpqorefunc_post_revisions")===false) update_option("wpqorefunc_post_revisions","0");
+    if (get_option("wpqorefunc_force_ssl_admin")===false) update_option("wpqorefunc_force_ssl_admin","0");
     if (get_option("wpqorefunc_coreupdate")===false) update_option("wpqorefunc_coreupdate","0");
     if (get_option("wpqorefunc_exportwidget")===false) update_option("wpqorefunc_exportwidget","0");
     if (get_option("wpqorefunc_login_logo")===false) update_option("wpqorefunc_login_logo","0");
