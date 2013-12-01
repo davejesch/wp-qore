@@ -24,6 +24,7 @@ wpqorefunc_is_checked("wpqorefunc_shortcode");
 wpqorefunc_is_checked("wpqorefunc_exportwidget");
 wpqorefunc_is_checked("wpqorefunc_hide-adminbar-sub");
 wpqorefunc_is_checked("wpqorefunc_phpwidget");
+wpqorefunc_is_checked("wpqorefunc_coreupdate");
 wpqorefunc_string_setting("wpqorefunc_secret_arg",'secretkey1');
 wpqorefunc_string_setting("wpqorefunc_login_logo_url",'');
 wpqorefunc_string_setting("wpqorefunc_theme_directory",'templates');
@@ -142,6 +143,21 @@ When checked, this will replace the standard wp-admin dashboard with a new one t
 </div>
 <i>Check to disable</i><br>
 This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin.
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Core Updates</label></th>
+<td>
+<label for="wpqorefunc_coreupdate">
+<div class="switch toggle3">
+<input name="wpqorefunc_coreupdate" type="checkbox" id="wpqorefunc_coreupdate" value="1" <?php echo get_option("wpqorefunc_coreupdate");?>>
+<label><i></i></label>
+</div>
+<i>Check to disable</i><br>
+This disables updating and installing plugins and themes, as well as WordPress version updates from being done.<br>
+<b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only.
 </label>
 </td>
 </tr>
