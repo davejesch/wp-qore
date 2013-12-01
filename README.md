@@ -2,24 +2,6 @@
 
 WordPress Security and Developer Tools Plugin.
 
-## Features
-
-* customize login page
-* hide login page
-* replace dashboard
-* disable nag updates
-* admin bar removal
-* use jquery cdn
-* shortcode in widget
-* php in widgets
-* import/export widgets
-* remove wp version
-* minify your html
-* gzip compression
-* cleanup wp meta
-* new theme directory
-* unique source code
-
 ## Installation
 
 This will activate the WP Qore WordPress Plugin.
