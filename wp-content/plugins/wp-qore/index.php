@@ -92,6 +92,7 @@ if (get_option("wpqorefunc_shortcode")=='checked') include_once('functions/short
 if (get_option("wpqorefunc_phpwidget")=='checked') include_once('functions/php-widget.php');
 if (get_option("wpqorefunc_coreupdate")=='checked') include_once('functions/core-update.php');
 if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISIONS', false);
+if (get_option("wpqorefunc_force_ssl_admin")=='checked') define('FORCE_SSL_ADMIN', true);
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
