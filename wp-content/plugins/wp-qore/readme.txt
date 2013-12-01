@@ -16,6 +16,7 @@ WordPress Security, Developer Tools Plugin.
 Features:
 
 * customize login page
+* force wp-admin ssl
 * hide login page
 * replace dashboard
 * disable nag updates
@@ -58,6 +59,7 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Added option to disable core updates. Used for dev sites.
 * Fixed spelling typo within settings.php.
 * Added option to disable post revisions.
+* Added option to force wp-admin ssl connection.
 
 = 1.1.7 =
 * Replaced CSS import with enqueue for both dashboard and WP Qore admin options page.
