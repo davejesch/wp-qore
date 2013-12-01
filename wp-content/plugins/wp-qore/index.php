@@ -91,6 +91,7 @@ if (get_option("wpqorefunc_plug-edit")=='checked') define('DISALLOW_FILE_EDIT', 
 if (get_option("wpqorefunc_shortcode")=='checked') include_once('functions/shortcode.php');
 if (get_option("wpqorefunc_phpwidget")=='checked') include_once('functions/php-widget.php');
 if (get_option("wpqorefunc_coreupdate")=='checked') include_once('functions/core-update.php');
+if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISIONS', false);
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
