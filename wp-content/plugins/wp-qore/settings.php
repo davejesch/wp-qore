@@ -25,6 +25,7 @@ wpqorefunc_is_checked("wpqorefunc_exportwidget");
 wpqorefunc_is_checked("wpqorefunc_hide-adminbar-sub");
 wpqorefunc_is_checked("wpqorefunc_phpwidget");
 wpqorefunc_is_checked("wpqorefunc_post_revisions");
+wpqorefunc_is_checked("wpqorefunc_force_ssl_admin");
 wpqorefunc_is_checked("wpqorefunc_coreupdate");
 wpqorefunc_string_setting("wpqorefunc_secret_arg",'secretkey1');
 wpqorefunc_string_setting("wpqorefunc_login_logo_url",'');
@@ -44,6 +45,21 @@ wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 <tbody>
 
 <h3>Login Settings:</h3>
+
+<tr valign="top">
+<th scope="row"><label for="home">Force SSL Admin</label></th>
+<td>
+<label for="wpqorefunc_force_ssl_admin">
+<div class="switch toggle3">
+<input name="wpqorefunc_force_ssl_admin" type="checkbox" id="wpqorefunc_force_ssl_admin" value="1" <?php echo get_option("wpqorefunc_force_ssl_admin");?>>
+<label><i></i></label>
+</div>
+<i>Once enabled, forces SSL for wp-admin area</i><br>
+Requires all interaction with the WordPress backend, including login, to occur via a secure connection.<br>
+<b>Warning:</b> You will need to have SSL support for your site to use this option or once enabled you won't be able to login your wp-admin without removing the plugin first.
+</label>
+</td>
+</tr>
 
 <tr valign="top">
 <th scope="row"><label for="home">Customize login page</label></th>
