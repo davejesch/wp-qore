@@ -131,6 +131,42 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 </tr>
 </tbody></table>
 
+<p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
+<input type="hidden" name="wpqorefunc_settings" value="1">
+<input type="submit" class="button button-primary" value="Save changes">
+</p>
+
+<table class="form-table" style="background-color:#F7F7F7;border: 1px solid #e1e1e1;margin-bottom:20px">
+<tbody>
+
+<h3>Source Obfuscation:</h3>
+
+<tr valign="top">
+<th scope="row"><label for="home">Register new theme directory</label></th>
+<td>
+<input type="text" name="wpqorefunc_theme_directory" style="width:420px" value="<?php echo get_option("wpqorefunc_theme_directory");?>" placeholder="theme directory">
+<br>Create folder called <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> in <?php echo WP_CONTENT_DIR; ?> folder and then paste there any inactive theme folder you will need to use. <br>
+<b>Warning!</b> Don't cut/paste active theme from <i>themes</i> folder to <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate.
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Make your source code more unique 
+</label></th>
+<td>
+Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples). <b>Please be attentive. If you don't know what something is for, please don't do it.</b>
+
+<pre style="margin-top:10px;background:#CCCCCC;padding:10px"><?php echo $wpconfigchange; ?>
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
+<input type="hidden" name="wpqorefunc_settings" value="1">
+<input type="submit" class="button button-primary" value="Save changes">
+</p>
+
 <table class="form-table" style="background-color:#F7F7F7;border: 1px solid #e1e1e1;margin-bottom:20px">
 <tbody>
 
@@ -329,26 +365,6 @@ Remove manifest, generator meta tags, adjacent posts rel links, parent post rel 
 <i>Check to disable</i><br>
 This disables the theme and plugin editor from within WordPress. This is a good idea for production environments.
 </label>
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home">Register new theme directory</label></th>
-<td>
-<input type="text" name="wpqorefunc_theme_directory" style="width:420px" value="<?php echo get_option("wpqorefunc_theme_directory");?>" placeholder="theme directory">
-<br>Create folder called <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> in <?php echo WP_CONTENT_DIR; ?> folder and then paste there any inactive theme folder you will need to use. <br>
-<b>Warning!</b> Don't cut/paste active theme from <i>themes</i> folder to <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate.
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home">Make your source code more unique 
-</label></th>
-<td>
-Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples). <b>Please be attentive. If you don't know what something is for, please don't do it.</b>
-
-<pre style="margin-top:10px;background:#CCCCCC;padding:10px"><?php echo $wpconfigchange; ?>
-</pre>
 </td>
 </tr>
 
