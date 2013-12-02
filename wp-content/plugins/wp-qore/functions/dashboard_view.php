@@ -3,7 +3,6 @@
 ?>
 
 <div class="wrap about-wrap" id="pbody">
-<div style="float:right;font-size:12px;font-weight:normal;color:#333">WP Qore: <b><?php wpqoreplugv(); ?></b></div>
  <h1><?php bloginfo('name'); ?></h1><br />
    <h2 class="nav-tab-wrapper">
       <a href="#" class="nav-tab nav-tab-active"><?php _e( 'General' ); ?></a>
