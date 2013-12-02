@@ -55,6 +55,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.2.0 =
+* Bug in commit for 1.1.9 caused core-update.php to not reach the wp repo. This update is to solve that issue.
+
 = 1.1.9 =
 * Settings.php UI update.
 
@@ -123,6 +126,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.2.0 =
+* Upgrade for the latest version.
 
 = 1.1.9 =
 * Upgrade for the latest version.
