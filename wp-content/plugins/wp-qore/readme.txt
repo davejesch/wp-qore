@@ -55,6 +55,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.1.9 =
+* Settings.php UI update.
+
 = 1.1.8 =
 * Added option to disable core updates. Used for dev sites.
 * Fixed spelling typo within settings.php.
@@ -120,6 +123,10 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1.9 =
+* Upgrade for the latest version.
+
 
 = 1.1.8 =
 * Upgrade for the latest version.
