@@ -206,7 +206,7 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 <input name="wpqorefunc_dashboard" type="checkbox" id="wpqorefunc_dashboard" value="1" <?php echo get_option("wpqorefunc_dashboard");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable (Recommended)</i><br>
 When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.<br>
 <input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)
 </td>
@@ -333,7 +333,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 <input name="wpqorefunc_removeversion" type="checkbox" id="wpqorefunc_removeversion" value="1" <?php echo get_option("wpqorefunc_removeversion");?> >
 <label><i></i></label>
 </div>
-<i>Remove WP version from source code (Recommended)</i>
+<i>Remove WP version from source code</i>
 </label>
 </td>
 </tr>
