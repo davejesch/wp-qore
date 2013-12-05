@@ -21,6 +21,7 @@ function wpqorefunc_load_defaults  (){
     if (get_option("wpqorefunc_coreupdate")===false) update_option("wpqorefunc_coreupdate","0");
     if (get_option("wpqorefunc_exportwidget")===false) update_option("wpqorefunc_exportwidget","0");
     if (get_option("wpqorefunc_login_logo")===false) update_option("wpqorefunc_login_logo","0");
+    if (get_option("wpqorefunc_sec_advisor")===false) update_option("wpqorefunc_sec_advisor","0");
     if (get_option("wpqorefunc_theme_directory")===false) update_option("wpqorefunc_theme_directory","templates");
     if (get_option("wpqorefunc_login_logo_url")===false) update_option("wpqorefunc_login_logo_url",home_url()."/wp-admin/images/wordpress-logo.png");
 
