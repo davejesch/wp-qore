@@ -361,7 +361,7 @@ This will minify the HTML of your source code. This makes your website load much
 <label><i></i></label>
 </div>
 <i>Check to enable gzip (Recommended)</i><br>
-Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms.
+Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. If this is already enabled in cPanel, then enabling it again here won't cause any issues.
 </label>
 </td>
 </tr>
