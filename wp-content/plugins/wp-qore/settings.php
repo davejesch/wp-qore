@@ -84,7 +84,7 @@ Requires all interaction with the WordPress backend, including login, to occur v
 </th>
 
 <td>
-<input type="text" name="wpqorefunc_login_logo_url" style="width:420px" value="<?php echo get_option("wpqorefunc_login_logo_url");?>" placeholder="image url">
+<input type="text" name="wpqorefunc_login_logo_url" style="width:420px" value="<?php echo get_option("wpqorefunc_login_logo_url");?>" placeholder="http://">
 <br>Type url of image for login page. Make sure it is approximately 320px width x 80px height.
 </td>
 </tr>
