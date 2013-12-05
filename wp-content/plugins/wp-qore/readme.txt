@@ -18,6 +18,7 @@ Features:
 * customize login page
 * force wp-admin ssl
 * hide login page
+* security advisor
 * replace dashboard
 * disable nag updates
 * disable core updates
