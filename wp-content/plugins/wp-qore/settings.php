@@ -34,6 +34,7 @@ wpqorefunc_string_setting("wpqorefunc_exceptional_url",'');
 wpqorefunc_is_checked("wpqorefunc_login_logo");
 wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 wpqorefunc_is_checked("wpqorefunc_sec_advisor");
+wpqorefunc_is_checked("wpqorefunc_dash_tabs");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -207,6 +208,20 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 </div>
 <i>Check to replace</i><br>
 When checked, this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Dashboard Tabs</label></th>
+<td>
+<label for="wpqorefunc_dash_tabs">
+<div class="switch toggle3">
+<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>>
+<label><i></i></label>
+</div>
+<i>Check to enable</i><br>
+When checked, this will enable the WP Qore tabs on the new Dashboard. The 'Replace Dashboard' option must be 'On' in order to use this feature.
 </label>
 </td>
 </tr>
