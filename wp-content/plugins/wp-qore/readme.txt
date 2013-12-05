@@ -56,7 +56,7 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
-= 1.3.2 =
+= 1.3.1 =
 * Minor changes. Cleaned up sec-advisor.php file.
 
 = 1.3.0 =
