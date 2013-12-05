@@ -221,7 +221,7 @@ When checked, this will replace the standard wp-admin dashboard with a new one t
 <label><i></i></label>
 </div>
 <i>Check to enable</i><br>
-When checked, this will enable the WP Qore tabs on the new Dashboard.<br>
+When checked, this will enable the WP Qore tabs on the new Dashboard. Turning this 'Off' is for when you want to conceal the WP Qore tabs from the dashboard.<br>
 <b>Attention:</b> The 'Replace Dashboard' option must be 'On' in order to use this feature.
 </label>
 </td>
