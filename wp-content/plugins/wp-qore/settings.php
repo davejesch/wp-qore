@@ -208,7 +208,7 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 </div>
 <i>Check to replace</i><br>
 When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.<br>
-<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>) <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i>
+<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)
 </td>
 </tr>
 
