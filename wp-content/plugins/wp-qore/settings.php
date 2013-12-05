@@ -97,7 +97,7 @@ Requires all interaction with the WordPress backend, including login, to occur v
 <input name="wpqorefunc_2steplogin" type="checkbox" id="wpqorefunc_2steplogin" value="1" <?php echo get_option("wpqorefunc_2steplogin");?>>
 <label><i></i></label>
 </div>
-<i>Check to lock login page</i><br>
+<i>Turn 'On' to lock login page</i><br>
 Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key.
 </label>
 </td>
@@ -192,7 +192,7 @@ Go to your file manager (or ftp), open your wp-config.php file and add the follo
 <input name="wpqorefunc_sec_advisor" type="checkbox" id="wpqorefunc_sec_advisor" value="1" <?php echo get_option("wpqorefunc_sec_advisor");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable (Recommended)</i><br>
+<i>Turn 'On' to enable (Recommended)</i><br>
 When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.
 </label>
 </td>
@@ -206,7 +206,7 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 <input name="wpqorefunc_dashboard" type="checkbox" id="wpqorefunc_dashboard" value="1" <?php echo get_option("wpqorefunc_dashboard");?>>
 <label><i></i></label>
 </div>
-<i>Check to replace</i><br>
+<i>Turn 'On' to enable</i><br>
 When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.<br>
 <input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)
 </td>
@@ -220,7 +220,7 @@ When 'On', this will replace the standard wp-admin dashboard with a new one that
 <input name="wpqorefunc_wphidenag" type="checkbox" id="wpqorefunc_wphidenag" value="1" <?php echo get_option("wpqorefunc_wphidenag");?>>
 <label><i></i></label>
 </div>
-<i>Check to disable</i><br>
+<i>Turn 'On' to disable</i><br>
 This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin.
 </label>
 </td>
@@ -234,7 +234,7 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 <input name="wpqorefunc_coreupdate" type="checkbox" id="wpqorefunc_coreupdate" value="1" <?php echo get_option("wpqorefunc_coreupdate");?>>
 <label><i></i></label>
 </div>
-<i>Check to disable</i><br>
+<i>Turn 'On' to disable</i><br>
 This completely disables new WordPress version notifications and updates from being done.<br>
 <b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only.
 </label>
@@ -249,7 +249,7 @@ This completely disables new WordPress version notifications and updates from be
 <input name="wpqorefunc_post_revisions" type="checkbox" id="wpqorefunc_post_revisions" value="1" <?php echo get_option("wpqorefunc_post_revisions");?>>
 <label><i></i></label>
 </div>
-<i>Check to disable</i><br>
+<i>Turn 'On' to disable</i><br>
 This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such.
 </label>
 </td>
@@ -290,7 +290,7 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 <input name="wpqorefunc_shortcode" type="checkbox" id="wpqorefunc_shortcode" value="1" <?php echo get_option("wpqorefunc_shortcode");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable</i><br>
+<i>Turn 'On' to enable</i><br>
 This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you.
 </label>
 </td>
@@ -304,7 +304,7 @@ This enables shortcode in widgets. In the instance you need to use shortcode wit
 <input name="wpqorefunc_phpwidget" type="checkbox" id="wpqorefunc_phpwidget" value="1" <?php echo get_option("wpqorefunc_phpwidget");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable</i><br>
+<i>Turn 'On' to enable</i><br>
 This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br>
 <b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk.
 </label>
@@ -319,7 +319,7 @@ This enables php code in widgets. In the instance you need to use php within you
 <input name="wpqorefunc_exportwidget" type="checkbox" id="wpqorefunc_exportwidget" value="1" <?php echo get_option("wpqorefunc_exportwidget");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable</i><br>
+<i>Turn 'On' to enable</i><br>
 This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu.
 </label>
 </td>
@@ -346,7 +346,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 <input name="wpqorefunc_compresshtml" type="checkbox" id="wpqorefunc_compresshtml" value="1" <?php echo get_option("wpqorefunc_compresshtml");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable HTML minifier</i><br>
+<i>Turn 'On' to enable</i><br>
 This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website.
 </label>
 </td>
@@ -360,7 +360,7 @@ This will minify the HTML of your source code. This makes your website load much
 <input name="wpqorefunc_gzip" type="checkbox" id="wpqorefunc_gzip" value="1" <?php echo get_option("wpqorefunc_gzip");?>>
 <label><i></i></label>
 </div>
-<i>Check to enable gzip (Recommended)</i><br>
+<i>Turn 'On' to enable</i><br>
 Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. If this is already enabled in cPanel, then enabling it again here won't cause any issues.
 </label>
 </td>
@@ -374,7 +374,7 @@ Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a co
 <input name="wpqorefunc_rmheader" type="checkbox" id="wpqorefunc_rmheader" value="1" <?php echo get_option("wpqorefunc_rmheader");?>>
 <label><i></i></label>
 </div>
-<i>Check to remove from source code (Recommended)</i><br>
+<i>Turn 'On' to remove from source code (Recommended)</i><br>
 Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code.
 </label>
 </td>
@@ -388,7 +388,7 @@ Remove manifest, generator meta tags, adjacent posts rel links, parent post rel 
 <input name="wpqorefunc_plug-edit" type="checkbox" id="wpqorefunc_plug-edit" value="1" <?php echo get_option("wpqorefunc_plug-edit");?>>
 <label><i></i></label>
 </div>
-<i>Check to disable</i><br>
+<i>Turn 'On' to disable</i><br>
 This disables the theme and plugin editor from within WordPress. This is a good idea for production environments.
 </label>
 </td>
