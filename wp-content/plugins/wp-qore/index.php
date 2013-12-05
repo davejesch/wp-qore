@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore, formerly known as Qore Functions, is a WordPress plugin that provides additional security, performance functionality, developer tools that can be turned on or off at any time.
-Version: 1.3.5
+Version: 1.3.6
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -25,7 +25,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.3.5';
+    echo '1.3.6';
 }
 
 // exit if accessed directly
@@ -114,3 +114,61 @@ function load_settings_wp_admin_style(){
     wp_enqueue_style( 'custom2_wp_admin_css' );
 }
 add_action('admin_enqueue_scripts', 'load_settings_wp_admin_style');
+
+// runs on wp-qore activation
+function wpqore_plug_activate() {
+
+    update_option("wpqorefunc_secret_arg","secretkey1");
+    update_option("wpqorefunc_showadminbar","0");
+    update_option("wpqorefunc_reregjquery","0");
+    update_option("wpqorefunc_removeversion","checked");
+    update_option("wpqorefunc_rmheader","0");
+    update_option("wpqorefunc_2steplogin","0");
+    update_option("wpqorefunc_compresshtml","0");
+    update_option("wpqorefunc_dashboard","checked");
+    update_option("wpqorefunc_gzip","0");
+    update_option("wpqorefunc_wphidenag","0");
+    update_option("wpqorefunc_plug-edit","0");
+    update_option("wpqorefunc_shortcode","0");
+    update_option("wpqorefunc_phpwidget","0");
+    update_option("wpqorefunc_post_revisions","0");
+    update_option("wpqorefunc_force_ssl_admin","0");
+    update_option("wpqorefunc_coreupdate","0");
+    update_option("wpqorefunc_exportwidget","0");
+    update_option("wpqorefunc_login_logo","0");
+    update_option("wpqorefunc_sec_advisor","checked");
+    update_option("wpqorefunc_dash_tabs","checked");
+    update_option("wpqorefunc_theme_directory","templates");
+    update_option("wpqorefunc_login_logo_url", "");
+
+}
+register_activation_hook( __FILE__, 'wpqore_plug_activate' );
+
+// runs on wp-qore deactivation
+function wpqore_plug_deactivate() {
+
+    update_option("wpqorefunc_secret_arg","");
+    update_option("wpqorefunc_showadminbar","");
+    update_option("wpqorefunc_reregjquery","");
+    update_option("wpqorefunc_removeversion","");
+    update_option("wpqorefunc_rmheader","");
+    update_option("wpqorefunc_2steplogin","");
+    update_option("wpqorefunc_compresshtml","");
+    update_option("wpqorefunc_dashboard","");
+    update_option("wpqorefunc_gzip","");
+    update_option("wpqorefunc_wphidenag","");
+    update_option("wpqorefunc_plug-edit","");
+    update_option("wpqorefunc_shortcode","");
+    update_option("wpqorefunc_phpwidget","");
+    update_option("wpqorefunc_post_revisions","");
+    update_option("wpqorefunc_force_ssl_admin","");
+    update_option("wpqorefunc_coreupdate","");
+    update_option("wpqorefunc_exportwidget","");
+    update_option("wpqorefunc_login_logo","");
+    update_option("wpqorefunc_sec_advisor","");
+    update_option("wpqorefunc_dash_tabs","");
+    update_option("wpqorefunc_theme_directory","");
+    update_option("wpqorefunc_login_logo_url", "");
+
+}
+register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
