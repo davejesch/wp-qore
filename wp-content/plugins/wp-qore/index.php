@@ -35,9 +35,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 require_once(dirname(__FILE__)."/settings.php");
 require_once(dirname(__FILE__)."/functions.php");
 
-// load defaults
-wpqorefunc_load_defaults();
-
 // login logo
 if (get_option("wpqorefunc_login_logo")=='checked') {
     add_filter( 'login_headerurl', 'wpqorefunc_my_login_logo_url' );
