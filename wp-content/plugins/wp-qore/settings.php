@@ -213,7 +213,7 @@ When checked, this will replace the standard wp-admin dashboard with a new one t
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Dashboard Tabs</label></th>
+<th scope="row"><label for="home">Dashboard Tabs</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
 <td>
 <label for="wpqorefunc_dash_tabs">
 <div class="switch toggle3">
