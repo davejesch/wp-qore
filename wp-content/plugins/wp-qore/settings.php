@@ -207,23 +207,8 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 <label><i></i></label>
 </div>
 <i>Check to replace</i><br>
-When checked, this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.
-</label>
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home">Dashboard Tabs</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
-<td>
-<label for="wpqorefunc_dash_tabs">
-<div class="switch toggle3">
-<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>>
-<label><i></i></label>
-</div>
-<i>Check to enable</i><br>
-When checked, this will enable the WP Qore tabs on the new Dashboard. Turning this 'Off' is for when you want to conceal the WP Qore tabs from the dashboard.<br>
-<b>Attention:</b> The 'Replace Dashboard' option must be 'On' in order to use this feature.
-</label>
+When checked, this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.<br>
+<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>) <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i>
 </td>
 </tr>
 
