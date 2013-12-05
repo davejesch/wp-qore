@@ -1,33 +1,5 @@
 <?php
 
-// load defaults
-function wpqorefunc_load_defaults  (){
-
-    if (get_option("wpqorefunc_secret_arg")===false) update_option("wpqorefunc_secret_arg","secretkey1");
-    if (get_option("wpqorefunc_showadminbar")===false) update_option("wpqorefunc_showadminbar","0");
-    if (get_option("wpqorefunc_reregjquery")===false) update_option("wpqorefunc_reregjquery","0");
-    if (get_option("wpqorefunc_removeversion")===false) update_option("wpqorefunc_removeversion","checked");
-    if (get_option("wpqorefunc_rmheader")===false) update_option("wpqorefunc_rmheader","0");
-    if (get_option("wpqorefunc_2steplogin")===false) update_option("wpqorefunc_2steplogin","0");
-    if (get_option("wpqorefunc_compresshtml")===false) update_option("wpqorefunc_compresshtml","0");
-    if (get_option("wpqorefunc_dashboard")===false) update_option("wpqorefunc_dashboard","checked");
-    if (get_option("wpqorefunc_gzip")===false) update_option("wpqorefunc_gzip","0");
-    if (get_option("wpqorefunc_wphidenag")===false) update_option("wpqorefunc_wphidenag","0");
-    if (get_option("wpqorefunc_plug-edit")===false) update_option("wpqorefunc_plug-edit","0");
-    if (get_option("wpqorefunc_shortcode")===false) update_option("wpqorefunc_shortcode","0");
-    if (get_option("wpqorefunc_phpwidget")===false) update_option("wpqorefunc_phpwidget","0");
-    if (get_option("wpqorefunc_post_revisions")===false) update_option("wpqorefunc_post_revisions","0");
-    if (get_option("wpqorefunc_force_ssl_admin")===false) update_option("wpqorefunc_force_ssl_admin","0");
-    if (get_option("wpqorefunc_coreupdate")===false) update_option("wpqorefunc_coreupdate","0");
-    if (get_option("wpqorefunc_exportwidget")===false) update_option("wpqorefunc_exportwidget","0");
-    if (get_option("wpqorefunc_login_logo")===false) update_option("wpqorefunc_login_logo","0");
-    if (get_option("wpqorefunc_sec_advisor")===false) update_option("wpqorefunc_sec_advisor","checked");
-    if (get_option("wpqorefunc_dash_tabs")===false) update_option("wpqorefunc_dash_tabs","checked");
-    if (get_option("wpqorefunc_theme_directory")===false) update_option("wpqorefunc_theme_directory","templates");
-    if (get_option("wpqorefunc_login_logo_url")===false) update_option("wpqorefunc_login_logo_url",home_url()."/wp-admin/images/wordpress-logo.png");
-
-}
-
 // login logo
 function wpqorefunc_my_login_logo() { ?><style type="text/css">body.login div#login h1 a {background-image: url(<?php echo get_option('wpqorefunc_login_logo_url'); ?>);}</style>
 
