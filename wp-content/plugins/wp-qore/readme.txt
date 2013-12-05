@@ -13,7 +13,7 @@ WordPress Security, Developer Tools Plugin.
 
 <a target="_blank" href="http://wpqore.com/">WP Qore</a>, a plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time. WP Qore, first debut in the WordPress.org plugin repository is v1.1.4 and previous versions are maintained on <a target="_blank" href="https://github.com/icryptic/wp-qore/">Github</a>.
 
-Features:
+Available Options: (toggle on/off)
 
 * customize login page
 * force wp-admin ssl
