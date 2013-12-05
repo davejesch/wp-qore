@@ -33,6 +33,7 @@ wpqorefunc_string_setting("wpqorefunc_theme_directory",'templates');
 wpqorefunc_string_setting("wpqorefunc_exceptional_url",'');
 wpqorefunc_is_checked("wpqorefunc_login_logo");
 wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
+wpqorefunc_is_checked("wpqorefunc_sec_advisor");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -41,10 +42,13 @@ wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 <div id="icon-options-general" class="icon32"><br></div><h2>WP Qore Settings</h2>
 
 <form action="" method="post">
-<table class="form-table" style="background-color:#F7F7F7;border: 1px solid #e1e1e1;margin-bottom:20px">
+
+<div id="poststuff">
+<div class="postbox">
+<table class="form-table">
 <tbody>
 
-<h3>Login Settings:</h3>
+<h3>Login Settings</h3>
 
 <tr valign="top">
 <th scope="row"><label for="home">Force SSL Admin</label></th>
@@ -129,17 +133,21 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 </label>
 </td>
 </tr>
+
 </tbody></table>
+</div></div>
 
 <p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
 <input type="hidden" name="wpqorefunc_settings" value="1">
 <input type="submit" class="button button-primary" value="Save changes">
 </p>
 
-<table class="form-table" style="background-color:#F7F7F7;border: 1px solid #e1e1e1;margin-bottom:20px">
+<div id="poststuff">
+<div class="postbox">
+<table class="form-table">
 <tbody>
 
-<h3>Source Obfuscation:</h3>
+<h3>Source Obfuscation</h3>
 
 <tr valign="top">
 <th scope="row"><label for="home">Register new theme directory</label></th>
@@ -156,21 +164,38 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 <td>
 Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples). <b>Please be attentive. If you don't know what something is for, please don't do it.</b>
 
-<pre style="margin-top:10px;background:#CCCCCC;padding:10px"><?php echo $wpconfigchange; ?>
+<pre style="margin-top:10px;background:#FFFFFF;padding:10px;border: 1px dashed #CCCCCC;"><?php echo $wpconfigchange; ?>
 </pre>
 </td>
 </tr>
 </tbody></table>
+</div></div>
 
 <p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
 <input type="hidden" name="wpqorefunc_settings" value="1">
 <input type="submit" class="button button-primary" value="Save changes">
 </p>
 
-<table class="form-table" style="background-color:#F7F7F7;border: 1px solid #e1e1e1;margin-bottom:20px">
+<div id="poststuff">
+<div class="postbox">
+<table class="form-table">
 <tbody>
 
-<h3>General Settings:</h3>
+<h3>General Settings</h3>
+
+<tr valign="top">
+<th scope="row"><label for="home">Security Advisor</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_06.jpg'; ?>" title="click to see example..."><b>?</b></a>)</th>
+<td>
+<label for="wpqorefunc_sec_advisor">
+<div class="switch toggle3">
+<input name="wpqorefunc_sec_advisor" type="checkbox" id="wpqorefunc_sec_advisor" value="1" <?php echo get_option("wpqorefunc_sec_advisor");?>>
+<label><i></i></label>
+</div>
+<i>Check to enable (Recommended)</i><br>
+When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.
+</label>
+</td>
+</tr>
 
 <tr valign="top">
 <th scope="row"><label for="home">Replace Dashboard</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_04.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
@@ -380,6 +405,7 @@ This checks your Database and then gives you suggestions about security and maki
 </td>
 </tr>
 </tbody></table>
+</div></div>
 
 <p style="">
 <input type="hidden" name="wpqorefunc_settings" value="1">
@@ -399,6 +425,7 @@ h3{color:#464646;}
 .wpqorefunc_dbreport{float:right;margin-top: -20px;color: #FFFFFF;font-size: 12px;background-color: #FF0000;border-color: #FF0000;text-shadow: 0 -1px 0 rgba(0,0,0,.3);padding: 5px;}
 .wpqorefunc_dbreport:hover{color: #FFCCCC;}
 input{font-size: 14px}
+.form-table{margin-top: 0px;}
 </style>
 
 <?php }
