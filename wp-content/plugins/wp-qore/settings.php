@@ -112,8 +112,8 @@ Once enabled, your example.com/wp-admin url will return a 404 error. The user wh
 	<br>
 	<a href="javascript://" id="wpqorefunc_cr_exc_url">Add custom login page exception</a>
 	<br>
-<div id="wpqorefunc_cr_exc_div" style="display:none;margin-top:4px">If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as example.com/myloginpage) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field.
-	<br><input style="margin-bottom:6px;width:300px" type="text" name="wpqorefunc_exceptional_url" placeholder="Custom login url" value="<?php echo get_option("wpqorefunc_exceptional_url");?>"><br>
+<div id="wpqorefunc_cr_exc_div" style="display:none;margin-top:4px">If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field.
+	<br><input style="margin-bottom:6px;width:300px" type="text" name="wpqorefunc_exceptional_url" placeholder="http://" value="<?php echo get_option("wpqorefunc_exceptional_url");?>"><br>
 
 And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox<br>
 
