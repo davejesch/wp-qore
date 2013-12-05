@@ -56,6 +56,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.3.4 =
+* Added example screenshot to the WP Qore settings panel for Dashboard Tabs.
+
 = 1.3.3 =
 * Added option to WP Qore settings panel to conceal the WP Qore tabs from within the dashboard_view.php.
 
@@ -139,6 +142,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.4 =
+* Upgrade for the latest version.
 
 = 1.3.3 =
 * Upgrade for the latest version.
