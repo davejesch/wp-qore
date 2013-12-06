@@ -146,7 +146,7 @@ function wpqorefunc_ajax_db_callback() {
 
     echo '</p><p><b>2. WP admin username</b><br>';
 
-    $user = get_userdatabylogin('admin');
+    $user = get_user_by('login', 'admin');
 
     if ($user->ID=='') echo '<span class="wpqorefunc_gray">It is OK. You don\'t use admin as administrator username. </span>';
 
