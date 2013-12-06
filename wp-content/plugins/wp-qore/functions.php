@@ -155,7 +155,7 @@ function wpqorefunc_ajax_db_callback() {
     //echo $table_prefix;
         echo '</p><p><b>3. Post revisions</b><br>';
 
-        $rev_count = $wpdb->get_row( $wpdb->prepare( "SELECT count(*) as cnt FROM $wpdb->posts WHERE post_status = 'revision'" ) );
+        $rev_count = $wpdb->get_row( "SELECT count(*) as cnt FROM $wpdb->posts WHERE post_status = 'revision'" );
 
     if ($rev_count->cnt==0) echo '<span class="wpqorefunc_gray">You have no revision posts in your sql tables. It is good for performance. But remember that revisions are for keeping old versions of posts</span>'; 
 
@@ -163,7 +163,7 @@ function wpqorefunc_ajax_db_callback() {
 
     echo '</p><p><b>4. Unused tags</b><br>';
 
-    $untag_count = $wpdb->get_row( $wpdb->prepare( "SELECT count(*) as cnt FROM $wpdb->terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0) " ) );
+    $untag_count = $wpdb->get_row( "SELECT count(*) as cnt FROM $wpdb->terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0) " );
 
     if ($untag_count->cnt==0) echo '<span class="wpqorefunc_gray">You have no unused tags. It is good result. </span>'; 
 
