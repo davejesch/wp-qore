@@ -56,14 +56,6 @@ class AntiSEC_Threat {
 
 				// Actions
 				add_action(
-					'init',
-					array(
-						__CLASS__,
-						'load_plugin_lang'
-					)
-				);
-
-				add_action(
 					'admin_menu',
 					array(
 						__CLASS__,
@@ -268,9 +260,6 @@ class AntiSEC_Threat {
 		if ( ! self::_get_option('cronjob_enable') ) {
 			return;
 		}
-
-		// Load translation
-		self::load_plugin_lang();
 
 		// Safe Browsing API
 		self::_check_safe_browsing();
