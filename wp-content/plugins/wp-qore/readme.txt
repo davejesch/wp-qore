@@ -56,6 +56,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.3.7 =
+*  Removed load_plugin_lang in sec-advisor.php.
+
 = 1.3.6 =
 * Added activation and deactivation hook to index.php.
 
@@ -148,6 +151,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.7 =
+* Upgrade for the latest version.
 
 = 1.3.6 =
 * Upgrade for the latest version.
