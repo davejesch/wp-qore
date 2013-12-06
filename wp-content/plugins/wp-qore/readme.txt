@@ -56,8 +56,13 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.3.8 =
+* Replaced deprectaed function in Database Audit.
+* Removed prepare() from 2 lines within the functions.php file.
+* Resolved all debug notices.
+
 = 1.3.7 =
-*  Removed load_plugin_lang in sec-advisor.php.
+* Removed load_plugin_lang in sec-advisor.php.
 
 = 1.3.6 =
 * Added activation and deactivation hook to index.php.
@@ -151,6 +156,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.8 =
+* Upgrade for the latest version.
 
 = 1.3.7 =
 * Upgrade for the latest version.
