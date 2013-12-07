@@ -280,7 +280,23 @@ class AntiSEC_Threat {
 		$response = wp_remote_get(
 			sprintf( 
 				'https://sb-ssl.google.com/safebrowsing/api/lookup?client=api&apikey=%s&appver=0.1&pver=3.0&url=%s',
-				'ABQIAAAAM6ACuUK0i-GaYGBgcPM-JRSnu2A5lr2Wpsrzaer94rqSDKoE6A', /* API Key for AntiSEC_Threat */
+       
+			        /* 
+			         * API Key for AntiSEC_Threat
+				 * @since 1.3.8
+				 *
+				 * Okay, I don't mind you barrowing my code, that's cool. 
+				 * However, if you use the function wp_remote_get() that
+				 * you kindly use your own API key for your own projects.
+				 *
+			         */
+				'ABQIAAAAM6ACuUK0i-GaYGBgcPM-JRSnu2A5lr2Wpsrzaer94rqSDKoE6A', //API KEY
+				/*
+				 * Google Safe Browsing API (Sign Up)
+				 * https://developers.google.com/safe-browsing/key_signup
+				 *
+			         */
+			         
 				urlencode( get_bloginfo('url') )
 			),
 			array(
