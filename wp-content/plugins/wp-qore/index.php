@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
-Description: WP Qore, formerly known as Qore Functions, is a WordPress plugin that provides additional security, performance functionality, developer tools that can be turned on or off at any time.
+Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
 Version: 1.4.0
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
