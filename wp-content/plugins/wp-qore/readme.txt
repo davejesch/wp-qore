@@ -23,6 +23,7 @@ Available Options: (toggle on/off)
 * disable nag updates
 * disable core updates
 * admin bar removal
+* collapse admin menu
 * frontend caching
 * use jquery cdn
 * shortcode in widget
