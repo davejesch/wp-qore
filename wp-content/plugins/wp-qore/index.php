@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.4.0
+Version: 1.4.1
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -25,7 +25,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.4.0';
+    echo '1.4.1';
 }
 
 // exit if accessed directly
@@ -91,6 +91,16 @@ if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISION
 if (get_option("wpqorefunc_force_ssl_admin")=='checked') define('FORCE_SSL_ADMIN', true);
 if (get_option("wpqorefunc_sec_advisor")=='checked') include_once('sec-advisor.php');
 if (get_option("wpqorefunc_cache_assistance")=='checked') include_once('cache-assistance.php');
+if (get_option("wpqorefunc_fold_menu")=='checked') {
+    function fold_menu() {
+        print "<script>jQuery(document).ready(function() {
+        if ( !jQuery(document.body).hasClass('folded') ) {
+              jQuery(document.body).addClass('folded');
+        }
+        });</script>";
+    }
+    add_filter('admin_head', 'fold_menu');
+}
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
@@ -136,7 +146,8 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_dash_tabs","checked");
     update_option("wpqorefunc_theme_directory","templates");
     update_option("wpqorefunc_login_logo_url", "");
-    update_option("wpqorefunc_cache_assistance", "checked");    
+    update_option("wpqorefunc_cache_assistance", "checked");   
+    update_option("wpqorefunc_fold_menu", "0");
 
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -166,6 +177,7 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_theme_directory","");
     update_option("wpqorefunc_login_logo_url", "");
     update_option("wpqorefunc_cache_assistance", "");
+    update_option("wpqorefunc_fold_menu", "");
     
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
