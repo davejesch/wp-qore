@@ -1,6 +1,6 @@
 === WP Qore ===
 Contributors: phatjay
-Tags: developer, security, performance, antivirus, virus, cache, tools, qore, core
+Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core
 Requires at least: 3.3
 Tested up to: 3.8.1
 Stable tag: 4.8
