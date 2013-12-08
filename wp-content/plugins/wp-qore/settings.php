@@ -17,7 +17,6 @@ wpqorefunc_is_checked("wpqorefunc_rmheader");
 wpqorefunc_is_checked("wpqorefunc_2steplogin");
 wpqorefunc_is_checked("wpqorefunc_compresshtml");
 wpqorefunc_is_checked("wpqorefunc_dashboard");
-wpqorefunc_is_checked("wpqorefunc_gzip");
 wpqorefunc_is_checked("wpqorefunc_wphidenag");
 wpqorefunc_is_checked("wpqorefunc_plug-edit");
 wpqorefunc_is_checked("wpqorefunc_shortcode");
@@ -364,21 +363,6 @@ Caching your frontend can increase your sitespeed significantly. It is highly re
 </div>
 <i>Turn 'On' to enable</i><br>
 This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website.
-</label>
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home">Gzip Compression</label></th>
-<td>
-<label for="wpqorefunc_gzip">
-<div class="switch toggle3">
-<input name="wpqorefunc_gzip" type="checkbox" id="wpqorefunc_gzip" value="1" <?php echo get_option("wpqorefunc_gzip");?>>
-<label><i></i></label>
-</div>
-<i>Turn 'On' to enable</i><br>
-Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. If this is already enabled in cPanel, then enabling it again here won't cause any issues.<br>
-<b>Attention:</b> Gzip Compression is turned 'Off' when Frontend Caching is turned 'On'. Cache Assistance already handles gzip compression for you.
 </label>
 </td>
 </tr>
