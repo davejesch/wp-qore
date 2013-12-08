@@ -82,7 +82,6 @@ add_action('admin_menu', 'wpqorefunc_fp_admin');
 if (get_option("wpqorefunc_2steplogin")=='checked') add_action( 'init', 'wpqorefunc_redirect_admin');
 if (get_option("wpqorefunc_compresshtml")=='checked') include_once('functions/compress_html.php');
 if (get_option("wpqorefunc_dashboard")=='checked') include_once('functions/dashboard_func.php');
-if (get_option("wpqorefunc_gzip")=='checked') include_once('functions/gzip.php');
 if (get_option("wpqorefunc_wphidenag")=='checked') include_once('functions/wphidenag.php');
 if (get_option("wpqorefunc_plug-edit")=='checked') define('DISALLOW_FILE_EDIT', true);
 if (get_option("wpqorefunc_shortcode")=='checked') include_once('functions/shortcode.php');
@@ -91,10 +90,7 @@ if (get_option("wpqorefunc_coreupdate")=='checked') include_once('functions/core
 if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISIONS', false);
 if (get_option("wpqorefunc_force_ssl_admin")=='checked') define('FORCE_SSL_ADMIN', true);
 if (get_option("wpqorefunc_sec_advisor")=='checked') include_once('sec-advisor.php');
-if (get_option("wpqorefunc_cache_assistance")=='checked') {
-    include_once('cache-assistance.php');
-    update_option("wpqorefunc_gzip","0");
-}
+if (get_option("wpqorefunc_cache_assistance")=='checked') include_once('cache-assistance.php');
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
@@ -127,7 +123,6 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_2steplogin","0");
     update_option("wpqorefunc_compresshtml","0");
     update_option("wpqorefunc_dashboard","checked");
-    update_option("wpqorefunc_gzip","0");
     update_option("wpqorefunc_wphidenag","0");
     update_option("wpqorefunc_plug-edit","0");
     update_option("wpqorefunc_shortcode","0");
@@ -157,7 +152,6 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_2steplogin","");
     update_option("wpqorefunc_compresshtml","");
     update_option("wpqorefunc_dashboard","");
-    update_option("wpqorefunc_gzip","");
     update_option("wpqorefunc_wphidenag","");
     update_option("wpqorefunc_plug-edit","");
     update_option("wpqorefunc_shortcode","");
