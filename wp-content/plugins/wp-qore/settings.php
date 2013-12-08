@@ -377,7 +377,8 @@ This will minify the HTML of your source code. This makes your website load much
 <label><i></i></label>
 </div>
 <i>Turn 'On' to enable</i><br>
-Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. If this is already enabled in cPanel, then enabling it again here won't cause any issues.
+Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. If this is already enabled in cPanel, then enabling it again here won't cause any issues.<br>
+<b>Warning:</b> You must turn 'Off' Gzip Compression before turning 'On' Frontend Caching. This option should be 'Off' when Frontend Caching is 'On'. Cache Assistance already handles gzip compression and if you have this one on it will interfere with cache and prevent your frontend from caching.
 </label>
 </td>
 </tr>
