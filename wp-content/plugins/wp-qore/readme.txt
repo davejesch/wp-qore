@@ -23,6 +23,7 @@ Available Options: (toggle on/off)
 * disable nag updates
 * disable core updates
 * admin bar removal
+* frontend caching
 * use jquery cdn
 * shortcode in widget
 * php in widgets
@@ -55,6 +56,9 @@ I can't say this plugin compares with the others. It wasn't created to compete w
 Yes. I currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
 
 == Changelog ==
+
+= 1.3.9 =
+* Added frontend caching system.
 
 = 1.3.8 =
 * Replaced deprectaed function in Database Audit.
@@ -156,6 +160,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.9 =
+* Upgrade for the latest version.
 
 = 1.3.8 =
 * Upgrade for the latest version.
