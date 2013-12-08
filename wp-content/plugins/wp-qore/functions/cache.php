@@ -459,7 +459,7 @@ border-top: 1px solid #e1e1e1;
 		}
 
 		public function cacheDate($buffer){
-			return $buffer."<!-- Cache Assistance generated this file in ".$this->creationTime()." seconds, on ".date("d-m-y G:i:s")." -->";
+			return $buffer."<!-- Cache Assistance generated this file in ".$this->creationTime()." seconds, on ".date("m-d-y G:i:s")." -->";
 		}
 
 		public function creationTime(){
