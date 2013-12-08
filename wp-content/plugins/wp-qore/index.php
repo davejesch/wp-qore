@@ -97,7 +97,7 @@ if (get_option("wpqorefunc_fold_menu")=='checked') {
         if ( !jQuery(document.body).hasClass('folded') ) {
               jQuery(document.body).addClass('folded');
         }
-        });</script>";
+        });</script><style>#collapse-menu{display:none}</style>";
     }
     add_filter('admin_head', 'fold_menu');
 }
