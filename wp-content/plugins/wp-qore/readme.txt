@@ -59,6 +59,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 == Changelog ==
 
 = 1.4.1 =
+* Added WP Qore to admin bar.
+
+= 1.4.1 =
 * Added option to keep wp-admin menu folded.
 
 = 1.4.0 =
@@ -168,6 +171,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.2 =
+* Upgrade for the latest version.
 
 = 1.4.1 =
 * Upgrade for the latest version.
