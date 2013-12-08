@@ -35,6 +35,7 @@ wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 wpqorefunc_is_checked("wpqorefunc_sec_advisor");
 wpqorefunc_is_checked("wpqorefunc_dash_tabs");
 wpqorefunc_is_checked("wpqorefunc_cache_assistance");
+wpqorefunc_is_checked("wpqorefunc_fold_menu");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -264,6 +265,19 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 <label><i></i></label>
 </div>
 <i>Remove admin bar from the frontend</i>
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Collapse Admin Menu</label></th>
+<td>
+<label for="wpqorefunc_fold_menu">
+<div class="switch toggle3">
+<input name="wpqorefunc_fold_menu" type="checkbox" id="wpqorefunc_fold_menu" value="1" <?php echo get_option("wpqorefunc_fold_menu");?> >
+<label><i></i></label>
+</div>
+<i>This keeps the wp-admin menu on the left collapsed.</i>
 </label>
 </td>
 </tr>
