@@ -8,7 +8,11 @@
       <a href="#" class="nav-tab nav-tab-active"><?php _e( 'General' ); ?></a>
 <?php if (get_option("wpqorefunc_dash_tabs")=='checked') { ?>
       <a href="admin.php?page=wp-qore/functions.php" title="WP Qore Settings" class="nav-tab"><?php _e( 'WP Qore Settings' ); ?></a>
-<?php if (get_option("wpqorefunc_sec_advisor")=='checked') { ?>
+<?php if (get_option("wpqorefunc_cache_assistance")=='checked') { ?>
+      <a href="admin.php?page=Cache_AssistanceOptions" title="Cache Assistance" class="nav-tab"><?php _e( 'Cache Assistance' ); ?></a>
+<?php }        
+      
+      if (get_option("wpqorefunc_sec_advisor")=='checked') { ?>
       <a href="admin.php?page=sec-advisor" title="Security Advisor" class="nav-tab"><?php _e( 'Security Advisor' ); ?></a>
 <?php } } ?>
       <a target="_blank" href="<?php echo bloginfo('wpurl'); ?>" title="Visit <?php bloginfo('name'); ?> Site" class="nav-tab"><?php _e( 'Visit Site' ); ?></a>
