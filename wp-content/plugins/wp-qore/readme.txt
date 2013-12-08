@@ -57,6 +57,10 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.4.0 =
+* Added Cache Assistance tab to dashboard.
+* 
+
 = 1.3.9 =
 * Added frontend caching system.
 
@@ -160,6 +164,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.0 =
+* Upgrade for the latest version.
 
 = 1.3.9 =
 * Upgrade for the latest version.
