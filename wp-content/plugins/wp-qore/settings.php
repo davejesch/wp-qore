@@ -35,6 +35,7 @@ wpqorefunc_is_checked("wpqorefunc_login_logo");
 wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 wpqorefunc_is_checked("wpqorefunc_sec_advisor");
 wpqorefunc_is_checked("wpqorefunc_dash_tabs");
+wpqorefunc_is_checked("wpqorefunc_cache_assistance");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -333,7 +334,22 @@ This allows you to import and export your widget settings. Once enabled, a subme
 <input name="wpqorefunc_removeversion" type="checkbox" id="wpqorefunc_removeversion" value="1" <?php echo get_option("wpqorefunc_removeversion");?> >
 <label><i></i></label>
 </div>
-<i>Remove WP version from source code</i>
+<i>Remove WP version from source code (Recommended)</i>
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home">Frontend Caching</label></th>
+<td>
+<label for="wpqorefunc_cache_assistance">
+<div class="switch toggle3">
+<input name="wpqorefunc_cache_assistance" type="checkbox" id="wpqorefunc_cache_assistance" value="1" <?php echo get_option("wpqorefunc_cache_assistance");?>>
+<label><i></i></label>
+</div>
+<i>Turn 'On' to enable (Recommended)</i><br>
+Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br>
+<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel.
 </label>
 </td>
 </tr>
@@ -374,7 +390,7 @@ Enabling gzip in most cases will increase your pagespeed. Gzip (GNU zip) is a co
 <input name="wpqorefunc_rmheader" type="checkbox" id="wpqorefunc_rmheader" value="1" <?php echo get_option("wpqorefunc_rmheader");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to remove from source code (Recommended)</i><br>
+<i>Turn 'On' to remove from source code</i><br>
 Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code.
 </label>
 </td>
