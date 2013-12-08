@@ -202,7 +202,7 @@ Clear all cache files when a post or page is published.
 </div>
 </div>	
 
-<p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
+<p style="padding-bottom: 20px">
 <input type="submit" value="Delete Now" class="button-primary">
 </p>
 
