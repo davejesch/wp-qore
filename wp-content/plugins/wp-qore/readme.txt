@@ -59,6 +59,7 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 = 1.4.0 =
 * Added Cache Assistance tab to dashboard.
+* Removed gzip option. Already handled by cache.
 
 = 1.3.9 =
 * Added frontend caching system.
