@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore, formerly known as Qore Functions, is a WordPress plugin that provides additional security, performance functionality, developer tools that can be turned on or off at any time.
-Version: 1.3.8
+Version: 1.3.9
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -25,7 +25,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.3.8';
+    echo '1.3.9';
 }
 
 // exit if accessed directly
@@ -91,6 +91,7 @@ if (get_option("wpqorefunc_coreupdate")=='checked') include_once('functions/core
 if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISIONS', false);
 if (get_option("wpqorefunc_force_ssl_admin")=='checked') define('FORCE_SSL_ADMIN', true);
 if (get_option("wpqorefunc_sec_advisor")=='checked') include_once('sec-advisor.php');
+if (get_option("wpqorefunc_cache_assistance")=='checked') include_once('cache-assistance.php');
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
@@ -137,6 +138,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_dash_tabs","checked");
     update_option("wpqorefunc_theme_directory","templates");
     update_option("wpqorefunc_login_logo_url", "");
+    update_option("wpqorefunc_cache_assistance", "checked");    
 
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -166,6 +168,10 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_dash_tabs","");
     update_option("wpqorefunc_theme_directory","");
     update_option("wpqorefunc_login_logo_url", "");
-
+    update_option("wpqorefunc_cache_assistance", "");
+    
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
+
+// runs on plugin deactivation
+register_deactivation_hook( __FILE__, array('Cache_Assistance', 'deactivate') );
