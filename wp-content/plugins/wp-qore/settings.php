@@ -84,7 +84,7 @@ wpqorefunc_is_checked("wpqorefunc_fold_menu");
 <input name="wpqorefunc_2steplogin" type="checkbox" id="wpqorefunc_2steplogin" value="1" <?php echo get_option("wpqorefunc_2steplogin");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to lock login page</i><br>
+<i>Turn 'On' to lock login page</i><br><br>
 Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key.
 </label>
 </td>
@@ -95,7 +95,7 @@ Once enabled, your example.com/wp-admin url will return a 404 error. The user wh
 <td>
  <input type="text" name="wpqorefunc_secret_arg" value="<?php echo get_option("wpqorefunc_secret_arg");?>" placeholder="for url get parameter">
 
-<br>Only <?php echo home_url();?>/wp-admin?<?php echo get_option("wpqorefunc_secret_arg");?> will work, otherwise, included default wp-admin address will return 404.
+<br>Only <?php echo home_url();?>/wp-admin?<?php echo get_option("wpqorefunc_secret_arg");?> will work, otherwise, included default wp-admin address will return 404.<br>
 	<br>
 	<a href="javascript://" id="wpqorefunc_cr_exc_url">Add custom login page exception</a>
 	<br>
@@ -141,7 +141,7 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 <th scope="row"><label for="home">New theme directory</label></th>
 <td>
 <input type="text" name="wpqorefunc_theme_directory" style="width:420px" value="<?php echo get_option("wpqorefunc_theme_directory");?>" placeholder="theme directory">
-<br>Create folder called <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> in <?php echo WP_CONTENT_DIR; ?> folder and then paste there any inactive theme folder you will need to use. <br>
+<br>Create folder called <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> in <?php echo WP_CONTENT_DIR; ?> folder and then paste there any inactive theme folder you will need to use.<br><br>
 <b>Warning!</b> Don't cut/paste active theme from <i>themes</i> folder to <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate.
 </td>
 </tr>
@@ -149,7 +149,8 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 <tr valign="top">
 <th scope="row"><label for="home">Unique source code</label></th>
 <td>
-Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples). <b>Please be attentive. If you don't know what something is for, please don't do it.</b>
+Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples).<br><br> 
+<b>Please be attentive. If you don't know what something is for, please don't do it.</b>
 
 <pre style="margin-top:10px;background:#FFFFFF;padding:10px;border: 1px dashed #CCCCCC;"><?php echo $wpconfigchange; ?>
 </pre>
@@ -178,7 +179,7 @@ Go to your file manager (or ftp), open your wp-config.php file and add the follo
 <input name="wpqorefunc_sec_advisor" type="checkbox" id="wpqorefunc_sec_advisor" value="1" <?php echo get_option("wpqorefunc_sec_advisor");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable (Recommended)</i><br>
+<i>Turn 'On' to enable (Recommended)</i><br><br>
 When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.
 </label>
 </td>
@@ -192,7 +193,7 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 <input name="wpqorefunc_dashboard" type="checkbox" id="wpqorefunc_dashboard" value="1" <?php echo get_option("wpqorefunc_dashboard");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable (Recommended)</i><br>
+<i>Turn 'On' to enable (Recommended)</i><br><br>
 When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.<br>
 <input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i>When checked, this will enable the WP Qore tabs on the new Dashboard.</i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="click to see example..."><b>?</b></a>)
 </td>
@@ -206,7 +207,7 @@ When 'On', this will replace the standard wp-admin dashboard with a new one that
 <input name="wpqorefunc_wphidenag" type="checkbox" id="wpqorefunc_wphidenag" value="1" <?php echo get_option("wpqorefunc_wphidenag");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to disable</i><br>
+<i>Turn 'On' to disable</i><br><br>
 This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin.
 </label>
 </td>
@@ -220,7 +221,7 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 <input name="wpqorefunc_coreupdate" type="checkbox" id="wpqorefunc_coreupdate" value="1" <?php echo get_option("wpqorefunc_coreupdate");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to disable</i><br>
+<i>Turn 'On' to disable</i><br><br>
 This completely disables new WordPress version notifications and updates from being done.<br>
 <b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only.
 </label>
@@ -235,7 +236,7 @@ This completely disables new WordPress version notifications and updates from be
 <input name="wpqorefunc_post_revisions" type="checkbox" id="wpqorefunc_post_revisions" value="1" <?php echo get_option("wpqorefunc_post_revisions");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to disable</i><br>
+<i>Turn 'On' to disable</i><br><br>
 This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such.
 </label>
 </td>
@@ -275,7 +276,7 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 <input name="wpqorefunc_reregjquery" type="checkbox" id="wpqorefunc_reregjquery" value="1" <?php echo get_option("wpqorefunc_reregjquery");?>>
 <label><i></i></label>
 </div>
-<i>Use Google hosted jQuery instead of Wordpress core.</i><br>
+<i>Use Google hosted jQuery instead of Wordpress core.</i><br><br>
 <b>Attention:</b> If this doesn't play well with your theme, then simply turn it off.
 </label>
 </td>
@@ -289,7 +290,7 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 <input name="wpqorefunc_shortcode" type="checkbox" id="wpqorefunc_shortcode" value="1" <?php echo get_option("wpqorefunc_shortcode");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable</i><br><br>
 This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you.
 </label>
 </td>
@@ -303,8 +304,8 @@ This enables shortcode in widgets. In the instance you need to use shortcode wit
 <input name="wpqorefunc_phpwidget" type="checkbox" id="wpqorefunc_phpwidget" value="1" <?php echo get_option("wpqorefunc_phpwidget");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
-This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br>
+<i>Turn 'On' to enable</i><br><br>
+This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>
 <b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk.
 </label>
 </td>
@@ -318,7 +319,7 @@ This enables php code in widgets. In the instance you need to use php within you
 <input name="wpqorefunc_exportwidget" type="checkbox" id="wpqorefunc_exportwidget" value="1" <?php echo get_option("wpqorefunc_exportwidget");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable</i><br><br>
 This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu.
 </label>
 </td>
@@ -345,7 +346,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 <input name="wpqorefunc_cache_assistance" type="checkbox" id="wpqorefunc_cache_assistance" value="1" <?php echo get_option("wpqorefunc_cache_assistance");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable (Recommended)</i><br>
+<i>Turn 'On' to enable (Recommended)</i><br><br>
 Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br>
 <b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel.
 </label>
@@ -360,7 +361,7 @@ Caching your frontend can increase your sitespeed significantly. It is highly re
 <input name="wpqorefunc_compresshtml" type="checkbox" id="wpqorefunc_compresshtml" value="1" <?php echo get_option("wpqorefunc_compresshtml");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable</i><br><br>
 This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website.
 </label>
 </td>
@@ -374,7 +375,7 @@ This will minify the HTML of your source code. This makes your website load much
 <input name="wpqorefunc_rmheader" type="checkbox" id="wpqorefunc_rmheader" value="1" <?php echo get_option("wpqorefunc_rmheader");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to remove from source code</i><br>
+<i>Turn 'On' to remove from source code</i><br><br>
 Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code.
 </label>
 </td>
@@ -388,7 +389,7 @@ Remove manifest, generator meta tags, adjacent posts rel links, parent post rel 
 <input name="wpqorefunc_plug-edit" type="checkbox" id="wpqorefunc_plug-edit" value="1" <?php echo get_option("wpqorefunc_plug-edit");?>>
 <label><i></i></label>
 </div>
-<i>Turn 'On' to disable</i><br>
+<i>Turn 'On' to disable</i><br><br>
 This disables the theme and plugin editor from within WordPress. This is a good idea for production environments.
 </label>
 </td>
