@@ -968,7 +968,7 @@ class AntiSEC_Threat {
 				<tbody>
 					<h3><?php esc_html_e('Manual Scan', 'sec-advisor') ?></h3>
 				    <tr valign="top">
-					<th scope="row"><label for="home"><b>Check for Threats</b></label></th>
+					<th scope="row"><label for="home">Check for Threats</label></th>
 					<td>
 					<div class="inside" id="av_manual">
 							<p>
@@ -994,7 +994,7 @@ class AntiSEC_Threat {
 				<tbody>
 				    <h3><?php esc_html_e('Automatic Scan', 'sec-advisor') ?></h3>
 					<tr valign="top">
-					<th scope="row"><label for="home"><b>Daily Scanning</b></label></th>
+					<th scope="row"><label for="home">Daily Scanning</label></th>
 					<td>
 					<label for="av_cronjob_enable">
 					<div class="switch toggle3">
@@ -1019,7 +1019,7 @@ class AntiSEC_Threat {
 					</tr>
 
 					<tr valign="top">
-					<th scope="row"><label for="home"><b>Alternate E-mail</b></label></th>
+					<th scope="row"><label for="home">Alternate E-mail</label></th>
 					<td>
 					<label for="av_notify_email">
 					<input type="text" name="av_notify_email" id="av_notify_email" value="<?php esc_attr_e(self::_get_option('notify_email')) ?>" class="regular-text" />
