@@ -134,21 +134,21 @@
 <h3>General Options</h3>
 
 <tr valign="top">
-<th scope="row"><label for="home"><b>Cache Frontend</b></label></th>
+<th scope="row"><label for="home">Cache Frontend</label></th>
 <td>
 <label for="WPQore_CacheAssistanceStatus">
 <div class="switch toggle3">
 <input type="checkbox" <?php echo $WPQore_CacheAssistanceStatus; ?> id="WPQore_CacheAssistanceStatus" name="WPQore_CacheAssistanceStatus">
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable</i><br><br>
 This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed.
 </label>
 </td>
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home"><b>New Post or Page</b></label></th>
+<th scope="row"><label for="home">New Post or Page</label></th>
 <td>
 <label for="WPQore_CacheAssistanceNewPost">
 <div class="switch toggle3">
@@ -184,7 +184,7 @@ Clear all cache files when a post or page is published.
 <h3>Delete Cache</h3>
 
 <tr valign="top">
-<th scope="row"><label for="home"><b>Clear all cache</b></label></th>
+<th scope="row"><label for="home">Clear all cache</label></th>
 <td>
 <label for="WPQore_Delete_All_Cache">
 <i>Target folder:</i><br>
