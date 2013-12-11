@@ -57,7 +57,7 @@ function wpqorefunc_redirect_admin() {
 
     //if (is_admin()) 
     $cururl= $_SERVER["REQUEST_URI"];
-    $refurl=$_SERVER["HTTP_REFERER"];	
+   @$refurl= $_SERVER["HTTP_REFERER"];	
 
     //update_option("wpqorefunc_secret_arg","aaa");//temporary
     if ( (strpos($cururl,'wp-admin')!==false or strpos($cururl,'wp-login')!==false) and !is_user_logged_in() ) 
