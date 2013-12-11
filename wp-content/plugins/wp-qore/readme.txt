@@ -16,7 +16,6 @@ WordPress Security, Developer Tools Plugin.
 Available Options: (toggle on/off)
 
 * customize login page
-* force wp-admin ssl
 * hide login page
 * security advisor
 * replace dashboard
