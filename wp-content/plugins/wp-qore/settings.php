@@ -3,12 +3,14 @@
 function wpqorefunc_fp_settings() {
 
 $wpconfigchange='
-define(\'WP_CONTENT_FOLDERNAME\', \'files\'); //change "files" to whatever you want and then rename wp-content folder to this name 
-define(\'WP_CONTENT_DIR\', ABSPATH . WP_CONTENT_FOLDERNAME ); //don\'t edit this line
-define(\'WP_CONTENT_URL\', \''.home_url('/').'\'.WP_CONTENT_FOLDERNAME);  //don\'t edit this line
-define(\'WP_PLUGIN_DIR\', WP_CONTENT_DIR . \'/\'.\'modules\' ); //change "modules" to whatever you want 
-//and then rename your plugins directory to new name.
-define(\'WP_PLUGIN_URL\', WP_CONTENT_URL.\'/\'.\'modules\'); //change "modules" to whatever you want'; 
+//change "files" to whatever you want and then rename wp-content folder to this name 
+define(\'WP_CONTENT_FOLDERNAME\', \'files\');
+define(\'WP_CONTENT_DIR\', ABSPATH . WP_CONTENT_FOLDERNAME );
+define(\'WP_CONTENT_URL\', \''.home_url('/').'\'.WP_CONTENT_FOLDERNAME);
+define(\'WP_PLUGIN_DIR\', WP_CONTENT_DIR . \'/\'.\'modules\' ); //change "modules" to new name
+//then rename your plugins directory to new name.
+define(\'WP_PLUGIN_URL\', WP_CONTENT_URL.\'/\'.\'modules\'); //change "modules" to new name
+';
 
 wpqorefunc_is_checked("wpqorefunc_showadminbar");
 wpqorefunc_is_checked("wpqorefunc_reregjquery");
