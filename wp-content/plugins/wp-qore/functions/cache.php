@@ -155,7 +155,7 @@ This will cache all posts and pages. Enabling cache will help serve your web pag
 <input type="checkbox" <?php echo $WPQore_CacheAssistanceNewPost; ?> id="WPQore_CacheAssistanceNewPost" name="WPQore_CacheAssistanceNewPost">
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br>
+<i>Turn 'On' to enable</i><br><br>
 Clear all cache files when a post or page is published.
 </label>
 </td>
