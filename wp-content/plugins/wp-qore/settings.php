@@ -138,7 +138,7 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 <h3>Source Obfuscation</h3>
 
 <tr valign="top">
-<th scope="row"><label for="home">Register new theme directory</label></th>
+<th scope="row"><label for="home">New theme directory</label></th>
 <td>
 <input type="text" name="wpqorefunc_theme_directory" style="width:420px" value="<?php echo get_option("wpqorefunc_theme_directory");?>" placeholder="theme directory">
 <br>Create folder called <i><?php echo get_option("wpqorefunc_theme_directory"); ?></i> in <?php echo WP_CONTENT_DIR; ?> folder and then paste there any inactive theme folder you will need to use. <br>
@@ -147,8 +147,7 @@ jQuery("#wpqorefunc_cr_exc_div").toggle("slow");
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Make your source code more unique 
-</label></th>
+<th scope="row"><label for="home">Unique source code</label></th>
 <td>
 Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_02.png'; ?> " >before</a> and <a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'; ?> " >after</a> examples). <b>Please be attentive. If you don't know what something is for, please don't do it.</b>
 
@@ -172,7 +171,7 @@ Go to your file manager (or ftp), open your wp-config.php file and add the follo
 <h3>General Settings</h3>
 
 <tr valign="top">
-<th scope="row"><label for="home">Security Advisor</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_06.jpg'; ?>" title="click to see example..."><b>?</b></a>)</th>
+<th scope="row"><label for="home">Security advisor</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_06.jpg'; ?>" title="click to see example..."><b>?</b></a>)</th>
 <td>
 <label for="wpqorefunc_sec_advisor">
 <div class="switch toggle3">
@@ -186,7 +185,7 @@ When checked, this will turn on Security Advisor. Security Advisor offers you pr
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Replace Dashboard</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_04.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
+<th scope="row"><label for="home">Replace dashboard</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_04.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
 <td>
 <label for="wpqorefunc_dashboard">
 <div class="switch toggle3">
@@ -200,7 +199,7 @@ When 'On', this will replace the standard wp-admin dashboard with a new one that
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Nag Updates</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_05.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
+<th scope="row"><label for="home">Nag updates</label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_05.png'; ?>" title="click to see example..."><b>?</b></a>)</th>
 <td>
 <label for="wpqorefunc_wphidenag">
 <div class="switch toggle3">
@@ -214,7 +213,7 @@ This disables the annoying WordPress nag updates banner from appearing. This doe
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Core Updates</label></th>
+<th scope="row"><label for="home">Core updates</label></th>
 <td>
 <label for="wpqorefunc_coreupdate">
 <div class="switch toggle3">
@@ -229,7 +228,7 @@ This completely disables new WordPress version notifications and updates from be
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Post Revisions</label></th>
+<th scope="row"><label for="home">Post revisions</label></th>
 <td>
 <label for="wpqorefunc_post_revisions">
 <div class="switch toggle3">
@@ -256,7 +255,7 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Collapse Admin Menu</label></th>
+<th scope="row"><label for="home">Collapse admin menu</label></th>
 <td>
 <label for="wpqorefunc_fold_menu">
 <div class="switch toggle3">
@@ -283,7 +282,7 @@ This disables saving multiple post revisions. Having multiple post revisions cou
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Shortcode in Widgets</label></th>
+<th scope="row"><label for="home">Shortcode in widgets</label></th>
 <td>
 <label for="wpqorefunc_shortcode">
 <div class="switch toggle3">
@@ -297,7 +296,7 @@ This enables shortcode in widgets. In the instance you need to use shortcode wit
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">PHP in Widgets</label></th>
+<th scope="row"><label for="home">Php in widgets</label></th>
 <td>
 <label for="wpqorefunc_phpwidget">
 <div class="switch toggle3">
@@ -312,7 +311,7 @@ This enables php code in widgets. In the instance you need to use php within you
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Import/Export Widgets</label></th>
+<th scope="row"><label for="home">Import/export widgets</label></th>
 <td>
 <label for="wpqorefunc_exportwidget">
 <div class="switch toggle3">
@@ -339,7 +338,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Cache Assistance</label></th>
+<th scope="row"><label for="home">Cache assistance</label></th>
 <td>
 <label for="wpqorefunc_cache_assistance">
 <div class="switch toggle3">
@@ -354,7 +353,7 @@ Caching your frontend can increase your sitespeed significantly. It is highly re
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Minify your HTML</label></th>
+<th scope="row"><label for="home">Minify your html</label></th>
 <td>
 <label for="wpqorefunc_compresshtml">
 <div class="switch toggle3">
@@ -368,7 +367,7 @@ This will minify the HTML of your source code. This makes your website load much
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Remove wp tags from meta</label></th>
+<th scope="row"><label for="home">Remove wp meta tags</label></th>
 <td>
 <label for="wpqorefunc_rmheader">
 <div class="switch toggle3">
@@ -382,7 +381,7 @@ Remove manifest, generator meta tags, adjacent posts rel links, parent post rel 
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Plugin & Theme Editor</label></th>
+<th scope="row"><label for="home">Plugin/theme editor</label></th>
 <td>
 <label for="wpqorefunc_plug-edit">
 <div class="switch toggle3">
@@ -396,7 +395,7 @@ This disables the theme and plugin editor from within WordPress. This is a good 
 </tr>
 
 <tr valign="top" style="background-color:#373737" class="wpqorefunc_dbopt">
-<th scope="row"><label for="home">Database Optimization Audit</label></th>
+<th scope="row"><label for="home">Database audit</label></th>
 <td>
 <p>
 This checks your Database and then gives you suggestions about security and making your website faster.
