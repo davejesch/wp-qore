@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.4.6 =
+* Disabled notice on login secret arg.
+
 = 1.4.5 =
 * Fixed wpqore options panels for 3.8 RC 2.
 
@@ -179,6 +182,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.6 =
+* Upgrade for the latest version.
 
 = 1.4.5 =
 * Upgrade for the latest version.
