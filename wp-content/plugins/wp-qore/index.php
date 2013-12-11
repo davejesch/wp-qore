@@ -138,7 +138,6 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_shortcode","0");
     update_option("wpqorefunc_phpwidget","0");
     update_option("wpqorefunc_post_revisions","0");
-    update_option("wpqorefunc_force_ssl_admin","0");
     update_option("wpqorefunc_coreupdate","0");
     update_option("wpqorefunc_exportwidget","0");
     update_option("wpqorefunc_login_logo","0");
@@ -168,7 +167,6 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_shortcode","");
     update_option("wpqorefunc_phpwidget","");
     update_option("wpqorefunc_post_revisions","");
-    update_option("wpqorefunc_force_ssl_admin","");
     update_option("wpqorefunc_coreupdate","");
     update_option("wpqorefunc_exportwidget","");
     update_option("wpqorefunc_login_logo","");
