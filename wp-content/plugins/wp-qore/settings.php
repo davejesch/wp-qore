@@ -347,7 +347,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 <label><i></i></label>
 </div>
 <i>Turn 'On' to enable (Recommended)</i><br><br>
-Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br>
+Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>
 <b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel.
 </label>
 </td>
