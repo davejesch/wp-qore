@@ -353,7 +353,7 @@ This allows you to import and export your widget settings. Once enabled, a subme
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">Frontend Caching</label></th>
+<th scope="row"><label for="home">Cache Assistance</label></th>
 <td>
 <label for="wpqorefunc_cache_assistance">
 <div class="switch toggle3">
