@@ -418,7 +418,6 @@ This checks your Database and then gives you suggestions about security and maki
 
 <style type="text/css">
 th,td{border-left: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;border-top: 1px solid #e1e1e1;}
-th label{font-weight:bold;color:#464646;}
 h3{color:#464646;}
 .wpqorefunc_dbopt label,.wpqorefunc_dbopt p,.wpqorefunc_dbopt pre  {color:#FFFFFF;}
 .wpqorefunc_gray{color:#00FF00;}
