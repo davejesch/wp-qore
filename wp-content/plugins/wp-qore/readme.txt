@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.4.7 =
+* CSS fix for options panals.
+
 = 1.4.6 =
 * Disabled notice on login secret arg.
 
@@ -182,6 +185,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.7 =
+* Upgrade for the latest version.
 
 = 1.4.6 =
 * Upgrade for the latest version.
