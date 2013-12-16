@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.4.8 =
+* Updated dashboard.
+
 = 1.4.7 =
 * CSS fix for options panals.
 
@@ -185,6 +188,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.8 =
+* Upgrade for the latest version.
 
 = 1.4.7 =
 * Upgrade for the latest version.
