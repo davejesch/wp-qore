@@ -25,7 +25,7 @@ class edf_dashboard {
 
 
 	function p_edf_register_menu() {
-	        add_dashboard_page( __( 'General', 'wpqore' ), __( 'General', 'wpqore' ), 'read', 'dashboard_view', array( &$this,'p_edf_create_dashboard') );
+	        add_dashboard_page( __( 'General', 'wp-qore' ), __( 'General', 'wp-qore' ), 'read', 'dashboard_view', array( &$this,'p_edf_create_dashboard') );
 
 	}
 

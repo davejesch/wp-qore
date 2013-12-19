@@ -1,7 +1,7 @@
 <?php
 
 function failed_login() {
-     return 'The login information you have entered is incorrect.';
+     return __( 'The login information you have entered is incorrect.', 'wp-qore' );
 }
  
 add_filter('login_errors', 'failed_login');

@@ -8,7 +8,7 @@ Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
 License URI: http://www.gnu.org/licenses/gpl.html
-Text Domain: wpqore
+Text Domain: wp-qore
 Domain Path: lang
 */
 
@@ -31,7 +31,7 @@ function wpqoreplugv() {
 }
 
 function wpqore_load_textdomain() {
-  load_plugin_textdomain( 'wpqore', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+  load_plugin_textdomain( 'wp-qore', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 }
 add_action('plugins_loaded', 'wpqore_load_textdomain');
 
