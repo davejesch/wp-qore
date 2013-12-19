@@ -58,13 +58,13 @@ function WPQore_Adminbar_Menu(){
   }
 
   function wpqore_adminbar_links() {
-      $this->add_root_menu( "WP Qore", "wpqabl" );
-      $this->wpqore_add_submenu( "WP Qore Settings", "admin.php?page=wp-qore/functions.php", "wpqabl", "wpqablp" );
+      $this->add_root_menu( __( "WP Qore", 'wp-qore' ), "wpqabl" );
+      $this->wpqore_add_submenu( __( "WP Qore Settings", 'wp-qore' ), "admin.php?page=wp-qore/functions.php", "wpqabl", "wpqablp" );
       if (get_option("wpqorefunc_cache_assistance")=='checked') {
-          $this->wpqore_add_submenu( "Cache Assistance", "admin.php?page=Cache_AssistanceOptions", "wpqabl", "wpqabla" );
+          $this->wpqore_add_submenu( __( "Cache Assistance", 'wp-qore' ), "admin.php?page=Cache_AssistanceOptions", "wpqabl", "wpqabla" );
       }
       if (get_option("wpqorefunc_sec_advisor")=='checked') {
-          $this->wpqore_add_submenu( "Security Advisor", "admin.php?page=sec-advisor", "wpqabl", "wpqabli" );
+          $this->wpqore_add_submenu( __( "Security Advisor", 'wp-qore' ), "admin.php?page=sec-advisor", "wpqabl", "wpqabli" );
       }
   }
 

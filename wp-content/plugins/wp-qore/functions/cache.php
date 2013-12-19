@@ -117,7 +117,7 @@
 ?>
 
 <div class="wrap">
-<div id="icon-options-general" class="icon32"><br></div><h2>Cache Assistance</h2>
+<div id="icon-options-general" class="icon32"><br></div><h2><?php _e( 'Cache Assistance', 'wp-qore' ); ?></h2>
 				
 	<?php if($this->systemMessage){ ?>
 		<div class="updated <?php echo $this->systemMessage[1]; ?>" id="message"><p><?php echo $this->systemMessage[0]; ?></p></div>
@@ -131,32 +131,32 @@
 <table class="form-table">
 <tbody>
 
-<h3>General Options</h3>
+<h3><?php _e( 'General Options', 'wp-qore' ); ?></h3>
 
 <tr valign="top">
-<th scope="row"><label for="home">Cache Frontend</label></th>
+<th scope="row"><label for="home"><?php _e( 'Cache Frontend', 'wp-qore' ); ?></label></th>
 <td>
 <label for="WPQore_CacheAssistanceStatus">
 <div class="switch toggle3">
 <input type="checkbox" <?php echo $WPQore_CacheAssistanceStatus; ?> id="WPQore_CacheAssistanceStatus" name="WPQore_CacheAssistanceStatus">
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br><br>
-This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed.
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( 'This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed.', 'wp-qore' ); ?>
 </label>
 </td>
 </tr>
 
 <tr valign="top">
-<th scope="row"><label for="home">New Post or Page</label></th>
+<th scope="row"><label for="home"><?php _e( 'New Post or Page', 'wp-qore' ); ?></label></th>
 <td>
 <label for="WPQore_CacheAssistanceNewPost">
 <div class="switch toggle3">
 <input type="checkbox" <?php echo $WPQore_CacheAssistanceNewPost; ?> id="WPQore_CacheAssistanceNewPost" name="WPQore_CacheAssistanceNewPost">
 <label><i></i></label>
 </div>
-<i>Turn 'On' to enable</i><br><br>
-Clear all cache files when a post or page is published.
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( 'Clear all cache files when a post or page is published.', 'wp-qore' ); ?>
 </label>
 </td>
 </tr>
@@ -181,13 +181,13 @@ Clear all cache files when a post or page is published.
 <table class="form-table">
 <tbody>
 
-<h3>Delete Cache</h3>
+<h3><?php _e( 'Delete Cache', 'wp-qore' ); ?></h3>
 
 <tr valign="top">
-<th scope="row"><label for="home">Clear all cache</label></th>
+<th scope="row"><label for="home"><?php _e( 'Clear all cache', 'wp-qore' ); ?></label></th>
 <td>
 <label for="WPQore_Delete_All_Cache">
-<i>Target folder:</i><br>
+<i><?php _e( 'Target folder:', 'wp-qore' ); ?></i><br>
 
 <pre style="margin-top:10px;background:#FFFFFF;padding:10px;border: 1px dashed #CCCCCC;">
 <b><?php echo $this->WPconDIR; ?>/cache/all</b>

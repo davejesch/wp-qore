@@ -2,10 +2,10 @@
 
 class WPQ_PHP_Widgets extends WP_Widget {
 	function WPQ_PHP_Widgets() {
-		load_plugin_textdomain( 'wpq-php-widget', false, dirname( plugin_basename( __FILE__ ) ) );
-		$widget_ops = array('classname' => 'widget_execphp', 'description' => __('Arbitrary text, HTML, or PHP Code', 'wpq-php-widget'));
+		// load_plugin_textdomain( 'wp-qore', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+		$widget_ops = array('classname' => 'widget_execphp', 'description' => __('Arbitrary text, HTML, or PHP Code', 'wp-qore'));
 		$control_ops = array('width' => 400, 'height' => 350);
-		$this->WP_Widget('execphp', __('PHP Code', 'wpq-php-widget'), $widget_ops, $control_ops);
+		$this->WP_Widget('execphp', __('PHP Code', 'wp-qore'), $widget_ops, $control_ops);
 	}
 
 	function widget( $args, $instance ) {
@@ -40,12 +40,12 @@ class WPQ_PHP_Widgets extends WP_Widget {
 		$title = strip_tags($instance['title']);
 		$text = format_to_edit($instance['text']);
 ?>
-		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'wpq-php-widget'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'wp-qore'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p>
 
 		<textarea class="widefat" rows="16" cols="20" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>"><?php echo $text; ?></textarea>
 
-		<p><input id="<?php echo $this->get_field_id('filter'); ?>" name="<?php echo $this->get_field_name('filter'); ?>" type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />&nbsp;<label for="<?php echo $this->get_field_id('filter'); ?>"><?php _e('Automatically add paragraphs.', 'wpq-php-widget'); ?></label></p>
+		<p><input id="<?php echo $this->get_field_id('filter'); ?>" name="<?php echo $this->get_field_name('filter'); ?>" type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />&nbsp;<label for="<?php echo $this->get_field_id('filter'); ?>"><?php _e('Automatically add paragraphs.', 'wp-qore'); ?></label></p>
 <?php
 	}
 }
