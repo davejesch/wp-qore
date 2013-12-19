@@ -1,5 +1,5 @@
 === WP Qore ===
-Contributors: phatjay
+Contributors: phatjay, keha76
 Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core
 Requires at least: 3.3
 Tested up to: 3.8.1
@@ -56,6 +56,9 @@ I can't say this plugin compares with the others. It wasn't created to compete w
 Yes. I currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
 
 == Changelog ==
+
+= 1.4.9 =
+* Localization added by Kenth Hagström.
 
 = 1.4.8 =
 * Updated dashboard.
@@ -188,6 +191,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.9 =
+* Upgrade for the latest version.
 
 = 1.4.8 =
 * Upgrade for the latest version.
