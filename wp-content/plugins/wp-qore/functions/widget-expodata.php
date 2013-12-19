@@ -46,7 +46,7 @@ class Widget_EXPOData {
 		?>
 		<div class="widget-expodata export-widget-settings">
 			<div class="wrap">
-				<h2>Export Widgets</h2>
+				<h2><?php _e( 'Export Widgets', 'wpqore' ); ?></h2>
 				<div id="notifier" style="display: none;"></div>
 				<form action="" method="post" id="widget-export-settings">
 					<input type="hidden" id="action" name="action" value="export_widget_settings" />
@@ -110,13 +110,13 @@ class Widget_EXPOData {
 		?>
 		<div class="widget-expodata import-widget-settings">
 			<div class="wrap">
-				<h2>Import Widgets</h2>
+				<h2><?php _e( 'Import Widgets', 'wpqore' ); ?></h2>
 				<?php if ( isset( $_FILES['widget-upload-file'] ) ) : ?>
 					<div id="notifier" style="display: none;"></div>
 					<div class="import-wrapper">
 						<p>
-							<a class="button select-all">check all</a>
-							<a class="button unselect-all">uncheck all</a>
+							<a class="button select-all"><?php _e( 'check all', 'wpqore' ); ?></a>
+							<a class="button unselect-all"><?php _e( 'uncheck all', 'wpqore' ); ?></a>
 						</p>
 						<form action="" id="import-widget-expodata" method="post">
 							<?php wp_nonce_field('import_Widget_EXPOData', '_wpnonce');
@@ -134,8 +134,8 @@ class Widget_EXPOData {
 							<input type="hidden" name="import_file" value="<?php echo esc_attr( $json_file ); ?>"/>
 							<input type="hidden" name="action" value="import_Widget_EXPOData"/>
 							<div class="title">
-								<p class="widget-selection-error">Please select a widget to continue.</p>
-								<h3>Sidebars</h3>
+								<p class="widget-selection-error"><?php _e( 'Please select a widget to continue.', 'wpqore' ); ?></p>
+								<h3><?php _e( 'Sidebars', 'wpqore' ); ?></h3>
 								<div class="clear"></div>
 							</div>
 							<div class="sidebars">
@@ -186,18 +186,18 @@ class Widget_EXPOData {
 									<?php endforeach; ?>
 								<?php endif; ?>
 							</div> <!-- end sidebars -->
-							<input class="button-bottom button-primary" type="submit" name="import-widgets" id="import-widgets" value="Import Widget Settings" />
+							<input class="button-bottom button-primary" type="submit" name="import-widgets" id="import-widgets" value="<?php _e( 'Import Widget Settings', 'wpqore'); ?>" />
 						</form>
 					</div>
 				<?php else : ?>
 					<form action="" id="upload-widget-expodata" method="post" enctype="multipart/form-data">
-						<p>Please select the widget export file to import settings.</p>
+						<p><?php _e( 'Please select the widget export file to import settings.', 'wpqore' ); ?></p>
 						<p>
 							<input type="text" disabled="disabled" class="file-name regular-text" />
-							<a id="upload-button" class="button upload-button">Select a file</a>
+							<a id="upload-button" class="button upload-button"><?php _e( 'Select a file', 'wpqore' ); ?></a>
 							<input type="file" name="widget-upload-file" id="widget-upload-file" size="40" style="display:none;" />
 						</p>
-						<input type="submit" name="button-upload-submit" id="button-upload-submit" class="button" value="Show Widget Settings" />
+						<input type="submit" name="button-upload-submit" id="button-upload-submit" class="button" value="<?php _e( 'Show Widget Settings', 'wpqore' ); ?>" />
 					</form>
 				<?php endif; ?>
 			</div> <!-- end wrap -->
@@ -331,7 +331,7 @@ class Widget_EXPOData {
 		$import_file = isset( $_POST['import_file'] ) ? $_POST['import_file'] : false;
 
 		if( empty($widgets) || empty($import_file) ){
-			$response['id'] = new WP_Error('import_Widget_EXPOData', 'No widget data posted to import');
+			$response['id'] = new WP_Error('import_Widget_EXPOData', __( 'No widget data posted to import', 'wpqore' ) );
 			$response = new WP_Ajax_Response( $response );
 			$response->send();
 		}
@@ -360,7 +360,7 @@ class Widget_EXPOData {
 		}
 
 		$sidebar_data = array( array_filter( $sidebar_data ), $widgets );
-		$response['id'] = ( self::parse_import_data( $sidebar_data ) ) ? true : new WP_Error( 'widget_import_submit', 'Unknown Error' );
+		$response['id'] = ( self::parse_import_data( $sidebar_data ) ) ? true : new WP_Error( 'widget_import_submit', __( 'Unknown Error', 'wpqore' ) );
 
 		$response = new WP_Ajax_Response( $response );
 		$response->send();

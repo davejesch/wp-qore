@@ -5,17 +5,17 @@
 <div class="wrap about-wrap" id="pbody">
  <h1><?php bloginfo('name'); ?></h1><br />
    <h2 class="nav-tab-wrapper">
-      <a href="#" class="nav-tab nav-tab-active"><?php _e( 'General' ); ?></a>
+      <a href="#" class="nav-tab nav-tab-active"><?php _e( 'General', 'wpqore' ); ?></a>
 <?php if (get_option("wpqorefunc_dash_tabs")=='checked') { ?>
-      <a href="admin.php?page=wp-qore/functions.php" title="WP Qore Settings" class="nav-tab"><?php _e( 'WP Qore Settings' ); ?></a>
+      <a href="admin.php?page=wp-qore/functions.php" title="WP Qore Settings" class="nav-tab"><?php _e( 'WP Qore Settings', 'wpqore' ); ?></a>
 <?php if (get_option("wpqorefunc_cache_assistance")=='checked') { ?>
-      <a href="admin.php?page=Cache_AssistanceOptions" title="Cache Assistance" class="nav-tab"><?php _e( 'Cache Assistance' ); ?></a>
+      <a href="admin.php?page=Cache_AssistanceOptions" title="Cache Assistance" class="nav-tab"><?php _e( 'Cache Assistance', 'wpqore' ); ?></a>
 <?php }        
       
       if (get_option("wpqorefunc_sec_advisor")=='checked') { ?>
-      <a href="admin.php?page=sec-advisor" title="Security Advisor" class="nav-tab"><?php _e( 'Security Advisor' ); ?></a>
+      <a href="admin.php?page=sec-advisor" title="Security Advisor" class="nav-tab"><?php _e( 'Security Advisor', 'wpqore' ); ?></a>
 <?php } } ?>
-      <a target="_blank" href="<?php echo bloginfo('wpurl'); ?>" title="Visit <?php bloginfo('name'); ?> Site" class="nav-tab"><?php _e( 'Visit Site' ); ?></a>
+      <a target="_blank" href="<?php echo bloginfo('wpurl'); ?>" title="Visit <?php bloginfo('name'); ?> Site" class="nav-tab"><?php _e( 'Visit Site', 'wpqore' ); ?></a>
    </h2>
 
 <div style="margin-top:0px">

@@ -10,7 +10,7 @@ function change_howdy($translated, $text, $domain) {
         return $translated;
 
     if (false !== strpos($translated, 'Howdy'))
-        return str_replace('Howdy', 'Welcome', $translated);
+        return str_replace('Howdy', __( 'Welcome', 'wpqore' ), $translated);
 
     return $translated;
 }

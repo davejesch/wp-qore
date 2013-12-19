@@ -150,7 +150,7 @@ class AntiSEC_Threat {
 
 						admin_url('options-general.php')
 					),
-					__('Settings')
+					__('Settings', 'wpqore')
 				)
 			)
 		);
@@ -316,10 +316,10 @@ class AntiSEC_Threat {
 
 		// Send notification
 		self::_send_warning_notification(
-			esc_html__('Safe Browsing Alert', 'sec-advisor'),
+			esc_html__('Safe Browsing Alert', 'wpqore'),
 			sprintf(
 				"%s\r\nhttp://www.google.com/safebrowsing/diagnostic?site=%s&hl=%s",
-				esc_html__('Please check the Google Safe Browsing diagnostic page:', 'sec-advisor'),
+				esc_html__('Please check the Google Safe Browsing diagnostic page:', 'wpqore'),
 				urlencode( get_bloginfo('url') ),
 				substr(get_locale(), 0, 2)
 			)
@@ -336,10 +336,10 @@ class AntiSEC_Threat {
 
 		// Send notification
 		self::_send_warning_notification(
-			esc_html__('Potential security threat suspected', 'sec-advisor'),
+			esc_html__('Potential security threat suspected', 'wpqore'),
 			sprintf(
 				"%s\r\n%s",
-				esc_html__('The daily security scan of your site suspects a potential threat.', 'sec-advisor'),
+				esc_html__('The daily security scan of your site suspects a potential threat.', 'wpqore'),
 				get_bloginfo('url')
 			)
 		);
@@ -374,8 +374,8 @@ class AntiSEC_Threat {
 			sprintf(
 				"%s\r\n\r\n\r\n%s\r\n%s\r\n",
 				$body,
-				esc_html__('Notification message from the WP Qore Security Advisor', 'sec-advisor'),
-				esc_html__('http://wpqore.com', 'sec-advisor')
+				esc_html__('Notification message from the WP Qore Security Advisor', 'wpqore'),
+				esc_html__('http://wpqore.com', 'wpqore')
 			)
 		);
 	}
@@ -386,10 +386,10 @@ class AntiSEC_Threat {
        // Create a submenu within WP Qore
        add_submenu_page( 
 	       'wp-qore/functions.php', 
-		   'Security Advisor', 
-		   'Security Advisor', 
-		   'manage_options', 
-		   'sec-advisor', 
+		   __( 'Security Advisor', 'wpqore' ), 
+		   __( 'Security Advisor', 'wpqore' ),
+		   'manage_options',
+		   'sec-advisor',
 			array(
 				__CLASS__,
 				'show_admin_menu'
@@ -423,9 +423,9 @@ class AntiSEC_Threat {
 				'nonce' => wp_create_nonce('av_ajax_nonce'),
 				'ajax' 	=> admin_url('admin-ajax.php'),
 				'theme'	=> urlencode(self::_get_theme_name()),
-				'msg_1'	=> esc_html__('There is no threats', 'sec-advisor'),
-				'msg_2' => esc_html__('View line', 'sec-advisor'),
-				'msg_3' => esc_html__('Scan completed', 'sec-advisor')
+				'msg_1'	=> esc_html__('There is no threats', 'wpqore'),
+				'msg_2' => esc_html__('View line', 'wpqore'),
+				'msg_3' => esc_html__('Scan completed', 'wpqore')
 			)
 		);
 	}
@@ -883,15 +883,15 @@ class AntiSEC_Threat {
 		// Warning
 		echo sprintf(
 			'<div class="updated fade"><p><strong>%1$s:</strong> %2$s <a href="%3$s">%4$s &rarr;</a></p></div>',
-			esc_html__('Security threat suspected', 'sec-advisor'),
-			esc_html__('The daily security scan of your site suspects a potential threat.', 'sec-advisor'),
+			esc_html__('Security threat suspected', 'wpqore'),
+			esc_html__('The daily security scan of your site suspects a potential threat.', 'wpqore'),
 			add_query_arg(
 				array(
 					'page' => 'sec-advisor'
 				),
 				admin_url('options-general.php')
 			),
-			esc_html__('Manual scan', 'sec-advisor')
+			esc_html__('Manual scan', 'wpqore')
 		);
 	}
 
@@ -947,7 +947,7 @@ class AntiSEC_Threat {
 			<div id="message" class="updated fade">
 				<p>
 					<strong>
-						<?php _e('Settings saved.') ?>
+						<?php _e('Settings saved.', 'wpqore') ?>
 					</strong>
 				</p>
 			</div>
@@ -957,7 +957,7 @@ class AntiSEC_Threat {
 			    <span class="alert"></span>
 			</div>
 
-			<div class="icon32"><br></div><h2>Security Advisor</h2>
+			<div class="icon32"><br></div><h2><?php _e( 'Security Advisor', 'wpqore' ); ?></h2>
 			<form method="post" action="">
 			
 				<?php wp_nonce_field('sec-advisor') ?>
@@ -966,13 +966,13 @@ class AntiSEC_Threat {
 				<div class="postbox">
 				<table class="form-table">
 				<tbody>
-					<h3><?php esc_html_e('Manual Scan', 'sec-advisor') ?></h3>
+					<h3><?php esc_html_e('Manual Scan', 'wpqore') ?></h3>
 				    <tr valign="top">
 					<th scope="row"><label for="home">Check for Threats</label></th>
 					<td>
 					<div class="inside" id="av_manual">
 							<p>
-								<a href="#" class="button rbutton"><?php esc_html_e('Start Scanning', 'sec-advisor') ?></a>						
+								<a href="#" class="button rbutton"><?php esc_html_e('Start Scanning', 'wpqore') ?></a>						
 							</p>
 					</div>
 					</td>						
@@ -981,7 +981,7 @@ class AntiSEC_Threat {
 				</table>
 
 				<div class="inside" id="av_manual">
-					<div class="output">Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits.</div>
+					<div class="output"><?php _e( 'Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits.', 'wpqore' ); ?></div>
 				</div>
 				</div>
 				</div>		
@@ -992,9 +992,9 @@ class AntiSEC_Threat {
 				<div class="postbox">
 				<table class="form-table">
 				<tbody>
-				    <h3><?php esc_html_e('Automatic Scan', 'sec-advisor') ?></h3>
+				    <h3><?php esc_html_e('Automatic Scan', 'wpqore') ?></h3>
 					<tr valign="top">
-					<th scope="row"><label for="home">Daily Scanning</label></th>
+					<th scope="row"><label for="home"><?php _e( 'Daily Scanning', 'wpqore' ); ?></label></th>
 					<td>
 					<label for="av_cronjob_enable">
 					<div class="switch toggle3">
@@ -1007,7 +1007,7 @@ class AntiSEC_Threat {
 					if ( $timestamp = wp_next_scheduled('sec-advisor_daily_cronjob') ) {
 					echo sprintf(
 					'%s: <span style="color:#FF0000;font-weight:bold">%s</span>',
-					esc_html__('Next check', 'sec-advisor'),
+					esc_html__('Next check', 'wpqore'),
 					date_i18n('m/d/Y @ H:i:s', $timestamp + get_option('gmt_offset') * 3600)
 					);
 					} 
@@ -1019,12 +1019,12 @@ class AntiSEC_Threat {
 					</tr>
 
 					<tr valign="top">
-					<th scope="row"><label for="home">Alternate E-mail</label></th>
+					<th scope="row"><label for="home"><?php _e( 'Alternate E-mail', 'wpqore' ); ?></label></th>
 					<td>
 					<label for="av_notify_email">
 					<input type="text" name="av_notify_email" id="av_notify_email" value="<?php esc_attr_e(self::_get_option('notify_email')) ?>" class="regular-text" />
 					<br>
-					<small>If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature.</small>
+					<small><?php _e( "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature.", 'wpqore' ); ?></small>
 					</label>
 					</td>
 					</tr>
@@ -1042,7 +1042,7 @@ class AntiSEC_Threat {
 
 					<?php 
 					echo sprintf(
-					esc_html__('Check to enable %s (Recommended)', 'sec-advisor'),
+					esc_html__('Check to enable %s (Recommended)', 'wpqore'),
 					'<a href="https://developers.google.com/safe-browsing/" target="_blank">Google Safe Browsing</a>'
 					) 
 					?>
@@ -1060,7 +1060,7 @@ class AntiSEC_Threat {
 					</div>
 
 		    <p>
-		        <input type="submit" class="button button-primary" value="<?php _e('Save Changes') ?>" />
+		        <input type="submit" class="button button-primary" value="<?php _e('Save Changes', 'wpqore') ?>" />
                     </p>
 
             </form>	
