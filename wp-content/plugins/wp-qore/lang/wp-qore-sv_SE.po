@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Qore v1.4.8\n"
+"Project-Id-Version: WP Qore v1.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2013-12-20 10:37:43+0000\n"
