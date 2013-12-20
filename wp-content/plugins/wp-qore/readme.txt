@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.5.0 =
+* Swedish translation by Kenth Hagström.
+
 = 1.4.9 =
 * Localization added by Kenth Hagström.
 
@@ -191,6 +194,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.5.0 =
+* Upgrade for the latest version.
 
 = 1.4.9 =
 * Upgrade for the latest version.
