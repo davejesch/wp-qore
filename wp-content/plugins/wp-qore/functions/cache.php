@@ -230,6 +230,8 @@ border-top: 1px solid #e1e1e1;
 			if(isset($this->options->WPQore_CacheAssistanceNewPost) && isset($this->options->WPQore_CacheAssistanceStatus)){
 				add_filter ('publish_post', array($this, 'deleteCache'));
 				add_filter ('delete_post', array($this, 'deleteCache'));
+				add_filter ('publish_page', array($this, 'deleteCache'));
+				add_filter ('delete_page', array($this, 'deleteCache'));
 			}
 		}
 
