@@ -21,6 +21,43 @@
 				$this->setCronJobSettings();
 			}
 		}
+		
+		public function checkShortCode($content){
+			preg_match("/\[NoCache\]/", $content, $NoCache);
+			if(count($NoCache) > 0){
+				if(is_single() || is_page()){
+					$this->blockCache = true;
+				}
+				$content = str_replace("[NoCache]", "", $content);
+			}
+			return $content;
+		}
+
+		public function wpqore_buttonhooks() {
+		   // Only add hooks when the current user has permissions AND is in Rich Text editor mode
+		   if ( ( current_user_can('edit_posts') || current_user_can('edit_pages') ) && get_user_option('rich_editing') ) {
+		     add_filter("mce_external_plugins", array($this, "wpqore_register_tinymce_javascript"));
+		     add_filter('mce_buttons', array($this, 'wpqore_register_buttons'));
+		   }
+		}
+		// Load the TinyMCE plugin : editor_plugin.js (wp2.5)
+		public function wpqore_register_tinymce_javascript($plugin_array) {
+		   $plugin_array['wpqca'] = plugins_url('../js/button.js?v='.time(),__file__);
+		   return $plugin_array;
+		}
+
+		public function wpqore_register_buttons($buttons) {
+		   array_push($buttons, 'wpqca');
+		   return $buttons;
+		}
+
+		public function addButtonOnQuicktagsEditor(){
+			if (wp_script_is('quicktags')){ ?>
+				<script type="text/javascript">
+				    QTags.addButton('wpqca_not', 'NoCache', '[NoCache]', '', '', 'Block caching for this page');
+			    </script>
+		    <?php }
+		}		
 
 		public function deactivate(){
 		if(is_file(ABSPATH.".htaccess") && is_writable(ABSPATH.".htaccess")){
