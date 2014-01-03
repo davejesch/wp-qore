@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.5.2 =
+* Fixed bug associated with Add_Editor_Button() within posts.
+
 = 1.5.1 =
 * Fixed bug: Cache would not delete for pages when a change was being made to pages. This is resolved..
 
@@ -197,6 +200,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.5.2 =
+* Upgrade for the latest version.
 
 = 1.5.1 =
 * Upgrade for the latest version.
