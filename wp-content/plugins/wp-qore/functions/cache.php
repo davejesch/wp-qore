@@ -19,9 +19,15 @@
 			if(is_admin()){
 				$this->optionsPageRequest();
 				$this->setCronJobSettings();
+				$this->addButtonOnEditor();
 			}
 		}
-		
+
+		public function addButtonOnEditor(){
+			add_action('admin_print_footer_scripts', array($this, 'addButtonOnQuicktagsEditor'));
+			add_action('init', array($this, 'wpqore_buttonhooks'));
+		}
+
 		public function checkShortCode($content){
 			preg_match("/\[NoCache\]/", $content, $NoCache);
 			if(count($NoCache) > 0){
@@ -57,7 +63,7 @@
 				    QTags.addButton('wpqca_not', 'NoCache', '[NoCache]', '', '', 'Block caching for this page');
 			    </script>
 		    <?php }
-		}		
+		}
 
 		public function deactivate(){
 		if(is_file(ABSPATH.".htaccess") && is_writable(ABSPATH.".htaccess")){
