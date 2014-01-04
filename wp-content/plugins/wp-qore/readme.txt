@@ -13,13 +13,14 @@ WordPress Security, Developer Tools Plugin.
 
 <a target="_blank" href="http://wpqore.com/">WP Qore</a>, a plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time. 
 
-WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Protection for your WordPress website. Backed by updated from Google's database of web misfits. Rest assured you're always up-to-date and secured.
+WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Protection for your WordPress website. Backed by updates from Google's database of web misfits. Rest assured you're always up-to-date and secured.
 
 Another powerful feature WP QORE offers in Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... peroid! Cache Assistance is the same as my WP-Cache.com plugin. So you if you have WP QORE activated, then you do-not need to have WP-CACHE.COM enabled or any other cache plugin.
 
 WP Qore, first debut in the WordPress.org plugin repository is v1.1.4 and previous versions are maintained on <a target="_blank" href="https://github.com/icryptic/wp-qore/">Github</a>.
 
 Available Options: (toggle on/off)
+
 * customize login page
 * hide login page
 * security advisor
@@ -41,6 +42,7 @@ Available Options: (toggle on/off)
 * unique source code
 
 Langauage Support:
+
 * English (standard)
 * Español/México (es_MX)
 * French/France (fr_FR)
