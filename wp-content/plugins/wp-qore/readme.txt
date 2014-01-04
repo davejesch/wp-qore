@@ -57,8 +57,11 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.5.5 =
+* Added Español/México (es_MX) language support.
+
 = 1.5.4 =
-* Added French language support.
+* Added French (fr_FR) language support.
 
 = 1.5.3 =
 * Fixed NoCache Button for Posts and Pages.
@@ -206,6 +209,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.5.5 =
+* Upgrade for the latest version.
 
 = 1.5.4 =
 * Upgrade for the latest version.
