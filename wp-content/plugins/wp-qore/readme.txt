@@ -57,6 +57,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.5.3 =
+* Fixed NoCache Button for Posts and Pages.
+
 = 1.5.2 =
 * Fixed bug associated with Add_Editor_Button() within posts.
 
@@ -200,6 +203,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.5.3 =
+* Upgrade for the latest version.
 
 = 1.5.2 =
 * Upgrade for the latest version.
