@@ -37,6 +37,8 @@ wpqorefunc_is_checked("wpqorefunc_sec_advisor");
 wpqorefunc_is_checked("wpqorefunc_dash_tabs");
 wpqorefunc_is_checked("wpqorefunc_cache_assistance");
 wpqorefunc_is_checked("wpqorefunc_fold_menu");
+wpqorefunc_is_checked("wpqorefunc_dashboard_switch");
+wpqorefunc_string_setting("wpqorefunc_custom_dashboard",'');
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -191,6 +193,59 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 <table class="form-table">
 <tbody>
 
+<h3><?php _e( 'Dashboard Settings', 'wp-qore' ); ?></h3>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Replace dashboard', 'wp-qore' ); ?></label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_04.png'; ?>" title="<?php _e( 'click to see example...', 'wp-qore' ); ?>"><b>?</b></a>)</th>
+<td>
+<label for="wpqorefunc_dashboard">
+<div class="switch toggle3">
+<input name="wpqorefunc_dashboard" type="checkbox" id="wpqorefunc_dashboard" value="1" <?php echo get_option("wpqorefunc_dashboard");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable (Recommended)", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.", 'wp-qore' ); ?><br>
+<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i><?php _e( 'When checked, this will enable the WP Qore tabs on the new Dashboard.', 'wp-qore' ); ?></i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="<?php _e( 'click to see example...', 'wp-qore' ); ?>"><b>?</b></a>)
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Custom dashboard', 'wp-qore' ); ?></label></th>
+<td>
+<div class="switch toggle3">
+<input name="wpqorefunc_dashboard_switch" type="checkbox" id="wpqorefunc_dashboard_switch" value="1" <?php echo get_option("wpqorefunc_dashboard_switch");?>> 
+<label><i></i></label>
+</div>
+<i><?php _e( "When 'On', this will override the WPQORE dashboard with the one you may create below.", 'wp-qore' ); ?></i>
+<?php
+
+function WPQORE_TinyMCE($in){
+    $in['theme_advanced_buttons1'] = 
+    'formatselect,forecolor,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull';
+    return $in;
+}
+add_filter('tiny_mce_before_init', 'WPQORE_TinyMCE' );
+$settings = array( 'media_buttons' => false, 'quicktags' => true );    
+$content = get_option("wpqorefunc_custom_dashboard");                     
+$editor_id = 'wpqorefunc_custom_dashboard';
+wp_editor( $content, $editor_id, $settings );  
+
+?>
+</td>
+</tr>
+</tbody></table>
+</div></div>
+
+<p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
+<input type="hidden" name="wpqorefunc_settings" value="1">
+<input type="submit" class="button button-primary" value="Save changes">
+</p>
+
+<div id="poststuff">
+<div class="postbox">
+<table class="form-table">
+<tbody>
+
 <h3><?php _e( 'General Settings', 'wp-qore' ); ?></h3>
 
 <tr valign="top">
@@ -204,20 +259,6 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 <i><?php _e( "Turn 'On' to enable (Recommended)", 'wp-qore' ); ?></i><br><br>
 <?php _e( "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.", 'wp-qore' ); ?>
 </label>
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home"><?php _e( 'Replace dashboard', 'wp-qore' ); ?></label> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_04.png'; ?>" title="<?php _e( 'click to see example...', 'wp-qore' ); ?>"><b>?</b></a>)</th>
-<td>
-<label for="wpqorefunc_dashboard">
-<div class="switch toggle3">
-<input name="wpqorefunc_dashboard" type="checkbox" id="wpqorefunc_dashboard" value="1" <?php echo get_option("wpqorefunc_dashboard");?>>
-<label><i></i></label>
-</div>
-<i><?php _e( "Turn 'On' to enable (Recommended)", 'wp-qore' ); ?></i><br><br>
-<?php _e( "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.", 'wp-qore' ); ?><br>
-<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i><?php _e( 'When checked, this will enable the WP Qore tabs on the new Dashboard.', 'wp-qore' ); ?></i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="<?php _e( 'click to see example...', 'wp-qore' ); ?>"><b>?</b></a>)
 </td>
 </tr>
 
