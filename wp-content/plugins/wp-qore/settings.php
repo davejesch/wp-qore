@@ -232,11 +232,11 @@ function WPQORE_TinyMCE($in){
  $in['paste_strip_class_attributes']='none';
  $in['paste_text_use_dialog']=true;
  $in['wpeditimage_disable_captions']=true;
- $in['plugins']='inlinepopups,tabfocus,paste,media,fullscreen,wordpress,wpeditimage,wpgallery,wplink,wpdialogs';
+ $in['plugins']='inlinepopups,tabfocus,paste,media,fullscreen,wordpress,wpdialogs';
  $in['wpautop']=false;
  $in['apply_source_formatting']=false;
  $in['theme_advanced_buttons1'] = 
- 'formatselect,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull';
+ 'formatselect,|,bold,italic,underline';
  $in['remove_trailing_nbsp'] = false;
  $in['relative_urls'] = true;
  $in['convert_urls'] = false;
