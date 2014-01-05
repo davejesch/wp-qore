@@ -25,6 +25,7 @@ Available Options: (toggle on/off)
 * hide login page
 * security advisor
 * replace dashboard
+* custom dashboard
 * disable nag updates
 * disable core updates
 * admin bar removal
