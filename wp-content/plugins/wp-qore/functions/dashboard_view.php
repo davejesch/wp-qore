@@ -1,5 +1,9 @@
 <?php //wp-admin dashboard : begin 
 
+    if (get_option("wpqorefunc_dashboard_switch")=='checked') { 
+        echo get_option("wpqorefunc_custom_dashboard");
+    } else {
+
 ?>
 
 <div class="wrap about-wrap" id="pbody">
@@ -66,5 +70,5 @@
 </div>
 </div>
 
-<?php //wp-admin dashboard : end 
+<?php } //wp-admin dashboard : end 
  ?>
