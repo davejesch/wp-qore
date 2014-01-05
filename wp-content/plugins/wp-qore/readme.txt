@@ -71,6 +71,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.5.7 =
+* Fixed TinyMCE from modifying html when changing tabs.
+
 = 1.5.6 =
 * Added custom dashboard option.
 
@@ -226,6 +229,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.5.7 =
+* Upgrade for the latest version.
 
 = 1.5.6 =
 * Upgrade for the latest version.
