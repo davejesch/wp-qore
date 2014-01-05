@@ -221,7 +221,7 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 
 function WPQORE_TinyMCE($in){
     $in['theme_advanced_buttons1'] = 
-    'formatselect,forecolor,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull';
+    'formatselect,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull';
     return $in;
 }
 add_filter('tiny_mce_before_init', 'WPQORE_TinyMCE' );
