@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.5.7
+Version: 1.5.8
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.5.7';
+    echo '1.5.8';
 }
 
 function wpqore_load_textdomain() {
@@ -108,6 +108,13 @@ if (get_option("wpqorefunc_fold_menu")=='checked') {
     }
     add_filter('admin_head', 'fold_menu');
 }
+if (get_option("wpqorefunc_allow_major_auto_core_updates")=='checked') { add_filter( 'allow_major_auto_core_updates', '__return_true' ); } else { add_filter( 'allow_major_auto_core_updates', '__return_false' ); }
+if (get_option("wpqorefunc_allow_minor_auto_core_updates")=='checked') { add_filter( 'allow_minor_auto_core_updates', '__return_true' ); } else { add_filter( 'allow_minor_auto_core_updates', '__return_false' ); }
+if (get_option("wpqorefunc_auto_update_plugin")=='checked') add_filter( 'auto_update_plugin', '__return_true' );
+if (get_option("wpqorefunc_auto_update_theme")=='checked') add_filter( 'auto_update_theme', '__return_true' );
+if (get_option("wpqorefunc_auto_core_update_send_email")=='checked') { add_filter( 'auto_core_update_send_email', '__return_true' ); } else { add_filter( 'auto_core_update_send_email', '__return_false' ); }
+if (get_option("wpqorefunc_automatic_updates_send_debug_email")=='checked') { add_filter( 'automatic_updates_send_debug_email', '__return_true' ); } else { add_filter( 'automatic_updates_send_debug_email', '__return_false' ); }
+if (get_option("wpqorefunc_auto_update_translation")=='checked') { add_filter( 'auto_update_translation', '__return_true' ); } else { add_filter( 'auto_update_translation', '__return_false' ); }
 
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
@@ -156,6 +163,13 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_fold_menu", "0");
     update_option("wpqorefunc_dashboard_switch", "0");
     update_option("wpqorefunc_custom_dashboard", "");
+    update_option("wpqorefunc_allow_major_auto_core_updates", "0");
+    update_option("wpqorefunc_allow_minor_auto_core_updates", "0");
+    update_option("wpqorefunc_auto_update_plugin", "0");
+    update_option("wpqorefunc_auto_update_theme", "0");
+    update_option("wpqorefunc_auto_core_update_send_email", "0");
+    update_option("wpqorefunc_automatic_updates_send_debug_email", "0");
+    update_option("wpqorefunc_auto_update_translation", "0");
     
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -187,6 +201,13 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_fold_menu", "");
     update_option("wpqorefunc_dashboard_switch", "");
     update_option("wpqorefunc_custom_dashboard", "");
+    update_option("wpqorefunc_allow_major_auto_core_updates", "");
+    update_option("wpqorefunc_allow_minor_auto_core_updates", "");
+    update_option("wpqorefunc_auto_update_plugin", "");
+    update_option("wpqorefunc_auto_update_theme", "");
+    update_option("wpqorefunc_auto_core_update_send_email", "");
+    update_option("wpqorefunc_automatic_updates_send_debug_email", "");
+    update_option("wpqorefunc_auto_update_translation", "");
     
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
