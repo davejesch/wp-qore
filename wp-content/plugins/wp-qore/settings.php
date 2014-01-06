@@ -39,6 +39,13 @@ wpqorefunc_is_checked("wpqorefunc_cache_assistance");
 wpqorefunc_is_checked("wpqorefunc_fold_menu");
 wpqorefunc_is_checked("wpqorefunc_dashboard_switch");
 wpqorefunc_string_setting("wpqorefunc_custom_dashboard",'');
+wpqorefunc_is_checked("wpqorefunc_allow_major_auto_core_updates");
+wpqorefunc_is_checked("wpqorefunc_allow_minor_auto_core_updates");
+wpqorefunc_is_checked("wpqorefunc_auto_update_plugin");
+wpqorefunc_is_checked("wpqorefunc_auto_update_theme");
+wpqorefunc_is_checked("wpqorefunc_auto_core_update_send_email");
+wpqorefunc_is_checked("wpqorefunc_automatic_updates_send_debug_email");
+wpqorefunc_is_checked("wpqorefunc_auto_update_translation");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -245,6 +252,112 @@ jQuery("#wpqorefunc_cr_exc_div2").toggle("slow");
 </script>
 </td>
 </tr>
+</tbody></table>
+</div></div>
+
+<p style="border-bottom: 1px dashed #CCCCCC;padding-bottom: 20px">
+<input type="hidden" name="wpqorefunc_settings" value="1">
+<input type="submit" class="button button-primary" value="Save changes">
+</p>
+
+<div id="poststuff">
+<div class="postbox">
+<table class="form-table">
+<tbody>
+
+<h3><?php _e( 'Automatic Updates', 'wp-qore' ); ?></h3>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Major Updates', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_allow_major_auto_core_updates">
+<div class="switch toggle3">
+<input name="wpqorefunc_allow_major_auto_core_updates" type="checkbox" id="wpqorefunc_allow_major_auto_core_updates" value="1" <?php echo get_option("wpqorefunc_allow_major_auto_core_updates");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will enable automatic updates of all major WordPress core versions.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Minor Updates', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_allow_minor_auto_core_updates">
+<div class="switch toggle3">
+<input name="wpqorefunc_allow_minor_auto_core_updates" type="checkbox" id="wpqorefunc_allow_minor_auto_core_updates" value="1" <?php echo get_option("wpqorefunc_allow_minor_auto_core_updates");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will enable automatic updates of all minor WordPress core versions.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Plugin Updates', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_auto_update_plugin">
+<div class="switch toggle3">
+<input name="wpqorefunc_auto_update_plugin" type="checkbox" id="wpqorefunc_auto_update_plugin" value="1" <?php echo get_option("wpqorefunc_auto_update_plugin");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will enable automatic updates of all plugins.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Theme Updates', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_auto_update_theme">
+<div class="switch toggle3">
+<input name="wpqorefunc_auto_update_theme" type="checkbox" id="wpqorefunc_auto_update_theme" value="1" <?php echo get_option("wpqorefunc_auto_update_theme");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will enable automatic updates of all themes.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Translation Updates', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_auto_update_translation">
+<div class="switch toggle3">
+<input name="wpqorefunc_auto_update_translation" type="checkbox" id="wpqorefunc_auto_update_translation" value="1" <?php echo get_option("wpqorefunc_auto_update_translation");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will enable automatic updates of all translations.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Send Emails', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_auto_core_update_send_email">
+<div class="switch toggle3">
+<input name="wpqorefunc_auto_core_update_send_email" type="checkbox" id="wpqorefunc_auto_core_update_send_email" value="1" <?php echo get_option("wpqorefunc_auto_core_update_send_email");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will send the admin an email every time automatic updates are performed.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Debug Emails', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_automatic_updates_send_debug_email">
+<div class="switch toggle3">
+<input name="wpqorefunc_automatic_updates_send_debug_email" type="checkbox" id="wpqorefunc_automatic_updates_send_debug_email" value="1" <?php echo get_option("wpqorefunc_automatic_updates_send_debug_email");?>>
+<label><i></i></label>
+</div>
+<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
+<?php _e( "When 'On', this will send the admin emails with debug information every time automatic updates are performed.", 'wp-qore' ); ?><br>
+</td>
+</tr>
+
 </tbody></table>
 </div></div>
 
