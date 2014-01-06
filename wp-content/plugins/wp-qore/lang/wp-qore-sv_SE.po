@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Qore v1.5.6\n"
+"Project-Id-Version: WP Qore v1.5.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-05 12:05:28+0000\n"
+"PO-Revision-Date: 2014-01-06 09:48:09+0000\n"
 "Last-Translator: keha76 <keha1976@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "WP Qore"
 
 #: functions/adminbar_menu.php:62
 #: functions/dashboard_view.php:14
-#: settings.php:49
+#: settings.php:54
 #@ wp-qore
 msgid "WP Qore Settings"
 msgstr "WP Qore Inställningar"
@@ -72,10 +72,17 @@ msgstr "Cache Framsida"
 
 #: functions/cache.php:144
 #: functions/cache.php:158
-#: settings.php:369
-#: settings.php:383
-#: settings.php:398
-#: settings.php:440
+#: settings.php:278
+#: settings.php:291
+#: settings.php:304
+#: settings.php:317
+#: settings.php:330
+#: settings.php:343
+#: settings.php:356
+#: settings.php:481
+#: settings.php:495
+#: settings.php:510
+#: settings.php:552
 #@ wp-qore
 msgid "Turn 'On' to enable"
 msgstr "Slå \\\"På\\\" för att aktivera"
@@ -482,154 +489,154 @@ msgstr "Markera för att aktivera %s (Rekommenderas)"
 msgid "Save Changes"
 msgstr "Spara Ändringar"
 
-#: settings.php:58
+#: settings.php:63
 #@ wp-qore
 msgid "Login Settings"
 msgstr "Inställningar för Inloggning"
 
-#: settings.php:61
+#: settings.php:66
 #@ wp-qore
 msgid "Customize login page"
 msgstr "Anpassa Inloggningssidan"
 
-#: settings.php:68
+#: settings.php:73
 #@ wp-qore
 msgid "Change login page logo and link (Default is, WordPress)"
 msgstr "Ändra logotypen och länken på sidan för inloggning (Standard är, WordPress)"
 
-#: settings.php:74
+#: settings.php:79
 #@ wp-qore
 msgid "Login logo image url"
 msgstr "Inloggning URL för logo"
 
-#: settings.php:79
+#: settings.php:84
 #@ wp-qore
 msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
 msgstr "Skriv in URL till en bild till inloggningssidan. Se till att det är ungefär 320px bredd x 80px höjd."
 
-#: settings.php:84
+#: settings.php:89
 #@ wp-qore
 msgid "Conceal login page"
 msgstr "Dölj sidan för inloggning"
 
-#: settings.php:91
+#: settings.php:96
 #@ wp-qore
 msgid "Turn 'On' to lock login page"
 msgstr "Slå \\\"På\\\" för att låsa inloggningssida"
 
-#: settings.php:92
+#: settings.php:97
 #@ wp-qore
 msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key."
 msgstr "Väl aktiverad, kommer exempelvis example.com/wp-admin url visa ett 404-fel. Bara den användare som känner till den hemliga nyckeln kan komma åt sidan. När exempelvis example.com/wp-admin returnerar 404 kommer example.com/wp-admin? Secretkey1 fungera. Kom ihåg, du kan alltid ändra denna hemliga nyckel."
 
-#: settings.php:98
+#: settings.php:103
 #@ wp-qore
 msgid "Login secret key"
 msgstr "Inloggning hemlig nyckel"
 
-#: settings.php:98
+#: settings.php:103
 #: settings.php:206
 #: settings.php:215
-#: settings.php:265
-#: settings.php:279
+#: settings.php:377
+#: settings.php:391
 #@ wp-qore
 msgid "click to see example..."
 msgstr "klicka för att visa exempel..."
 
-#: settings.php:100
+#: settings.php:105
 #@ wp-qore
 msgctxt "placeholder text"
 msgid "for url get parameter"
 msgstr "för url get parameter"
 
-#: settings.php:104
+#: settings.php:109
 #, php-format
 #@ wp-qore
 msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
 msgstr "Endast% s kommer att fungera, annars kommer standard wp-admin-adressen att visa 404."
 
-#: settings.php:108
+#: settings.php:113
 #@ wp-qore
 msgid "Add custom login page exception"
 msgstr "Lägg till undantag för anpassad inloggningssida"
 
-#: settings.php:111
+#: settings.php:116
 #@ wp-qore
 msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
 msgstr "Om du har egen inloggningssida (till exempel om du använder någon gemenskapskapsplugin såsom Buddypress och dina användare loggar in på sin profil via anpassad webbadress t.ex. <i> http://example.com/myloginpage </ i>) och du vill att url fortsätta att fungera på rätt sätt utan wpqorefunc hemliga nyckel, så måste du lägga till webbadressen i följande inmatningsfält."
 
-#: settings.php:114
+#: settings.php:119
 #@ wp-qore
 msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
 msgstr "Och om du vill blockera wp-admin för inloggade <i>prenumerant-användare</i>, markera följande kryssruta"
 
-#: settings.php:121
+#: settings.php:126
 #@ wp-qore
 msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
 msgstr "Blockera tillträde till wp-admin för inloggade prenumeranter (deras försök kommer att vidarebefordras till startsidan)."
 
-#: settings.php:147
+#: settings.php:152
 #@ wp-qore
 msgid "Source Obfuscation"
 msgstr "Fördunkla Källkod"
 
-#: settings.php:150
+#: settings.php:155
 #@ wp-qore
 msgid "New theme directory"
 msgstr "Ny katalog för teman"
 
-#: settings.php:152
+#: settings.php:157
 #@ wp-qore
 msgctxt "placeholder text"
 msgid "theme directory"
 msgstr "katalog för teman"
 
-#: settings.php:155
+#: settings.php:160
 #, php-format
 #@ wp-qore
 msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
 msgstr "Skapa en katalog som heter <i>%s</i> i %s katalogen och klistra sedan in inaktiva teman till katalogen du vill använda."
 
-#: settings.php:161
+#: settings.php:166
 #@ wp-qore
 msgid "Warning!"
 msgstr "Varning!"
 
-#: settings.php:164
+#: settings.php:169
 #, php-format
 #@ wp-qore
 msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
 msgstr "Klipp och klistra det aktiva temat från <i>themes</ i> mapp till <i>%s</ i> katalogen. Gör det bara med inaktiva teman. Inaktivera temat, klipp och klistra sedan in för att sedan återaktivera."
 
-#: settings.php:172
+#: settings.php:177
 #@ wp-qore
 msgid "Unique source code"
 msgstr "Unik källkod"
 
-#: settings.php:176
+#: settings.php:181
 #, php-format
 #@ wp-qore
 msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
 msgstr "Gå till din filhanterare (eller ftp), öppna din wp-config.php-fil och lägga till följande rader där. Du måste du byta namn på wp-content och plugin katalogen till de nya namnen som du ser i koden nedan. Kopiera följande kod (nedan) och klistra in koden längst upp i din wp-config.php fil, placera den strax efter den första öppnande <?php taggen (se <a target=\"_blank\" href=\"%s\"> innan </a> och <a target=\"_blank\" href=\"%s\"> efter </ a> exempel). <br><b> Var uppmärksam. Om du inte vet vad något är för, ska du inte göra det. </b>"
 
-#: settings.php:262
+#: settings.php:374
 #@ wp-qore
 msgid "General Settings"
 msgstr "Allmäna Inställningar"
 
-#: settings.php:265
+#: settings.php:377
 #@ wp-qore
 msgid "Security advisor"
 msgstr "Säkerhetsrådgivaren"
 
 #: settings.php:213
-#: settings.php:272
-#: settings.php:425
+#: settings.php:384
+#: settings.php:537
 #@ wp-qore
 msgid "Turn 'On' to enable (Recommended)"
 msgstr "Slå 'På' för att aktivera (Rekommenderas)"
 
-#: settings.php:273
+#: settings.php:385
 #@ wp-qore
 msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
 msgstr "Om markerad, kommer detta att slå på säkerhetsrådgivare. Security Advisor ger dig skydd mot säkerhetshot, till exempel: virus, skadlig kod, och säkerhetsläckor. Väl aktiverad, kommer en undermeny som heter \\\"Säkerhetsrådgivaren\\\" visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till instrumentpanelen först och det kommer att initieras."
@@ -649,30 +656,30 @@ msgstr "När \\\"På\\\", kommer detta att ersätta den vanliga wp-admin panelen
 msgid "When checked, this will enable the WP Qore tabs on the new Dashboard."
 msgstr "När markerad så aktiveras WP Qore-tabbar i den ny adminpanelen."
 
-#: settings.php:279
+#: settings.php:391
 #@ wp-qore
 msgid "Nag updates"
 msgstr "Uppdateringstjat"
 
-#: settings.php:286
-#: settings.php:300
-#: settings.php:315
-#: settings.php:468
+#: settings.php:398
+#: settings.php:412
+#: settings.php:427
+#: settings.php:580
 #@ wp-qore
 msgid "Turn 'On' to disable"
 msgstr "Slå \\\"På\\\" för att inaktivera"
 
-#: settings.php:287
+#: settings.php:399
 #@ wp-qore
 msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
 msgstr "Detta inaktiverar irriterande WordPress-tjat om uppdateringar från att visas. Detta hindrar inte uppdateringar, bara döljer uppdaterings från toppen av wp-admin."
 
-#: settings.php:293
+#: settings.php:405
 #@ wp-qore
 msgid "Core updates"
 msgstr "Core uppdateringar"
 
-#: settings.php:301
+#: settings.php:413
 #@ wp-qore
 msgid ""
 "This completely disables new WordPress version notifications and updates from being done.<br>\n"
@@ -681,42 +688,42 @@ msgstr ""
 "Detta inaktiverar helt versionsmeddelanden och uppdateringar för WordPress<br>\n"
 "<b>Varning:</b>Det rekommenderas starkt att din produktionsmiljö du håller detta alternativ av. Detta alternativ tillhandahålls endast utvecklingsmiljöer."
 
-#: settings.php:308
+#: settings.php:420
 #@ wp-qore
 msgid "Post revisions"
 msgstr "Inlägg Revideringar"
 
-#: settings.php:316
+#: settings.php:428
 #@ wp-qore
 msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
 msgstr "Detta inaktiverar spara flera inlägg revideringar. Att ha flera inlägg revideringar kan orsaka svälla på din databas. Inaktive dem kommer att förhindra sådant."
 
-#: settings.php:322
+#: settings.php:434
 #@ wp-qore
 msgid "Admin bar removal"
 msgstr "Admin bar borttagning"
 
-#: settings.php:329
+#: settings.php:441
 #@ wp-qore
 msgid "Remove admin bar from the frontend"
 msgstr "Ta bort admin bar från framsidan"
 
-#: settings.php:335
+#: settings.php:447
 #@ wp-qore
 msgid "Collapse admin menu"
 msgstr "Minimera adminmenyn"
 
-#: settings.php:342
+#: settings.php:454
 #@ wp-qore
 msgid "This keeps the wp-admin menu on the left collapsed."
 msgstr "Detta håller adminmenyn till vänster minimerad."
 
-#: settings.php:348
+#: settings.php:460
 #@ wp-qore
 msgid "Change default jQuery"
 msgstr "Ändra jQuery-standard"
 
-#: settings.php:355
+#: settings.php:467
 #@ wp-qore
 msgid ""
 "Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
@@ -725,22 +732,22 @@ msgstr ""
 "Använd Google jQuery istället för WordPress.</i><br><br>\n"
 "<b>Uppmärksamma:</b> om det här inte fungerar särskilt bra i ditt tema, stäng av funktionen."
 
-#: settings.php:362
+#: settings.php:474
 #@ wp-qore
 msgid "Shortcode in widgets"
 msgstr "Kortkoder i widgets"
 
-#: settings.php:370
+#: settings.php:482
 #@ wp-qore
 msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
 msgstr "Detta aktiverar kortkoder i widgets. I det fall då du behöver använda kortkoder i dina widgets, aktivera detta."
 
-#: settings.php:376
+#: settings.php:488
 #@ wp-qore
 msgid "Php in widgets"
 msgstr "PHP i widgets"
 
-#: settings.php:384
+#: settings.php:496
 #@ wp-qore
 msgid ""
 "This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
@@ -749,32 +756,32 @@ msgstr ""
 "This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
 "<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
 
-#: settings.php:391
+#: settings.php:503
 #@ wp-qore
 msgid "Import/export widgets"
 msgstr "Importera/exportera widgets"
 
-#: settings.php:399
+#: settings.php:511
 #@ wp-qore
 msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
 msgstr "Detta låter dig importera och exportera widgetinställningar. När du väl aktiverat det så kommer en undermeny att dyka upp, som heter 'Exportera Widgets\\\" och 'Importera Widgets' under wp-admin > Verktyg."
 
-#: settings.php:405
+#: settings.php:517
 #@ wp-qore
 msgid "Clean source code"
 msgstr "Städa källkod"
 
-#: settings.php:412
+#: settings.php:524
 #@ wp-qore
 msgid "Remove WP version from source code (Recommended)"
 msgstr "Ta bort WordPress versionsnummer från källkoden (Rekommenderas)"
 
-#: settings.php:418
+#: settings.php:530
 #@ wp-qore
 msgid "Cache assistance"
 msgstr "Cacheassistenten"
 
-#: settings.php:426
+#: settings.php:538
 #@ wp-qore
 msgid ""
 "Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
@@ -783,52 +790,52 @@ msgstr ""
 "Caching din frontend kan öka din sidladdningshastighet avsevärt. Det rekommenderas starkt att du använder caching, men valet är alltid ditt. Väl aktiverad, kommer en undermeny som heter \\\"Cache\\\" visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till adminpanelen först och det kommer att initiera <br>\n"
 "<b>OBS:.</ B> Aktivera inte detta alternativ om du har några andra cache plugins aktiverade. Detta alternativ gör det möjligt för cacheassistans modulen helt enkelt, men gör det inte möjligt för cachning. För att caching frontend, måste du stänga av den 'On \\\"från cache adminpanelen."
 
-#: settings.php:433
+#: settings.php:545
 #@ wp-qore
 msgid "Minify your html"
 msgstr "Minifiera din html"
 
-#: settings.php:441
+#: settings.php:553
 #@ wp-qore
 msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
 msgstr "Minifiera HTML i din källkod. Det kommer att göra att din webbsida laddar mycket snabbare och det blir svårare för andra att läsa källkoden för din webbsida."
 
-#: settings.php:447
+#: settings.php:559
 #@ wp-qore
 msgid "Remove wp meta tags"
 msgstr "Ta bort wp meta taggar"
 
-#: settings.php:454
+#: settings.php:566
 #@ wp-qore
 msgid "Turn 'On' to remove from source code"
 msgstr "Slå \\\"På\\\" för att ta bort från källkod"
 
-#: settings.php:455
+#: settings.php:567
 #@ wp-qore
 msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
 msgstr "Ta bort manifest, genererade meta taggar, närliggande relativa länkar till inlägg, flöden, rsd, index från källkoden."
 
-#: settings.php:461
+#: settings.php:573
 #@ wp-qore
 msgid "Plugin/theme editor"
 msgstr "Redigerare tillägg/teman"
 
-#: settings.php:469
+#: settings.php:581
 #@ wp-qore
 msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
 msgstr "Det här inaktiverar redigerare för tema och tillägg i WordPress. Det här är en bra idé i produktionsmiljöer."
 
-#: settings.php:475
+#: settings.php:587
 #@ wp-qore
 msgid "Database audit"
 msgstr "Databas revision"
 
-#: settings.php:478
+#: settings.php:590
 #@ wp-qore
 msgid "This checks your Database and then gives you suggestions about security and making your website faster."
 msgstr "Detta kontrollerar din databas och ger dig sedan förslag på hur du kan förbättra säkerhet och hastighet för din webbplats."
 
-#: settings.php:490
+#: settings.php:602
 #@ wp-qore
 msgid "Save changes"
 msgstr "Spara Ändringar"
@@ -851,6 +858,86 @@ msgstr "När \\\"På\\\", kommer detta att åsidosätta WPQORE instrumentpanelen
 #. translators: plugin header field 'Version'
 #: index.php:0
 #@ wp-qore
-msgid "1.5.6"
-msgstr "1.5.6"
+msgid "1.5.8"
+msgstr "1.5.8"
+
+#: settings.php:228
+#@ wp-qore
+msgid "Customize dashboard"
+msgstr "Anpassa brädan"
+
+#: settings.php:268
+#@ wp-qore
+msgid "Automatic Updates"
+msgstr "Automatiska uppdateringar"
+
+#: settings.php:271
+#@ wp-qore
+msgid "Major Updates"
+msgstr "Major"
+
+#: settings.php:279
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
+msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla större Wordpress kärnversioner."
+
+#: settings.php:284
+#@ wp-qore
+msgid "Minor Updates"
+msgstr "Minor"
+
+#: settings.php:292
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
+msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla mindre Wordpress kärnversioner."
+
+#: settings.php:297
+#@ wp-qore
+msgid "Plugin Updates"
+msgstr "Plugin"
+
+#: settings.php:305
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all plugins."
+msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla plugins."
+
+#: settings.php:310
+#@ wp-qore
+msgid "Theme Updates"
+msgstr "Tema"
+
+#: settings.php:318
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all themes."
+msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla teman."
+
+#: settings.php:323
+#@ wp-qore
+msgid "Translation Updates"
+msgstr "översättning"
+
+#: settings.php:331
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all translations."
+msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla översättningar."
+
+#: settings.php:336
+#@ wp-qore
+msgid "Send Emails"
+msgstr "Skicka e-post"
+
+#: settings.php:344
+#@ wp-qore
+msgid "When 'On', this will send the admin an email every time automatic updates are performed."
+msgstr "När \\\"På\\\", kommer detta att skicka admin ett mail varje gång automatiska uppdateringar utförs."
+
+#: settings.php:349
+#@ wp-qore
+msgid "Debug Emails"
+msgstr "Felsöknings E"
+
+#: settings.php:357
+#@ wp-qore
+msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
+msgstr "När \\\"På\\\", kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
 

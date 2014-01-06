@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Qore v1.5.6\n"
+"Project-Id-Version: WP Qore v1.5.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-05 12:03:53+0000\n"
+"PO-Revision-Date: 2014-01-06 09:43:18+0000\n"
 "Last-Translator: Jason Jersey <jason@liquidnetit.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "WP Qore"
 
 #: functions/adminbar_menu.php:62
 #: functions/dashboard_view.php:14
-#: settings.php:49
+#: settings.php:54
 #@ wp-qore
 msgid "WP Qore Settings"
 msgstr "WP Qore Paramètres"
@@ -72,10 +72,17 @@ msgstr "Frontend Cache"
 
 #: functions/cache.php:144
 #: functions/cache.php:158
-#: settings.php:369
-#: settings.php:383
-#: settings.php:398
-#: settings.php:440
+#: settings.php:278
+#: settings.php:291
+#: settings.php:304
+#: settings.php:317
+#: settings.php:330
+#: settings.php:343
+#: settings.php:356
+#: settings.php:481
+#: settings.php:495
+#: settings.php:510
+#: settings.php:552
 #@ wp-qore
 msgid "Turn 'On' to enable"
 msgstr "Tourner sur \"Oui\" pour permettre"
@@ -482,154 +489,154 @@ msgstr "Cocher pour activer %s (recommandé)"
 msgid "Save Changes"
 msgstr "Sauver"
 
-#: settings.php:58
+#: settings.php:63
 #@ wp-qore
 msgid "Login Settings"
 msgstr "Paramètres de connexion"
 
-#: settings.php:61
+#: settings.php:66
 #@ wp-qore
 msgid "Customize login page"
 msgstr "Modifier la page de connexion"
 
-#: settings.php:68
+#: settings.php:73
 #@ wp-qore
 msgid "Change login page logo and link (Default is, WordPress)"
 msgstr "Changement de page de connexion logo et un lien (par défaut, WordPress)"
 
-#: settings.php:74
+#: settings.php:79
 #@ wp-qore
 msgid "Login logo image url"
 msgstr "Connexion logo URL de l'image"
 
-#: settings.php:79
+#: settings.php:84
 #@ wp-qore
 msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
 msgstr "Tapez URL de l'image de la page de connexion. Assurez-vous qu'il est d'environ 320px de largeur x 80px de hauteur."
 
-#: settings.php:84
+#: settings.php:89
 #@ wp-qore
 msgid "Conceal login page"
 msgstr "Masquer page de connexion"
 
-#: settings.php:91
+#: settings.php:96
 #@ wp-qore
 msgid "Turn 'On' to lock login page"
 msgstr "Turn 'On' to lock login page"
 
-#: settings.php:92
+#: settings.php:97
 #@ wp-qore
 msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key."
 msgstr "Une fois activée, votre example.com/wp-admin URL renvoie une erreur 404. L'utilisateur qui connaît la clé secrète peut accéder. Par exemple, lorsque example.com/wp-admin retourne 404, example.com/wp-admin?Secretkey1 va fonctionner. N'oubliez pas, vous pouvez toujours changer cette clé secrète."
 
-#: settings.php:98
+#: settings.php:103
 #@ wp-qore
 msgid "Login secret key"
 msgstr "Connectez-vous clé secrète"
 
-#: settings.php:98
+#: settings.php:103
 #: settings.php:206
 #: settings.php:215
-#: settings.php:265
-#: settings.php:279
+#: settings.php:377
+#: settings.php:391
 #@ wp-qore
 msgid "click to see example..."
 msgstr "cliquez pour voir l'exemple..."
 
-#: settings.php:100
+#: settings.php:105
 #@ wp-qore
 msgctxt "placeholder text"
 msgid "for url get parameter"
 msgstr "pour le paramètre get url"
 
-#: settings.php:104
+#: settings.php:109
 #, php-format
 #@ wp-qore
 msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
 msgstr "Seulement %s va fonctionner, autrement, inclus adresse wp-admin par défaut sera de retour 404."
 
-#: settings.php:108
+#: settings.php:113
 #@ wp-qore
 msgid "Add custom login page exception"
 msgstr "Ajouter coutume connexion exception de page"
 
-#: settings.php:111
+#: settings.php:116
 #@ wp-qore
 msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
 msgstr "Si vous avez la page de connexion personnalisée (par exemple si vous utilisez un plugin communauté comme BuddyPress et vos utilisateurs se connectent à leur profil via URL personnalisée telle que <i>http://example.com/myloginpage</i>) et vous voulez que l'URL de continuer à travailler correctement sans clé secrète wpqorefunc, puis simplement ajouter que url de suivre le champ de saisie."
 
-#: settings.php:114
+#: settings.php:119
 #@ wp-qore
 msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
 msgstr "Et puis si vous voulez bloquer votre wp-admin pour les utilisateurs connectés d'abonnés, cochez la case suivante"
 
-#: settings.php:121
+#: settings.php:126
 #@ wp-qore
 msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
 msgstr "Bloquer l'accès à wp-admin pour Connecté abonnés (toutes leurs demandes seront redirigés vers la page d'accueil)."
 
-#: settings.php:147
+#: settings.php:152
 #@ wp-qore
 msgid "Source Obfuscation"
 msgstr "Obfuscation Source"
 
-#: settings.php:150
+#: settings.php:155
 #@ wp-qore
 msgid "New theme directory"
 msgstr "Répertoire nouveau thème"
 
-#: settings.php:152
+#: settings.php:157
 #@ wp-qore
 msgctxt "placeholder text"
 msgid "theme directory"
 msgstr "répertoire du thème"
 
-#: settings.php:155
+#: settings.php:160
 #, php-format
 #@ wp-qore
 msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
 msgstr "Créer un dossier appelé <i>%s</i> dans le dossier% de puis collez-il un dossier de thème inactif, vous aurez besoin d'utiliser."
 
-#: settings.php:161
+#: settings.php:166
 #@ wp-qore
 msgid "Warning!"
 msgstr "Attention!"
 
-#: settings.php:164
+#: settings.php:169
 #, php-format
 #@ wp-qore
 msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
 msgstr "Ne pas couper/coller thème actif de <i>thèmes</ i> à <i>% s</ i>. Faites-le uniquement avec des thèmes inactifs. Première désactiver thème, couper et coller, puis réactivez."
 
-#: settings.php:172
+#: settings.php:177
 #@ wp-qore
 msgid "Unique source code"
 msgstr "Code source unique"
 
-#: settings.php:176
+#: settings.php:181
 #, php-format
 #@ wp-qore
 msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
 msgstr "Accédez à votre gestionnaire de fichiers (ou ftp), ouvrez votre fichier wp-config.php et ajouter les lignes suivantes. Ensuite, vous devrez renommer les wp-content et plugins dossiers pour les nouveaux noms dans lequel vous avez définies dans le code ci-dessous. Copiez le code suivant (ci-dessous) et collez le code sur le haut de votre fichier wp-config.php, placez-le juste après l'ouverture initiale <?php (see <a target=\"_blank\" href=\"%s\" >avant</a> and <a target=\"_blank\" href=\"%s\" >après</a> des exemples).<br><br> <b>S'il vous plaît être attentif. Si vous ne savez pas ce qu'est une chose pour, s'il vous plaît ne pas le faire.</b>"
 
-#: settings.php:262
+#: settings.php:374
 #@ wp-qore
 msgid "General Settings"
 msgstr "Paramètres généraux"
 
-#: settings.php:265
+#: settings.php:377
 #@ wp-qore
 msgid "Security advisor"
 msgstr "Conseiller en sécurité"
 
 #: settings.php:213
-#: settings.php:272
-#: settings.php:425
+#: settings.php:384
+#: settings.php:537
 #@ wp-qore
 msgid "Turn 'On' to enable (Recommended)"
 msgstr "Tourner \"On\" pour activer (recommandé)"
 
-#: settings.php:273
+#: settings.php:385
 #@ wp-qore
 msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
 msgstr "Lorsqu'elle est cochée, cela tournera sur Conseiller en sécurité. Conseiller en sécurité vous offre une protection contre les menaces de sécurité telles que: virus, les logiciels malveillants et les failles de sécurité. Une fois activé, un sous-menu intitulé \"conseiller à la sécurité\" apparaît dans le wp-admin > WP Qore > sous-menu. Si vous ne le voyez pas, puis passez à la planche de bord et la première sera initialisée."
@@ -649,30 +656,30 @@ msgstr "Quand \"on\", ce sera de remplacer le tableau de bord wp-admin standard 
 msgid "When checked, this will enable the WP Qore tabs on the new Dashboard."
 msgstr "Lorsqu'elle est cochée, cela permettra aux onglets WP Qore sur le nouveau tableau de bord."
 
-#: settings.php:279
+#: settings.php:391
 #@ wp-qore
 msgid "Nag updates"
 msgstr "Mises à jour nag"
 
-#: settings.php:286
-#: settings.php:300
-#: settings.php:315
-#: settings.php:468
+#: settings.php:398
+#: settings.php:412
+#: settings.php:427
+#: settings.php:580
 #@ wp-qore
 msgid "Turn 'On' to disable"
 msgstr "Tourner sur \"Oui\" pour désactiver"
 
-#: settings.php:287
+#: settings.php:399
 #@ wp-qore
 msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
 msgstr "Cela désactive la bannière de mises à jour WordPress nag ennuyeux d'apparaître. Cela n'empêche pas les mises à jour, juste dissimule la bannière de mise à jour du haut de la wp-admin."
 
-#: settings.php:293
+#: settings.php:405
 #@ wp-qore
 msgid "Core updates"
 msgstr "Mises à jour core"
 
-#: settings.php:301
+#: settings.php:413
 #@ wp-qore
 msgid ""
 "This completely disables new WordPress version notifications and updates from being done.<br>\n"
@@ -681,42 +688,42 @@ msgstr ""
 "Cela désactive complètement nouvelles notifications et mises à jour de version de WordPress d'être fait.<br>\n"
 "<b>Attention:</b> Il est fortement recommandé que votre environnement de production, vous gardez cette option. Cette option est disponible pour les environnements de développement uniquement."
 
-#: settings.php:308
+#: settings.php:420
 #@ wp-qore
 msgid "Post revisions"
 msgstr "Révisions de poteau"
 
-#: settings.php:316
+#: settings.php:428
 #@ wp-qore
 msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
 msgstr "Cela désactive l'enregistrement de plusieurs révisions de poste. Ayant de multiples révisions de poste pourrait causer la météorisation sur votre base de données. Les désactiver empêchera tels."
 
-#: settings.php:322
+#: settings.php:434
 #@ wp-qore
 msgid "Admin bar removal"
 msgstr "Ablation de la barre d'administration"
 
-#: settings.php:329
+#: settings.php:441
 #@ wp-qore
 msgid "Remove admin bar from the frontend"
 msgstr "Retirer barre d'administrateur de l'interface"
 
-#: settings.php:335
+#: settings.php:447
 #@ wp-qore
 msgid "Collapse admin menu"
 msgstr "Menu Collapse admin"
 
-#: settings.php:342
+#: settings.php:454
 #@ wp-qore
 msgid "This keeps the wp-admin menu on the left collapsed."
 msgstr "Cela permet de maintenir le menu wp-admin sur la gauche effondré."
 
-#: settings.php:348
+#: settings.php:460
 #@ wp-qore
 msgid "Change default jQuery"
 msgstr "JQuery changement par défaut"
 
-#: settings.php:355
+#: settings.php:467
 #@ wp-qore
 msgid ""
 "Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
@@ -725,22 +732,22 @@ msgstr ""
 "Utilisez Google accueilli jQuery à la place de l'âme Wordpress</i><br><br>\n"
 "<b>Attention:</b> Si cela ne fonctionne pas bien avec votre thème, puis il suffit de l'éteindre."
 
-#: settings.php:362
+#: settings.php:474
 #@ wp-qore
 msgid "Shortcode in widgets"
 msgstr "Shortcode dans les widgets"
 
-#: settings.php:370
+#: settings.php:482
 #@ wp-qore
 msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
 msgstr "Cela permet shortcode dans les widgets. Dans le cas, vous devez utiliser shortcode dans vos widgets, permettant alors cela va vous aider."
 
-#: settings.php:376
+#: settings.php:488
 #@ wp-qore
 msgid "Php in widgets"
 msgstr "PHP dans les widgets"
 
-#: settings.php:384
+#: settings.php:496
 #@ wp-qore
 msgid ""
 "This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
@@ -749,32 +756,32 @@ msgstr ""
 "Cela permet code PHP dans les widgets. Dans le cas, vous devez utiliser php dans vos widgets, permettant alors cela va vous aider.<br><br>\n"
 "<b>Attention!</b> Activer cette option peut être un risque de sécurité. Il n'est pas recommandé d'utiliser sauf si vous êtes très prudent et de savoir ce que vous faites. A utiliser à vos risques et périls."
 
-#: settings.php:391
+#: settings.php:503
 #@ wp-qore
 msgid "Import/export widgets"
 msgstr "Widgets import/export"
 
-#: settings.php:399
+#: settings.php:511
 #@ wp-qore
 msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
 msgstr "Cela vous permet d'importer et d'exporter vos paramètres du widget. Une fois activé, un sous-menu intitulé \\\"exportation Widgets\\\" et \\\"importation Widgets\\\" apparaît dans le wp-admin > menu Outils."
 
-#: settings.php:405
+#: settings.php:517
 #@ wp-qore
 msgid "Clean source code"
 msgstr "Code source propre"
 
-#: settings.php:412
+#: settings.php:524
 #@ wp-qore
 msgid "Remove WP version from source code (Recommended)"
 msgstr "Supprimer la version de WP à partir du code source (recommandé)"
 
-#: settings.php:418
+#: settings.php:530
 #@ wp-qore
 msgid "Cache assistance"
 msgstr "Aide de Cache"
 
-#: settings.php:426
+#: settings.php:538
 #@ wp-qore
 msgid ""
 "Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
@@ -783,52 +790,52 @@ msgstr ""
 "La mise en cache de votre interface peut considérablement augmenter votre sitespeed. Il est fortement recommandé d'utiliser la mise en cache, mais le choix est toujours la vôtre. Une fois activé, un sous-menu intitulé 'aide cache »s'affiche dans le wp-admin > WP Qore > sous-menu. Si vous ne le voyez pas, puis passez à la planche de bord et la première sera initialisée <br><br>\n"
 "<b>Attention:</b> Ne pas activer cette option si vous avez d'autres plugins de cache activées. Cette option permet simplement le module d'aide à la cache, mais ne permet pas la mise en cache. Afin de permettre la mise en cache l'interface, vous aurez besoin de tourner \\\"Marche\\\" du panneau d'options d'assistance de cache."
 
-#: settings.php:433
+#: settings.php:545
 #@ wp-qore
 msgid "Minify your html"
 msgstr "Rapetisser votre html"
 
-#: settings.php:441
+#: settings.php:553
 #@ wp-qore
 msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
 msgstr "Cela rapetisser le code HTML de votre code source. Cela rend votre site charge beaucoup plus rapide et rend plus difficile pour les gens de voir le code source de votre site."
 
-#: settings.php:447
+#: settings.php:559
 #@ wp-qore
 msgid "Remove wp meta tags"
 msgstr "Retirer les balises meta wp"
 
-#: settings.php:454
+#: settings.php:566
 #@ wp-qore
 msgid "Turn 'On' to remove from source code"
 msgstr "Tourner sur \\\"Oui\\\" pour supprimer à partir du code source"
 
-#: settings.php:455
+#: settings.php:567
 #@ wp-qore
 msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
 msgstr "Retirer manifestes, étiquettes générateur de méta, messages adjacents rel liens, parent poster des liens rel, des liens d'alimentation, lien de rsd et liens indice rel à partir du code source."
 
-#: settings.php:461
+#: settings.php:573
 #@ wp-qore
 msgid "Plugin/theme editor"
 msgstr "Éditeur plugin/thème"
 
-#: settings.php:469
+#: settings.php:581
 #@ wp-qore
 msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
 msgstr "Cela désactive le thème et éditeur de plug-in à partir de WordPress. C'est une bonne idée pour les environnements de production."
 
-#: settings.php:475
+#: settings.php:587
 #@ wp-qore
 msgid "Database audit"
 msgstr "Audit de MySQL"
 
-#: settings.php:478
+#: settings.php:590
 #@ wp-qore
 msgid "This checks your Database and then gives you suggestions about security and making your website faster."
 msgstr "Cette vérifie votre base de données et vous donne des suggestions quant à la sécurité et rendre votre site plus rapide."
 
-#: settings.php:490
+#: settings.php:602
 #@ wp-qore
 msgid "Save changes"
 msgstr "Sauver"
@@ -851,6 +858,86 @@ msgstr "Quand 'on', ce sera remplacer le tableau de bord de WPQORE avec celui qu
 #. translators: plugin header field 'Version'
 #: index.php:0
 #@ wp-qore
-msgid "1.5.6"
-msgstr "1.5.6"
+msgid "1.5.8"
+msgstr "1.5.8"
+
+#: settings.php:228
+#@ wp-qore
+msgid "Customize dashboard"
+msgstr "Personnaliser le tableau de bord"
+
+#: settings.php:268
+#@ wp-qore
+msgid "Automatic Updates"
+msgstr "Mises à jour automatiques"
+
+#: settings.php:271
+#@ wp-qore
+msgid "Major Updates"
+msgstr "Majeur"
+
+#: settings.php:279
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
+msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les principaux versions de base WordPress."
+
+#: settings.php:284
+#@ wp-qore
+msgid "Minor Updates"
+msgstr "Mineur"
+
+#: settings.php:292
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
+msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de toutes les versions de base de WordPress mineures."
+
+#: settings.php:297
+#@ wp-qore
+msgid "Plugin Updates"
+msgstr "Plugin"
+
+#: settings.php:305
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all plugins."
+msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les plugins."
+
+#: settings.php:310
+#@ wp-qore
+msgid "Theme Updates"
+msgstr "Thème"
+
+#: settings.php:318
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all themes."
+msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les thèmes."
+
+#: settings.php:323
+#@ wp-qore
+msgid "Translation Updates"
+msgstr "Traduction"
+
+#: settings.php:331
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all translations."
+msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de toutes les traductions."
+
+#: settings.php:336
+#@ wp-qore
+msgid "Send Emails"
+msgstr "Envoyer un email"
+
+#: settings.php:344
+#@ wp-qore
+msgid "When 'On', this will send the admin an email every time automatic updates are performed."
+msgstr "Quand 'on', ce qui enverra l'admin un e-mail à chaque fois les mises à jour automatiques sont effectuées."
+
+#: settings.php:349
+#@ wp-qore
+msgid "Debug Emails"
+msgstr "Debug Email"
+
+#: settings.php:357
+#@ wp-qore
+msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
+msgstr "uand 'on', ce qui enverra les e-mails d'administration des informations de débogage à chaque fois les mises à jour automatiques sont effectuées."
 
