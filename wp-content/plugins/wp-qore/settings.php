@@ -217,63 +217,32 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 <label><i></i></label>
 </div>
 <i><?php _e( "When 'On', this will override the WPQORE dashboard with the one you may create below.", 'wp-qore' ); ?></i>
+<br /><br />
+<a href="javascript://" id="wpqorefunc_cr_exc_url2"><?php _e( 'Customize dashboard', 'wp-qore' ); ?></a>
+<br />
+<div id="wpqorefunc_cr_exc_div2" style="display:none;margin-top:4px">
 <?php
 
 function WPQORE_TinyMCE($in){
-
- $in['remove_linebreaks']=false;
- $in['gecko_spellcheck']=false;
- $in['keep_styles']=true;
- $in['accessibility_focus']=true;
- $in['tabfocus_elements']='major-publishing-actions';
- $in['media_strict']=false;
- $in['paste_remove_styles']=false;
- $in['paste_remove_spans']=false;
- $in['paste_strip_class_attributes']='none';
- $in['paste_text_use_dialog']=true;
- $in['wpeditimage_disable_captions']=true;
- $in['plugins']='inlinepopups,tabfocus,paste,media,fullscreen,wordpress,wpdialogs';
- $in['wpautop']=false;
- $in['apply_source_formatting']=false;
- $in['theme_advanced_buttons1'] = 
- 'formatselect,|,bold,italic,underline';
- $in['remove_trailing_nbsp'] = false;
- $in['relative_urls'] = true;
- $in['convert_urls'] = false;
- $in['remove_linebreaks'] = false;
- $in['doctype'] = '<!DOCTYPE html>';
- $in['apply_source_formatting'] = false;
- $in['convert_newlines_to_brs'] = false;
- $in['fix_list_elements'] = false;
- $in['fix_table_elements'] = false;
- $in['verify_html'] = false;
- $in['valid_children'] = 
- "+a[em|strong|small|mark|abbr|dfn|i|b|s|u|code|var|samp|kbd|sup|sub|q|cite|span|bdo|bdi|br|wbr|ins|del|img|embed|object|iframe|map|area|script|noscript|ruby|video|audio|input|textarea|select|button|label|output|datalist|keygen|progress|command|canvas|time|meter|p|hr|pre|ul|ol|dl|div|h1|h2|h3|h4|h5|h6|hgroup|address|blockquote|section|nav|article|aside|header|footer|figure|table|f|m|fieldset|menu|details]";
- 
- remove_filter('the_content', 'wpautop');
- return $in;
+    $in['theme_advanced_buttons1'] = 
+    'formatselect,forecolor,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull';
+    return $in;
 }
 add_filter('tiny_mce_before_init', 'WPQORE_TinyMCE' );
-
-function override_mce_options($initArray) {
-    $opts = '*[*]';
-    $initArray['valid_elements'] = $opts;
-    $initArray['extended_valid_elements'] = $opts;
-    return $initArray;
-}
-add_filter('tiny_mce_before_init', 'override_mce_options');
-
-function stop_removing_tags(){
-    remove_filter('the_content', 'wpautop');
-}
-add_action('init', 'stop_removing_tags');
-
 $settings = array( 'media_buttons' => false, 'quicktags' => true );    
 $content = get_option("wpqorefunc_custom_dashboard");                     
 $editor_id = 'wpqorefunc_custom_dashboard';
 wp_editor( $content, $editor_id, $settings );  
 
 ?>
+</div>
+<script>
+jQuery("#wpqorefunc_cr_exc_url2").click(function () {
+
+jQuery("#wpqorefunc_cr_exc_div2").toggle("slow");
+
+});
+</script>
 </td>
 </tr>
 </tbody></table>
