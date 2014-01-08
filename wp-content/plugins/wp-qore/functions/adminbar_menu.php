@@ -3,7 +3,7 @@
 class WPQore_Adminbar_Menu{
   
 function WPQore_Adminbar_Menu(){
-  if (get_option("wpqorefunc_dash_tabs")=='checked') add_action( 'admin_bar_menu', array( $this, "wpqore_adminbar_links" ), 999 );
+  add_action( 'admin_bar_menu', array( $this, "wpqore_adminbar_links" ), 999 );
 }
 
   /**
