@@ -72,6 +72,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.6.0 =
+* Added new wp-admin dashboard.
+
 = 1.5.9 =
 * Removed dash_tabs function in preperation for 1.6.
 
@@ -236,6 +239,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.6.0 =
+* Upgrade for the latest version.
 
 = 1.5.9 =
 * Upgrade for the latest version.
