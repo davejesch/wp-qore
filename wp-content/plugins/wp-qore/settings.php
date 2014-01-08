@@ -34,7 +34,6 @@ wpqorefunc_string_setting("wpqorefunc_exceptional_url",'');
 wpqorefunc_is_checked("wpqorefunc_login_logo");
 wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 wpqorefunc_is_checked("wpqorefunc_sec_advisor");
-wpqorefunc_is_checked("wpqorefunc_dash_tabs");
 wpqorefunc_is_checked("wpqorefunc_cache_assistance");
 wpqorefunc_is_checked("wpqorefunc_fold_menu");
 wpqorefunc_is_checked("wpqorefunc_dashboard_switch");
@@ -211,8 +210,7 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 <label><i></i></label>
 </div>
 <i><?php _e( "Turn 'On' to enable (Recommended)", 'wp-qore' ); ?></i><br><br>
-<?php _e( "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.", 'wp-qore' ); ?><br>
-<input name="wpqorefunc_dash_tabs" type="checkbox" id="wpqorefunc_dash_tabs" value="1" <?php echo get_option("wpqorefunc_dash_tabs");?>> <i><?php _e( 'When checked, this will enable the WP Qore tabs on the new Dashboard.', 'wp-qore' ); ?></i> (<a target="_blank" href="<?php echo WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_07.png'; ?>" title="<?php _e( 'click to see example...', 'wp-qore' ); ?>"><b>?</b></a>)
+<?php _e( "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.", 'wp-qore' ); ?>
 </td>
 </tr>
 
