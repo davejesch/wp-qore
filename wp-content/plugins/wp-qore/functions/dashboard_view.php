@@ -468,22 +468,71 @@ if ( current_user_can('manage_options') ) { ?>
 </div>
 </article>
 
-<!--
-<article class="module width_full">
-<header><h3><?php _e( 'Box One', 'wp-qore' ); ?></h3></header>
+<?php if ( current_user_can('read') ) { ?>
+<article class="module width_half">
+<header>
+<h3><?php _e( 'Recent Pages', 'wp-qore' ); ?></h3>
+</header>
+<div class="message_list">
 <div class="module_content">
-123
-</div>
-</article>
+<?php
 
-<article class="module width_full">
-<header><h3><?php _e( 'Box Two', 'wp-qore' ); ?></h3></header>
-<div class="module_content">
-123
+   $args=array(
+   'showposts'=>10,
+   'post_type' => 'page',
+   'ignore_sticky_posts'=>1
+   );
+$my_query = new WP_Query($args);
+if( $my_query->have_posts() ) {
+  while ($my_query->have_posts()) : $my_query->the_post(); ?>
+<div class="message">
+<p><h3><a target="_blank" href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3></p>
 </div>
+    <?php
+  endwhile;
+}
+
+?>
+</div>
+</div>
+    <footer>
+
+    </footer>
 </article>
--->
-		
+<?php }
+
+if ( current_user_can('read') ) { ?>
+<article class="module width_half">
+<header>
+<h3><?php _e( 'Recent Posts', 'wp-qore' ); ?></h3>
+</header>
+<div class="message_list">
+<div class="module_content">
+<?php
+
+global $post;
+$args = array( 'numberposts' => 10 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) :  setup_postdata($post); ?>
+<div class="message">
+<p><h3><a target="_blank" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3></p>
+</div>
+<?php 
+
+endforeach; 
+
+?>
+</div>
+</div>
+    <footer>
+        <form target="_blank" class="post_message" id="posts-filter" action="<?php bloginfo('wpurl');?>/" method="get">
+            <input type="text" id="post-search-input" name="s" value="<?php _e( 'find content', 'wp-qore' ); ?>" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+	    <input type="submit" class="btn_post_message" value=""/>
+	</form>
+    </footer>
+</article>
+<?php } ?>
+
 <div class="clear"></div>		
 <div class="spacer"></div>
 </section>
