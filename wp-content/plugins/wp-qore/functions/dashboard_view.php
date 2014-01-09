@@ -533,8 +533,7 @@ endforeach;
 </article>
 <?php } ?>
 
-<div class="clear"></div>		
-<div class="spacer"></div>
+<div class="clear"></div>
 </section>
 
 <?php } //wp-admin dashboard : end 
