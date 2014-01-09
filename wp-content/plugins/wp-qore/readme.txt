@@ -72,6 +72,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.6.3 =
+* Added two footer blocks to the dashboard shown to users with the manage_options user role.
+
 = 1.6.2 =
 * Updated dashboard sections.
 
@@ -245,6 +248,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.6.3 =
+* Upgrade for the latest version.
 
 = 1.6.2 =
 * Upgrade for the latest version.
