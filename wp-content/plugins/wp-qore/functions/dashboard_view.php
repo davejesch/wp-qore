@@ -269,6 +269,7 @@ function drawChart() {
 <h4 class="alert_success"><?php _e( 'A Success Message', 'wp-qore' ); ?></h4>
 -->		
 
+<?php if ( current_user_can('manage_options') ) { ?>
 <article class="module width_full" id="module_width_full">
 <header><h3><?php _e( 'Stats', 'wp-qore' ); ?></h3></header>
 <div class="module_content">
@@ -314,54 +315,155 @@ function drawChart() {
 </div>
 </div>
 </article>
+<?php } ?>
 
 <article class="module width_full">
-<header><h3><?php _e( 'Control', 'wp-qore' ); ?></h3></header>
+<header>
+<h3><?php _e( 'Control', 'wp-qore' ); ?></h3>
+</header>
 <div class="module_content">
 <div style="display:table;height:100%;padding-left:40px;padding-bottom:30px;">
-<?php if (get_option("wpqorefunc_plug-edit")=='checked') { ?>
+
+<?php if (get_option("wpqorefunc_plug-edit")=='checked') {
+
+if ( current_user_can('read') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'All Posts', 'wp-qore' ); ?></div><a href="edit.php" title="View All Posts"><img src="<?php echo plugins_url( '../images/dashboard/edit.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_posts') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Posts', 'wp-qore' ); ?></div><a href="post-new.php" title="Add New Post"><img src="<?php echo plugins_url( '../images/dashboard/add.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('manage_categories') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Categories', 'wp-qore' ); ?></div><a href="edit-tags.php?taxonomy=category" title="Categories"><img src="<?php echo plugins_url( '../images/dashboard/category.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Tags', 'wp-qore' ); ?></div><a href="edit-tags.php?taxonomy=post_tag" title="Tags"><img src="<?php echo plugins_url( '../images/dashboard/tags.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('upload_files') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Media Library', 'wp-qore' ); ?></div><a href="upload.php" title="Media Library"><img src="<?php echo plugins_url( '../images/dashboard/media.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Media', 'wp-qore' ); ?></div><a href="media-new.php" title="Add New Media"><img src="<?php echo plugins_url( '../images/dashboard/media_add.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('moderate_comments') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Comments', 'wp-qore' ); ?></div><a href="edit-comments.php" title="Comments"><img src="<?php echo plugins_url( '../images/dashboard/comments.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('publish_pages') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Page', 'wp-qore' ); ?></div><a href="edit.php?post_type=page" title="Add New Page"><img src="<?php echo plugins_url( '../images/dashboard/add_page.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('switch_themes') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Themes', 'wp-qore' ); ?></div><a href="themes.php" title="Themes"><img src="<?php echo plugins_url( '../images/dashboard/themes.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_theme_options') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Widgets', 'wp-qore' ); ?></div><a href="widgets.php" title="Widgets"><img src="<?php echo plugins_url( '../images/dashboard/widgets.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Menus', 'wp-qore' ); ?></div><a href="nav-menus.php" title="Menus"><img src="<?php echo plugins_url( '../images/dashboard/menus.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('activate_plugins') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Plugins', 'wp-qore' ); ?></div><a href="plugins.php" title="Plugins"><img src="<?php echo plugins_url( '../images/dashboard/plugins.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('install_plugins') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Plugin', 'wp-qore' ); ?></div><a href="plugin-install.php" title="Add New Plugin"><img src="<?php echo plugins_url( '../images/dashboard/add-plugin.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_users') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Users', 'wp-qore' ); ?></div><a href="users.php" title="Users"><img src="<?php echo plugins_url( '../images/dashboard/users.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add User', 'wp-qore' ); ?></div><a href="user-new.php" title="Add New User"><img src="<?php echo plugins_url( '../images/dashboard/add-user.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('read') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'My Profile', 'wp-qore' ); ?></div><a href="profile.php" title="My Profile"><img src="<?php echo plugins_url( '../images/dashboard/profile.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('import') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Import', 'wp-qore' ); ?></div><a href="import.php" title="Import Content"><img src="<?php echo plugins_url( '../images/dashboard/import.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('export') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Export', 'wp-qore' ); ?></div><a href="export.php" title="Export Content"><img src="<?php echo plugins_url( '../images/dashboard/export.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('manage_options') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Settings', 'wp-qore' ); ?></div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
-<?php }else{ ?>
+
+<?php } }else{ 
+
+if ( current_user_can('read') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'All Posts', 'wp-qore' ); ?></div><a href="edit.php" title="View All Posts"><img src="<?php echo plugins_url( '../images/dashboard/edit.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_posts') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Posts', 'wp-qore' ); ?></div><a href="post-new.php" title="Add New Post"><img src="<?php echo plugins_url( '../images/dashboard/add.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('manage_categories') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Categories', 'wp-qore' ); ?></div><a href="edit-tags.php?taxonomy=category" title="Categories"><img src="<?php echo plugins_url( '../images/dashboard/category.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Tags', 'wp-qore' ); ?></div><a href="edit-tags.php?taxonomy=post_tag" title="Tags"><img src="<?php echo plugins_url( '../images/dashboard/tags.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('upload_files') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Media Library', 'wp-qore' ); ?></div><a href="upload.php" title="Media Library"><img src="<?php echo plugins_url( '../images/dashboard/media.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Media', 'wp-qore' ); ?></div><a href="media-new.php" title="Add New Media"><img src="<?php echo plugins_url( '../images/dashboard/media_add.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('moderate_comments') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Comments', 'wp-qore' ); ?></div><a href="edit-comments.php" title="Comments"><img src="<?php echo plugins_url( '../images/dashboard/comments.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('publish_pages') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Page', 'wp-qore' ); ?></div><a href="edit.php?post_type=page" title="Add New Page"><img src="<?php echo plugins_url( '../images/dashboard/add_page.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('switch_themes') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Themes', 'wp-qore' ); ?></div><a href="themes.php" title="Themes"><img src="<?php echo plugins_url( '../images/dashboard/themes.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_themes') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Theme Editor', 'wp-qore' ); ?></div><a href="theme-editor.php" title="Theme Editor"><img src="<?php echo plugins_url( '../images/dashboard/theme_editor.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_theme_options') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Widgets', 'wp-qore' ); ?></div><a href="widgets.php" title="Widgets"><img src="<?php echo plugins_url( '../images/dashboard/widgets.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Menus', 'wp-qore' ); ?></div><a href="nav-menus.php" title="Menus"><img src="<?php echo plugins_url( '../images/dashboard/menus.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('activate_plugins') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Plugins', 'wp-qore' ); ?></div><a href="plugins.php" title="Plugins"><img src="<?php echo plugins_url( '../images/dashboard/plugins.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('install_plugins') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add Plugin', 'wp-qore' ); ?></div><a href="plugin-install.php" title="Add New Plugin"><img src="<?php echo plugins_url( '../images/dashboard/add-plugin.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_plugins') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Plugins Editor', 'wp-qore' ); ?></div><a href="plugin-editor.php" title="Plugin Editor"><img src="<?php echo plugins_url( '../images/dashboard/edit-plugin.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('edit_users') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Users', 'wp-qore' ); ?></div><a href="users.php" title="Users"><img src="<?php echo plugins_url( '../images/dashboard/users.png' , __FILE__ ); ?>"/></a></div>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Add User', 'wp-qore' ); ?></div><a href="user-new.php" title="Add New User"><img src="<?php echo plugins_url( '../images/dashboard/add-user.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('read') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'My Profile', 'wp-qore' ); ?></div><a href="profile.php" title="My Profile"><img src="<?php echo plugins_url( '../images/dashboard/profile.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('import') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Import', 'wp-qore' ); ?></div><a href="import.php" title="Import Content"><img src="<?php echo plugins_url( '../images/dashboard/import.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('export') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Export', 'wp-qore' ); ?></div><a href="export.php" title="Export Content"><img src="<?php echo plugins_url( '../images/dashboard/export.png' , __FILE__ ); ?>"/></a></div>
+<?php }
+
+if ( current_user_can('manage_options') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Settings', 'wp-qore' ); ?></div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
-<?php } ?>
+
+<?php } } ?>
+
 </div>
 </div>
 </article>
