@@ -248,6 +248,15 @@ function drawChart() {
     google.setOnLoadCallback(drawVisualization);
 </script>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=483886975061870";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <section id="secondary_bar">
 <div class="breadcrumbs_container">	
 
@@ -531,9 +540,40 @@ endforeach;
 	</form>
     </footer>
 </article>
+<?php } 
+
+if ( current_user_can('manage_options') ) { ?>
+<div class="footer_section">
+<article class="module width_half">
+<header>
+<h3><?php _e( 'System Info', 'wp-qore' ); ?></h3>
+</header>
+<div class="module_content">
+<blockquote>
+<span style="font-family:monospace"><?php system("uname -a"); ?></span><br />
+<br />
+<span style="font-family:monospace;white-space:pre;"><?php echo 'PHP version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . phpversion(); ?></span><br />
+<br />
+<span style="font-family:monospace;white-space:pre;"><?php system("df -h"); ?></span>
+</blockquote>
+</div>
+</article>
+
+<article class="module width_half">
+<header>
+<h3><?php _e( 'About WPQore', 'wp-qore' ); ?></h3>
+</header>
+<div class="module_content">
+<div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/denverhost" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
+<p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.</p>
+<p align="justify" style="padding-bottom:4px">WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Another powerful feature is Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... period!</p>
+</div>
+</article>
+</div>
 <?php } ?>
 
-<div class="clear"></div>
+<div class="clear"></div>		
+
 </section>
 
 <?php } //wp-admin dashboard : end 
