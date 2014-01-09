@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Qore v1.6.2\n"
+"Project-Id-Version: WP Qore v1.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-09 09:58:27+0000\n"
+"PO-Revision-Date: 2014-01-09 12:57:47+0000\n"
 "Last-Translator: Jason Jersey <jason@liquidnetit.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -115,132 +115,132 @@ msgid "Target folder:"
 msgstr "Dossier cible:"
 
 #: functions/dashboard_func.php:28
-#: functions/dashboard_view.php:257
+#: functions/dashboard_view.php:266
 #@ wp-qore
 msgid "General"
 msgstr "Général"
 
-#: functions/dashboard_view.php:330
-#: functions/dashboard_view.php:395
+#: functions/dashboard_view.php:339
+#: functions/dashboard_view.php:404
 #@ wp-qore
 msgid "All Posts"
 msgstr "Tous les posts"
 
-#: functions/dashboard_view.php:334
-#: functions/dashboard_view.php:399
+#: functions/dashboard_view.php:343
+#: functions/dashboard_view.php:408
 #@ wp-qore
 msgid "Add Posts"
 msgstr "Ajouter posts"
 
-#: functions/dashboard_view.php:338
-#: functions/dashboard_view.php:403
+#: functions/dashboard_view.php:347
+#: functions/dashboard_view.php:412
 #@ wp-qore
 msgid "Categories"
 msgstr "Catégories"
 
-#: functions/dashboard_view.php:339
-#: functions/dashboard_view.php:404
+#: functions/dashboard_view.php:348
+#: functions/dashboard_view.php:413
 #@ wp-qore
 msgid "Tags"
 msgstr "Mots clés"
 
-#: functions/dashboard_view.php:343
-#: functions/dashboard_view.php:408
+#: functions/dashboard_view.php:352
+#: functions/dashboard_view.php:417
 #@ wp-qore
 msgid "Media Library"
 msgstr "Médiathèque"
 
-#: functions/dashboard_view.php:344
-#: functions/dashboard_view.php:409
+#: functions/dashboard_view.php:353
+#: functions/dashboard_view.php:418
 #@ wp-qore
 msgid "Add Media"
 msgstr "Ajouter le média"
 
-#: functions/dashboard_view.php:348
-#: functions/dashboard_view.php:413
+#: functions/dashboard_view.php:357
+#: functions/dashboard_view.php:422
 #@ wp-qore
 msgid "Comments"
 msgstr "Commentaires"
 
-#: functions/dashboard_view.php:352
-#: functions/dashboard_view.php:417
+#: functions/dashboard_view.php:361
+#: functions/dashboard_view.php:426
 #@ wp-qore
 msgid "Add Page"
 msgstr "Ajouter la page"
 
-#: functions/dashboard_view.php:356
-#: functions/dashboard_view.php:421
+#: functions/dashboard_view.php:365
+#: functions/dashboard_view.php:430
 #@ wp-qore
 msgid "Themes"
 msgstr "Thèmes"
 
-#: functions/dashboard_view.php:360
-#: functions/dashboard_view.php:429
+#: functions/dashboard_view.php:369
+#: functions/dashboard_view.php:438
 #@ wp-qore
 msgid "Widgets"
 msgstr "Widgets"
 
-#: functions/dashboard_view.php:361
-#: functions/dashboard_view.php:430
+#: functions/dashboard_view.php:370
+#: functions/dashboard_view.php:439
 #@ wp-qore
 msgid "Menus"
 msgstr "Menus"
 
-#: functions/dashboard_view.php:365
-#: functions/dashboard_view.php:434
+#: functions/dashboard_view.php:374
+#: functions/dashboard_view.php:443
 #@ wp-qore
 msgid "Plugins"
 msgstr "Plugins"
 
-#: functions/dashboard_view.php:369
-#: functions/dashboard_view.php:438
+#: functions/dashboard_view.php:378
+#: functions/dashboard_view.php:447
 #@ wp-qore
 msgid "Add Plugin"
 msgstr "Ajouter plugin"
 
-#: functions/dashboard_view.php:373
-#: functions/dashboard_view.php:446
+#: functions/dashboard_view.php:382
+#: functions/dashboard_view.php:455
 #@ wp-qore
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: functions/dashboard_view.php:374
-#: functions/dashboard_view.php:447
+#: functions/dashboard_view.php:383
+#: functions/dashboard_view.php:456
 #@ wp-qore
 msgid "Add User"
 msgstr "Ajouter un utilisateur"
 
-#: functions/dashboard_view.php:378
-#: functions/dashboard_view.php:451
+#: functions/dashboard_view.php:387
+#: functions/dashboard_view.php:460
 #@ wp-qore
 msgid "My Profile"
 msgstr "Mon profil"
 
-#: functions/dashboard_view.php:382
-#: functions/dashboard_view.php:455
+#: functions/dashboard_view.php:391
+#: functions/dashboard_view.php:464
 #@ wp-qore
 msgid "Import"
 msgstr "Importer"
 
-#: functions/dashboard_view.php:386
-#: functions/dashboard_view.php:459
+#: functions/dashboard_view.php:395
+#: functions/dashboard_view.php:468
 #@ wp-qore
 msgid "Export"
 msgstr "Export"
 
-#: functions/dashboard_view.php:390
-#: functions/dashboard_view.php:463
+#: functions/dashboard_view.php:399
+#: functions/dashboard_view.php:472
 #: sec-advisor.php:153
 #@ wp-qore
 msgid "Settings"
 msgstr "Paramètres"
 
-#: functions/dashboard_view.php:425
+#: functions/dashboard_view.php:434
 #@ wp-qore
 msgid "Theme Editor"
 msgstr "Theme éditeur"
 
-#: functions/dashboard_view.php:442
+#: functions/dashboard_view.php:451
 #@ wp-qore
 msgid "Plugins Editor"
 msgstr "Plugins éditeur"
@@ -942,104 +942,114 @@ msgstr "Limite"
 msgid "Usage"
 msgstr "Usage"
 
-#: functions/dashboard_view.php:255
+#: functions/dashboard_view.php:264
 #@ wp-qore
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: functions/dashboard_view.php:265
+#: functions/dashboard_view.php:274
 #@ wp-qore
 msgid "Welcome to the admin backend"
 msgstr "Bienvenue sur le backend admin"
 
-#: functions/dashboard_view.php:267
+#: functions/dashboard_view.php:276
 #@ wp-qore
 msgid "A Warning Alert"
 msgstr "Une alerte d'alerte"
 
-#: functions/dashboard_view.php:268
+#: functions/dashboard_view.php:277
 #@ wp-qore
 msgid "An Error Message"
 msgstr "Un message d'erreur"
 
-#: functions/dashboard_view.php:269
+#: functions/dashboard_view.php:278
 #@ wp-qore
 msgid "A Success Message"
 msgstr "Un message de réussite"
 
-#: functions/dashboard_view.php:274
+#: functions/dashboard_view.php:283
 #@ wp-qore
 msgid "Stats"
 msgstr "Stats"
 
-#: functions/dashboard_view.php:279
+#: functions/dashboard_view.php:288
 #@ wp-qore
 msgid "Speed Test"
 msgstr "Test de vitesse"
 
-#: functions/dashboard_view.php:287
+#: functions/dashboard_view.php:296
 #@ wp-qore
 msgid "posts"
 msgstr "posts"
 
-#: functions/dashboard_view.php:289
+#: functions/dashboard_view.php:298
 #@ wp-qore
 msgid "comments"
 msgstr "commentaires"
 
-#: functions/dashboard_view.php:293
+#: functions/dashboard_view.php:302
 #@ wp-qore
 msgid "pages"
 msgstr "pages"
 
-#: functions/dashboard_view.php:295
+#: functions/dashboard_view.php:304
 #@ wp-qore
 msgid "users"
 msgstr "utilisateurs"
 
-#: functions/dashboard_view.php:302
+#: functions/dashboard_view.php:311
 #@ wp-qore
 msgid "uploads"
 msgstr "uploads"
 
-#: functions/dashboard_view.php:304
+#: functions/dashboard_view.php:313
 #@ wp-qore
 msgid "wp-content"
 msgstr "wp-content"
 
-#: functions/dashboard_view.php:308
+#: functions/dashboard_view.php:317
 #@ wp-qore
 msgid "wp total"
 msgstr "wp totale"
 
-#: functions/dashboard_view.php:310
+#: functions/dashboard_view.php:319
 #@ wp-qore
 msgid "disk usage"
 msgstr "hdd"
 
-#: functions/dashboard_view.php:322
+#: functions/dashboard_view.php:331
 #@ wp-qore
 msgid "Control"
 msgstr "Contrôle"
 
-#: functions/dashboard_view.php:474
+#: functions/dashboard_view.php:483
 #@ wp-qore
 msgid "Recent Pages"
 msgstr "Pages récentes"
 
-#: functions/dashboard_view.php:507
+#: functions/dashboard_view.php:516
 #@ wp-qore
 msgid "Recent Posts"
 msgstr "Les messages récents"
 
-#: functions/dashboard_view.php:529
+#: functions/dashboard_view.php:538
 #@ wp-qore
 msgid "find content"
 msgstr "recherche"
 
+#: functions/dashboard_view.php:549
+#@ wp-qore
+msgid "System Info"
+msgstr "Infos système"
+
+#: functions/dashboard_view.php:564
+#@ wp-qore
+msgid "About WPQore"
+msgstr "À propos de WPQore"
+
 #. translators: plugin header field 'Version'
 #: index.php:0
 #@ wp-qore
-msgid "1.6.2"
-msgstr "1.6.2"
+msgid "1.6.3"
+msgstr "1.6.3"
 
