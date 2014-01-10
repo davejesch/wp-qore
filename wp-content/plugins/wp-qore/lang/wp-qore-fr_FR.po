@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Qore v1.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-09 12:57:47+0000\n"
+"PO-Revision-Date: 2014-01-09 23:56:36+0000\n"
 "Last-Translator: Jason Jersey <jason@liquidnetit.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Frontend Cache"
 #: settings.php:550
 #@ wp-qore
 msgid "Turn 'On' to enable"
-msgstr "Tourner sur \"Oui\" pour permettre"
+msgstr "Tourner sur 'Oui' pour permettre"
 
 #: functions/cache.php:145
 #@ wp-qore
@@ -468,7 +468,7 @@ msgstr "Autre E-mail"
 #: sec-advisor.php:1027
 #@ wp-qore
 msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
-msgstr "Si ce champ est vide, l'administrateur e-mail sera avisé. Analyse quotidienne doit être \"Activé\" pour utiliser cette fonctionnalité."
+msgstr "Si ce champ est vide, l'administrateur e-mail sera avisé. Analyse quotidienne doit être 'Activé' pour utiliser cette fonctionnalité."
 
 #: sec-advisor.php:1045
 #, php-format
@@ -630,7 +630,7 @@ msgstr "Tourner \"On\" pour activer (recommandé)"
 #: settings.php:383
 #@ wp-qore
 msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
-msgstr "Lorsqu'elle est cochée, cela tournera sur Conseiller en sécurité. Conseiller en sécurité vous offre une protection contre les menaces de sécurité telles que: virus, les logiciels malveillants et les failles de sécurité. Une fois activé, un sous-menu intitulé \"conseiller à la sécurité\" apparaît dans le wp-admin > WP Qore > sous-menu. Si vous ne le voyez pas, puis passez à la planche de bord et la première sera initialisée."
+msgstr "Lorsqu'elle est cochée, cela tournera sur Conseiller en sécurité. Conseiller en sécurité vous offre une protection contre les menaces de sécurité telles que: virus, les logiciels malveillants et les failles de sécurité. Une fois activé, un sous-menu intitulé 'conseiller à la sécurité' apparaît dans le wp-admin > WP Qore > sous-menu. Si vous ne le voyez pas, puis passez à la planche de bord et la première sera initialisée."
 
 #: settings.php:205
 #@ wp-qore
@@ -640,7 +640,7 @@ msgstr "Nouveau tableau de bord"
 #: settings.php:213
 #@ wp-qore
 msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
-msgstr "Quand \"on\", ce sera de remplacer le tableau de bord wp-admin standard avec un nouveau qui est propre et léger."
+msgstr "Quand 'on', ce sera de remplacer le tableau de bord wp-admin standard avec un nouveau qui est propre et léger."
 
 #: settings.php:389
 #@ wp-qore
@@ -653,7 +653,7 @@ msgstr "Mises à jour nag"
 #: settings.php:578
 #@ wp-qore
 msgid "Turn 'On' to disable"
-msgstr "Tourner sur \"Oui\" pour désactiver"
+msgstr "Tourner sur 'Oui' pour désactiver"
 
 #: settings.php:397
 #@ wp-qore
@@ -750,7 +750,7 @@ msgstr "Widgets import/export"
 #: settings.php:509
 #@ wp-qore
 msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
-msgstr "Cela vous permet d'importer et d'exporter vos paramètres du widget. Une fois activé, un sous-menu intitulé \\\"exportation Widgets\\\" et \\\"importation Widgets\\\" apparaît dans le wp-admin > menu Outils."
+msgstr "Cela vous permet d'importer et d'exporter vos paramètres du widget. Une fois activé, un sous-menu intitulé 'exportation Widgets' et 'importation Widgets' apparaît dans le wp-admin > menu Outils."
 
 #: settings.php:515
 #@ wp-qore
@@ -774,7 +774,7 @@ msgid ""
 "<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel."
 msgstr ""
 "La mise en cache de votre interface peut considérablement augmenter votre sitespeed. Il est fortement recommandé d'utiliser la mise en cache, mais le choix est toujours la vôtre. Une fois activé, un sous-menu intitulé 'aide cache »s'affiche dans le wp-admin > WP Qore > sous-menu. Si vous ne le voyez pas, puis passez à la planche de bord et la première sera initialisée <br><br>\n"
-"<b>Attention:</b> Ne pas activer cette option si vous avez d'autres plugins de cache activées. Cette option permet simplement le module d'aide à la cache, mais ne permet pas la mise en cache. Afin de permettre la mise en cache l'interface, vous aurez besoin de tourner \\\"Marche\\\" du panneau d'options d'assistance de cache."
+"<b>Attention:</b> Ne pas activer cette option si vous avez d'autres plugins de cache activées. Cette option permet simplement le module d'aide à la cache, mais ne permet pas la mise en cache. Afin de permettre la mise en cache l'interface, vous aurez besoin de tourner 'Marche' du panneau d'options d'assistance de cache."
 
 #: settings.php:543
 #@ wp-qore
@@ -794,7 +794,7 @@ msgstr "Retirer les balises meta wp"
 #: settings.php:564
 #@ wp-qore
 msgid "Turn 'On' to remove from source code"
-msgstr "Tourner sur \\\"Oui\\\" pour supprimer à partir du code source"
+msgstr "Tourner sur 'Oui' pour supprimer à partir du code source"
 
 #: settings.php:565
 #@ wp-qore
@@ -859,7 +859,7 @@ msgstr "Majeur"
 #: settings.php:277
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
-msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les principaux versions de base WordPress."
+msgstr "Lorsque 'ON', ce qui permettra des mises à jour automatiques de tous les principaux versions de base WordPress."
 
 #: settings.php:282
 #@ wp-qore
@@ -869,7 +869,7 @@ msgstr "Mineur"
 #: settings.php:290
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
-msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de toutes les versions de base de WordPress mineures."
+msgstr "Lorsque 'ON', ce qui permettra des mises à jour automatiques de toutes les versions de base de WordPress mineures."
 
 #: settings.php:295
 #@ wp-qore
@@ -879,7 +879,7 @@ msgstr "Plugin"
 #: settings.php:303
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all plugins."
-msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les plugins."
+msgstr "Lorsque 'ON', ce qui permettra des mises à jour automatiques de tous les plugins."
 
 #: settings.php:308
 #@ wp-qore
@@ -889,7 +889,7 @@ msgstr "Thème"
 #: settings.php:316
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all themes."
-msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de tous les thèmes."
+msgstr "Lorsque 'ON', ce qui permettra des mises à jour automatiques de tous les thèmes."
 
 #: settings.php:321
 #@ wp-qore
@@ -899,7 +899,7 @@ msgstr "Traduction"
 #: settings.php:329
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all translations."
-msgstr "Lorsque \\\"ON\\\", ce qui permettra des mises à jour automatiques de toutes les traductions."
+msgstr "Lorsque 'ON', ce qui permettra des mises à jour automatiques de toutes les traductions."
 
 #: settings.php:334
 #@ wp-qore
@@ -1046,10 +1046,4 @@ msgstr "Infos système"
 #@ wp-qore
 msgid "About WPQore"
 msgstr "À propos de WPQore"
-
-#. translators: plugin header field 'Version'
-#: index.php:0
-#@ wp-qore
-msgid "1.6.3"
-msgstr "1.6.3"
 

@@ -750,7 +750,7 @@ msgstr "Widgets de importación/exportación"
 #: settings.php:509
 #@ wp-qore
 msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
-msgstr "Esto le permite importar y exportar la configuración del widget. Una vez activado, un submenú etiquetado \\\"Export Reproductores\\\" e \\\"importación Reproductores\\\" aparecerá en el wp-admin > menú Herramientas."
+msgstr "Esto le permite importar y exportar la configuración del widget. Una vez activado, un submenú etiquetado 'Export Reproductores' e 'importación Reproductores' aparecerá en el wp-admin > menú Herramientas."
 
 #: settings.php:515
 #@ wp-qore
@@ -1052,4 +1052,3 @@ msgstr "Acerca WPQore"
 #@ wp-qore
 msgid "1.6.3"
 msgstr "1.6.3"
-

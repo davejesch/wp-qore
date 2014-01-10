@@ -82,7 +82,7 @@ msgstr "Cache Framsida"
 #: settings.php:550
 #@ wp-qore
 msgid "Turn 'On' to enable"
-msgstr "Slå \\\"På\\\" för att aktivera"
+msgstr "Slå 'På' för att aktivera"
 
 #: functions/cache.php:145
 #@ wp-qore
@@ -468,7 +468,7 @@ msgstr "Alternativ e-post"
 #: sec-advisor.php:1027
 #@ wp-qore
 msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
-msgstr "Om detta fält är tomt, kommer admin att meddelas per e-post. Daglig genomsökning måste vara \\\"På\\\" för att använda den här funktionen."
+msgstr "Om detta fält är tomt, kommer admin att meddelas per e-post. Daglig genomsökning måste vara 'På' för att använda den här funktionen."
 
 #: sec-advisor.php:1045
 #, php-format
@@ -514,7 +514,7 @@ msgstr "Dölj sidan för inloggning"
 #: settings.php:95
 #@ wp-qore
 msgid "Turn 'On' to lock login page"
-msgstr "Slå \\\"På\\\" för att låsa inloggningssida"
+msgstr "Slå 'På' för att låsa inloggningssida"
 
 #: settings.php:96
 #@ wp-qore
@@ -630,7 +630,7 @@ msgstr "Slå 'På' för att aktivera (Rekommenderas)"
 #: settings.php:383
 #@ wp-qore
 msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
-msgstr "Om markerad, kommer detta att slå på säkerhetsrådgivare. Security Advisor ger dig skydd mot säkerhetshot, till exempel: virus, skadlig kod, och säkerhetsläckor. Väl aktiverad, kommer en undermeny som heter \\\"Säkerhetsrådgivaren\\\" visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till instrumentpanelen först och det kommer att initieras."
+msgstr "Om markerad, kommer detta att slå på säkerhetsrådgivare. Security Advisor ger dig skydd mot säkerhetshot, till exempel: virus, skadlig kod, och säkerhetsläckor. Väl aktiverad, kommer en undermeny som heter 'Säkerhetsrådgivaren' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till instrumentpanelen först och det kommer att initieras."
 
 #: settings.php:205
 #@ wp-qore
@@ -640,7 +640,7 @@ msgstr "Ersätt adminpanelen"
 #: settings.php:213
 #@ wp-qore
 msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
-msgstr "När \\\"På\\\", kommer detta att ersätta den vanliga wp-admin panelen med en ny som är ren och enkel."
+msgstr "När 'På', kommer detta att ersätta den vanliga wp-admin panelen med en ny som är ren och enkel."
 
 #: settings.php:389
 #@ wp-qore
@@ -653,7 +653,7 @@ msgstr "Uppdateringstjat"
 #: settings.php:578
 #@ wp-qore
 msgid "Turn 'On' to disable"
-msgstr "Slå \\\"På\\\" för att inaktivera"
+msgstr "Slå 'På' för att inaktivera"
 
 #: settings.php:397
 #@ wp-qore
@@ -750,7 +750,7 @@ msgstr "Importera/exportera widgets"
 #: settings.php:509
 #@ wp-qore
 msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
-msgstr "Detta låter dig importera och exportera widgetinställningar. När du väl aktiverat det så kommer en undermeny att dyka upp, som heter 'Exportera Widgets\\\" och 'Importera Widgets' under wp-admin > Verktyg."
+msgstr "Detta låter dig importera och exportera widgetinställningar. När du väl aktiverat det så kommer en undermeny att dyka upp, som heter 'Exportera Widgets' och 'Importera Widgets' under wp-admin > Verktyg."
 
 #: settings.php:515
 #@ wp-qore
@@ -773,8 +773,8 @@ msgid ""
 "Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
 "<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel."
 msgstr ""
-"Caching din frontend kan öka din sidladdningshastighet avsevärt. Det rekommenderas starkt att du använder caching, men valet är alltid ditt. Väl aktiverad, kommer en undermeny som heter \\\"Cache\\\" visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till adminpanelen först och det kommer att initiera <br>\n"
-"<b>OBS:.</ B> Aktivera inte detta alternativ om du har några andra cache plugins aktiverade. Detta alternativ gör det möjligt för cacheassistans modulen helt enkelt, men gör det inte möjligt för cachning. För att caching frontend, måste du stänga av den 'On \\\"från cache adminpanelen."
+"Caching din frontend kan öka din sidladdningshastighet avsevärt. Det rekommenderas starkt att du använder caching, men valet är alltid ditt. Väl aktiverad, kommer en undermeny som heter 'Cache' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till adminpanelen först och det kommer att initiera <br>\n"
+"<b>OBS:.</ B> Aktivera inte detta alternativ om du har några andra cache plugins aktiverade. Detta alternativ gör det möjligt för cacheassistans modulen helt enkelt, men gör det inte möjligt för cachning. För att caching frontend, måste du stänga av den 'On 'från cache adminpanelen."
 
 #: settings.php:543
 #@ wp-qore
@@ -794,7 +794,7 @@ msgstr "Ta bort wp meta taggar"
 #: settings.php:564
 #@ wp-qore
 msgid "Turn 'On' to remove from source code"
-msgstr "Slå \\\"På\\\" för att ta bort från källkod"
+msgstr "Slå 'På' för att ta bort från källkod"
 
 #: settings.php:565
 #@ wp-qore
@@ -839,7 +839,7 @@ msgstr "Custom instrumentpanel"
 #: settings.php:224
 #@ wp-qore
 msgid "When 'On', this will override the WPQORE dashboard with the one you may create below."
-msgstr "När \\\"På\\\", kommer detta att åsidosätta WPQORE instrumentpanelen med den du kan skapa nedan."
+msgstr "När 'På', kommer detta att åsidosätta WPQORE instrumentpanelen med den du kan skapa nedan."
 
 #: settings.php:226
 #@ wp-qore
@@ -859,7 +859,7 @@ msgstr "Major"
 #: settings.php:277
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
-msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla större Wordpress kärnversioner."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla större Wordpress kärnversioner."
 
 #: settings.php:282
 #@ wp-qore
@@ -869,7 +869,7 @@ msgstr "Minor"
 #: settings.php:290
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
-msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla mindre Wordpress kärnversioner."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla mindre Wordpress kärnversioner."
 
 #: settings.php:295
 #@ wp-qore
@@ -879,7 +879,7 @@ msgstr "Plugin"
 #: settings.php:303
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all plugins."
-msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla plugins."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla plugins."
 
 #: settings.php:308
 #@ wp-qore
@@ -889,7 +889,7 @@ msgstr "Tema"
 #: settings.php:316
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all themes."
-msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla teman."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla teman."
 
 #: settings.php:321
 #@ wp-qore
@@ -899,7 +899,7 @@ msgstr "översättning"
 #: settings.php:329
 #@ wp-qore
 msgid "When 'On', this will enable automatic updates of all translations."
-msgstr "När \\\"På\\\", kommer detta att aktivera automatiska uppdateringar av alla översättningar."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla översättningar."
 
 #: settings.php:334
 #@ wp-qore
@@ -909,7 +909,7 @@ msgstr "Skicka e-post"
 #: settings.php:342
 #@ wp-qore
 msgid "When 'On', this will send the admin an email every time automatic updates are performed."
-msgstr "När \\\"På\\\", kommer detta att skicka admin ett mail varje gång automatiska uppdateringar utförs."
+msgstr "När 'På', kommer detta att skicka admin ett mail varje gång automatiska uppdateringar utförs."
 
 #: settings.php:347
 #@ wp-qore
@@ -919,7 +919,7 @@ msgstr "Felsöknings E"
 #: settings.php:355
 #@ wp-qore
 msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
-msgstr "När \\\"På\\\", kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
+msgstr "När 'På', kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
 
 #: functions/dashboard_view.php:218
 #@ wp-qore
@@ -1052,4 +1052,3 @@ msgstr "Om WPQore"
 #@ wp-qore
 msgid "1.6.3"
 msgstr "1.6.3"
-
