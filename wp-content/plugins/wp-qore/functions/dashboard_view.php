@@ -160,7 +160,7 @@ function get_hdd() {
         echo $b;
         unset ($a, $b);
         } else
-echo '0';
+    echo 'N/A';
 }
 
 //Speedtest Function (check if Windows or Linux)
