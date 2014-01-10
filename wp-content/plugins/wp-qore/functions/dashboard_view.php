@@ -132,7 +132,7 @@ function wpqore_foldersize( $path ) {
                 $size = wpqore_foldersize( $currentFile );
                 $total_size += $size;
             } else {
-                $size = filesize( $currentFile );
+                @$size = filesize( $currentFile );
                 $total_size += $size;
             }
         }   
