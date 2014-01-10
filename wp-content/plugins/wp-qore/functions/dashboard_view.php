@@ -10,7 +10,6 @@ function convert($size){
 }
 
 // number of posts
-add_shortcode('wpqore_posts','wpqore_posts');
 function wpqore_posts() {
 	global $wpqore_count_options;
 	$count_posts = wp_count_posts();
