@@ -72,6 +72,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.6.5 =
+* Fixed Speedtest function (check if Windows or Linux). If is Windows, currently returns a zero. This is minor and will be corrected later on.
+
 = 1.6.4 =
 * Fixed errors in translation files.
 
@@ -251,6 +254,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.6.5 =
+* Upgrade for the latest version.
 
 = 1.6.4 =
 * Upgrade for the latest version.
