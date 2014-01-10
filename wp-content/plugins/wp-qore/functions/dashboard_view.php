@@ -164,13 +164,17 @@ function get_hdd() {
 echo '0';
 }
 
-//Speedtest Function
+//Speedtest Function (check if Windows or Linux)
 function get_speedtest() {
+    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+    echo '0';
+    } else {
     exec("/usr/bin/wget -O /dev/null http://cachefly.cachefly.net/1mb.test 2>&1",$output);
     if(preg_match('/\(([0-9.]+) (..)\/s\)/', $output[count($output) - 2], $m)){
         return $m[1];
     }
     return array();
+    }
 }
 
 ?>
