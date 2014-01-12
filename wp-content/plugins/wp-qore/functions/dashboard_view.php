@@ -242,13 +242,13 @@ function drawChart() {
 			
 <article class="stats_overview" id="stats_overview_2" style="margin-right:20px;margin-top:10px;margin-bottom:20px;padding-top:5px">
 <div class="overview_today">
-    <p class="overview_count"><?php echo wp_upload_space(); ?></p>
+    <p class="overview_count"><?php echo @wp_upload_space(); ?></p>
     <p class="overview_type"><?php _e( 'uploads', 'wp-qore' ); ?></p>
-    <p class="overview_count"><?php echo wp_content_space(); ?></p>
+    <p class="overview_count"><?php echo @wp_content_space(); ?></p>
     <p class="overview_type"><?php _e( 'wp-content', 'wp-qore' ); ?></p>
 </div>
 <div class="overview_previous">
-    <p class="overview_count"><?php echo wp_wp_space(); ?></p>
+    <p class="overview_count"><?php echo @wp_wp_space(); ?></p>
     <p class="overview_type"><?php _e( 'wp total', 'wp-qore' ); ?></p>
     <p class="overview_count"><?php echo $perc;?>%</p>
     <p class="overview_type"><?php _e( 'free hdd', 'wp-qore' ); ?></p>
