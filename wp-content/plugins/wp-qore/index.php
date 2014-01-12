@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.6.8
+Version: 1.6.9
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.6.8';
+    echo '1.6.9';
 }
 
 function wpqore_load_textdomain() {
@@ -165,7 +165,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_sec_advisor","checked");
     update_option("wpqorefunc_theme_directory","templates");
     update_option("wpqorefunc_login_logo_url", "");
-    update_option("wpqorefunc_cache_assistance", "checked");   
+    update_option("wpqorefunc_cache_assistance", "0");   
     update_option("wpqorefunc_fold_menu", "0");
     update_option("wpqorefunc_dashboard_switch", "0");
     update_option("wpqorefunc_custom_dashboard", "");
