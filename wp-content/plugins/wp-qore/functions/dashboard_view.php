@@ -155,29 +155,6 @@ function wpqore_format_size($size) {
     return substr( $size, 0, $endIndex ) . ' ' . $units[$i];
 }
 
-//Check if exec is enabled
-function exec_enabled() {
-  $disabled = explode(',', ini_get('disable_functions'));
-  return !in_array('exec', $disabled);
-}
-
-//Speedtest Function (check if Windows or Linux)
-function get_speedtest() {
-    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-    echo '0';
-    } else {
-    if( exec_enabled() ) {
-    @exec("/usr/bin/wget -O /dev/null http://cachefly.cachefly.net/1mb.test 2>&1",$output);
-    if(preg_match('/\(([0-9.]+) (..)\/s\)/', $output[count($output) - 2], $m)){
-        return $m[1];
-    }
-    return array();
-    }else{
-    echo '0';
-    }
-    }
-}
-
 ?>
 
 <link rel="stylesheet" href="<?php echo plugins_url( '../css/layout.css' , __FILE__ ); ?>" type="text/css" media="screen" />
@@ -206,24 +183,6 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
     chart.draw(data, options);
     }
-</script>
-
-<script type="text/javascript">
-    google.load('visualization', '1', {packages: ['gauge']});
-
-      function drawVisualization() {
-        // Create and populate the data table.
-        var data = google.visualization.arrayToDataTable([
-          ['Label', 'Value'],
-          ['MB/s', <?php print_r(get_speedtest());echo "\n"; ?>]
-        ]);
-      
-        // Create and draw the visualization.
-        new google.visualization.Gauge(document.getElementById('visualization')).
-            draw(data);
-      }
-      
-    google.setOnLoadCallback(drawVisualization);
 </script>
 
 <div id="fb-root"></div>
@@ -263,12 +222,10 @@ function drawChart() {
 <div class="module_content_stats">
 
 <article class="stats_graph" style="width:450px;">
-<div style="float:left;font-size:10px;color:#000000;font-weight:bold"><?php _e( 'Speed Test', 'wp-qore' ); ?></div>
-<div id="visualization" style="float:left;width:200px;height:120px;margin-top:20px;margin-left:-50px;"></div>
-<div id="donutchart" style="float:left;width:280px;height:170px;margin-left:-40px;margin-top:-10px;margin-bottom:-20px;"></div>
+<div id="donutchart" style="float:left;width:450px;height:245px;margin-left:-20px;margin-top:-10px;margin-bottom:-20px;"></div>
 </article>
 
-<article class="stats_overview" id="stats_overview" style="margin-top:10px;margin-bottom:10px;padding-top:25px;padding-bottom:20px;">
+<article class="stats_overview" id="stats_overview" style="margin-top:10px;margin-bottom:20px;padding-top:5px">
 <div class="overview_today">
     <p class="overview_count"><?php echo wpqore_posts(); ?></p>
     <p class="overview_type"><?php _e( 'posts', 'wp-qore' ); ?></p>
@@ -283,7 +240,7 @@ function drawChart() {
 </div>
 </article>
 			
-<article class="stats_overview" id="stats_overview_2" style="margin-top:10px;margin-bottom:10px;margin-right:20px;padding-top:25px;padding-bottom:20px;">
+<article class="stats_overview" id="stats_overview_2" style="margin-right:20px;margin-top:10px;margin-bottom:20px;padding-top:5px">
 <div class="overview_today">
     <p class="overview_count"><?php echo wp_upload_space(); ?></p>
     <p class="overview_type"><?php _e( 'uploads', 'wp-qore' ); ?></p>
@@ -295,6 +252,36 @@ function drawChart() {
     <p class="overview_type"><?php _e( 'wp total', 'wp-qore' ); ?></p>
     <p class="overview_count"><?php echo $perc;?>%</p>
     <p class="overview_type"><?php _e( 'free hdd', 'wp-qore' ); ?></p>
+</div>
+</article>
+
+<article class="stats_overview" id="stats_overview_2" style="margin-bottom:10px;padding-top:5px">
+<div class="overview_today">
+    <p class="overview_count"><?php echo PHP_OS ?></p>
+    <p class="overview_type"><?php _e("OS", 'wp-qore'); ?></p>
+    <p class="overview_count"><?php echo phpversion() ?></p>
+    <p class="overview_type"><?php _e("Php", 'wp-qore'); ?></p>
+</div>
+<div class="overview_previous">
+    <p class="overview_count"><?php echo $wpdb->db_version() ?></p>
+    <p class="overview_type"><?php _e("MySQL", 'wp-qore'); ?></p>
+    <p class="overview_count"><?php echo $wp_version ?></p>
+    <p class="overview_type"><?php _e("WordPress", 'wp-qore'); ?></p>
+</div>
+</article>
+
+<article class="stats_overview" id="stats_overview_2" style="margin-right:20px;margin-bottom:10px;padding-top:5px">
+<div class="overview_today">
+    <p class="overview_count"><?php echo PHP_SAPI ?></p>
+    <p class="overview_type"><?php _e("SAPI", 'wp-qore'); ?></p>
+    <p class="overview_count"><?php echo WPQORE_run_apc() ? 'Yes' : 'No'  ?></p>
+    <p class="overview_type"><?php _e("APC Enabled", 'wp-qore'); ?></p>
+</div>
+<div class="overview_previous">
+    <p class="overview_count"><?php echo get_bloginfo('language') ?></p>
+    <p class="overview_type"><?php _e("Language", 'wp-qore'); ?></p>
+    <p class="overview_count"><?php echo (((strtolower(@ini_get('safe_mode')) == 'on') || (strtolower(@ini_get('safe_mode')) == 'yes') || (strtolower(@ini_get('safe_mode')) == 'true') ||  (ini_get("safe_mode") == 1 ))) ? __('On', 'wp-qore') : __('Off', 'wp-qore'); ?></p>
+    <p class="overview_type"><?php _e("Safe Mode", 'wp-qore'); ?></p>
 </div>
 </article>
 
@@ -527,13 +514,12 @@ if ( current_user_can('manage_options') ) { ?>
 <h3><?php _e( 'System Info', 'wp-qore' ); ?></h3>
 </header>
 <div class="module_content">
-<blockquote>
-<span style="font-family:monospace;white-space:pre;"><?php echo 'PHP version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . phpversion(); ?></span><br />
+<b><?php _e("Web Server", 'wp-qore'); ?></b>: <?php echo $_SERVER['SERVER_SOFTWARE'] ?><br />
 <br />
-<span style="font-family:monospace"><?php @system("uname -a"); ?></span><br />
+<b><?php _e("Max Execution Time", 'wp-qore'); ?></b>: <?php echo @ini_get( 'max_execution_time' ); ?><br />
 <br />
-<span style="font-family:monospace;white-space:pre;"><?php @system("df -h"); ?></span>
-</blockquote>
+<b><?php _e('Server Disk Quota', 'wp-qore'); ?></b>: <?php echo WPQORE_bytesize($space_free);?> of <?php echo WPQORE_bytesize($space);?> available.<br />
+<br />
 </div>
 </article>
 
@@ -543,8 +529,9 @@ if ( current_user_can('manage_options') ) { ?>
 </header>
 <div class="module_content">
 <div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/denverhost" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
-<p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.</p>
-<p align="justify" style="padding-bottom:4px">WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Another powerful feature is Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... period!</p>
+<p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.<br />
+<br />
+WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Another powerful feature is Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... period!</p>
 </div>
 </article>
 </div>
