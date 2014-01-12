@@ -1,5 +1,8 @@
 <?php //wp-admin dashboard : begin 
 
+//include server_info functions
+require_once("server_info.php");
+
     if (get_option("wpqorefunc_dashboard_switch")=='checked') { 
         echo get_option("wpqorefunc_custom_dashboard");
     } else {
@@ -132,7 +135,7 @@ function wpqore_foldersize( $path ) {
                 $size = wpqore_foldersize( $currentFile );
                 $total_size += $size;
             } else {
-                @$size = filesize( $currentFile );
+                $size = filesize( $currentFile );
                 $total_size += $size;
             }
         }   
@@ -152,15 +155,10 @@ function wpqore_format_size($size) {
     return substr( $size, 0, $endIndex ) . ' ' . $units[$i];
 }
 
-//HDD Free Space Function
-function get_hdd() {
-    exec("df -h",$a);
-        if ($start=strpos($a[1], '%')) {
-        $b = substr($a[1], $start-2, 3);
-        echo $b;
-        unset ($a, $b);
-        } else
-    echo 'N/A';
+//Check if exec is enabled
+function exec_enabled() {
+  $disabled = explode(',', ini_get('disable_functions'));
+  return !in_array('exec', $disabled);
 }
 
 //Speedtest Function (check if Windows or Linux)
@@ -168,11 +166,15 @@ function get_speedtest() {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
     echo '0';
     } else {
-    exec("/usr/bin/wget -O /dev/null http://cachefly.cachefly.net/1mb.test 2>&1",$output);
+    if( exec_enabled() ) {
+    @exec("/usr/bin/wget -O /dev/null http://cachefly.cachefly.net/1mb.test 2>&1",$output);
     if(preg_match('/\(([0-9.]+) (..)\/s\)/', $output[count($output) - 2], $m)){
         return $m[1];
     }
     return array();
+    }else{
+    echo '0';
+    }
     }
 }
 
@@ -318,8 +320,8 @@ function drawChart() {
 <div class="overview_previous">
     <p class="overview_count"><?php echo wp_wp_space(); ?></p>
     <p class="overview_type"><?php _e( 'wp total', 'wp-qore' ); ?></p>
-    <p class="overview_count"><?php echo get_hdd(); ?></p>
-    <p class="overview_type"><?php _e( 'disk usage', 'wp-qore' ); ?></p>
+    <p class="overview_count"><?php echo $perc;?>%</p>
+    <p class="overview_type"><?php _e( 'free hdd', 'wp-qore' ); ?></p>
 </div>
 </article>
 
@@ -553,11 +555,11 @@ if ( current_user_can('manage_options') ) { ?>
 </header>
 <div class="module_content">
 <blockquote>
-<span style="font-family:monospace"><?php system("uname -a"); ?></span><br />
-<br />
 <span style="font-family:monospace;white-space:pre;"><?php echo 'PHP version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . phpversion(); ?></span><br />
 <br />
-<span style="font-family:monospace;white-space:pre;"><?php system("df -h"); ?></span>
+<span style="font-family:monospace"><?php @system("uname -a"); ?></span><br />
+<br />
+<span style="font-family:monospace;white-space:pre;"><?php @system("df -h"); ?></span>
 </blockquote>
 </div>
 </article>
