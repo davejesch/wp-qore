@@ -47,19 +47,12 @@
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
-    #stats_overview{display:none}
-    #stats_overview_2{margin-right:-20px}
-    .module_content_stats{height:150px}
+    #module_width_full{display:none}
     .footer_section{display:none}
 }
 
 @media only screen and (min-width:1024px) and (max-width:1280px) {
-    #stats_overview{display:none}
-    .module_content_stats{height:150px}
-    .stats_overview .overview_today .overview_count {font-size: 14px}
-    .stats_overview .overview_previous .overview_count {font-size: 14px}
-    .donutchart{margin-right:-50px}
-    .visualization{margin-left:-80px}
+    #module_width_full{display:none}
     .footer_section{display:none}
 }
 
