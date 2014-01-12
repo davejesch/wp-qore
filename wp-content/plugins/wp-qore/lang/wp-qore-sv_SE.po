@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Qore v1.6.3\n"
+"Project-Id-Version: WP Qore v1.6.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-09 12:59:40+0000\n"
+"PO-Revision-Date: 2014-01-12 00:39:12+0000\n"
 "Last-Translator: keha76 <keha1976@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -115,132 +115,132 @@ msgid "Target folder:"
 msgstr "Målkatalog:"
 
 #: functions/dashboard_func.php:28
-#: functions/dashboard_view.php:266
+#: functions/dashboard_view.php:271
 #@ wp-qore
 msgid "General"
 msgstr "Allmänt"
 
-#: functions/dashboard_view.php:339
-#: functions/dashboard_view.php:404
+#: functions/dashboard_view.php:344
+#: functions/dashboard_view.php:409
 #@ wp-qore
 msgid "All Posts"
 msgstr "Alla Inlägg"
 
-#: functions/dashboard_view.php:343
-#: functions/dashboard_view.php:408
+#: functions/dashboard_view.php:348
+#: functions/dashboard_view.php:413
 #@ wp-qore
 msgid "Add Posts"
 msgstr "Lägg till Inlägg"
 
-#: functions/dashboard_view.php:347
-#: functions/dashboard_view.php:412
+#: functions/dashboard_view.php:352
+#: functions/dashboard_view.php:417
 #@ wp-qore
 msgid "Categories"
 msgstr "Kategorier"
 
-#: functions/dashboard_view.php:348
-#: functions/dashboard_view.php:413
+#: functions/dashboard_view.php:353
+#: functions/dashboard_view.php:418
 #@ wp-qore
 msgid "Tags"
 msgstr "Etiketter"
 
-#: functions/dashboard_view.php:352
-#: functions/dashboard_view.php:417
+#: functions/dashboard_view.php:357
+#: functions/dashboard_view.php:422
 #@ wp-qore
 msgid "Media Library"
 msgstr "Mediabibliotek"
 
-#: functions/dashboard_view.php:353
-#: functions/dashboard_view.php:418
+#: functions/dashboard_view.php:358
+#: functions/dashboard_view.php:423
 #@ wp-qore
 msgid "Add Media"
 msgstr "Lägg till Media"
 
-#: functions/dashboard_view.php:357
-#: functions/dashboard_view.php:422
+#: functions/dashboard_view.php:362
+#: functions/dashboard_view.php:427
 #@ wp-qore
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: functions/dashboard_view.php:361
-#: functions/dashboard_view.php:426
+#: functions/dashboard_view.php:366
+#: functions/dashboard_view.php:431
 #@ wp-qore
 msgid "Add Page"
 msgstr "Lägg till Sida"
 
-#: functions/dashboard_view.php:365
-#: functions/dashboard_view.php:430
+#: functions/dashboard_view.php:370
+#: functions/dashboard_view.php:435
 #@ wp-qore
 msgid "Themes"
 msgstr "Teman"
 
-#: functions/dashboard_view.php:369
-#: functions/dashboard_view.php:438
+#: functions/dashboard_view.php:374
+#: functions/dashboard_view.php:443
 #@ wp-qore
 msgid "Widgets"
 msgstr "Widgets"
 
-#: functions/dashboard_view.php:370
-#: functions/dashboard_view.php:439
+#: functions/dashboard_view.php:375
+#: functions/dashboard_view.php:444
 #@ wp-qore
 msgid "Menus"
 msgstr "Menyer"
 
-#: functions/dashboard_view.php:374
-#: functions/dashboard_view.php:443
+#: functions/dashboard_view.php:379
+#: functions/dashboard_view.php:448
 #@ wp-qore
 msgid "Plugins"
 msgstr "Tillägg"
 
-#: functions/dashboard_view.php:378
-#: functions/dashboard_view.php:447
+#: functions/dashboard_view.php:383
+#: functions/dashboard_view.php:452
 #@ wp-qore
 msgid "Add Plugin"
 msgstr "Lägg till Tillägg"
 
-#: functions/dashboard_view.php:382
-#: functions/dashboard_view.php:455
+#: functions/dashboard_view.php:387
+#: functions/dashboard_view.php:460
 #@ wp-qore
 msgid "Users"
 msgstr "Användare"
 
-#: functions/dashboard_view.php:383
-#: functions/dashboard_view.php:456
+#: functions/dashboard_view.php:388
+#: functions/dashboard_view.php:461
 #@ wp-qore
 msgid "Add User"
 msgstr "Lägg till Användare"
 
-#: functions/dashboard_view.php:387
-#: functions/dashboard_view.php:460
+#: functions/dashboard_view.php:392
+#: functions/dashboard_view.php:465
 #@ wp-qore
 msgid "My Profile"
 msgstr "Min Profil"
 
-#: functions/dashboard_view.php:391
-#: functions/dashboard_view.php:464
+#: functions/dashboard_view.php:396
+#: functions/dashboard_view.php:469
 #@ wp-qore
 msgid "Import"
 msgstr "Importera"
 
-#: functions/dashboard_view.php:395
-#: functions/dashboard_view.php:468
+#: functions/dashboard_view.php:400
+#: functions/dashboard_view.php:473
 #@ wp-qore
 msgid "Export"
 msgstr "Exportera"
 
-#: functions/dashboard_view.php:399
-#: functions/dashboard_view.php:472
+#: functions/dashboard_view.php:404
+#: functions/dashboard_view.php:477
 #: sec-advisor.php:153
 #@ wp-qore
 msgid "Settings"
 msgstr "Inställningar"
 
-#: functions/dashboard_view.php:434
+#: functions/dashboard_view.php:439
 #@ wp-qore
 msgid "Theme Editor"
 msgstr "Redigera Tema"
 
-#: functions/dashboard_view.php:451
+#: functions/dashboard_view.php:456
 #@ wp-qore
 msgid "Plugins Editor"
 msgstr "Redigera Tillägg"
@@ -921,134 +921,146 @@ msgstr "Felsöknings E"
 msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
 msgstr "När 'På', kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
 
-#: functions/dashboard_view.php:218
+#: functions/dashboard_view.php:223
 #@ wp-qore
 msgid "Task"
 msgstr "Task"
 
-#: functions/dashboard_view.php:218
-#: functions/dashboard_view.php:224
+#: functions/dashboard_view.php:223
+#: functions/dashboard_view.php:229
 #@ wp-qore
 msgid "PHP Memory"
 msgstr "PHP Minne"
 
-#: functions/dashboard_view.php:219
+#: functions/dashboard_view.php:224
 #@ wp-qore
 msgid "Limit"
 msgstr "Gräns"
 
-#: functions/dashboard_view.php:220
+#: functions/dashboard_view.php:225
 #@ wp-qore
 msgid "Usage"
 msgstr "Användning"
 
-#: functions/dashboard_view.php:264
+#: functions/dashboard_view.php:269
 #@ wp-qore
 msgid "Dashboard"
 msgstr "Instrumentbräda"
 
-#: functions/dashboard_view.php:274
+#: functions/dashboard_view.php:279
 #@ wp-qore
 msgid "Welcome to the admin backend"
 msgstr "Välkommen till admin backend"
 
-#: functions/dashboard_view.php:276
+#: functions/dashboard_view.php:281
 #@ wp-qore
 msgid "A Warning Alert"
 msgstr "En Varning Alert"
 
-#: functions/dashboard_view.php:277
+#: functions/dashboard_view.php:282
 #@ wp-qore
 msgid "An Error Message"
 msgstr "Ett felmeddelande"
 
-#: functions/dashboard_view.php:278
+#: functions/dashboard_view.php:283
 #@ wp-qore
 msgid "A Success Message"
 msgstr "En framgång meddelande"
 
-#: functions/dashboard_view.php:283
+#: functions/dashboard_view.php:288
 #@ wp-qore
 msgid "Stats"
 msgstr "Stats"
 
-#: functions/dashboard_view.php:288
+#: functions/dashboard_view.php:293
 #@ wp-qore
 msgid "Speed Test"
 msgstr "Hastighetstest"
 
-#: functions/dashboard_view.php:296
+#: functions/dashboard_view.php:301
 #@ wp-qore
 msgid "posts"
 msgstr "posts"
 
-#: functions/dashboard_view.php:298
+#: functions/dashboard_view.php:303
 #@ wp-qore
 msgid "comments"
 msgstr "kommentarer"
 
-#: functions/dashboard_view.php:302
+#: functions/dashboard_view.php:307
 #@ wp-qore
 msgid "pages"
 msgstr "sidor"
 
-#: functions/dashboard_view.php:304
+#: functions/dashboard_view.php:309
 #@ wp-qore
 msgid "users"
 msgstr "användare"
 
-#: functions/dashboard_view.php:311
+#: functions/dashboard_view.php:316
 #@ wp-qore
 msgid "uploads"
 msgstr "uploads"
 
-#: functions/dashboard_view.php:313
+#: functions/dashboard_view.php:318
 #@ wp-qore
 msgid "wp-content"
 msgstr "wp-content"
 
-#: functions/dashboard_view.php:317
+#: functions/dashboard_view.php:322
 #@ wp-qore
 msgid "wp total"
 msgstr "wp totala"
 
-#: functions/dashboard_view.php:319
-#@ wp-qore
-msgid "disk usage"
-msgstr "hdd"
-
-#: functions/dashboard_view.php:331
+#: functions/dashboard_view.php:336
 #@ wp-qore
 msgid "Control"
 msgstr "Kontroll"
 
-#: functions/dashboard_view.php:483
+#: functions/dashboard_view.php:488
 #@ wp-qore
 msgid "Recent Pages"
 msgstr "Nya sidor"
 
-#: functions/dashboard_view.php:516
+#: functions/dashboard_view.php:521
 #@ wp-qore
 msgid "Recent Posts"
 msgstr "Senaste inlägg"
 
-#: functions/dashboard_view.php:538
+#: functions/dashboard_view.php:543
 #@ wp-qore
 msgid "find content"
 msgstr "sök"
 
-#: functions/dashboard_view.php:549
+#: functions/dashboard_view.php:554
 #@ wp-qore
 msgid "System Info"
 msgstr "System Info"
 
-#: functions/dashboard_view.php:564
+#: functions/dashboard_view.php:569
 #@ wp-qore
 msgid "About WPQore"
 msgstr "Om WPQore"
 
+#: functions/dashboard_view.php:324
+#@ wp-qore
+msgid "free hdd"
+msgstr "fri HDD"
+
+#: functions/server_info.php:166
+#@ wp-qore
+msgid "Settings Saved"
+msgstr "Sparade"
+
+#: functions/server_info.php:169
+#: functions/server_info.php:170
+#@ wp-qore
+msgid "unknow"
+msgstr "ålder"
+
 #. translators: plugin header field 'Version'
 #: index.php:0
 #@ wp-qore
-msgid "1.6.3"
-msgstr "1.6.3"
+msgid "1.6.6"
+msgstr "1.6.6"
+
