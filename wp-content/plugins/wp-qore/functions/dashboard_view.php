@@ -209,6 +209,11 @@ function drawChart() {
 <section id="main" class="column">
 		
 <h4 class="alert_info"><?php _e( 'Welcome to the admin backend', 'wp-qore' ); ?>.</h4>
+
+<?php if (get_option("wpqorefunc_cache_assistance")=='checked') { ?>
+<h4 class="alert_error"><?php _e( 'Uh oh, Cache is feeling grumpy. We\'ll have it fixed soon. To disable this message, turn off Cache Assistance from the <a href="admin.php?page=wp-qore/functions.php">WP Qore Settings</a> panel.', 'wp-qore' ); ?></h4>
+<?php } ?>
+
 <!--
 <h4 class="alert_warning"><?php _e( 'A Warning Alert', 'wp-qore' ); ?></h4>
 <h4 class="alert_error"><?php _e( 'An Error Message', 'wp-qore' ); ?></h4>
