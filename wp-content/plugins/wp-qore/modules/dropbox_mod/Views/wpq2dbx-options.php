@@ -2,8 +2,7 @@
 /**
  * This file contains the contents of the Dropbox admin options page.
  *
- * @copyright Copyright (C) 2011-2014 Awesoft Pty. Ltd. All rights reserved.
- * @author Michael De Wildt (http://www.mikeyd.com.au/)
+ * @author Michael De Wildt 
  * @license This program is free software; you can redistribute it and/or modify
  *          it under the terms of the GNU General Public License as published by
  *          the Free Software Foundation; either version 2 of the License, or
