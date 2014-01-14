@@ -33,8 +33,8 @@ function wpqorefunc_my_scripts_method() {
 // enable wp-admin menus
 function wpqorefunc_fp_admin() {
     if(current_user_can('manage_options'))  
-    add_menu_page('WP Qore Settings', 'WP Qore', 'manage_options', __FILE__, 'wpqorefunc_fp_settings');
-    add_submenu_page( 'wp-qore/functions.php', 'WP Qore Settings', 'WP Qore Settings', 'manage_options', __FILE__, 'wpqorefunc_fp_settings');
+    add_menu_page('WP Qore', 'WP Qore', 'manage_options', __FILE__, 'wpqorefunc_fp_settings');
+    add_submenu_page( 'wp-qore/functions.php', 'WP Qore Options', 'WP Qore Options', 'manage_options', __FILE__, 'wpqorefunc_fp_settings');
 }
 
 function wpqorefunc_theme_directory_fun (){
