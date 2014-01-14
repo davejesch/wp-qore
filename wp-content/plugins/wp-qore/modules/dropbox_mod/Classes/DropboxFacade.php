@@ -2,8 +2,7 @@
 /**
  * A facade class with wrapping functions to administer a dropbox account
  *
- * @copyright Copyright (C) 2011-2014 Awesoft Pty. Ltd. All rights reserved.
- * @author Michael De Wildt (http://www.mikeyd.com.au/)
+ * @author Michael De Wildt 
  * @license This program is free software; you can redistribute it and/or modify
  *          it under the terms of the GNU General Public License as published by
  *          the Free Software Foundation; either version 2 of the License, or
