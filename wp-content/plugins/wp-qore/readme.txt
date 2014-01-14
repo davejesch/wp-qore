@@ -73,6 +73,10 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.7.1 = 
+* Updated Dropbox Authorize panel.
+* Updated language files.
+
 = 1.7.0 = 
 * Added Dropbox backup module.
 
@@ -271,6 +275,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.7.1 =
+* Upgrade for the latest version.
 
 = 1.7.0 =
 * Upgrade for the latest version.
