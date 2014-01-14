@@ -1,1684 +1,1684 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: WP Qore v1.7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-14 11:00:08+0000\n"
-"Last-Translator: keha76 <keha1976@gmail.com>\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Swedish\n"
-"X-Poedit-Country: SWEDEN\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: ../\n"
-"X-Poedit-Bookmarks: \n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
-
-#. translators: plugin header field 'Name'
-#: functions/adminbar_menu.php:61
-#: index.php:0
-#@ wp-qore
-msgid "WP Qore"
-msgstr "WP Qore"
-
-#: functions/adminbar_menu.php:66
-#: functions/cache.php:120
-#@ wp-qore
-msgid "Cache Assistance"
-msgstr "Cacheassistenten"
-
-#: functions/adminbar_menu.php:77
-#: sec-advisor.php:389
-#: sec-advisor.php:390
-#: sec-advisor.php:960
-#@ wp-qore
-msgid "Security Advisor"
-msgstr "Säkerhetsrådgivaren"
-
-#: functions/branding.php:5
-#@ wp-qore
-msgid "Copyright "
-msgstr "Copyright"
-
-#: functions/branding.php:17
-#@ wp-qore
-msgid "WP Qore: "
-msgstr "WP Qore: "
-
-#: functions/cache.php:134
-#@ wp-qore
-msgid "General Options"
-msgstr "Allmäna Inställningar"
-
-#: functions/cache.php:137
-#@ wp-qore
-msgid "Cache Frontend"
-msgstr "Cache Framsida"
-
-#: functions/cache.php:144
-#: functions/cache.php:158
-#: settings.php:277
-#: settings.php:290
-#: settings.php:303
-#: settings.php:316
-#: settings.php:329
-#: settings.php:342
-#: settings.php:355
-#: settings.php:480
-#: settings.php:494
-#: settings.php:509
-#: settings.php:536
-#: settings.php:565
-#@ wp-qore
-msgid "Turn 'On' to enable"
-msgstr "Slå 'På' för att aktivera"
-
-#: functions/cache.php:145
-#@ wp-qore
-msgid "This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed."
-msgstr "Detta kommer att cachelagra alla inlägg och sidor. Aktivera cachehjälp för att leverera dina webbsidor snabbare till dina användare, öka din webbplats hastighet."
-
-#: functions/cache.php:151
-#@ wp-qore
-msgid "New Post or Page"
-msgstr "Nytt Inlägg eller Sida"
-
-#: functions/cache.php:159
-#@ wp-qore
-msgid "Clear all cache files when a post or page is published."
-msgstr "Rensa alla cachelagrade filer när ett inlägg eller en sida blir publicerad."
-
-#: functions/cache.php:184
-#@ wp-qore
-msgid "Delete Cache"
-msgstr "Radera Cache"
-
-#: functions/cache.php:187
-#@ wp-qore
-msgid "Clear all cache"
-msgstr "Rensa Cache"
-
-#: functions/cache.php:190
-#@ wp-qore
-msgid "Target folder:"
-msgstr "Målkatalog:"
-
-#: functions/dashboard_func.php:28
-#: functions/dashboard_view.php:203
-#@ wp-qore
-msgid "General"
-msgstr "Allmänt"
-
-#: functions/dashboard_view.php:309
-#: functions/dashboard_view.php:374
-#@ wp-qore
-msgid "All Posts"
-msgstr "Alla Inlägg"
-
-#: functions/dashboard_view.php:313
-#: functions/dashboard_view.php:378
-#@ wp-qore
-msgid "Add Posts"
-msgstr "Lägg till Inlägg"
-
-#: functions/dashboard_view.php:317
-#: functions/dashboard_view.php:382
-#@ wp-qore
-msgid "Categories"
-msgstr "Kategorier"
-
-#: functions/dashboard_view.php:318
-#: functions/dashboard_view.php:383
-#@ wp-qore
-msgid "Tags"
-msgstr "Etiketter"
-
-#: functions/dashboard_view.php:322
-#: functions/dashboard_view.php:387
-#@ wp-qore
-msgid "Media Library"
-msgstr "Mediabibliotek"
-
-#: functions/dashboard_view.php:323
-#: functions/dashboard_view.php:388
-#@ wp-qore
-msgid "Add Media"
-msgstr "Lägg till Media"
-
-#: functions/dashboard_view.php:327
-#: functions/dashboard_view.php:392
-#@ wp-qore
-msgid "Comments"
-msgstr "Kommentarer"
-
-#: functions/dashboard_view.php:331
-#: functions/dashboard_view.php:396
-#@ wp-qore
-msgid "Add Page"
-msgstr "Lägg till Sida"
-
-#: functions/dashboard_view.php:335
-#: functions/dashboard_view.php:400
-#@ wp-qore
-msgid "Themes"
-msgstr "Teman"
-
-#: functions/dashboard_view.php:339
-#: functions/dashboard_view.php:408
-#@ wp-qore
-msgid "Widgets"
-msgstr "Widgets"
-
-#: functions/dashboard_view.php:340
-#: functions/dashboard_view.php:409
-#@ wp-qore
-msgid "Menus"
-msgstr "Menyer"
-
-#: functions/dashboard_view.php:344
-#: functions/dashboard_view.php:413
-#@ wp-qore
-msgid "Plugins"
-msgstr "Tillägg"
-
-#: functions/dashboard_view.php:348
-#: functions/dashboard_view.php:417
-#@ wp-qore
-msgid "Add Plugin"
-msgstr "Lägg till Tillägg"
-
-#: functions/dashboard_view.php:352
-#: functions/dashboard_view.php:425
-#@ wp-qore
-msgid "Users"
-msgstr "Användare"
-
-#: functions/dashboard_view.php:353
-#: functions/dashboard_view.php:426
-#@ wp-qore
-msgid "Add User"
-msgstr "Lägg till Användare"
-
-#: functions/dashboard_view.php:357
-#: functions/dashboard_view.php:430
-#@ wp-qore
-msgid "My Profile"
-msgstr "Min Profil"
-
-#: functions/dashboard_view.php:361
-#: functions/dashboard_view.php:434
-#@ wp-qore
-msgid "Import"
-msgstr "Importera"
-
-#: functions/dashboard_view.php:365
-#: functions/dashboard_view.php:438
-#@ wp-qore
-msgid "Export"
-msgstr "Exportera"
-
-#: functions/dashboard_view.php:369
-#: functions/dashboard_view.php:442
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:234
-#: sec-advisor.php:153
-#@ wp-qore
-msgid "Settings"
-msgstr "Inställningar"
-
-#: functions/dashboard_view.php:404
-#@ wp-qore
-msgid "Theme Editor"
-msgstr "Redigera Tema"
-
-#: functions/dashboard_view.php:421
-#@ wp-qore
-msgid "Plugins Editor"
-msgstr "Redigera Tillägg"
-
-#: functions/failed_login.php:4
-#@ wp-qore
-msgid "The login information you have entered is incorrect."
-msgstr "De uppgifter du angett för inloggning är felaktiga."
-
-#: functions/howdy.php:13
-#@ wp-qore
-msgid "Welcome"
-msgstr "Välkommen"
-
-#: functions/php-widget.php:6
-#@ wp-qore
-msgid "Arbitrary text, HTML, or PHP Code"
-msgstr "Godtycklig text, HTML eller PHP-kod"
-
-#: functions/php-widget.php:8
-#@ wp-qore
-msgid "PHP Code"
-msgstr "PHP Kod"
-
-#: functions/php-widget.php:43
-#@ wp-qore
-msgid "Title:"
-msgstr "Rubrik:"
-
-#: functions/php-widget.php:48
-#@ wp-qore
-msgid "Automatically add paragraphs."
-msgstr "Lägg automatiskt till stycken."
-
-#: functions/widget-expodata.php:49
-#@ wp-qore
-msgid "Export Widgets"
-msgstr "Exportera Widgets"
-
-#: functions/widget-expodata.php:113
-#@ wp-qore
-msgid "Import Widgets"
-msgstr "Importera Widgets"
-
-#: functions/widget-expodata.php:118
-#@ wp-qore
-msgid "check all"
-msgstr "markera alla"
-
-#: functions/widget-expodata.php:119
-#@ wp-qore
-msgid "uncheck all"
-msgstr "avmarkera alla"
-
-#: functions/widget-expodata.php:137
-#@ wp-qore
-msgid "Please select a widget to continue."
-msgstr "Välj en widget för att fortsätta."
-
-#: functions/widget-expodata.php:138
-#@ wp-qore
-msgid "Sidebars"
-msgstr "Sidofält"
-
-#: functions/widget-expodata.php:189
-#@ wp-qore
-msgid "Import Widget Settings"
-msgstr "Importera Widgetinställningar"
-
-#: functions/widget-expodata.php:194
-#@ wp-qore
-msgid "Please select the widget export file to import settings."
-msgstr "Välj exportfil för widget för att importera inställningar."
-
-#: functions/widget-expodata.php:197
-#@ wp-qore
-msgid "Select a file"
-msgstr "Välj en fil"
-
-#: functions/widget-expodata.php:200
-#@ wp-qore
-msgid "Show Widget Settings"
-msgstr "Visa Widget Inställningar"
-
-#: functions/widget-expodata.php:334
-#@ wp-qore
-msgid "No widget data posted to import"
-msgstr "Ingen widget-data postat för import"
-
-#: functions/widget-expodata.php:363
-#@ wp-qore
-msgid "Unknown Error"
-msgstr "Okänt Fel"
-
-#: functions.php:143
-#@ wp-qore
-msgid "Database table prefix is"
-msgstr "Databasens tabellprefix är"
-
-#: functions.php:143
-#@ wp-qore
-msgid "It is ok."
-msgstr "Det är ok."
-
-#. translators: plugin header field 'PluginURI'
-#: index.php:0
-#@ wp-qore
-msgid "http://wpqore.com/"
-msgstr "http://wpqore.com/"
-
-#. translators: plugin header field 'Description'
-#: index.php:0
-#@ wp-qore
-msgid "WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime."
-msgstr "WP Qore är ett tillägg för WordPress som ger extra säkerhet, prestanda funktionalitet och utvecklarverktyg som kan slås på eller av när som helst."
-
-#. translators: plugin header field 'Author'
-#: index.php:0
-#@ wp-qore
-msgid "Jason Jersey"
-msgstr "Jason Jersey"
-
-#. translators: plugin header field 'AuthorURI'
-#: index.php:0
-#@ wp-qore
-msgid "http://twitter.com/degersey"
-msgstr "http://twitter.com/degersey"
-
-#: sec-advisor.php:319
-#@ wp-qore
-msgid "Safe Browsing Alert"
-msgstr "Säker Surf Varning"
-
-#: sec-advisor.php:322
-#@ wp-qore
-msgid "Please check the Google Safe Browsing diagnostic page:"
-msgstr "Kontrollera Google Säker Surfs diagnostik-sida: "
-
-#: sec-advisor.php:339
-#@ wp-qore
-msgid "Potential security threat suspected"
-msgstr "Potentiella misstänkta säkerhetshot"
-
-#: sec-advisor.php:342
-#: sec-advisor.php:887
-#@ wp-qore
-msgid "The daily security scan of your site suspects a potential threat."
-msgstr "Daglig genomsökning av din sida efter misstänkta potentiella hot."
-
-#: sec-advisor.php:377
-#@ wp-qore
-msgid "Notification message from the WP Qore Security Advisor"
-msgstr "Notifieringsmeddelanden från WP Qores Säkerhetsrådgivare "
-
-#: sec-advisor.php:378
-#@ wp-qore
-msgid "http://wpqore.com"
-msgstr "http://wpqore.com"
-
-#: sec-advisor.php:426
-#@ wp-qore
-msgid "There is no threats"
-msgstr "Det finns inga hot"
-
-#: sec-advisor.php:427
-#@ wp-qore
-msgid "View line"
-msgstr "Visa rad"
-
-#: sec-advisor.php:428
-#@ wp-qore
-msgid "Scan completed"
-msgstr "Genomsökning klar"
-
-#: sec-advisor.php:886
-#@ wp-qore
-msgid "Security threat suspected"
-msgstr "Misstänkta säkerhetshot"
-
-#: sec-advisor.php:894
-#@ wp-qore
-msgid "Manual scan"
-msgstr "Manuell genomsökning"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:53
-#: sec-advisor.php:950
-#@ default
-#@ wp-qore
-msgid "Settings saved."
-msgstr "Inställningar sparade."
-
-#: sec-advisor.php:969
-#@ wp-qore
-msgid "Manual Scan"
-msgstr "Manuell Genomsökning"
-
-#: sec-advisor.php:975
-#@ wp-qore
-msgid "Start Scanning"
-msgstr "Starta Genomsökning"
-
-#: sec-advisor.php:984
-#@ wp-qore
-msgid "Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits."
-msgstr "Säkerhetsrådgovaren erbjuder dig att skydda din WordPress-sida mot säkerhetshot, som till exempel virus, skadlig kod eller säkerhetshål."
-
-#: sec-advisor.php:995
-#@ wp-qore
-msgid "Automatic Scan"
-msgstr "Automatisk Genomsökning"
-
-#: sec-advisor.php:997
-#@ wp-qore
-msgid "Daily Scanning"
-msgstr "Daglig Genomsökning"
-
-#: sec-advisor.php:1010
-#@ wp-qore
-msgid "Next check"
-msgstr "Nästa kontroll"
-
-#: sec-advisor.php:1022
-#@ wp-qore
-msgid "Alternate E-mail"
-msgstr "Alternativ e-post"
-
-#: sec-advisor.php:1027
-#@ wp-qore
-msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
-msgstr "Om detta fält är tomt, kommer admin att meddelas per e-post. Daglig genomsökning måste vara 'På' för att använda den här funktionen."
-
-#: sec-advisor.php:1045
-#, php-format
-#@ wp-qore
-msgid "Check to enable %s (Recommended)"
-msgstr "Markera för att aktivera %s (Rekommenderas)"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:401
-#: sec-advisor.php:1063
-#@ wp-qore
-msgid "Save Changes"
-msgstr "Spara Ändringar"
-
-#: settings.php:63
-#@ wp-qore
-msgid "Login Settings"
-msgstr "Inställningar för Inloggning"
-
-#: settings.php:66
-#@ wp-qore
-msgid "Customize login page"
-msgstr "Anpassa Inloggningssidan"
-
-#: settings.php:73
-#@ wp-qore
-msgid "Change login page logo and link (Default is, WordPress)"
-msgstr "Ändra logotypen och länken på sidan för inloggning (Standard är, WordPress)"
-
-#: settings.php:79
-#@ wp-qore
-msgid "Login logo image url"
-msgstr "Inloggning URL för logo"
-
-#: settings.php:84
-#@ wp-qore
-msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
-msgstr "Skriv in URL till en bild till inloggningssidan. Se till att det är ungefär 320px bredd x 80px höjd."
-
-#: settings.php:89
-#@ wp-qore
-msgid "Conceal login page"
-msgstr "Dölj sidan för inloggning"
-
-#: settings.php:96
-#@ wp-qore
-msgid "Turn 'On' to lock login page"
-msgstr "Slå 'På' för att låsa inloggningssida"
-
-#: settings.php:97
-#@ wp-qore
-msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key."
-msgstr "Väl aktiverad, kommer exempelvis example.com/wp-admin url visa ett 404-fel. Bara den användare som känner till den hemliga nyckeln kan komma åt sidan. När exempelvis example.com/wp-admin returnerar 404 kommer example.com/wp-admin? Secretkey1 fungera. Kom ihåg, du kan alltid ändra denna hemliga nyckel."
-
-#: settings.php:103
-#@ wp-qore
-msgid "Login secret key"
-msgstr "Inloggning hemlig nyckel"
-
-#: settings.php:103
-#: settings.php:206
-#: settings.php:376
-#: settings.php:390
-#@ wp-qore
-msgid "click to see example..."
-msgstr "klicka för att visa exempel..."
-
-#: settings.php:105
-#@ wp-qore
-msgctxt "placeholder text"
-msgid "for url get parameter"
-msgstr "för url get parameter"
-
-#: settings.php:109
-#, php-format
-#@ wp-qore
-msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
-msgstr "Endast% s kommer att fungera, annars kommer standard wp-admin-adressen att visa 404."
-
-#: settings.php:113
-#@ wp-qore
-msgid "Add custom login page exception"
-msgstr "Lägg till undantag för anpassad inloggningssida"
-
-#: settings.php:116
-#@ wp-qore
-msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
-msgstr "Om du har egen inloggningssida (till exempel om du använder någon gemenskapskapsplugin såsom Buddypress och dina användare loggar in på sin profil via anpassad webbadress t.ex. <i> http://example.com/myloginpage </ i>) och du vill att url fortsätta att fungera på rätt sätt utan wpqorefunc hemliga nyckel, så måste du lägga till webbadressen i följande inmatningsfält."
-
-#: settings.php:119
-#@ wp-qore
-msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
-msgstr "Och om du vill blockera wp-admin för inloggade <i>prenumerant-användare</i>, markera följande kryssruta"
-
-#: settings.php:126
-#@ wp-qore
-msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
-msgstr "Blockera tillträde till wp-admin för inloggade prenumeranter (deras försök kommer att vidarebefordras till startsidan)."
-
-#: settings.php:152
-#@ wp-qore
-msgid "Source Obfuscation"
-msgstr "Fördunkla Källkod"
-
-#: settings.php:155
-#@ wp-qore
-msgid "New theme directory"
-msgstr "Ny katalog för teman"
-
-#: settings.php:157
-#@ wp-qore
-msgctxt "placeholder text"
-msgid "theme directory"
-msgstr "katalog för teman"
-
-#: settings.php:160
-#, php-format
-#@ wp-qore
-msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
-msgstr "Skapa en katalog som heter <i>%s</i> i %s katalogen och klistra sedan in inaktiva teman till katalogen du vill använda."
-
-#: settings.php:166
-#@ wp-qore
-msgid "Warning!"
-msgstr "Varning!"
-
-#: settings.php:169
-#, php-format
-#@ wp-qore
-msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
-msgstr "Klipp och klistra det aktiva temat från <i>themes</ i> mapp till <i>%s</ i> katalogen. Gör det bara med inaktiva teman. Inaktivera temat, klipp och klistra sedan in för att sedan återaktivera."
-
-#: settings.php:177
-#@ wp-qore
-msgid "Unique source code"
-msgstr "Unik källkod"
-
-#: settings.php:181
-#, php-format
-#@ wp-qore
-msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
-msgstr "Gå till din filhanterare (eller ftp), öppna din wp-config.php-fil och lägga till följande rader där. Du måste du byta namn på wp-content och plugin katalogen till de nya namnen som du ser i koden nedan. Kopiera följande kod (nedan) och klistra in koden längst upp i din wp-config.php fil, placera den strax efter den första öppnande <?php taggen (se <a target=\"_blank\" href=\"%s\"> innan </a> och <a target=\"_blank\" href=\"%s\"> efter </ a> exempel). <br><b> Var uppmärksam. Om du inte vet vad något är för, ska du inte göra det. </b>"
-
-#: settings.php:373
-#@ wp-qore
-msgid "General Settings"
-msgstr "Allmäna Inställningar"
-
-#: settings.php:376
-#@ wp-qore
-msgid "Security advisor"
-msgstr "Säkerhetsrådgivaren"
-
-#: settings.php:213
-#: settings.php:383
-#: settings.php:551
-#@ wp-qore
-msgid "Turn 'On' to enable (Recommended)"
-msgstr "Slå 'På' för att aktivera (Rekommenderas)"
-
-#: settings.php:384
-#@ wp-qore
-msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
-msgstr "Om markerad, kommer detta att slå på säkerhetsrådgivare. Security Advisor ger dig skydd mot säkerhetshot, till exempel: virus, skadlig kod, och säkerhetsläckor. Väl aktiverad, kommer en undermeny som heter 'Säkerhetsrådgivaren' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till instrumentpanelen först och det kommer att initieras."
-
-#: settings.php:206
-#@ wp-qore
-msgid "Replace dashboard"
-msgstr "Ersätt adminpanelen"
-
-#: settings.php:214
-#@ wp-qore
-msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
-msgstr "När 'På', kommer detta att ersätta den vanliga wp-admin panelen med en ny som är ren och enkel."
-
-#: settings.php:390
-#@ wp-qore
-msgid "Nag updates"
-msgstr "Uppdateringstjat"
-
-#: settings.php:397
-#: settings.php:411
-#: settings.php:426
-#: settings.php:593
-#@ wp-qore
-msgid "Turn 'On' to disable"
-msgstr "Slå 'På' för att inaktivera"
-
-#: settings.php:398
-#@ wp-qore
-msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
-msgstr "Detta inaktiverar irriterande WordPress-tjat om uppdateringar från att visas. Detta hindrar inte uppdateringar, bara döljer uppdaterings från toppen av wp-admin."
-
-#: settings.php:404
-#@ wp-qore
-msgid "Core updates"
-msgstr "Core uppdateringar"
-
-#: settings.php:412
-#@ wp-qore
-msgid ""
-"This completely disables new WordPress version notifications and updates from being done.<br>\n"
-"<b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only."
-msgstr ""
-"Detta inaktiverar helt versionsmeddelanden och uppdateringar för WordPress<br>\n"
-"<b>Varning:</b>Det rekommenderas starkt att din produktionsmiljö du håller detta alternativ av. Detta alternativ tillhandahålls endast utvecklingsmiljöer."
-
-#: settings.php:419
-#@ wp-qore
-msgid "Post revisions"
-msgstr "Inlägg Revideringar"
-
-#: settings.php:427
-#@ wp-qore
-msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
-msgstr "Detta inaktiverar spara flera inlägg revideringar. Att ha flera inlägg revideringar kan orsaka svälla på din databas. Inaktive dem kommer att förhindra sådant."
-
-#: settings.php:433
-#@ wp-qore
-msgid "Admin bar removal"
-msgstr "Admin bar borttagning"
-
-#: settings.php:440
-#@ wp-qore
-msgid "Remove admin bar from the frontend"
-msgstr "Ta bort admin bar från framsidan"
-
-#: settings.php:446
-#@ wp-qore
-msgid "Collapse admin menu"
-msgstr "Minimera adminmenyn"
-
-#: settings.php:453
-#@ wp-qore
-msgid "This keeps the wp-admin menu on the left collapsed."
-msgstr "Detta håller adminmenyn till vänster minimerad."
-
-#: settings.php:459
-#@ wp-qore
-msgid "Change default jQuery"
-msgstr "Ändra jQuery-standard"
-
-#: settings.php:466
-#@ wp-qore
-msgid ""
-"Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
-"<b>Attention:</b> If this doesn't play well with your theme, then simply turn it off."
-msgstr ""
-"Använd Google jQuery istället för WordPress.</i><br><br>\n"
-"<b>Uppmärksamma:</b> om det här inte fungerar särskilt bra i ditt tema, stäng av funktionen."
-
-#: settings.php:473
-#@ wp-qore
-msgid "Shortcode in widgets"
-msgstr "Kortkoder i widgets"
-
-#: settings.php:481
-#@ wp-qore
-msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
-msgstr "Detta aktiverar kortkoder i widgets. I det fall då du behöver använda kortkoder i dina widgets, aktivera detta."
-
-#: settings.php:487
-#@ wp-qore
-msgid "Php in widgets"
-msgstr "PHP i widgets"
-
-#: settings.php:495
-#@ wp-qore
-msgid ""
-"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
-"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
-msgstr ""
-"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
-"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
-
-#: settings.php:502
-#@ wp-qore
-msgid "Import/export widgets"
-msgstr "Importera/exportera widgets"
-
-#: settings.php:510
-#@ wp-qore
-msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
-msgstr "Detta låter dig importera och exportera widgetinställningar. När du väl aktiverat det så kommer en undermeny att dyka upp, som heter 'Exportera Widgets' och 'Importera Widgets' under wp-admin > Verktyg."
-
-#: settings.php:516
-#@ wp-qore
-msgid "Clean source code"
-msgstr "Städa källkod"
-
-#: settings.php:523
-#@ wp-qore
-msgid "Remove WP version from source code (Recommended)"
-msgstr "Ta bort WordPress versionsnummer från källkoden (Rekommenderas)"
-
-#: settings.php:529
-#@ wp-qore
-msgid "Cache assistance"
-msgstr "Cacheassistenten"
-
-#: settings.php:537
-#@ wp-qore
-msgid ""
-"Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
-"<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel."
-msgstr ""
-"Caching din frontend kan öka din sidladdningshastighet avsevärt. Det rekommenderas starkt att du använder caching, men valet är alltid ditt. Väl aktiverad, kommer en undermeny som heter 'Cache' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till adminpanelen först och det kommer att initiera <br>\n"
-"<b>OBS:.</ B> Aktivera inte detta alternativ om du har några andra cache plugins aktiverade. Detta alternativ gör det möjligt för cacheassistans modulen helt enkelt, men gör det inte möjligt för cachning. För att caching frontend, måste du stänga av den 'On 'från cache adminpanelen."
-
-#: settings.php:558
-#@ wp-qore
-msgid "Minify your html"
-msgstr "Minifiera din html"
-
-#: settings.php:566
-#@ wp-qore
-msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
-msgstr "Minifiera HTML i din källkod. Det kommer att göra att din webbsida laddar mycket snabbare och det blir svårare för andra att läsa källkoden för din webbsida."
-
-#: settings.php:572
-#@ wp-qore
-msgid "Remove wp meta tags"
-msgstr "Ta bort wp meta taggar"
-
-#: settings.php:579
-#@ wp-qore
-msgid "Turn 'On' to remove from source code"
-msgstr "Slå 'På' för att ta bort från källkod"
-
-#: settings.php:580
-#@ wp-qore
-msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
-msgstr "Ta bort manifest, genererade meta taggar, närliggande relativa länkar till inlägg, flöden, rsd, index från källkoden."
-
-#: settings.php:586
-#@ wp-qore
-msgid "Plugin/theme editor"
-msgstr "Redigerare tillägg/teman"
-
-#: settings.php:594
-#@ wp-qore
-msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
-msgstr "Det här inaktiverar redigerare för tema och tillägg i WordPress. Det här är en bra idé i produktionsmiljöer."
-
-#: settings.php:600
-#@ wp-qore
-msgid "Database audit"
-msgstr "Databas revision"
-
-#: settings.php:603
-#@ wp-qore
-msgid "This checks your Database and then gives you suggestions about security and making your website faster."
-msgstr "Detta kontrollerar din databas och ger dig sedan förslag på hur du kan förbättra säkerhet och hastighet för din webbplats."
-
-#: settings.php:615
-#@ wp-qore
-msgid "Save changes"
-msgstr "Spara Ändringar"
-
-#: settings.php:203
-#@ wp-qore
-msgid "Dashboard Settings"
-msgstr "Instrumentpanelsinställningar"
-
-#: settings.php:219
-#@ wp-qore
-msgid "Custom dashboard"
-msgstr "Custom instrumentpanel"
-
-#: settings.php:225
-#@ wp-qore
-msgid "When 'On', this will override the WPQORE dashboard with the one you may create below."
-msgstr "När 'På', kommer detta att åsidosätta WPQORE instrumentpanelen med den du kan skapa nedan."
-
-#: settings.php:227
-#@ wp-qore
-msgid "Customize dashboard"
-msgstr "Anpassa brädan"
-
-#: settings.php:267
-#@ wp-qore
-msgid "Automatic Updates"
-msgstr "Automatiska uppdateringar"
-
-#: settings.php:270
-#@ wp-qore
-msgid "Major Updates"
-msgstr "Major"
-
-#: settings.php:278
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
-msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla större Wordpress kärnversioner."
-
-#: settings.php:283
-#@ wp-qore
-msgid "Minor Updates"
-msgstr "Minor"
-
-#: settings.php:291
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
-msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla mindre Wordpress kärnversioner."
-
-#: settings.php:296
-#@ wp-qore
-msgid "Plugin Updates"
-msgstr "Plugin"
-
-#: settings.php:304
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all plugins."
-msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla plugins."
-
-#: settings.php:309
-#@ wp-qore
-msgid "Theme Updates"
-msgstr "Tema"
-
-#: settings.php:317
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all themes."
-msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla teman."
-
-#: settings.php:322
-#@ wp-qore
-msgid "Translation Updates"
-msgstr "översättning"
-
-#: settings.php:330
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all translations."
-msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla översättningar."
-
-#: settings.php:335
-#@ wp-qore
-msgid "Send Emails"
-msgstr "Skicka e-post"
-
-#: settings.php:343
-#@ wp-qore
-msgid "When 'On', this will send the admin an email every time automatic updates are performed."
-msgstr "När 'På', kommer detta att skicka admin ett mail varje gång automatiska uppdateringar utförs."
-
-#: settings.php:348
-#@ wp-qore
-msgid "Debug Emails"
-msgstr "Felsöknings E"
-
-#: settings.php:356
-#@ wp-qore
-msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
-msgstr "När 'På', kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
-
-#: functions/dashboard_view.php:173
-#@ wp-qore
-msgid "Task"
-msgstr "Task"
-
-#: functions/dashboard_view.php:173
-#: functions/dashboard_view.php:179
-#@ wp-qore
-msgid "PHP Memory"
-msgstr "PHP Minne"
-
-#: functions/dashboard_view.php:174
-#@ wp-qore
-msgid "Limit"
-msgstr "Gräns"
-
-#: functions/dashboard_view.php:175
-#@ wp-qore
-msgid "Usage"
-msgstr "Användning"
-
-#: functions/dashboard_view.php:201
-#@ wp-qore
-msgid "Dashboard"
-msgstr "Instrumentbräda"
-
-#: functions/dashboard_view.php:211
-#@ wp-qore
-msgid "Welcome to the admin backend"
-msgstr "Välkommen till admin backend"
-
-#: functions/dashboard_view.php:218
-#@ wp-qore
-msgid "A Warning Alert"
-msgstr "En Varning Alert"
-
-#: functions/dashboard_view.php:219
-#@ wp-qore
-msgid "An Error Message"
-msgstr "Ett felmeddelande"
-
-#: functions/dashboard_view.php:220
-#@ wp-qore
-msgid "A Success Message"
-msgstr "En framgång meddelande"
-
-#: functions/dashboard_view.php:225
-#@ wp-qore
-msgid "Stats"
-msgstr "Stats"
-
-#: functions/dashboard_view.php:236
-#@ wp-qore
-msgid "posts"
-msgstr "posts"
-
-#: functions/dashboard_view.php:238
-#@ wp-qore
-msgid "comments"
-msgstr "kommentarer"
-
-#: functions/dashboard_view.php:242
-#@ wp-qore
-msgid "pages"
-msgstr "sidor"
-
-#: functions/dashboard_view.php:244
-#@ wp-qore
-msgid "users"
-msgstr "användare"
-
-#: functions/dashboard_view.php:251
-#@ wp-qore
-msgid "uploads"
-msgstr "uploads"
-
-#: functions/dashboard_view.php:253
-#@ wp-qore
-msgid "wp-content"
-msgstr "wp-content"
-
-#: functions/dashboard_view.php:257
-#@ wp-qore
-msgid "wp total"
-msgstr "wp totala"
-
-#: functions/dashboard_view.php:301
-#@ wp-qore
-msgid "Control"
-msgstr "Kontroll"
-
-#: functions/dashboard_view.php:453
-#@ wp-qore
-msgid "Recent Pages"
-msgstr "Nya sidor"
-
-#: functions/dashboard_view.php:486
-#@ wp-qore
-msgid "Recent Posts"
-msgstr "Senaste inlägg"
-
-#: functions/dashboard_view.php:508
-#@ wp-qore
-msgid "find content"
-msgstr "sök"
-
-#: functions/dashboard_view.php:519
-#@ wp-qore
-msgid "System Info"
-msgstr "System Info"
-
-#: functions/dashboard_view.php:533
-#@ wp-qore
-msgid "About WPQore"
-msgstr "Om WPQore"
-
-#: functions/dashboard_view.php:259
-#@ wp-qore
-msgid "free hdd"
-msgstr "fri HDD"
-
-#: functions/server_info.php:166
-#@ wp-qore
-msgid "Settings Saved"
-msgstr "Sparade"
-
-#: functions/server_info.php:169
-#: functions/server_info.php:170
-#@ wp-qore
-msgid "unknow"
-msgstr "ålder"
-
-#: functions/dashboard_view.php:266
-#@ wp-qore
-msgid "OS"
-msgstr "OS"
-
-#: functions/dashboard_view.php:268
-#@ wp-qore
-msgid "Php"
-msgstr "Php"
-
-#: functions/dashboard_view.php:272
-#@ wp-qore
-msgid "MySQL"
-msgstr "MySQL"
-
-#: functions/dashboard_view.php:274
-#@ wp-qore
-msgid "WordPress"
-msgstr "WordPress"
-
-#: functions/dashboard_view.php:281
-#@ wp-qore
-msgid "SAPI"
-msgstr "SAPI"
-
-#: functions/dashboard_view.php:283
-#@ wp-qore
-msgid "APC Enabled"
-msgstr "APC Enabled"
-
-#: functions/dashboard_view.php:287
-#@ wp-qore
-msgid "Language"
-msgstr "Språk"
-
-#: functions/dashboard_view.php:288
-#@ wp-qore
-msgid "On"
-msgstr "På"
-
-#: functions/dashboard_view.php:288
-#@ wp-qore
-msgid "Off"
-msgstr "Off"
-
-#: functions/dashboard_view.php:289
-#@ wp-qore
-msgid "Safe Mode"
-msgstr "Felsäkert läge"
-
-#: functions/dashboard_view.php:522
-#@ wp-qore
-msgid "Web Server"
-msgstr "Webbserver"
-
-#: functions/dashboard_view.php:524
-#@ wp-qore
-msgid "Max Execution Time"
-msgstr "Max Execution Time"
-
-#: functions/dashboard_view.php:526
-#@ wp-qore
-msgid "Server Disk Quota"
-msgstr "Server Disk Kvot"
-
-#: functions/adminbar_menu.php:62
-#: settings.php:54
-#@ wp-qore
-msgid "WP Qore Options"
-msgstr "WP Qore Val"
-
-#: functions/adminbar_menu.php:71
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:144
-#: modules/dropbox_mod/wpq-2-dbx.php:74
-#@ wp-qore
-msgid "Backup Settings"
-msgstr "Backup inställningar"
-
-#: functions/adminbar_menu.php:72
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:78
-#: modules/dropbox_mod/wpq-2-dbx.php:78
-#@ wp-qore
-msgid "Backup Monitor"
-msgstr "Backup Monitor"
-
-#: functions/dashboard_view.php:214
-#@ wp-qore
-msgid "Uh oh, Cache is feeling grumpy. We'll have it fixed soon. To disable this message, turn off Cache Assistance from the <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Settings</a> panel."
-msgstr "Uh oh, är Cache känsla grinig. Vi kommer att ha det fixat snart. För att inaktivera detta meddelande, stäng av Cache Stöd från <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Inställningar</a> panel."
-
-#. translators: plugin header field 'Version'
-#: index.php:0
-#@ wp-qore
-msgid "1.7.0"
-msgstr "1.7.0"
-
-#: modules/dropbox_mod/Classes/BackupController.php:78
-#@ wp-qore
-msgid "Processed 1 file."
-msgstr "Bearbetade 1 fil."
-
-#: modules/dropbox_mod/Classes/BackupController.php:78
-#, php-format
-#@ wp-qore
-msgid "Processed %s files."
-msgstr "Bearbetade% s filer."
-
-#: modules/dropbox_mod/Classes/BackupController.php:89
-#, php-format
-#@ wp-qore
-msgid "Approximately %s%% complete."
-msgstr "Ungefär %s%% klar."
-
-#: modules/dropbox_mod/Classes/BackupController.php:151
-#@ wp-qore
-msgid "Your Dropbox account is not authorized yet."
-msgstr "Ditt Dropbox-konto har inte tillstånd ännu."
-
-#: modules/dropbox_mod/Classes/BackupController.php:160
-#@ wp-qore
-msgid "Resuming SQL backup."
-msgstr "Återuppta SQL backup."
-
-#: modules/dropbox_mod/Classes/BackupController.php:162
-#@ wp-qore
-msgid "Starting SQL backup."
-msgstr "Starta SQL backup."
-
-#: modules/dropbox_mod/Classes/BackupController.php:167
-#@ wp-qore
-msgid "SQL backup complete. Starting file backup."
-msgstr "SQL backup komplett. Starta säkerhetskopiering."
-
-#: modules/dropbox_mod/Classes/BackupController.php:188
-#@ wp-qore
-msgid "Backup complete."
-msgstr "Backup komplett."
-
-#: modules/dropbox_mod/Classes/BackupController.php:189
-#, php-format
-#@ wp-qore
-msgid "A total of %s files were processed."
-msgstr "Totalt %s filer bearbetas."
-
-#: modules/dropbox_mod/Classes/BackupController.php:191
-#, php-format
-#@ wp-qore
-msgid "A total of %dMB of memory was used to complete this backup."
-msgstr "Totalt %d MB minne användes för att slutföra säkerhetskopieringen."
-
-#: modules/dropbox_mod/Classes/BackupController.php:213
-#@ wp-qore
-msgid "The plugin is no longer authorized with Dropbox."
-msgstr "Insticksprogrammet är inte längre godkänt med Dropbox."
-
-#: modules/dropbox_mod/Classes/BackupController.php:215
-#@ wp-qore
-msgid "A fatal error occured: "
-msgstr "Ett allvarligt fel inträffade:"
-
-#: modules/dropbox_mod/Classes/BackupController.php:252
-#, php-format
-#@ default
-msgid "WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin."
-msgstr ""
-
-#: modules/dropbox_mod/Classes/BackupController.php:265
-#, php-format
-#@ wp-qore
-msgid "WordPress Backup to Dropbox requires write access to '%s', please ensure it exists and has write permissions."
-msgstr "Wordpress Backup till Dropbox kräver skrivrättigheter till '%s', se till att det finns och har skrivbehörighet."
-
-#: modules/dropbox_mod/Classes/Config.php:215
-#@ wp-qore
-msgid "Backup stopped by user."
-msgstr "Backup stoppats av användaren."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:79
-#, php-format
-#@ wp-qore
-msgid "Resuming table '%s' at row %s."
-msgstr "Återuppta tabell '%s' på rad %s."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:84
-#, php-format
-#@ wp-qore
-msgid "Processed table '%s'."
-msgstr "Bearbetade tabell '%s'."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:118
-#, php-format
-#@ wp-qore
-msgid "A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access."
-msgstr "En databas backup kan inte skapas eftersom Wordpress inte har skrivbehörighet till %s, vänligen se den här katalogen har skrivrättigheter."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:149
-#@ wp-qore
-msgid "Error while accessing database."
-msgstr "Fel vid åtkomst till databasen."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:214
-#@ wp-qore
-msgid "Error writing to php://memory."
-msgstr "Fel vid skrivning till php://minne."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:227
-#@ wp-qore
-msgid "Error closing sql dump file."
-msgstr "Fel stängning sql dumpfilen."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:231
-#@ wp-qore
-msgid "Error closing php://memory."
-msgstr "Fel stängning php://minne."
-
-#: modules/dropbox_mod/Classes/DropboxFacade.php:51
-#, php-format
-#@ wp-qore
-msgid "The cURL extension is not loaded. %sPlease ensure its installed and activated.%s"
-msgstr "Den cURL förlängning är inte laddad. %s Please säkerställa dess installerad och aktiverad.%s"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:40
-#, php-format
-#@ wp-qore
-msgid "The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup."
-msgstr "Säkerhetskopian har problem med att ladda upp filer till Dropbox, har den inte %s gånger och avbryta säkerhetskopieringen."
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:43
-#@ default
-msgid "Dropbox API not set"
-msgstr ""
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:54
-#, php-format
-#@ wp-qore
-msgid "Uploading large file '%s' (%sMB) in chunks"
-msgstr "Ladda upp stor fil '%s' (%s MB) i bitar"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:56
-#, php-format
-#@ wp-qore
-msgid "Resuming upload of large file '%s'"
-msgstr "Återuppta uppladdning av stora filen '%s'"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:71
-#, php-format
-#@ wp-qore
-msgid "Error uploading '%s' to Dropbox: %s"
-msgstr "Fel vid uppladdning '%s' till Dropbox: %s"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:90
-#@ wp-qore
-msgid "There was an error getting the list of premium extensions"
-msgstr "Det uppstod ett fel att få listan med premietillägg"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:124
-#@ wp-qore
-msgid "access is deined, this could be because your payment has expired."
-msgstr "tillgång deined, detta kan bero på att din betalning har gått ut."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:126
-#@ wp-qore
-msgid "you have exceeded your download limit for this extension on this site."
-msgstr "du har överskridit din nedladdning gräns för denna utvidgning på denna webbplats."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:129
-#@ wp-qore
-msgid "There was an error downloading your premium extension because"
-msgstr "Det uppstod ett fel hämtar din premie förlängning eftersom"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:138
-#, php-format
-#@ wp-qore
-msgid "'%s' is not writeable."
-msgstr "'%s' är inte skrivbar."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:141
-#@ wp-qore
-msgid "There was an error installing your premium extension because"
-msgstr "Det uppstod ett fel installerar din premie förlängning eftersom"
-
-#: modules/dropbox_mod/Classes/UploadTracker.php:37
-#, php-format
-#@ wp-qore
-msgid "Uploaded %sMB of %sMB"
-msgstr "Uppladdad %s MB av %s MB"
-
-#: modules/dropbox_mod/Views/wpq2dbx-deprecated.php:34
-#@ wp-qore
-msgid "Dropbox Backup Module"
-msgstr "Dropbox Backup Modul"
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:28
-#@ wp-qore
-msgid "Backup stopped."
-msgstr "Backup stoppas."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:35
-#@ wp-qore
-msgid "Backup started."
-msgstr "Backup startas."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:85
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:383
-#@ wp-qore
-#@ default
-msgid "Loading..."
-msgstr "Laddar..."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:95
-#@ wp-qore
-msgid "Stop Backup"
-msgstr "Stopp"
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:97
-#@ wp-qore
-msgid "Start Backup"
-msgstr "Början"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:24
-#@ wp-qore
-msgid "WordPress Backup to Dropbox failed to initialize due to these database errors."
-msgstr "Wordpress Backup till Dropbox kunde inte initieras på grund av dessa databasfel."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:43
-#@ wp-qore
-msgid "The sub directory must only contain alphanumeric characters."
-msgstr "Den underkatalog får endast innehålla alfanumeriska tecken."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:85
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:271
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:332
-#@ wp-qore
-msgid "Daily"
-msgstr "Dagligen"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:159
-#@ wp-qore
-msgid "Dropbox Account"
-msgstr "Dropbox-konto"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:166
-#@ wp-qore
-msgid "you have"
-msgstr "du har"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:168
-#@ wp-qore
-msgid "Gigabyte"
-msgstr "Gigabyte"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:169
-#@ wp-qore
-msgid "of"
-msgstr "av"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:170
-#@ wp-qore
-msgid "free"
-msgstr "fri"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:172
-#@ wp-qore
-msgid "Unlink Account"
-msgstr "Ta bort"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:183
-#@ wp-qore
-msgid "Next Scheduled"
-msgstr "Nästa planerade"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:188
-#, php-format
-#@ wp-qore
-msgid "Next backup scheduled for %s at %s"
-msgstr "Nästa backup planerad till %s vid %s"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:190
-#@ wp-qore
-msgid "No backups are scheduled yet. Please select a day, time and frequency below. "
-msgstr "Inga säkerhetskopior är schemalagda ännu. Välj en dag, tid och frekvens nedan."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:201
-#@ wp-qore
-msgid "History"
-msgstr "Historia"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:217
-#, php-format
-#@ wp-qore
-msgid "Backup completed on %s at %s."
-msgstr "Backup klar på %s på %s."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:220
-#@ wp-qore
-msgid "Clear history"
-msgstr "Klar"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:222
-#@ wp-qore
-msgid "No history"
-msgstr "Ingen historia"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:239
-#@ wp-qore
-msgid "Create a new folder within WPQORE app folder"
-msgstr "Skapa en ny mapp i WPQORE app mapp"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:253
-#@ wp-qore
-msgid "Day and Time"
-msgstr "Dag och tid"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:257
-#@ wp-qore
-msgid "Monday"
-msgstr "Måndag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:259
-#@ wp-qore
-msgid "Tuesday"
-msgstr "Tisdag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:261
-#@ wp-qore
-msgid "Wednesday"
-msgstr "Onsdag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:263
-#@ wp-qore
-msgid "Thursday"
-msgstr "Torsdag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:265
-#@ wp-qore
-msgid "Friday"
-msgstr "Fredag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:267
-#@ wp-qore
-msgid "Saturday"
-msgstr "lördag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:269
-#@ wp-qore
-msgid "Sunday"
-msgstr "Söndag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:273
-#@ wp-qore
-msgid "at"
-msgstr "vid"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:324
-#@ wp-qore
-msgid "The day and time the backup will run."
-msgstr "Dag och tid backupen ska köras."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:328
-#@ wp-qore
-msgid "Frequency"
-msgstr "Frekvens"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:335
-#@ wp-qore
-msgid "Weekly"
-msgstr "Varje vecka"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:339
-#@ wp-qore
-msgid "Fortnightly"
-msgstr "Var fjortonde dag"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:342
-#@ wp-qore
-msgid "Every 4 weeks"
-msgstr "Var 4 veckor"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:346
-#@ wp-qore
-msgid "Every 8 weeks"
-msgstr "Var 8 veckor"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:350
-#@ wp-qore
-msgid "Every 12 weeks"
-msgstr "Varje 12 veckor"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:353
-#@ wp-qore
-msgid "Frequency of backup."
-msgstr "Frekvens av backup."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:368
-#@ wp-qore
-msgid "Excluded Files and Directories"
-msgstr "Uteslutna filer och kataloger"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:372
-#@ wp-qore
-msgid "Select the files and directories that you wish to exclude from your backup. You can expand directories with contents by clicking its name."
-msgstr "Markera de filer och kataloger som du vill utesluta från säkerhetskopian. Du kan utöka kataloger med innehåll genom att klicka på dess namn."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
-#@ wp-qore
-msgid "Notice:"
-msgstr "Lägg märke till:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
-#@ wp-qore
-msgid "Your SQL dump file will always be backed up regardless of what is selected below."
-msgstr "Din SQL dumpfilen kommer alltid backas upp oavsett vad som väljs nedan."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:388
-#@ wp-qore
-msgid "Exclude:"
-msgstr "Uteslut:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:389
-#@ wp-qore
-msgid "All"
-msgstr "Alla"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:390
-#@ wp-qore
-msgid "None"
-msgstr "Inget"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:391
-#@ wp-qore
-msgid "Inverse"
-msgstr "Inverse"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:428
-#@ wp-qore
-msgid "Authorize"
-msgstr "Auktorisera"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:431
-#@ wp-qore
-msgid "Continue"
-msgstr "Fortsätt"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:438
-#@ wp-qore
-msgid "Error"
-msgstr "Fel"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:439
-#@ wp-qore
-msgid "There was a fatal error loading WordPress Backup to Dropbox. Please fix the problems listed and reload the page."
-msgstr "Det var ett ödesdigert misstag laddar Wordpress Backup till Dropbox. Var god rätta de problem som anges och ladda om sidan."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:440
-#@ wp-qore
-msgid "If the problem persists please re-install WordPress Backup to Dropbox."
-msgstr "Om problemet kvarstår vänligen installera Wordpress Backup till Dropbox."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:441
-#@ wp-qore
-msgid "Error message:"
-msgstr "Felmeddelande:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-progress.php:27
-#@ wp-qore
-msgid "You have not run a backup yet. Once you do, you'll see a log of it here."
-msgstr "Du har inte köra en backup ännu. När du gör det kommer du att se en logg över det här."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:135
-#, php-format
-#@ wp-qore
-msgid "Backup started on %s."
-msgstr "Backup startade den %s."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:139
-#, php-format
-#@ default
-msgid "Your time limit is %s and your memory limit is %s"
-msgstr ""
-
-#: modules/dropbox_mod/wpq-2-dbx.php:140
-#@ wp-qore
-msgid "seconds"
-msgstr "sekunder"
-
-#: modules/dropbox_mod/wpq-2-dbx.php:140
-#@ wp-qore
-msgid "unlimited"
-msgstr "obegränsad"
-
-#: modules/dropbox_mod/wpq-2-dbx.php:145
-#@ wp-qore
-msgid "Safe mode is enabled on your server so the PHP time and memory limit cannot be set by the backup process. So if your backup fails it's highly probable that these settings are too low."
-msgstr "Säkert läge är aktiverat på din server så PHP tid och minnesgräns inte kan ställas in av säkerhetskopieringen. Så om din backup inte att det är högst troligt att dessa inställningar är för låga."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:167
-#@ wp-qore
-msgid "There has been no backup activity for a long time. Attempting to resume the backup."
-msgstr "Det har ingen backup aktivitet under lång tid. Att försöka återuppta säkerhetskopieringen."
-
-#: settings.php:544
-#@ wp-qore
-msgid "Dropbox Backups"
-msgstr "Dropbox Kopior"
-
-#: settings.php:552
-#@ wp-qore
-msgid "This will enable the Dropbox module. Once enabled, two sub-menus called 'Backup Settings' and 'Backup Monitor' will appear under the WP Qore menu. You still need to authorize your Dropbox account before backups can begin."
-msgstr "Detta gör det möjligt för Dropbox-modulen. När aktiverad kommer två undermenyer som kallas \\\"Backup Settings\\\" och \\\"Backup Monitor\\\" visas under WP Qore menyn. Du måste fortfarande godkänna ditt Dropbox-konto innan säkerhetskopior kan börja."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:414
-#@ wp-qore
-msgid "WordPress to Dropbox Backup"
-msgstr "Word till Dropbox Backup"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:416
-#@ wp-qore
-msgid "In order to use this option, you will need to first authorized WP Qore with your Dropbox account."
-msgstr "För att kunna använda det här alternativet måste du först auktoriserad WP Qore med ditt Dropbox-konto."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:417
-#@ wp-qore
-msgid "Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page."
-msgstr "Klicka på Auktorisera knappen nedan och följ instruktionerna inne i pop-up fönster. När du har gjort det, och sedan komma tillbaka till den här sidan och klicka på Auktorisera igen. Sedan uppdatera sidan."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:420
-#@ wp-qore
-msgid "There was an error authorizing WP Qore with your Dropbox account. Please try again."
-msgstr "Det uppstod ett fel bemyndigande WP Qore med ditt Dropbox-konto. Försök igen."
-
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Qore v1.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-14 11:00:08+0000\n"
+"Last-Translator: keha76 <keha1976@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: functions/adminbar_menu.php:61
+#: index.php:0
+#@ wp-qore
+msgid "WP Qore"
+msgstr "WP Qore"
+
+#: functions/adminbar_menu.php:66
+#: functions/cache.php:120
+#@ wp-qore
+msgid "Cache Assistance"
+msgstr "Cacheassistenten"
+
+#: functions/adminbar_menu.php:77
+#: sec-advisor.php:389
+#: sec-advisor.php:390
+#: sec-advisor.php:960
+#@ wp-qore
+msgid "Security Advisor"
+msgstr "Säkerhetsrådgivaren"
+
+#: functions/branding.php:5
+#@ wp-qore
+msgid "Copyright "
+msgstr "Copyright"
+
+#: functions/branding.php:17
+#@ wp-qore
+msgid "WP Qore: "
+msgstr "WP Qore: "
+
+#: functions/cache.php:134
+#@ wp-qore
+msgid "General Options"
+msgstr "Allmäna Inställningar"
+
+#: functions/cache.php:137
+#@ wp-qore
+msgid "Cache Frontend"
+msgstr "Cache Framsida"
+
+#: functions/cache.php:144
+#: functions/cache.php:158
+#: settings.php:277
+#: settings.php:290
+#: settings.php:303
+#: settings.php:316
+#: settings.php:329
+#: settings.php:342
+#: settings.php:355
+#: settings.php:480
+#: settings.php:494
+#: settings.php:509
+#: settings.php:536
+#: settings.php:565
+#@ wp-qore
+msgid "Turn 'On' to enable"
+msgstr "Slå 'På' för att aktivera"
+
+#: functions/cache.php:145
+#@ wp-qore
+msgid "This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed."
+msgstr "Detta kommer att cachelagra alla inlägg och sidor. Aktivera cachehjälp för att leverera dina webbsidor snabbare till dina användare, öka din webbplats hastighet."
+
+#: functions/cache.php:151
+#@ wp-qore
+msgid "New Post or Page"
+msgstr "Nytt Inlägg eller Sida"
+
+#: functions/cache.php:159
+#@ wp-qore
+msgid "Clear all cache files when a post or page is published."
+msgstr "Rensa alla cachelagrade filer när ett inlägg eller en sida blir publicerad."
+
+#: functions/cache.php:184
+#@ wp-qore
+msgid "Delete Cache"
+msgstr "Radera Cache"
+
+#: functions/cache.php:187
+#@ wp-qore
+msgid "Clear all cache"
+msgstr "Rensa Cache"
+
+#: functions/cache.php:190
+#@ wp-qore
+msgid "Target folder:"
+msgstr "Målkatalog:"
+
+#: functions/dashboard_func.php:28
+#: functions/dashboard_view.php:203
+#@ wp-qore
+msgid "General"
+msgstr "Allmänt"
+
+#: functions/dashboard_view.php:309
+#: functions/dashboard_view.php:374
+#@ wp-qore
+msgid "All Posts"
+msgstr "Alla Inlägg"
+
+#: functions/dashboard_view.php:313
+#: functions/dashboard_view.php:378
+#@ wp-qore
+msgid "Add Posts"
+msgstr "Lägg till Inlägg"
+
+#: functions/dashboard_view.php:317
+#: functions/dashboard_view.php:382
+#@ wp-qore
+msgid "Categories"
+msgstr "Kategorier"
+
+#: functions/dashboard_view.php:318
+#: functions/dashboard_view.php:383
+#@ wp-qore
+msgid "Tags"
+msgstr "Etiketter"
+
+#: functions/dashboard_view.php:322
+#: functions/dashboard_view.php:387
+#@ wp-qore
+msgid "Media Library"
+msgstr "Mediabibliotek"
+
+#: functions/dashboard_view.php:323
+#: functions/dashboard_view.php:388
+#@ wp-qore
+msgid "Add Media"
+msgstr "Lägg till Media"
+
+#: functions/dashboard_view.php:327
+#: functions/dashboard_view.php:392
+#@ wp-qore
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: functions/dashboard_view.php:331
+#: functions/dashboard_view.php:396
+#@ wp-qore
+msgid "Add Page"
+msgstr "Lägg till Sida"
+
+#: functions/dashboard_view.php:335
+#: functions/dashboard_view.php:400
+#@ wp-qore
+msgid "Themes"
+msgstr "Teman"
+
+#: functions/dashboard_view.php:339
+#: functions/dashboard_view.php:408
+#@ wp-qore
+msgid "Widgets"
+msgstr "Widgets"
+
+#: functions/dashboard_view.php:340
+#: functions/dashboard_view.php:409
+#@ wp-qore
+msgid "Menus"
+msgstr "Menyer"
+
+#: functions/dashboard_view.php:344
+#: functions/dashboard_view.php:413
+#@ wp-qore
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: functions/dashboard_view.php:348
+#: functions/dashboard_view.php:417
+#@ wp-qore
+msgid "Add Plugin"
+msgstr "Lägg till Tillägg"
+
+#: functions/dashboard_view.php:352
+#: functions/dashboard_view.php:425
+#@ wp-qore
+msgid "Users"
+msgstr "Användare"
+
+#: functions/dashboard_view.php:353
+#: functions/dashboard_view.php:426
+#@ wp-qore
+msgid "Add User"
+msgstr "Lägg till Användare"
+
+#: functions/dashboard_view.php:357
+#: functions/dashboard_view.php:430
+#@ wp-qore
+msgid "My Profile"
+msgstr "Min Profil"
+
+#: functions/dashboard_view.php:361
+#: functions/dashboard_view.php:434
+#@ wp-qore
+msgid "Import"
+msgstr "Importera"
+
+#: functions/dashboard_view.php:365
+#: functions/dashboard_view.php:438
+#@ wp-qore
+msgid "Export"
+msgstr "Exportera"
+
+#: functions/dashboard_view.php:369
+#: functions/dashboard_view.php:442
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:234
+#: sec-advisor.php:153
+#@ wp-qore
+msgid "Settings"
+msgstr "Inställningar"
+
+#: functions/dashboard_view.php:404
+#@ wp-qore
+msgid "Theme Editor"
+msgstr "Redigera Tema"
+
+#: functions/dashboard_view.php:421
+#@ wp-qore
+msgid "Plugins Editor"
+msgstr "Redigera Tillägg"
+
+#: functions/failed_login.php:4
+#@ wp-qore
+msgid "The login information you have entered is incorrect."
+msgstr "De uppgifter du angett för inloggning är felaktiga."
+
+#: functions/howdy.php:13
+#@ wp-qore
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: functions/php-widget.php:6
+#@ wp-qore
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr "Godtycklig text, HTML eller PHP-kod"
+
+#: functions/php-widget.php:8
+#@ wp-qore
+msgid "PHP Code"
+msgstr "PHP Kod"
+
+#: functions/php-widget.php:43
+#@ wp-qore
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: functions/php-widget.php:48
+#@ wp-qore
+msgid "Automatically add paragraphs."
+msgstr "Lägg automatiskt till stycken."
+
+#: functions/widget-expodata.php:49
+#@ wp-qore
+msgid "Export Widgets"
+msgstr "Exportera Widgets"
+
+#: functions/widget-expodata.php:113
+#@ wp-qore
+msgid "Import Widgets"
+msgstr "Importera Widgets"
+
+#: functions/widget-expodata.php:118
+#@ wp-qore
+msgid "check all"
+msgstr "markera alla"
+
+#: functions/widget-expodata.php:119
+#@ wp-qore
+msgid "uncheck all"
+msgstr "avmarkera alla"
+
+#: functions/widget-expodata.php:137
+#@ wp-qore
+msgid "Please select a widget to continue."
+msgstr "Välj en widget för att fortsätta."
+
+#: functions/widget-expodata.php:138
+#@ wp-qore
+msgid "Sidebars"
+msgstr "Sidofält"
+
+#: functions/widget-expodata.php:189
+#@ wp-qore
+msgid "Import Widget Settings"
+msgstr "Importera Widgetinställningar"
+
+#: functions/widget-expodata.php:194
+#@ wp-qore
+msgid "Please select the widget export file to import settings."
+msgstr "Välj exportfil för widget för att importera inställningar."
+
+#: functions/widget-expodata.php:197
+#@ wp-qore
+msgid "Select a file"
+msgstr "Välj en fil"
+
+#: functions/widget-expodata.php:200
+#@ wp-qore
+msgid "Show Widget Settings"
+msgstr "Visa Widget Inställningar"
+
+#: functions/widget-expodata.php:334
+#@ wp-qore
+msgid "No widget data posted to import"
+msgstr "Ingen widget-data postat för import"
+
+#: functions/widget-expodata.php:363
+#@ wp-qore
+msgid "Unknown Error"
+msgstr "Okänt Fel"
+
+#: functions.php:143
+#@ wp-qore
+msgid "Database table prefix is"
+msgstr "Databasens tabellprefix är"
+
+#: functions.php:143
+#@ wp-qore
+msgid "It is ok."
+msgstr "Det är ok."
+
+#. translators: plugin header field 'PluginURI'
+#: index.php:0
+#@ wp-qore
+msgid "http://wpqore.com/"
+msgstr "http://wpqore.com/"
+
+#. translators: plugin header field 'Description'
+#: index.php:0
+#@ wp-qore
+msgid "WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime."
+msgstr "WP Qore är ett tillägg för WordPress som ger extra säkerhet, prestanda funktionalitet och utvecklarverktyg som kan slås på eller av när som helst."
+
+#. translators: plugin header field 'Author'
+#: index.php:0
+#@ wp-qore
+msgid "Jason Jersey"
+msgstr "Jason Jersey"
+
+#. translators: plugin header field 'AuthorURI'
+#: index.php:0
+#@ wp-qore
+msgid "http://twitter.com/degersey"
+msgstr "http://twitter.com/degersey"
+
+#: sec-advisor.php:319
+#@ wp-qore
+msgid "Safe Browsing Alert"
+msgstr "Säker Surf Varning"
+
+#: sec-advisor.php:322
+#@ wp-qore
+msgid "Please check the Google Safe Browsing diagnostic page:"
+msgstr "Kontrollera Google Säker Surfs diagnostik-sida: "
+
+#: sec-advisor.php:339
+#@ wp-qore
+msgid "Potential security threat suspected"
+msgstr "Potentiella misstänkta säkerhetshot"
+
+#: sec-advisor.php:342
+#: sec-advisor.php:887
+#@ wp-qore
+msgid "The daily security scan of your site suspects a potential threat."
+msgstr "Daglig genomsökning av din sida efter misstänkta potentiella hot."
+
+#: sec-advisor.php:377
+#@ wp-qore
+msgid "Notification message from the WP Qore Security Advisor"
+msgstr "Notifieringsmeddelanden från WP Qores Säkerhetsrådgivare "
+
+#: sec-advisor.php:378
+#@ wp-qore
+msgid "http://wpqore.com"
+msgstr "http://wpqore.com"
+
+#: sec-advisor.php:426
+#@ wp-qore
+msgid "There is no threats"
+msgstr "Det finns inga hot"
+
+#: sec-advisor.php:427
+#@ wp-qore
+msgid "View line"
+msgstr "Visa rad"
+
+#: sec-advisor.php:428
+#@ wp-qore
+msgid "Scan completed"
+msgstr "Genomsökning klar"
+
+#: sec-advisor.php:886
+#@ wp-qore
+msgid "Security threat suspected"
+msgstr "Misstänkta säkerhetshot"
+
+#: sec-advisor.php:894
+#@ wp-qore
+msgid "Manual scan"
+msgstr "Manuell genomsökning"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:53
+#: sec-advisor.php:950
+#@ default
+#@ wp-qore
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: sec-advisor.php:969
+#@ wp-qore
+msgid "Manual Scan"
+msgstr "Manuell Genomsökning"
+
+#: sec-advisor.php:975
+#@ wp-qore
+msgid "Start Scanning"
+msgstr "Starta Genomsökning"
+
+#: sec-advisor.php:984
+#@ wp-qore
+msgid "Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits."
+msgstr "Säkerhetsrådgovaren erbjuder dig att skydda din WordPress-sida mot säkerhetshot, som till exempel virus, skadlig kod eller säkerhetshål."
+
+#: sec-advisor.php:995
+#@ wp-qore
+msgid "Automatic Scan"
+msgstr "Automatisk Genomsökning"
+
+#: sec-advisor.php:997
+#@ wp-qore
+msgid "Daily Scanning"
+msgstr "Daglig Genomsökning"
+
+#: sec-advisor.php:1010
+#@ wp-qore
+msgid "Next check"
+msgstr "Nästa kontroll"
+
+#: sec-advisor.php:1022
+#@ wp-qore
+msgid "Alternate E-mail"
+msgstr "Alternativ e-post"
+
+#: sec-advisor.php:1027
+#@ wp-qore
+msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
+msgstr "Om detta fält är tomt, kommer admin att meddelas per e-post. Daglig genomsökning måste vara 'På' för att använda den här funktionen."
+
+#: sec-advisor.php:1045
+#, php-format
+#@ wp-qore
+msgid "Check to enable %s (Recommended)"
+msgstr "Markera för att aktivera %s (Rekommenderas)"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:401
+#: sec-advisor.php:1063
+#@ wp-qore
+msgid "Save Changes"
+msgstr "Spara Ändringar"
+
+#: settings.php:63
+#@ wp-qore
+msgid "Login Settings"
+msgstr "Inställningar för Inloggning"
+
+#: settings.php:66
+#@ wp-qore
+msgid "Customize login page"
+msgstr "Anpassa Inloggningssidan"
+
+#: settings.php:73
+#@ wp-qore
+msgid "Change login page logo and link (Default is, WordPress)"
+msgstr "Ändra logotypen och länken på sidan för inloggning (Standard är, WordPress)"
+
+#: settings.php:79
+#@ wp-qore
+msgid "Login logo image url"
+msgstr "Inloggning URL för logo"
+
+#: settings.php:84
+#@ wp-qore
+msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
+msgstr "Skriv in URL till en bild till inloggningssidan. Se till att det är ungefär 320px bredd x 80px höjd."
+
+#: settings.php:89
+#@ wp-qore
+msgid "Conceal login page"
+msgstr "Dölj sidan för inloggning"
+
+#: settings.php:96
+#@ wp-qore
+msgid "Turn 'On' to lock login page"
+msgstr "Slå 'På' för att låsa inloggningssida"
+
+#: settings.php:97
+#@ wp-qore
+msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key."
+msgstr "Väl aktiverad, kommer exempelvis example.com/wp-admin url visa ett 404-fel. Bara den användare som känner till den hemliga nyckeln kan komma åt sidan. När exempelvis example.com/wp-admin returnerar 404 kommer example.com/wp-admin? Secretkey1 fungera. Kom ihåg, du kan alltid ändra denna hemliga nyckel."
+
+#: settings.php:103
+#@ wp-qore
+msgid "Login secret key"
+msgstr "Inloggning hemlig nyckel"
+
+#: settings.php:103
+#: settings.php:206
+#: settings.php:376
+#: settings.php:390
+#@ wp-qore
+msgid "click to see example..."
+msgstr "klicka för att visa exempel..."
+
+#: settings.php:105
+#@ wp-qore
+msgctxt "placeholder text"
+msgid "for url get parameter"
+msgstr "för url get parameter"
+
+#: settings.php:109
+#, php-format
+#@ wp-qore
+msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
+msgstr "Endast% s kommer att fungera, annars kommer standard wp-admin-adressen att visa 404."
+
+#: settings.php:113
+#@ wp-qore
+msgid "Add custom login page exception"
+msgstr "Lägg till undantag för anpassad inloggningssida"
+
+#: settings.php:116
+#@ wp-qore
+msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
+msgstr "Om du har egen inloggningssida (till exempel om du använder någon gemenskapskapsplugin såsom Buddypress och dina användare loggar in på sin profil via anpassad webbadress t.ex. <i> http://example.com/myloginpage </ i>) och du vill att url fortsätta att fungera på rätt sätt utan wpqorefunc hemliga nyckel, så måste du lägga till webbadressen i följande inmatningsfält."
+
+#: settings.php:119
+#@ wp-qore
+msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
+msgstr "Och om du vill blockera wp-admin för inloggade <i>prenumerant-användare</i>, markera följande kryssruta"
+
+#: settings.php:126
+#@ wp-qore
+msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
+msgstr "Blockera tillträde till wp-admin för inloggade prenumeranter (deras försök kommer att vidarebefordras till startsidan)."
+
+#: settings.php:152
+#@ wp-qore
+msgid "Source Obfuscation"
+msgstr "Fördunkla Källkod"
+
+#: settings.php:155
+#@ wp-qore
+msgid "New theme directory"
+msgstr "Ny katalog för teman"
+
+#: settings.php:157
+#@ wp-qore
+msgctxt "placeholder text"
+msgid "theme directory"
+msgstr "katalog för teman"
+
+#: settings.php:160
+#, php-format
+#@ wp-qore
+msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
+msgstr "Skapa en katalog som heter <i>%s</i> i %s katalogen och klistra sedan in inaktiva teman till katalogen du vill använda."
+
+#: settings.php:166
+#@ wp-qore
+msgid "Warning!"
+msgstr "Varning!"
+
+#: settings.php:169
+#, php-format
+#@ wp-qore
+msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
+msgstr "Klipp och klistra det aktiva temat från <i>themes</ i> mapp till <i>%s</ i> katalogen. Gör det bara med inaktiva teman. Inaktivera temat, klipp och klistra sedan in för att sedan återaktivera."
+
+#: settings.php:177
+#@ wp-qore
+msgid "Unique source code"
+msgstr "Unik källkod"
+
+#: settings.php:181
+#, php-format
+#@ wp-qore
+msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
+msgstr "Gå till din filhanterare (eller ftp), öppna din wp-config.php-fil och lägga till följande rader där. Du måste du byta namn på wp-content och plugin katalogen till de nya namnen som du ser i koden nedan. Kopiera följande kod (nedan) och klistra in koden längst upp i din wp-config.php fil, placera den strax efter den första öppnande <?php taggen (se <a target=\"_blank\" href=\"%s\"> innan </a> och <a target=\"_blank\" href=\"%s\"> efter </ a> exempel). <br><b> Var uppmärksam. Om du inte vet vad något är för, ska du inte göra det. </b>"
+
+#: settings.php:373
+#@ wp-qore
+msgid "General Settings"
+msgstr "Allmäna Inställningar"
+
+#: settings.php:376
+#@ wp-qore
+msgid "Security advisor"
+msgstr "Säkerhetsrådgivaren"
+
+#: settings.php:213
+#: settings.php:383
+#: settings.php:551
+#@ wp-qore
+msgid "Turn 'On' to enable (Recommended)"
+msgstr "Slå 'På' för att aktivera (Rekommenderas)"
+
+#: settings.php:384
+#@ wp-qore
+msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
+msgstr "Om markerad, kommer detta att slå på säkerhetsrådgivare. Security Advisor ger dig skydd mot säkerhetshot, till exempel: virus, skadlig kod, och säkerhetsläckor. Väl aktiverad, kommer en undermeny som heter 'Säkerhetsrådgivaren' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till instrumentpanelen först och det kommer att initieras."
+
+#: settings.php:206
+#@ wp-qore
+msgid "Replace dashboard"
+msgstr "Ersätt adminpanelen"
+
+#: settings.php:214
+#@ wp-qore
+msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
+msgstr "När 'På', kommer detta att ersätta den vanliga wp-admin panelen med en ny som är ren och enkel."
+
+#: settings.php:390
+#@ wp-qore
+msgid "Nag updates"
+msgstr "Uppdateringstjat"
+
+#: settings.php:397
+#: settings.php:411
+#: settings.php:426
+#: settings.php:593
+#@ wp-qore
+msgid "Turn 'On' to disable"
+msgstr "Slå 'På' för att inaktivera"
+
+#: settings.php:398
+#@ wp-qore
+msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
+msgstr "Detta inaktiverar irriterande WordPress-tjat om uppdateringar från att visas. Detta hindrar inte uppdateringar, bara döljer uppdaterings från toppen av wp-admin."
+
+#: settings.php:404
+#@ wp-qore
+msgid "Core updates"
+msgstr "Core uppdateringar"
+
+#: settings.php:412
+#@ wp-qore
+msgid ""
+"This completely disables new WordPress version notifications and updates from being done.<br>\n"
+"<b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only."
+msgstr ""
+"Detta inaktiverar helt versionsmeddelanden och uppdateringar för WordPress<br>\n"
+"<b>Varning:</b>Det rekommenderas starkt att din produktionsmiljö du håller detta alternativ av. Detta alternativ tillhandahålls endast utvecklingsmiljöer."
+
+#: settings.php:419
+#@ wp-qore
+msgid "Post revisions"
+msgstr "Inlägg Revideringar"
+
+#: settings.php:427
+#@ wp-qore
+msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
+msgstr "Detta inaktiverar spara flera inlägg revideringar. Att ha flera inlägg revideringar kan orsaka svälla på din databas. Inaktive dem kommer att förhindra sådant."
+
+#: settings.php:433
+#@ wp-qore
+msgid "Admin bar removal"
+msgstr "Admin bar borttagning"
+
+#: settings.php:440
+#@ wp-qore
+msgid "Remove admin bar from the frontend"
+msgstr "Ta bort admin bar från framsidan"
+
+#: settings.php:446
+#@ wp-qore
+msgid "Collapse admin menu"
+msgstr "Minimera adminmenyn"
+
+#: settings.php:453
+#@ wp-qore
+msgid "This keeps the wp-admin menu on the left collapsed."
+msgstr "Detta håller adminmenyn till vänster minimerad."
+
+#: settings.php:459
+#@ wp-qore
+msgid "Change default jQuery"
+msgstr "Ändra jQuery-standard"
+
+#: settings.php:466
+#@ wp-qore
+msgid ""
+"Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
+"<b>Attention:</b> If this doesn't play well with your theme, then simply turn it off."
+msgstr ""
+"Använd Google jQuery istället för WordPress.</i><br><br>\n"
+"<b>Uppmärksamma:</b> om det här inte fungerar särskilt bra i ditt tema, stäng av funktionen."
+
+#: settings.php:473
+#@ wp-qore
+msgid "Shortcode in widgets"
+msgstr "Kortkoder i widgets"
+
+#: settings.php:481
+#@ wp-qore
+msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
+msgstr "Detta aktiverar kortkoder i widgets. I det fall då du behöver använda kortkoder i dina widgets, aktivera detta."
+
+#: settings.php:487
+#@ wp-qore
+msgid "Php in widgets"
+msgstr "PHP i widgets"
+
+#: settings.php:495
+#@ wp-qore
+msgid ""
+"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
+"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
+msgstr ""
+"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
+"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
+
+#: settings.php:502
+#@ wp-qore
+msgid "Import/export widgets"
+msgstr "Importera/exportera widgets"
+
+#: settings.php:510
+#@ wp-qore
+msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
+msgstr "Detta låter dig importera och exportera widgetinställningar. När du väl aktiverat det så kommer en undermeny att dyka upp, som heter 'Exportera Widgets' och 'Importera Widgets' under wp-admin > Verktyg."
+
+#: settings.php:516
+#@ wp-qore
+msgid "Clean source code"
+msgstr "Städa källkod"
+
+#: settings.php:523
+#@ wp-qore
+msgid "Remove WP version from source code (Recommended)"
+msgstr "Ta bort WordPress versionsnummer från källkoden (Rekommenderas)"
+
+#: settings.php:529
+#@ wp-qore
+msgid "Cache assistance"
+msgstr "Cacheassistenten"
+
+#: settings.php:537
+#@ wp-qore
+msgid ""
+"Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
+"<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel."
+msgstr ""
+"Caching din frontend kan öka din sidladdningshastighet avsevärt. Det rekommenderas starkt att du använder caching, men valet är alltid ditt. Väl aktiverad, kommer en undermeny som heter 'Cache' visas i wp-admin> WP Qore> menyn. Om du inte ser det, gå sedan till adminpanelen först och det kommer att initiera <br>\n"
+"<b>OBS:.</ B> Aktivera inte detta alternativ om du har några andra cache plugins aktiverade. Detta alternativ gör det möjligt för cacheassistans modulen helt enkelt, men gör det inte möjligt för cachning. För att caching frontend, måste du stänga av den 'On 'från cache adminpanelen."
+
+#: settings.php:558
+#@ wp-qore
+msgid "Minify your html"
+msgstr "Minifiera din html"
+
+#: settings.php:566
+#@ wp-qore
+msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
+msgstr "Minifiera HTML i din källkod. Det kommer att göra att din webbsida laddar mycket snabbare och det blir svårare för andra att läsa källkoden för din webbsida."
+
+#: settings.php:572
+#@ wp-qore
+msgid "Remove wp meta tags"
+msgstr "Ta bort wp meta taggar"
+
+#: settings.php:579
+#@ wp-qore
+msgid "Turn 'On' to remove from source code"
+msgstr "Slå 'På' för att ta bort från källkod"
+
+#: settings.php:580
+#@ wp-qore
+msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
+msgstr "Ta bort manifest, genererade meta taggar, närliggande relativa länkar till inlägg, flöden, rsd, index från källkoden."
+
+#: settings.php:586
+#@ wp-qore
+msgid "Plugin/theme editor"
+msgstr "Redigerare tillägg/teman"
+
+#: settings.php:594
+#@ wp-qore
+msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
+msgstr "Det här inaktiverar redigerare för tema och tillägg i WordPress. Det här är en bra idé i produktionsmiljöer."
+
+#: settings.php:600
+#@ wp-qore
+msgid "Database audit"
+msgstr "Databas revision"
+
+#: settings.php:603
+#@ wp-qore
+msgid "This checks your Database and then gives you suggestions about security and making your website faster."
+msgstr "Detta kontrollerar din databas och ger dig sedan förslag på hur du kan förbättra säkerhet och hastighet för din webbplats."
+
+#: settings.php:615
+#@ wp-qore
+msgid "Save changes"
+msgstr "Spara Ändringar"
+
+#: settings.php:203
+#@ wp-qore
+msgid "Dashboard Settings"
+msgstr "Instrumentpanelsinställningar"
+
+#: settings.php:219
+#@ wp-qore
+msgid "Custom dashboard"
+msgstr "Custom instrumentpanel"
+
+#: settings.php:225
+#@ wp-qore
+msgid "When 'On', this will override the WPQORE dashboard with the one you may create below."
+msgstr "När 'På', kommer detta att åsidosätta WPQORE instrumentpanelen med den du kan skapa nedan."
+
+#: settings.php:227
+#@ wp-qore
+msgid "Customize dashboard"
+msgstr "Anpassa brädan"
+
+#: settings.php:267
+#@ wp-qore
+msgid "Automatic Updates"
+msgstr "Automatiska uppdateringar"
+
+#: settings.php:270
+#@ wp-qore
+msgid "Major Updates"
+msgstr "Major"
+
+#: settings.php:278
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla större Wordpress kärnversioner."
+
+#: settings.php:283
+#@ wp-qore
+msgid "Minor Updates"
+msgstr "Minor"
+
+#: settings.php:291
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla mindre Wordpress kärnversioner."
+
+#: settings.php:296
+#@ wp-qore
+msgid "Plugin Updates"
+msgstr "Plugin"
+
+#: settings.php:304
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all plugins."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla plugins."
+
+#: settings.php:309
+#@ wp-qore
+msgid "Theme Updates"
+msgstr "Tema"
+
+#: settings.php:317
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all themes."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla teman."
+
+#: settings.php:322
+#@ wp-qore
+msgid "Translation Updates"
+msgstr "översättning"
+
+#: settings.php:330
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all translations."
+msgstr "När 'På', kommer detta att aktivera automatiska uppdateringar av alla översättningar."
+
+#: settings.php:335
+#@ wp-qore
+msgid "Send Emails"
+msgstr "Skicka e-post"
+
+#: settings.php:343
+#@ wp-qore
+msgid "When 'On', this will send the admin an email every time automatic updates are performed."
+msgstr "När 'På', kommer detta att skicka admin ett mail varje gång automatiska uppdateringar utförs."
+
+#: settings.php:348
+#@ wp-qore
+msgid "Debug Emails"
+msgstr "Felsöknings E"
+
+#: settings.php:356
+#@ wp-qore
+msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
+msgstr "När 'På', kommer detta att skicka admin e-post med felsökningsinformation varje gång automatiska uppdateringar utförs."
+
+#: functions/dashboard_view.php:173
+#@ wp-qore
+msgid "Task"
+msgstr "Task"
+
+#: functions/dashboard_view.php:173
+#: functions/dashboard_view.php:179
+#@ wp-qore
+msgid "PHP Memory"
+msgstr "PHP Minne"
+
+#: functions/dashboard_view.php:174
+#@ wp-qore
+msgid "Limit"
+msgstr "Gräns"
+
+#: functions/dashboard_view.php:175
+#@ wp-qore
+msgid "Usage"
+msgstr "Användning"
+
+#: functions/dashboard_view.php:201
+#@ wp-qore
+msgid "Dashboard"
+msgstr "Instrumentbräda"
+
+#: functions/dashboard_view.php:211
+#@ wp-qore
+msgid "Welcome to the admin backend"
+msgstr "Välkommen till admin backend"
+
+#: functions/dashboard_view.php:218
+#@ wp-qore
+msgid "A Warning Alert"
+msgstr "En Varning Alert"
+
+#: functions/dashboard_view.php:219
+#@ wp-qore
+msgid "An Error Message"
+msgstr "Ett felmeddelande"
+
+#: functions/dashboard_view.php:220
+#@ wp-qore
+msgid "A Success Message"
+msgstr "En framgång meddelande"
+
+#: functions/dashboard_view.php:225
+#@ wp-qore
+msgid "Stats"
+msgstr "Stats"
+
+#: functions/dashboard_view.php:236
+#@ wp-qore
+msgid "posts"
+msgstr "posts"
+
+#: functions/dashboard_view.php:238
+#@ wp-qore
+msgid "comments"
+msgstr "kommentarer"
+
+#: functions/dashboard_view.php:242
+#@ wp-qore
+msgid "pages"
+msgstr "sidor"
+
+#: functions/dashboard_view.php:244
+#@ wp-qore
+msgid "users"
+msgstr "användare"
+
+#: functions/dashboard_view.php:251
+#@ wp-qore
+msgid "uploads"
+msgstr "uploads"
+
+#: functions/dashboard_view.php:253
+#@ wp-qore
+msgid "wp-content"
+msgstr "wp-content"
+
+#: functions/dashboard_view.php:257
+#@ wp-qore
+msgid "wp total"
+msgstr "wp totala"
+
+#: functions/dashboard_view.php:301
+#@ wp-qore
+msgid "Control"
+msgstr "Kontroll"
+
+#: functions/dashboard_view.php:453
+#@ wp-qore
+msgid "Recent Pages"
+msgstr "Nya sidor"
+
+#: functions/dashboard_view.php:486
+#@ wp-qore
+msgid "Recent Posts"
+msgstr "Senaste inlägg"
+
+#: functions/dashboard_view.php:508
+#@ wp-qore
+msgid "find content"
+msgstr "sök"
+
+#: functions/dashboard_view.php:519
+#@ wp-qore
+msgid "System Info"
+msgstr "System Info"
+
+#: functions/dashboard_view.php:533
+#@ wp-qore
+msgid "About WPQore"
+msgstr "Om WPQore"
+
+#: functions/dashboard_view.php:259
+#@ wp-qore
+msgid "free hdd"
+msgstr "fri HDD"
+
+#: functions/server_info.php:166
+#@ wp-qore
+msgid "Settings Saved"
+msgstr "Sparade"
+
+#: functions/server_info.php:169
+#: functions/server_info.php:170
+#@ wp-qore
+msgid "unknow"
+msgstr "ålder"
+
+#: functions/dashboard_view.php:266
+#@ wp-qore
+msgid "OS"
+msgstr "OS"
+
+#: functions/dashboard_view.php:268
+#@ wp-qore
+msgid "Php"
+msgstr "Php"
+
+#: functions/dashboard_view.php:272
+#@ wp-qore
+msgid "MySQL"
+msgstr "MySQL"
+
+#: functions/dashboard_view.php:274
+#@ wp-qore
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions/dashboard_view.php:281
+#@ wp-qore
+msgid "SAPI"
+msgstr "SAPI"
+
+#: functions/dashboard_view.php:283
+#@ wp-qore
+msgid "APC Enabled"
+msgstr "APC Enabled"
+
+#: functions/dashboard_view.php:287
+#@ wp-qore
+msgid "Language"
+msgstr "Språk"
+
+#: functions/dashboard_view.php:288
+#@ wp-qore
+msgid "On"
+msgstr "På"
+
+#: functions/dashboard_view.php:288
+#@ wp-qore
+msgid "Off"
+msgstr "Off"
+
+#: functions/dashboard_view.php:289
+#@ wp-qore
+msgid "Safe Mode"
+msgstr "Felsäkert läge"
+
+#: functions/dashboard_view.php:522
+#@ wp-qore
+msgid "Web Server"
+msgstr "Webbserver"
+
+#: functions/dashboard_view.php:524
+#@ wp-qore
+msgid "Max Execution Time"
+msgstr "Max Execution Time"
+
+#: functions/dashboard_view.php:526
+#@ wp-qore
+msgid "Server Disk Quota"
+msgstr "Server Disk Kvot"
+
+#: functions/adminbar_menu.php:62
+#: settings.php:54
+#@ wp-qore
+msgid "WP Qore Options"
+msgstr "WP Qore Val"
+
+#: functions/adminbar_menu.php:71
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:144
+#: modules/dropbox_mod/wpq-2-dbx.php:74
+#@ wp-qore
+msgid "Backup Settings"
+msgstr "Backup inställningar"
+
+#: functions/adminbar_menu.php:72
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:78
+#: modules/dropbox_mod/wpq-2-dbx.php:78
+#@ wp-qore
+msgid "Backup Monitor"
+msgstr "Backup Monitor"
+
+#: functions/dashboard_view.php:214
+#@ wp-qore
+msgid "Uh oh, Cache is feeling grumpy. We'll have it fixed soon. To disable this message, turn off Cache Assistance from the <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Settings</a> panel."
+msgstr "Uh oh, är Cache känsla grinig. Vi kommer att ha det fixat snart. För att inaktivera detta meddelande, stäng av Cache Stöd från <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Inställningar</a> panel."
+
+#. translators: plugin header field 'Version'
+#: index.php:0
+#@ wp-qore
+msgid "1.7.0"
+msgstr "1.7.0"
+
+#: modules/dropbox_mod/Classes/BackupController.php:78
+#@ wp-qore
+msgid "Processed 1 file."
+msgstr "Bearbetade 1 fil."
+
+#: modules/dropbox_mod/Classes/BackupController.php:78
+#, php-format
+#@ wp-qore
+msgid "Processed %s files."
+msgstr "Bearbetade% s filer."
+
+#: modules/dropbox_mod/Classes/BackupController.php:89
+#, php-format
+#@ wp-qore
+msgid "Approximately %s%% complete."
+msgstr "Ungefär %s%% klar."
+
+#: modules/dropbox_mod/Classes/BackupController.php:151
+#@ wp-qore
+msgid "Your Dropbox account is not authorized yet."
+msgstr "Ditt Dropbox-konto har inte tillstånd ännu."
+
+#: modules/dropbox_mod/Classes/BackupController.php:160
+#@ wp-qore
+msgid "Resuming SQL backup."
+msgstr "Återuppta SQL backup."
+
+#: modules/dropbox_mod/Classes/BackupController.php:162
+#@ wp-qore
+msgid "Starting SQL backup."
+msgstr "Starta SQL backup."
+
+#: modules/dropbox_mod/Classes/BackupController.php:167
+#@ wp-qore
+msgid "SQL backup complete. Starting file backup."
+msgstr "SQL backup komplett. Starta säkerhetskopiering."
+
+#: modules/dropbox_mod/Classes/BackupController.php:188
+#@ wp-qore
+msgid "Backup complete."
+msgstr "Backup komplett."
+
+#: modules/dropbox_mod/Classes/BackupController.php:189
+#, php-format
+#@ wp-qore
+msgid "A total of %s files were processed."
+msgstr "Totalt %s filer bearbetas."
+
+#: modules/dropbox_mod/Classes/BackupController.php:191
+#, php-format
+#@ wp-qore
+msgid "A total of %dMB of memory was used to complete this backup."
+msgstr "Totalt %d MB minne användes för att slutföra säkerhetskopieringen."
+
+#: modules/dropbox_mod/Classes/BackupController.php:213
+#@ wp-qore
+msgid "The plugin is no longer authorized with Dropbox."
+msgstr "Insticksprogrammet är inte längre godkänt med Dropbox."
+
+#: modules/dropbox_mod/Classes/BackupController.php:215
+#@ wp-qore
+msgid "A fatal error occured: "
+msgstr "Ett allvarligt fel inträffade:"
+
+#: modules/dropbox_mod/Classes/BackupController.php:252
+#, php-format
+#@ default
+msgid "WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin."
+msgstr ""
+
+#: modules/dropbox_mod/Classes/BackupController.php:265
+#, php-format
+#@ wp-qore
+msgid "WordPress Backup to Dropbox requires write access to '%s', please ensure it exists and has write permissions."
+msgstr "Wordpress Backup till Dropbox kräver skrivrättigheter till '%s', se till att det finns och har skrivbehörighet."
+
+#: modules/dropbox_mod/Classes/Config.php:215
+#@ wp-qore
+msgid "Backup stopped by user."
+msgstr "Backup stoppats av användaren."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:79
+#, php-format
+#@ wp-qore
+msgid "Resuming table '%s' at row %s."
+msgstr "Återuppta tabell '%s' på rad %s."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:84
+#, php-format
+#@ wp-qore
+msgid "Processed table '%s'."
+msgstr "Bearbetade tabell '%s'."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:118
+#, php-format
+#@ wp-qore
+msgid "A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access."
+msgstr "En databas backup kan inte skapas eftersom Wordpress inte har skrivbehörighet till %s, vänligen se den här katalogen har skrivrättigheter."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:149
+#@ wp-qore
+msgid "Error while accessing database."
+msgstr "Fel vid åtkomst till databasen."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:214
+#@ wp-qore
+msgid "Error writing to php://memory."
+msgstr "Fel vid skrivning till php://minne."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:227
+#@ wp-qore
+msgid "Error closing sql dump file."
+msgstr "Fel stängning sql dumpfilen."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:231
+#@ wp-qore
+msgid "Error closing php://memory."
+msgstr "Fel stängning php://minne."
+
+#: modules/dropbox_mod/Classes/DropboxFacade.php:51
+#, php-format
+#@ wp-qore
+msgid "The cURL extension is not loaded. %sPlease ensure its installed and activated.%s"
+msgstr "Den cURL förlängning är inte laddad. %s Please säkerställa dess installerad och aktiverad.%s"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:40
+#, php-format
+#@ wp-qore
+msgid "The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup."
+msgstr "Säkerhetskopian har problem med att ladda upp filer till Dropbox, har den inte %s gånger och avbryta säkerhetskopieringen."
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:43
+#@ default
+msgid "Dropbox API not set"
+msgstr ""
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:54
+#, php-format
+#@ wp-qore
+msgid "Uploading large file '%s' (%sMB) in chunks"
+msgstr "Ladda upp stor fil '%s' (%s MB) i bitar"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:56
+#, php-format
+#@ wp-qore
+msgid "Resuming upload of large file '%s'"
+msgstr "Återuppta uppladdning av stora filen '%s'"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:71
+#, php-format
+#@ wp-qore
+msgid "Error uploading '%s' to Dropbox: %s"
+msgstr "Fel vid uppladdning '%s' till Dropbox: %s"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:90
+#@ wp-qore
+msgid "There was an error getting the list of premium extensions"
+msgstr "Det uppstod ett fel att få listan med premietillägg"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:124
+#@ wp-qore
+msgid "access is deined, this could be because your payment has expired."
+msgstr "tillgång deined, detta kan bero på att din betalning har gått ut."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:126
+#@ wp-qore
+msgid "you have exceeded your download limit for this extension on this site."
+msgstr "du har överskridit din nedladdning gräns för denna utvidgning på denna webbplats."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:129
+#@ wp-qore
+msgid "There was an error downloading your premium extension because"
+msgstr "Det uppstod ett fel hämtar din premie förlängning eftersom"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:138
+#, php-format
+#@ wp-qore
+msgid "'%s' is not writeable."
+msgstr "'%s' är inte skrivbar."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:141
+#@ wp-qore
+msgid "There was an error installing your premium extension because"
+msgstr "Det uppstod ett fel installerar din premie förlängning eftersom"
+
+#: modules/dropbox_mod/Classes/UploadTracker.php:37
+#, php-format
+#@ wp-qore
+msgid "Uploaded %sMB of %sMB"
+msgstr "Uppladdad %s MB av %s MB"
+
+#: modules/dropbox_mod/Views/wpq2dbx-deprecated.php:34
+#@ wp-qore
+msgid "Dropbox Backup Module"
+msgstr "Dropbox Backup Modul"
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:28
+#@ wp-qore
+msgid "Backup stopped."
+msgstr "Backup stoppas."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:35
+#@ wp-qore
+msgid "Backup started."
+msgstr "Backup startas."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:85
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:383
+#@ wp-qore
+#@ default
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:95
+#@ wp-qore
+msgid "Stop Backup"
+msgstr "Stopp"
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:97
+#@ wp-qore
+msgid "Start Backup"
+msgstr "Början"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:24
+#@ wp-qore
+msgid "WordPress Backup to Dropbox failed to initialize due to these database errors."
+msgstr "Wordpress Backup till Dropbox kunde inte initieras på grund av dessa databasfel."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:43
+#@ wp-qore
+msgid "The sub directory must only contain alphanumeric characters."
+msgstr "Den underkatalog får endast innehålla alfanumeriska tecken."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:85
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:271
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:332
+#@ wp-qore
+msgid "Daily"
+msgstr "Dagligen"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:159
+#@ wp-qore
+msgid "Dropbox Account"
+msgstr "Dropbox-konto"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:166
+#@ wp-qore
+msgid "you have"
+msgstr "du har"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:168
+#@ wp-qore
+msgid "Gigabyte"
+msgstr "Gigabyte"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:169
+#@ wp-qore
+msgid "of"
+msgstr "av"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:170
+#@ wp-qore
+msgid "free"
+msgstr "fri"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:172
+#@ wp-qore
+msgid "Unlink Account"
+msgstr "Ta bort"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:183
+#@ wp-qore
+msgid "Next Scheduled"
+msgstr "Nästa planerade"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:188
+#, php-format
+#@ wp-qore
+msgid "Next backup scheduled for %s at %s"
+msgstr "Nästa backup planerad till %s vid %s"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:190
+#@ wp-qore
+msgid "No backups are scheduled yet. Please select a day, time and frequency below. "
+msgstr "Inga säkerhetskopior är schemalagda ännu. Välj en dag, tid och frekvens nedan."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:201
+#@ wp-qore
+msgid "History"
+msgstr "Historia"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:217
+#, php-format
+#@ wp-qore
+msgid "Backup completed on %s at %s."
+msgstr "Backup klar på %s på %s."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:220
+#@ wp-qore
+msgid "Clear history"
+msgstr "Klar"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:222
+#@ wp-qore
+msgid "No history"
+msgstr "Ingen historia"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:239
+#@ wp-qore
+msgid "Create a new folder within WPQORE app folder"
+msgstr "Skapa en ny mapp i WPQORE app mapp"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:253
+#@ wp-qore
+msgid "Day and Time"
+msgstr "Dag och tid"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:257
+#@ wp-qore
+msgid "Monday"
+msgstr "Måndag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:259
+#@ wp-qore
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:261
+#@ wp-qore
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:263
+#@ wp-qore
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:265
+#@ wp-qore
+msgid "Friday"
+msgstr "Fredag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:267
+#@ wp-qore
+msgid "Saturday"
+msgstr "lördag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:269
+#@ wp-qore
+msgid "Sunday"
+msgstr "Söndag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:273
+#@ wp-qore
+msgid "at"
+msgstr "vid"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:324
+#@ wp-qore
+msgid "The day and time the backup will run."
+msgstr "Dag och tid backupen ska köras."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:328
+#@ wp-qore
+msgid "Frequency"
+msgstr "Frekvens"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:335
+#@ wp-qore
+msgid "Weekly"
+msgstr "Varje vecka"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:339
+#@ wp-qore
+msgid "Fortnightly"
+msgstr "Var fjortonde dag"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:342
+#@ wp-qore
+msgid "Every 4 weeks"
+msgstr "Var 4 veckor"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:346
+#@ wp-qore
+msgid "Every 8 weeks"
+msgstr "Var 8 veckor"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:350
+#@ wp-qore
+msgid "Every 12 weeks"
+msgstr "Varje 12 veckor"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:353
+#@ wp-qore
+msgid "Frequency of backup."
+msgstr "Frekvens av backup."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:368
+#@ wp-qore
+msgid "Excluded Files and Directories"
+msgstr "Uteslutna filer och kataloger"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:372
+#@ wp-qore
+msgid "Select the files and directories that you wish to exclude from your backup. You can expand directories with contents by clicking its name."
+msgstr "Markera de filer och kataloger som du vill utesluta från säkerhetskopian. Du kan utöka kataloger med innehåll genom att klicka på dess namn."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
+#@ wp-qore
+msgid "Notice:"
+msgstr "Lägg märke till:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
+#@ wp-qore
+msgid "Your SQL dump file will always be backed up regardless of what is selected below."
+msgstr "Din SQL dumpfilen kommer alltid backas upp oavsett vad som väljs nedan."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:388
+#@ wp-qore
+msgid "Exclude:"
+msgstr "Uteslut:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:389
+#@ wp-qore
+msgid "All"
+msgstr "Alla"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:390
+#@ wp-qore
+msgid "None"
+msgstr "Inget"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:391
+#@ wp-qore
+msgid "Inverse"
+msgstr "Inverse"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:428
+#@ wp-qore
+msgid "Authorize"
+msgstr "Auktorisera"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:431
+#@ wp-qore
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:438
+#@ wp-qore
+msgid "Error"
+msgstr "Fel"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:439
+#@ wp-qore
+msgid "There was a fatal error loading WordPress Backup to Dropbox. Please fix the problems listed and reload the page."
+msgstr "Det var ett ödesdigert misstag laddar Wordpress Backup till Dropbox. Var god rätta de problem som anges och ladda om sidan."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:440
+#@ wp-qore
+msgid "If the problem persists please re-install WordPress Backup to Dropbox."
+msgstr "Om problemet kvarstår vänligen installera Wordpress Backup till Dropbox."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:441
+#@ wp-qore
+msgid "Error message:"
+msgstr "Felmeddelande:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-progress.php:27
+#@ wp-qore
+msgid "You have not run a backup yet. Once you do, you'll see a log of it here."
+msgstr "Du har inte köra en backup ännu. När du gör det kommer du att se en logg över det här."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:135
+#, php-format
+#@ wp-qore
+msgid "Backup started on %s."
+msgstr "Backup startade den %s."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:139
+#, php-format
+#@ default
+msgid "Your time limit is %s and your memory limit is %s"
+msgstr ""
+
+#: modules/dropbox_mod/wpq-2-dbx.php:140
+#@ wp-qore
+msgid "seconds"
+msgstr "sekunder"
+
+#: modules/dropbox_mod/wpq-2-dbx.php:140
+#@ wp-qore
+msgid "unlimited"
+msgstr "obegränsad"
+
+#: modules/dropbox_mod/wpq-2-dbx.php:145
+#@ wp-qore
+msgid "Safe mode is enabled on your server so the PHP time and memory limit cannot be set by the backup process. So if your backup fails it's highly probable that these settings are too low."
+msgstr "Säkert läge är aktiverat på din server så PHP tid och minnesgräns inte kan ställas in av säkerhetskopieringen. Så om din backup inte att det är högst troligt att dessa inställningar är för låga."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:167
+#@ wp-qore
+msgid "There has been no backup activity for a long time. Attempting to resume the backup."
+msgstr "Det har ingen backup aktivitet under lång tid. Att försöka återuppta säkerhetskopieringen."
+
+#: settings.php:544
+#@ wp-qore
+msgid "Dropbox Backups"
+msgstr "Dropbox Kopior"
+
+#: settings.php:552
+#@ wp-qore
+msgid "This will enable the Dropbox module. Once enabled, two sub-menus called 'Backup Settings' and 'Backup Monitor' will appear under the WP Qore menu. You still need to authorize your Dropbox account before backups can begin."
+msgstr "Detta gör det möjligt för Dropbox-modulen. När aktiverad kommer två undermenyer som kallas \\\"Backup Settings\\\" och \\\"Backup Monitor\\\" visas under WP Qore menyn. Du måste fortfarande godkänna ditt Dropbox-konto innan säkerhetskopior kan börja."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:414
+#@ wp-qore
+msgid "WordPress to Dropbox Backup"
+msgstr "Word till Dropbox Backup"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:416
+#@ wp-qore
+msgid "In order to use this option, you will need to first authorized WP Qore with your Dropbox account."
+msgstr "För att kunna använda det här alternativet måste du först auktoriserad WP Qore med ditt Dropbox-konto."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:417
+#@ wp-qore
+msgid "Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page."
+msgstr "Klicka på Auktorisera knappen nedan och följ instruktionerna inne i pop-up fönster. När du har gjort det, och sedan komma tillbaka till den här sidan och klicka på Auktorisera igen. Sedan uppdatera sidan."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:420
+#@ wp-qore
+msgid "There was an error authorizing WP Qore with your Dropbox account. Please try again."
+msgstr "Det uppstod ett fel bemyndigande WP Qore med ditt Dropbox-konto. Försök igen."
+
