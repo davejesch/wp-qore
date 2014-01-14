@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.6.9
+Version: 1.7.0
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.6.9';
+    echo '1.7.0';
 }
 
 function wpqore_load_textdomain() {
@@ -122,6 +122,25 @@ if (get_option("wpqorefunc_exportwidget")=='checked') {
 	add_action( 'init', array( 'Widget_EXPOData', 'init' ) );
 }
 
+// module: dropbox backups
+if (get_option("wpqorefunc_dropbox_mod")=='checked') {
+    require_once(dirname(__FILE__)."/modules/dropbox_mod/wpq-2-dbx.php");
+if (is_admin()){
+    add_action('wp_ajax_file_tree', 'b_2_dbx_file_tree');
+    add_action('wp_ajax_progress', 'b_2_dbx_progress');
+    add_action('admin_menu', 'b_2_dbx_admin_menu');
+}
+    add_action('monitor_dropbox_backup_hook', 'monitor_dropbox_backup');
+    add_action('run_dropbox_backup_hook', 'run_dropbox_backup');
+    add_action('execute_periodic_drobox_backup', 'execute_drobox_backup');
+    add_action('execute_instant_drobox_backup', 'execute_drobox_backup');
+    add_action('admin_init', 'wpq2dbx_init');
+    add_action('admin_enqueue_scripts', 'wpq2dbx_style');
+    register_activation_hook(__FILE__, 'wpq2dbx_install');
+}else{
+    require_once(dirname(__FILE__)."/modules/dropbox_mod/uninstall.php");
+}
+
 // enqueue dashboard css
 function load_dash_wp_admin_style(){
     wp_register_style( 'custom_wp_admin_css', plugins_url( 'css/dashboard.css' , __FILE__ ), false, '1.0.0' );
@@ -176,6 +195,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_auto_core_update_send_email", "0");
     update_option("wpqorefunc_automatic_updates_send_debug_email", "0");
     update_option("wpqorefunc_auto_update_translation", "0");
+    update_option("wpqorefunc_dropbox_mod", "checked");
     
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -213,6 +233,7 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_auto_core_update_send_email", "");
     update_option("wpqorefunc_automatic_updates_send_debug_email", "");
     update_option("wpqorefunc_auto_update_translation", "");
+    update_option("wpqorefunc_dropbox_mod", "");
     
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
