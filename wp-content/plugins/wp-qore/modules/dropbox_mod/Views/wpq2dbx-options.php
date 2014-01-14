@@ -2,7 +2,7 @@
 /**
  * This file contains the contents of the Dropbox admin options page.
  *
- * @author Michael De Wildt 
+ * @author Michael De Wildt
  * @license This program is free software; you can redistribute it and/or modify
  *          it under the terms of the GNU General Public License as published by
  *          the Free Software Foundation; either version 2 of the License, or
@@ -406,14 +406,23 @@ try {
     } else {
 
         ?>
-    <h3><?php _e('Thank you for installing WordPress Backup to Dropbox!', 'wp-qore'); ?></h3>
-    <p><?php _e('In order to use this plugin you will need to authorized it with your Dropbox account.', 'wp-qore'); ?></p>
-    <p><?php _e('Please click the authorize button below and follow the instructions inside the pop up window.', 'wp-qore'); ?></p>
+    <div id="poststuff">
+    <div class="postbox">
+    <table class="form-table">
+    <tbody>
+    <h3><?php _e('WordPress to Dropbox Backup', 'wp-qore'); ?></h3>
+    <div style="padding-left:15px">
+    <p><?php _e('In order to use this option, you will need to first authorized WP Qore with your Dropbox account.', 'wp-qore'); ?></p>
+    <p><?php _e('Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page.', 'wp-qore'); ?></p>
         <?php if (array_key_exists('continue', $_POST) && !$dropbox->is_authorized()): ?>
             <?php $dropbox->unlink_account()->init(); ?>
-            <p style="color: red"><?php _e('There was an error authorizing the plugin with your Dropbox account. Please try again.', 'wp-qore'); ?></p>
+            <p style="color: red"><?php _e('There was an error authorizing WP Qore with your Dropbox account. Please try again.', 'wp-qore'); ?></p>
         <?php endif; ?>
-    <p>
+    </div>
+    </tbody>
+    </table>
+    </div>
+    </div>
     <form id="b_2_dbx_continue" name="b_2_dbx_continue" method="post">
         <input type="button" name="authorize" id="authorize" value="<?php _e('Authorize', 'wp-qore'); ?>"
                class="button-primary" onclick="dropbox_authorize('<?php echo $dropbox->get_authorize_url() ?>')"/><br/>

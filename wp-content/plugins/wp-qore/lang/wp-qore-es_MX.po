@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Qore v1.7.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-14 06:05:27+0000\n"
+"PO-Revision-Date: 2014-01-14 10:57:21+0000\n"
 "Last-Translator: admin <enqinet@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1585,52 +1585,32 @@ msgstr "Ninguno"
 msgid "Inverse"
 msgstr "Inverso"
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:410
-#@ wp-qore
-msgid "Thank you for installing WordPress Backup to Dropbox!"
-msgstr "Gracias por la instalación de WordPress Backup para Dropbox usted!"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:411
-#@ wp-qore
-msgid "In order to use this plugin you will need to authorized it with your Dropbox account."
-msgstr "Para utilizar este plugin tendrá que autorizarla con su cuenta de Dropbox."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:412
-#@ wp-qore
-msgid "Please click the authorize button below and follow the instructions inside the pop up window."
-msgstr "Por favor, haga clic en el botón Autorizar a continuación y siga las instrucciones en el interior de la ventana emergente."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:415
-#@ wp-qore
-msgid "There was an error authorizing the plugin with your Dropbox account. Please try again."
-msgstr "There was an error authorizing the plugin with your Dropbox account. Please try again."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:419
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:428
 #@ wp-qore
 msgid "Authorize"
 msgstr "Autorizar"
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:422
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:431
 #@ wp-qore
 msgid "Continue"
 msgstr "Continuar"
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:429
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:438
 #@ wp-qore
 msgid "Error"
 msgstr "Error"
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:430
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:439
 #@ wp-qore
 msgid "There was a fatal error loading WordPress Backup to Dropbox. Please fix the problems listed and reload the page."
 msgstr "Hubo un error fatal de cargar WordPress Backup para Dropbox. Por favor, corrija los problemas enumerados y volver a cargar la página."
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:431
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:440
 #@ wp-qore
 msgid "If the problem persists please re-install WordPress Backup to Dropbox."
 msgstr "Si el problema persiste, por favor, vuelva a instalar WordPress Backup para Dropbox."
 
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:432
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:441
 #@ wp-qore
 msgid "Error message:"
 msgstr "Mensaje de error:"
@@ -1681,4 +1661,24 @@ msgstr "Las copias de seguridad de Dropbox"
 #@ wp-qore
 msgid "This will enable the Dropbox module. Once enabled, two sub-menus called 'Backup Settings' and 'Backup Monitor' will appear under the WP Qore menu. You still need to authorize your Dropbox account before backups can begin."
 msgstr "Esto permitirá que el módulo de Dropbox. Una vez habilitado, dos sub-menús llamados \\\"Backup Settings\\\" y \\\"monitor de reserva\\\" van a aparecer en el menú WP Qore. Usted todavía tiene que autorizar a su cuenta de Dropbox antes de que comiencen las copias de seguridad."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:414
+#@ wp-qore
+msgid "WordPress to Dropbox Backup"
+msgstr "WordPress para Dropbox de copia de seguridad"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:416
+#@ wp-qore
+msgid "In order to use this option, you will need to first authorized WP Qore with your Dropbox account."
+msgstr "Para utilizar esta opción, tendrá que autorizó primero WP Qore con su cuenta de Dropbox."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:417
+#@ wp-qore
+msgid "Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page."
+msgstr "Por favor, haga clic en el botón Autorizar a continuación y siga las instrucciones en el interior de la ventana emergente. Una vez que haya hecho eso, y luego volver a esta página y haga clic en Autorizar nuevamente. Entonces actualice la página."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:420
+#@ wp-qore
+msgid "There was an error authorizing WP Qore with your Dropbox account. Please try again."
+msgstr "Hubo un error al autorizar WP Qore con su cuenta de Dropbox. Por favor, inténtelo de nuevo."
 
