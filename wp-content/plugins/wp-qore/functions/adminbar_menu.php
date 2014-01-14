@@ -57,24 +57,26 @@ function WPQore_Adminbar_Menu(){
       ) );
   }
 
-  function wpqore_adminbar_links() {
+ function wpqore_adminbar_links() {
+  $home = home_url('/'); // home is where the slash is. lol. here are the updates. *yawn*
+   $pathfunc = $home . "wp-admin/admin.php?page=wp-qore/functions.php";
+   $pathcache = $home . "wp-admin/admin.php?page=Cache_AssistanceOptions";
+   $pathsec =   $home . "wp-admin/admin.php?page=sec-advisor";
+   $pathbox = $home . "wp-admin/admin.php?page=b2dbx";
+   $pathmonitor = $home . "wp-admin/admin.php?page=b2dbx-monitor";
       $this->add_root_menu( __( "WP Qore", 'wp-qore' ), "wpqabl" );
-      $this->wpqore_add_submenu( __( "WP Qore Options", 'wp-qore' ), "admin.php?page=wp-qore/functions.php", "wpqabl", "wpqablp" );
-
-     //add cache menu
-      if (get_option("wpqorefunc_cache_assistance")=='checked') {
-          $this->wpqore_add_submenu( __( "Cache Assistance", 'wp-qore' ), "admin.php?page=Cache_AssistanceOptions", "wpqabl", "wpqabla" );
-      }
+      $this->wpqore_add_submenu( __( "WP Qore Settings", 'wp-qore' ), $pathfunc, "wpqabl", "wpqablp" );
       
-     //add dropbox menu
+	  if (get_option("wpqorefunc_cache_assistance")=='checked') {
+          $this->wpqore_add_submenu( __( "Cache Assistance", 'wp-qore' ), $pathcache, "wpqabl", "wpqabla" );
+      }
+	   //add dropbox menu
       if (get_option("wpqorefunc_dropbox_mod")=='checked') {
           $this->wpqore_add_submenu( __( "Backup Settings", 'wp-qore' ), "admin.php?page=b2dbx", "wpqabl", "wpqablbus" );
           $this->wpqore_add_submenu( __( "Backup Monitor", 'wp-qore' ), "admin.php?page=b2dbx-monitor", "wpqabl", "wpqablbum" );
       }
-
-     //add security advisor menu
       if (get_option("wpqorefunc_sec_advisor")=='checked') {
-          $this->wpqore_add_submenu( __( "Security Advisor", 'wp-qore' ), "admin.php?page=sec-advisor", "wpqabl", "wpqabli" );
+          $this->wpqore_add_submenu( __( "Security Advisor", 'wp-qore' ), $pathsec, "wpqabl", "wpqabli" );
       }
   }
 
