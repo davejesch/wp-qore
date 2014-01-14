@@ -533,7 +533,7 @@ if ( current_user_can('manage_options') ) { ?>
 <h3><?php _e( 'About WPQore', 'wp-qore' ); ?></h3>
 </header>
 <div class="module_content">
-<div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/denverhost" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
+<div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/wpqore" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
 <p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.<br />
 <br />
 WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Another powerful feature is Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... period!</p>
