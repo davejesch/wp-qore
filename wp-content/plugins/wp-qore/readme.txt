@@ -36,6 +36,7 @@ Available Options: (toggle on/off)
 * shortcode in widget
 * php in widgets
 * import/export widgets
+* dropbox backup
 * remove wp version
 * minify your html
 * gzip compression
