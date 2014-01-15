@@ -216,7 +216,7 @@ try {
                 echo '<li>' . sprintf(__('Backup completed on %s at %s.', 'wp-qore'), $backup_date, $backup_time_str) . '</li>';
             }
             echo '</ol>';
-            echo '<input type="submit" id="clear_history" name="clear_history"" class="bump button-secondary" value="' . __('Clear history', 'wp-qore') . '">';
+            echo '<div style="padding-left:15px;padding-bottom:15px"><input type="submit" id="clear_history" name="clear_history"" class="bump button-secondary" value="' . __('Clear history', 'wp-qore') . '"></div>';
         } else {
             echo '<p style="margin-left: 10px;">' . __('No history', 'wp-qore') . '</p>';
         }
