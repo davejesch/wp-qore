@@ -210,10 +210,6 @@ function drawChart() {
 		
 <h4 class="alert_info"><?php _e( 'Welcome to the admin backend', 'wp-qore' ); ?>.</h4>
 
-<?php if (get_option("wpqorefunc_cache_assistance")=='checked') { ?>
-<h4 class="alert_error"><?php _e( 'Uh oh, Cache is feeling grumpy. We\'ll have it fixed soon. To disable this message, turn off Cache Assistance from the <a href="admin.php?page=wp-qore/functions.php">WP Qore Settings</a> panel.', 'wp-qore' ); ?></h4>
-<?php } ?>
-
 <!--
 <h4 class="alert_warning"><?php _e( 'A Warning Alert', 'wp-qore' ); ?></h4>
 <h4 class="alert_error"><?php _e( 'An Error Message', 'wp-qore' ); ?></h4>
@@ -536,7 +532,7 @@ if ( current_user_can('manage_options') ) { ?>
 <div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/wpqore" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
 <p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.<br />
 <br />
-WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Another powerful feature is Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... period!</p>
+WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner.</p>
 </div>
 </article>
 </div>
