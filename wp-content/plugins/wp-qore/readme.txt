@@ -73,6 +73,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.7.3 = 
+* Disabled Cache Assistance. A new stable version is in the works.
+
 = 1.7.2 = 
 * Fixed admin-bar link
 
@@ -278,6 +281,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.7.3 =
+* Upgrade for the latest version.
 
 = 1.7.2 =
 * Upgrade for the latest version.
