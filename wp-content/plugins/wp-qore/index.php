@@ -97,7 +97,7 @@ if (get_option("wpqorefunc_phpwidget")=='checked') include_once('functions/php-w
 if (get_option("wpqorefunc_coreupdate")=='checked') include_once('functions/core-update.php');
 if (get_option("wpqorefunc_post_revisions")=='checked') define('WP_POST_REVISIONS', false);
 if (get_option("wpqorefunc_sec_advisor")=='checked') include_once('sec-advisor.php');
-if (get_option("wpqorefunc_cache_assistance")=='checked') include_once('cache-assistance.php');
+//if (get_option("wpqorefunc_cache_assistance")=='checked') include_once('cache-assistance.php');
 if (get_option("wpqorefunc_fold_menu")=='checked') {
     function fold_menu() {
         print "<script>jQuery(document).ready(function() {
@@ -184,7 +184,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_sec_advisor","checked");
     update_option("wpqorefunc_theme_directory","templates");
     update_option("wpqorefunc_login_logo_url", "");
-    update_option("wpqorefunc_cache_assistance", "0");   
+    //update_option("wpqorefunc_cache_assistance", "0");   
     update_option("wpqorefunc_fold_menu", "0");
     update_option("wpqorefunc_dashboard_switch", "0");
     update_option("wpqorefunc_custom_dashboard", "");
@@ -222,7 +222,7 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_sec_advisor","");
     update_option("wpqorefunc_theme_directory","");
     update_option("wpqorefunc_login_logo_url", "");
-    update_option("wpqorefunc_cache_assistance", "");
+    //update_option("wpqorefunc_cache_assistance", "");
     update_option("wpqorefunc_fold_menu", "");
     update_option("wpqorefunc_dashboard_switch", "");
     update_option("wpqorefunc_custom_dashboard", "");
@@ -239,4 +239,4 @@ function wpqore_plug_deactivate() {
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
 
 // runs on plugin deactivation
-register_deactivation_hook( __FILE__, array('Cache_Assistance', 'deactivate') );
+//register_deactivation_hook( __FILE__, array('Cache_Assistance', 'deactivate') );
