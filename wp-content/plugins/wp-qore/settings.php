@@ -34,7 +34,7 @@ wpqorefunc_string_setting("wpqorefunc_exceptional_url",'');
 wpqorefunc_is_checked("wpqorefunc_login_logo");
 wpqorefunc_is_checked("wpqorefunc_forbid_wpadmin");
 wpqorefunc_is_checked("wpqorefunc_sec_advisor");
-wpqorefunc_is_checked("wpqorefunc_cache_assistance");
+//wpqorefunc_is_checked("wpqorefunc_cache_assistance");
 wpqorefunc_is_checked("wpqorefunc_fold_menu");
 wpqorefunc_is_checked("wpqorefunc_dashboard_switch");
 wpqorefunc_string_setting("wpqorefunc_custom_dashboard",'');
@@ -521,21 +521,6 @@ jQuery("#wpqorefunc_cr_exc_div2").toggle("slow");
 <label><i></i></label>
 </div>
 <i><?php _e( 'Remove WP version from source code (Recommended)', 'wp-qore' ); ?></i>
-</label>
-</td>
-</tr>
-
-<tr valign="top">
-<th scope="row"><label for="home"><?php _e( 'Cache assistance', 'wp-qore' ); ?></label></th>
-<td>
-<label for="wpqorefunc_cache_assistance">
-<div class="switch toggle3">
-<input name="wpqorefunc_cache_assistance" type="checkbox" id="wpqorefunc_cache_assistance" value="1" <?php echo get_option("wpqorefunc_cache_assistance");?>>
-<label><i></i></label>
-</div>
-<i><?php _e( "Turn 'On' to enable", 'wp-qore' ); ?></i><br><br>
-<?php _e( "Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>
-<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel.", 'wp-qore' ); ?>
 </label>
 </td>
 </tr>
