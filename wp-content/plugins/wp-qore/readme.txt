@@ -1,6 +1,6 @@
 === WP Qore ===
 Contributors: phatjay, keha76, planetzuda
-Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core, customize login page, hide login page, security advisor, replace dashboard, custom dashboard, disable nag updates, disable core updates, admin bar removal, collapse admin menu, frontend caching, use jquery cdn, shortcode in widget, php in widgets, export widgets, import widgets, remove wp version, minify your html, gzip compression, cleanup wp meta, new theme directory, unique source code, automatic updates
+Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core, customize login page, hide login page, security advisor, replace dashboard, custom dashboard, disable nag updates, disable core updates, admin bar removal, collapse admin menu, use jquery cdn, shortcode in widget, php in widgets, export widgets, import widgets, remove wp version, minify your html, gzip compression, cleanup wp meta, new theme directory, unique source code, automatic updates
 Requires at least: 3.3
 Tested up to: 3.8.1
 Stable tag: 4.8
@@ -14,8 +14,6 @@ WordPress Security, Developer Tools Plugin.
 <a target="_blank" href="http://wpqore.com/">WP Qore</a>, a plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time. 
 
 WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner. Protection for your WordPress website. Backed by updates from Google's database of web misfits. Rest assured you're always up-to-date and secured.
-
-Another powerful feature WP QORE offers in Cache Assistance. Cache Assistance is the fastest, simpliest cache system for WordPress... peroid! Cache Assistance is the same as my WP-Cache.com plugin. So you if you have WP QORE activated, then you do-not need to have WP-CACHE.COM enabled or any other cache plugin.
 
 WP Qore, first debut in the WordPress.org plugin repository is v1.1.4 and previous versions are maintained on <a target="_blank" href="https://github.com/icryptic/wp-qore/">Github</a>.
 
@@ -31,7 +29,6 @@ Available Options: (toggle on/off)
 * disable core updates
 * admin bar removal
 * collapse admin menu
-* frontend caching
 * use jquery cdn
 * shortcode in widget
 * php in widgets
