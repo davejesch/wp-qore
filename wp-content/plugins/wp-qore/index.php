@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.7.6
+Version: 1.7.7
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.7.6';
+    echo '1.7.7';
 }
 
 function wpqore_load_textdomain() {
@@ -116,6 +116,12 @@ if (get_option("wpqorefunc_auto_core_update_send_email")=='checked') { add_filte
 if (get_option("wpqorefunc_automatic_updates_send_debug_email")=='checked') { add_filter( 'automatic_updates_send_debug_email', '__return_true' ); } else { add_filter( 'automatic_updates_send_debug_email', '__return_false' ); }
 if (get_option("wpqorefunc_auto_update_translation")=='checked') { add_filter( 'auto_update_translation', '__return_true' ); } else { add_filter( 'auto_update_translation', '__return_false' ); }
 
+// frontend wp-admin bar opacity
+if (get_option("wpqorefunc_wpadminbar_opacity")=='checked'){
+function wpadminbar_opacity_style(){ echo '<style>#wpadminbar{opacity:0.8}</style>'; }
+add_action('wp_head', 'wpadminbar_opacity_style');
+}
+
 // enable import/export widgets
 if (get_option("wpqorefunc_exportwidget")=='checked') {
 	require('functions/widget-expodata.php');
@@ -196,6 +202,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_automatic_updates_send_debug_email", "0");
     update_option("wpqorefunc_auto_update_translation", "0");
     update_option("wpqorefunc_dropbox_mod", "checked");
+    update_option("wpqorefunc_wpadminbar_opacity", "0");
     
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -234,6 +241,7 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_automatic_updates_send_debug_email", "");
     update_option("wpqorefunc_auto_update_translation", "");
     update_option("wpqorefunc_dropbox_mod", "");
+    update_option("wpqorefunc_wpadminbar_opacity", "");
     
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
