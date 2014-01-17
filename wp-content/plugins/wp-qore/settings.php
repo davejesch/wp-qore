@@ -94,7 +94,7 @@ wpqorefunc_is_checked("wpqorefunc_dropbox_mod");
 <label><i></i></label>
 </div>
 <i><?php _e( "Turn 'On' to lock login page", 'wp-qore' ); ?></i><br><br>
-<?php _e( 'Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key.', 'wp-qore' ); ?>
+<?php _e( 'Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you should  change the secret key from secretkey1 to something unique and that you can always change this secret key in the future.', 'wp-qore' ); ?>
 </label>
 </td>
 </tr>

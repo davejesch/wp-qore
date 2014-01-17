@@ -1,8 +1,8 @@
 <?php
 
 class Widget_EXPOData {
-if(current_user_can("manage_options"))
-{
+if(current_user_can("manage_options") )
+{ 
 	/**
 	 * initialize
 	 */
@@ -336,7 +336,8 @@ if(current_user_can("manage_options"))
 			$response = new WP_Ajax_Response( $response );
 			$response->send();
 		}
-		$json_data = file_get_contents($import_file) );
+		$allowed_protocols = array('http','https');
+		$json_data = file_get_contents($import_file,$allowed_html,$allowed_protocols);
 		$json_data = json_decode( $json_data, true );
 		$sidebar_data = $json_data[0];
 		$Widget_EXPOData = $json_data[1];

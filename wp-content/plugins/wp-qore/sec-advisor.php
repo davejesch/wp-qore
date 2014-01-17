@@ -285,7 +285,7 @@ class AntiSEC_Threat {
 			         * API Key for AntiSEC_Threat
 				 * @since 1.3.8
 				 *
-				 * Okay, I don't mind you barrowing my code, that's cool. 
+				 * Okay, I don't mind you borrowing my code, that's cool. 
 				 * However, if you use the function wp_remote_get() that
 				 * you kindly use your own API key for your own projects.
 				 *
