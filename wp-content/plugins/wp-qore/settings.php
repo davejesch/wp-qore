@@ -46,6 +46,7 @@ wpqorefunc_is_checked("wpqorefunc_auto_core_update_send_email");
 wpqorefunc_is_checked("wpqorefunc_automatic_updates_send_debug_email");
 wpqorefunc_is_checked("wpqorefunc_auto_update_translation");
 wpqorefunc_is_checked("wpqorefunc_dropbox_mod");
+wpqorefunc_is_checked("wpqorefunc_wpadminbar_opacity");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -438,6 +439,19 @@ jQuery("#wpqorefunc_cr_exc_div2").toggle("slow");
 <label><i></i></label>
 </div>
 <i><?php _e( 'Remove admin bar from the frontend', 'wp-qore' ); ?></i>
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Admin bar opacity', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_wpadminbar_opacity">
+<div class="switch toggle3">
+<input name="wpqorefunc_wpadminbar_opacity" type="checkbox" id="wpqorefunc_wpadminbar_opacity" value="1" <?php echo get_option("wpqorefunc_wpadminbar_opacity");?> >
+<label><i></i></label>
+</div>
+<i><?php _e( 'Adds opacity to admin bar on the frontend', 'wp-qore' ); ?></i>
 </label>
 </td>
 </tr>
