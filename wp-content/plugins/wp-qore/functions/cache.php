@@ -1,4 +1,5 @@
 <?php
+
 	class Cache_Assistance{
 		private $menuTitle = "Cache Assistance";
 		private $pageTitle = "Cache Assistance Settings";
