@@ -70,6 +70,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.7.6 = 
+* Added hacker teaser 404 page for login conceal feature.
+
 = 1.7.5 = 
 * Updated language strings.
 * Updated language files.
@@ -285,6 +288,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.7.6 =
+* Upgrade for the latest version.
 
 = 1.7.5 =
 * Upgrade for the latest version.
