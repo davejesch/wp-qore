@@ -1,1684 +1,1616 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: WP Qore v1.7.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-14 10:57:21+0000\n"
-"Last-Translator: admin <enqinet@gmail.com>\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-Country: MEXICO\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: ../\n"
-"X-Poedit-Bookmarks: \n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
-
-#. translators: plugin header field 'Name'
-#: functions/adminbar_menu.php:61
-#: index.php:0
-#@ wp-qore
-msgid "WP Qore"
-msgstr "WP Qore"
-
-#: functions/adminbar_menu.php:66
-#: functions/cache.php:120
-#@ wp-qore
-msgid "Cache Assistance"
-msgstr "Asistencia Caché"
-
-#: functions/adminbar_menu.php:77
-#: sec-advisor.php:389
-#: sec-advisor.php:390
-#: sec-advisor.php:960
-#@ wp-qore
-msgid "Security Advisor"
-msgstr "Asesor de Seguridad"
-
-#: functions/branding.php:5
-#@ wp-qore
-msgid "Copyright "
-msgstr "Derechos de autor "
-
-#: functions/branding.php:17
-#@ wp-qore
-msgid "WP Qore: "
-msgstr "WP Qore: "
-
-#: functions/cache.php:134
-#@ wp-qore
-msgid "General Options"
-msgstr "Opciones generales"
-
-#: functions/cache.php:137
-#@ wp-qore
-msgid "Cache Frontend"
-msgstr "Frontend Caché"
-
-#: functions/cache.php:144
-#: functions/cache.php:158
-#: settings.php:277
-#: settings.php:290
-#: settings.php:303
-#: settings.php:316
-#: settings.php:329
-#: settings.php:342
-#: settings.php:355
-#: settings.php:480
-#: settings.php:494
-#: settings.php:509
-#: settings.php:536
-#: settings.php:565
-#@ wp-qore
-msgid "Turn 'On' to enable"
-msgstr "Gire a 'On' para activar"
-
-#: functions/cache.php:145
-#@ wp-qore
-msgid "This will cache all posts and pages. Enabling cache will help serve your web pages quicker to your users and overall increase sitespeed."
-msgstr "Esto caché todos los mensajes y las páginas. Habilitar caché ayudará a servir a sus páginas web más rápido a sus usuarios y aumento sitespeed general."
-
-#: functions/cache.php:151
-#@ wp-qore
-msgid "New Post or Page"
-msgstr "Nuevo posterior o la página"
-
-#: functions/cache.php:159
-#@ wp-qore
-msgid "Clear all cache files when a post or page is published."
-msgstr "Borre todos los archivos de caché cuando se publica un post o página."
-
-#: functions/cache.php:184
-#@ wp-qore
-msgid "Delete Cache"
-msgstr "Eliminar Caché"
-
-#: functions/cache.php:187
-#@ wp-qore
-msgid "Clear all cache"
-msgstr "Desactive todas caché"
-
-#: functions/cache.php:190
-#@ wp-qore
-msgid "Target folder:"
-msgstr "Objetivo carpeta:"
-
-#: functions/dashboard_func.php:28
-#: functions/dashboard_view.php:203
-#@ wp-qore
-msgid "General"
-msgstr "General"
-
-#: functions/dashboard_view.php:309
-#: functions/dashboard_view.php:374
-#@ wp-qore
-msgid "All Posts"
-msgstr "Todos los mensajes"
-
-#: functions/dashboard_view.php:313
-#: functions/dashboard_view.php:378
-#@ wp-qore
-msgid "Add Posts"
-msgstr "Añadir Mensajes"
-
-#: functions/dashboard_view.php:317
-#: functions/dashboard_view.php:382
-#@ wp-qore
-msgid "Categories"
-msgstr "Categorías"
-
-#: functions/dashboard_view.php:318
-#: functions/dashboard_view.php:383
-#@ wp-qore
-msgid "Tags"
-msgstr "Etiquetas"
-
-#: functions/dashboard_view.php:322
-#: functions/dashboard_view.php:387
-#@ wp-qore
-msgid "Media Library"
-msgstr "bibliotecas multimedia"
-
-#: functions/dashboard_view.php:323
-#: functions/dashboard_view.php:388
-#@ wp-qore
-msgid "Add Media"
-msgstr "Bibliotecas Multimedia"
-
-#: functions/dashboard_view.php:327
-#: functions/dashboard_view.php:392
-#@ wp-qore
-msgid "Comments"
-msgstr "Comentarios"
-
-#: functions/dashboard_view.php:331
-#: functions/dashboard_view.php:396
-#@ wp-qore
-msgid "Add Page"
-msgstr "Añadir página"
-
-#: functions/dashboard_view.php:335
-#: functions/dashboard_view.php:400
-#@ wp-qore
-msgid "Themes"
-msgstr "Temas"
-
-#: functions/dashboard_view.php:339
-#: functions/dashboard_view.php:408
-#@ wp-qore
-msgid "Widgets"
-msgstr "Reproductores"
-
-#: functions/dashboard_view.php:340
-#: functions/dashboard_view.php:409
-#@ wp-qore
-msgid "Menus"
-msgstr "Menús"
-
-#: functions/dashboard_view.php:344
-#: functions/dashboard_view.php:413
-#@ wp-qore
-msgid "Plugins"
-msgstr "Plugins"
-
-#: functions/dashboard_view.php:348
-#: functions/dashboard_view.php:417
-#@ wp-qore
-msgid "Add Plugin"
-msgstr "Añadir plugin"
-
-#: functions/dashboard_view.php:352
-#: functions/dashboard_view.php:425
-#@ wp-qore
-msgid "Users"
-msgstr "Usuarios"
-
-#: functions/dashboard_view.php:353
-#: functions/dashboard_view.php:426
-#@ wp-qore
-msgid "Add User"
-msgstr "Añadir Usuario"
-
-#: functions/dashboard_view.php:357
-#: functions/dashboard_view.php:430
-#@ wp-qore
-msgid "My Profile"
-msgstr "Mi Perfil"
-
-#: functions/dashboard_view.php:361
-#: functions/dashboard_view.php:434
-#@ wp-qore
-msgid "Import"
-msgstr "Importación"
-
-#: functions/dashboard_view.php:365
-#: functions/dashboard_view.php:438
-#@ wp-qore
-msgid "Export"
-msgstr "Exportación"
-
-#: functions/dashboard_view.php:369
-#: functions/dashboard_view.php:442
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:234
-#: sec-advisor.php:153
-#@ wp-qore
-msgid "Settings"
-msgstr "Configuración"
-
-#: functions/dashboard_view.php:404
-#@ wp-qore
-msgid "Theme Editor"
-msgstr "Editor de temas"
-
-#: functions/dashboard_view.php:421
-#@ wp-qore
-msgid "Plugins Editor"
-msgstr "Plugins Editor"
-
-#: functions/failed_login.php:4
-#@ wp-qore
-msgid "The login information you have entered is incorrect."
-msgstr "La información de inicio de sesión que ha introducido es incorrecta."
-
-#: functions/howdy.php:13
-#@ wp-qore
-msgid "Welcome"
-msgstr "Bienvenido"
-
-#: functions/php-widget.php:6
-#@ wp-qore
-msgid "Arbitrary text, HTML, or PHP Code"
-msgstr "Texto arbitrario, HTML o PHP Code"
-
-#: functions/php-widget.php:8
-#@ wp-qore
-msgid "PHP Code"
-msgstr "PHP Code"
-
-#: functions/php-widget.php:43
-#@ wp-qore
-msgid "Title:"
-msgstr "Título:"
-
-#: functions/php-widget.php:48
-#@ wp-qore
-msgid "Automatically add paragraphs."
-msgstr "Añadir automáticamente párrafos."
-
-#: functions/widget-expodata.php:49
-#@ wp-qore
-msgid "Export Widgets"
-msgstr "Exportación Reproductores"
-
-#: functions/widget-expodata.php:113
-#@ wp-qore
-msgid "Import Widgets"
-msgstr "Importar Reproductores"
-
-#: functions/widget-expodata.php:118
-#@ wp-qore
-msgid "check all"
-msgstr "marque todas las"
-
-#: functions/widget-expodata.php:119
-#@ wp-qore
-msgid "uncheck all"
-msgstr "desactivar todas"
-
-#: functions/widget-expodata.php:137
-#@ wp-qore
-msgid "Please select a widget to continue."
-msgstr "Por favor, seleccione un widget para continuar."
-
-#: functions/widget-expodata.php:138
-#@ wp-qore
-msgid "Sidebars"
-msgstr "Las barras laterales"
-
-#: functions/widget-expodata.php:189
-#@ wp-qore
-msgid "Import Widget Settings"
-msgstr "Configuración de widgets de importación"
-
-#: functions/widget-expodata.php:194
-#@ wp-qore
-msgid "Please select the widget export file to import settings."
-msgstr "Por favor, seleccione el archivo de exportación widget a ajustes de importación."
-
-#: functions/widget-expodata.php:197
-#@ wp-qore
-msgid "Select a file"
-msgstr "Seleccione un archivo"
-
-#: functions/widget-expodata.php:200
-#@ wp-qore
-msgid "Show Widget Settings"
-msgstr "Configuración Mostrar Widget"
-
-#: functions/widget-expodata.php:334
-#@ wp-qore
-msgid "No widget data posted to import"
-msgstr "No hay datos publicados de widgets para importar"
-
-#: functions/widget-expodata.php:363
-#@ wp-qore
-msgid "Unknown Error"
-msgstr "Error desconocido"
-
-#: functions.php:143
-#@ wp-qore
-msgid "Database table prefix is"
-msgstr "Prefijo de la tabla de base de datos es"
-
-#: functions.php:143
-#@ wp-qore
-msgid "It is ok."
-msgstr "Está bien"
-
-#. translators: plugin header field 'PluginURI'
-#: index.php:0
-#@ wp-qore
-msgid "http://wpqore.com/"
-msgstr "http://wpqore.com/"
-
-#. translators: plugin header field 'Description'
-#: index.php:0
-#@ wp-qore
-msgid "WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime."
-msgstr "WP Qore es un plugin para WordPress que proporciona seguridad adicional, la funcionalidad de rendimiento y herramientas de desarrollo que se pueden activar o desactivar en cualquier momento."
-
-#. translators: plugin header field 'Author'
-#: index.php:0
-#@ wp-qore
-msgid "Jason Jersey"
-msgstr "Jason Jersey"
-
-#. translators: plugin header field 'AuthorURI'
-#: index.php:0
-#@ wp-qore
-msgid "http://twitter.com/degersey"
-msgstr "http://twitter.com/degersey"
-
-#: sec-advisor.php:319
-#@ wp-qore
-msgid "Safe Browsing Alert"
-msgstr "Alerta Navegación segura"
-
-#: sec-advisor.php:322
-#@ wp-qore
-msgid "Please check the Google Safe Browsing diagnostic page:"
-msgstr "Por favor, consulte la página de diagnóstico de navegación segura de Google:"
-
-#: sec-advisor.php:339
-#@ wp-qore
-msgid "Potential security threat suspected"
-msgstr "Amenaza potencial para la seguridad sospechada"
-
-#: sec-advisor.php:342
-#: sec-advisor.php:887
-#@ wp-qore
-msgid "The daily security scan of your site suspects a potential threat."
-msgstr "El análisis de seguridad diaria de su sitio sospecha una amenaza potencial."
-
-#: sec-advisor.php:377
-#@ wp-qore
-msgid "Notification message from the WP Qore Security Advisor"
-msgstr "Mensaje de notificación del Asesor WP Qore Seguridad"
-
-#: sec-advisor.php:378
-#@ wp-qore
-msgid "http://wpqore.com"
-msgstr "http://wpqore.com"
-
-#: sec-advisor.php:426
-#@ wp-qore
-msgid "There is no threats"
-msgstr "No hay amenazas"
-
-#: sec-advisor.php:427
-#@ wp-qore
-msgid "View line"
-msgstr "Ver line"
-
-#: sec-advisor.php:428
-#@ wp-qore
-msgid "Scan completed"
-msgstr "Scan completed"
-
-#: sec-advisor.php:886
-#@ wp-qore
-msgid "Security threat suspected"
-msgstr "Amenaza de seguridad sospechosos"
-
-#: sec-advisor.php:894
-#@ wp-qore
-msgid "Manual scan"
-msgstr "Búsqueda manual"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:53
-#: sec-advisor.php:950
-#@ default
-#@ wp-qore
-msgid "Settings saved."
-msgstr "Configuración guardada."
-
-#: sec-advisor.php:969
-#@ wp-qore
-msgid "Manual Scan"
-msgstr "Exploración manual"
-
-#: sec-advisor.php:975
-#@ wp-qore
-msgid "Start Scanning"
-msgstr "Iniciar Escaneo"
-
-#: sec-advisor.php:984
-#@ wp-qore
-msgid "Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits."
-msgstr "Asesor de Seguridad ofrece su sitio web WordPress protección contra amenazas de seguridad, tales como: virus, código malicioso y ataques de seguridad."
-
-#: sec-advisor.php:995
-#@ wp-qore
-msgid "Automatic Scan"
-msgstr "Escaneo Automático"
-
-#: sec-advisor.php:997
-#@ wp-qore
-msgid "Daily Scanning"
-msgstr "Escaneos Diarios"
-
-#: sec-advisor.php:1010
-#@ wp-qore
-msgid "Next check"
-msgstr "A continuación, compruebe"
-
-#: sec-advisor.php:1022
-#@ wp-qore
-msgid "Alternate E-mail"
-msgstr "Suplente E-mail"
-
-#: sec-advisor.php:1027
-#@ wp-qore
-msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
-msgstr "Si este campo está vacío, se le notificará al administrador por correo electrónico. Escaneos diarios debe ser 'On' para usar esta función."
-
-#: sec-advisor.php:1045
-#, php-format
-#@ wp-qore
-msgid "Check to enable %s (Recommended)"
-msgstr "Active para habilitar %s (Recomendado)"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:401
-#: sec-advisor.php:1063
-#@ wp-qore
-msgid "Save Changes"
-msgstr "Guardar"
-
-#: settings.php:63
-#@ wp-qore
-msgid "Login Settings"
-msgstr "Entrar Configuración"
-
-#: settings.php:66
-#@ wp-qore
-msgid "Customize login page"
-msgstr "Personalizar la página de inicio de sesión"
-
-#: settings.php:73
-#@ wp-qore
-msgid "Change login page logo and link (Default is, WordPress)"
-msgstr "Logo página Cambiar inicio de sesión y de enlace (por defecto es, WordPress)"
-
-#: settings.php:79
-#@ wp-qore
-msgid "Login logo image url"
-msgstr "Login url imagen del logotipo"
-
-#: settings.php:84
-#@ wp-qore
-msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
-msgstr "Escribe la URL de la imagen de la página de inicio de sesión. Asegúrese de que es aproximadamente 320px ancho x 80px de altura."
-
-#: settings.php:89
-#@ wp-qore
-msgid "Conceal login page"
-msgstr "Ocultar la página de inicio de sesión"
-
-#: settings.php:96
-#@ wp-qore
-msgid "Turn 'On' to lock login page"
-msgstr "Gire a 'On' para bloquear la página de inicio de sesión"
-
-#: settings.php:97
-#@ wp-qore
-msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you can always change this secret key."
-msgstr "Una vez habilitado, el example.com / wp-admin url devolverá un error 404. El usuario que conozca la clave secreta puede tener acceso. Por ejemplo, cuando example.com/wp-admin devuelve 404, example.com/wp-admin?Secretkey1 funcionará. Recuerde, usted siempre puede cambiar esta clave secreta."
-
-#: settings.php:103
-#@ wp-qore
-msgid "Login secret key"
-msgstr "Ingresar clave secreta"
-
-#: settings.php:103
-#: settings.php:206
-#: settings.php:376
-#: settings.php:390
-#@ wp-qore
-msgid "click to see example..."
-msgstr "haga clic para ver el ejemplo..."
-
-#: settings.php:105
-#@ wp-qore
-msgctxt "placeholder text"
-msgid "for url get parameter"
-msgstr "para el parámetro get url"
-
-#: settings.php:109
-#, php-format
-#@ wp-qore
-msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
-msgstr "Sólo %s va a funcionar, de lo contrario, incluyen por defecto la dirección wp-admin devolverá 404."
-
-#: settings.php:113
-#@ wp-qore
-msgid "Add custom login page exception"
-msgstr "Agregar conexión personalizada página de excepción"
-
-#: settings.php:116
-#@ wp-qore
-msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
-msgstr "Si usted tiene la página de inicio de sesión personalizado (por ejemplo, si usted está usando alguna plugin de la comunidad tales como BuddyPress y sus usuarios acceder a su perfil a través url personalizada, como <i>http://example.com/myloginpage</i> ) y usted quiere que url seguir trabajando correctamente sin llave secreta wpqorefunc, a continuación, sólo añadir que url para siguiente campo de entrada."
-
-#: settings.php:119
-#@ wp-qore
-msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
-msgstr "Y luego, si desea bloquear su wp-admin para los usuarios registrados de abonado, marque la casilla siguiente"
-
-#: settings.php:126
-#@ wp-qore
-msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
-msgstr "Bloquear el acceso a wp-admin para Registro de suscriptores (todas sus solicitudes serán redirigidos a la página principal)."
-
-#: settings.php:152
-#@ wp-qore
-msgid "Source Obfuscation"
-msgstr "La ofuscación Fuente"
-
-#: settings.php:155
-#@ wp-qore
-msgid "New theme directory"
-msgstr "Nuevo directorio temático"
-
-#: settings.php:157
-#@ wp-qore
-msgctxt "placeholder text"
-msgid "theme directory"
-msgstr "directorio de temas"
-
-#: settings.php:160
-#, php-format
-#@ wp-qore
-msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
-msgstr "Crear carpeta llamada <i>%s</i> en la carpeta% s y luego pegarlo Hay alguna carpeta del tema inactivo tendrá que utilizar."
-
-#: settings.php:166
-#@ wp-qore
-msgid "Warning!"
-msgstr "Advertencia!"
-
-#: settings.php:169
-#, php-format
-#@ wp-qore
-msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
-msgstr "No corte / pega tema activo de <i>themes</i> carpeta para <i>%s</i> de la carpeta. Hágalo solamente con temas inactivos. Primero desactive el tema, cortar y pegar, y después se reactivará."
-
-#: settings.php:177
-#@ wp-qore
-msgid "Unique source code"
-msgstr "Código fuente Steam"
-
-#: settings.php:181
-#, php-format
-#@ wp-qore
-msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
-msgstr "Vaya a su administrador de archivos (o ftp), abra el archivo wp-config.php y añadir las siguientes líneas. A continuación, tendrá que cambiar el nombre de las carpetas wp-contenido y Programas a los nuevos nombres en el que se establezca en el código de abajo. Copia el siguiente código (abajo) y pegue el código en la parte superior de su archivo wp-config.php, colóquelo justo después de la apertura inicial &lt;?php tag (ver <a target=\"_blank\" href =\"%s\">antes</a> y <a target=\"_blank\" href=\"%s\">después de</a> ejemplos).<br><br> <b>Por favor, estar atentos. Si usted no sabe qué es algo, por favor no lo hagas. </ B>"
-
-#: settings.php:373
-#@ wp-qore
-msgid "General Settings"
-msgstr "Configuración general"
-
-#: settings.php:376
-#@ wp-qore
-msgid "Security advisor"
-msgstr "Asesor de Seguridad"
-
-#: settings.php:213
-#: settings.php:383
-#: settings.php:551
-#@ wp-qore
-msgid "Turn 'On' to enable (Recommended)"
-msgstr "Gire a 'On' para activar (recomendado)"
-
-#: settings.php:384
-#@ wp-qore
-msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
-msgstr "Cuando se activa, esta se convertirá en asesor de Seguridad. Asesor de Seguridad le ofrece protección contra amenazas a la seguridad, tales como: virus, código malicioso y ataques de seguridad. Una vez activado, un submenú etiquetado 'Security Advisor' aparecerá en el wp-admin > WP Qore > submenú. Si usted no lo ve, y luego ir al panel primero y se inicializa."
-
-#: settings.php:206
-#@ wp-qore
-msgid "Replace dashboard"
-msgstr "Cambio salpicadero"
-
-#: settings.php:214
-#@ wp-qore
-msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
-msgstr "Cuando 'On', este reemplazará el tablero de instrumentos wp-admin de serie con uno nuevo que está limpio y ligero."
-
-#: settings.php:390
-#@ wp-qore
-msgid "Nag updates"
-msgstr "Nag actualizaciones"
-
-#: settings.php:397
-#: settings.php:411
-#: settings.php:426
-#: settings.php:593
-#@ wp-qore
-msgid "Turn 'On' to disable"
-msgstr "Gire a 'On' para desactivar"
-
-#: settings.php:398
-#@ wp-qore
-msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
-msgstr "Esto desactiva la molesta nag WordPress bandera actualizaciones aparezcan. Esto no impide que las actualizaciones, simplemente oculta la bandera de actualización desde la parte superior del wp-admin."
-
-#: settings.php:404
-#@ wp-qore
-msgid "Core updates"
-msgstr "Core actualizaciones"
-
-#: settings.php:412
-#@ wp-qore
-msgid ""
-"This completely disables new WordPress version notifications and updates from being done.<br>\n"
-"<b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only."
-msgstr ""
-"Esto desactiva completamente nuevas WordPress versión notificaciones y actualizaciones desde que se realiza <br>\n"
-"<b>Advertencia:</b> Se recomienda que en su entorno de producción se mantiene esta opción. Esta opción se proporciona únicamente con los entornos de desarrollo."
-
-#: settings.php:419
-#@ wp-qore
-msgid "Post revisions"
-msgstr "Publique las revisiones"
-
-#: settings.php:427
-#@ wp-qore
-msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
-msgstr "Esto desactiva el ahorro de múltiples revisiones posteriores. Tener múltiples revisiones de correos podría causar hinchazón en su base de datos. Desactive esa opción para evitar este tipo."
-
-#: settings.php:433
-#@ wp-qore
-msgid "Admin bar removal"
-msgstr "Eliminación de barra de admin"
-
-#: settings.php:440
-#@ wp-qore
-msgid "Remove admin bar from the frontend"
-msgstr "Retire la barra de administración de la interfaz"
-
-#: settings.php:446
-#@ wp-qore
-msgid "Collapse admin menu"
-msgstr "Menú de administración Collapse"
-
-#: settings.php:453
-#@ wp-qore
-msgid "This keeps the wp-admin menu on the left collapsed."
-msgstr "Esto mantiene el menú wp-admin en el lado izquierdo colapsado."
-
-#: settings.php:459
-#@ wp-qore
-msgid "Change default jQuery"
-msgstr "JQuery Change default"
-
-#: settings.php:466
-#@ wp-qore
-msgid ""
-"Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
-"<b>Attention:</b> If this doesn't play well with your theme, then simply turn it off."
-msgstr ""
-"Utilice Google alojada jQuery en lugar del núcleo de Wordpress</i><br><br>\n"
-"<b>Atención:</b> Si esto no juega bien con su tema, entonces simplemente apagarlo."
-
-#: settings.php:473
-#@ wp-qore
-msgid "Shortcode in widgets"
-msgstr "Código corto en los widgets"
-
-#: settings.php:481
-#@ wp-qore
-msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
-msgstr "Esto permite shortcode en los widgets. En la instancia deberá utilizar código corto plazo de sus aparatos, a continuación, permitiendo que esto le ayudará."
-
-#: settings.php:487
-#@ wp-qore
-msgid "Php in widgets"
-msgstr "Php en los widgets"
-
-#: settings.php:495
-#@ wp-qore
-msgid ""
-"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
-"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
-msgstr ""
-"Esto permite que el código php en widgets. En la instancia deberá utilizar php dentro de sus aparatos, a continuación, permitir que esto le ayudará.<br><br>\n"
-"<b>Advertencia!</b> Activar esta opción puede ser un riesgo de seguridad. No es recomendable que utilice esto a menos que usted es muy cuidadoso y saber lo que está haciendo. Utilice a su propio riesgo."
-
-#: settings.php:502
-#@ wp-qore
-msgid "Import/export widgets"
-msgstr "Widgets de importación/exportación"
-
-#: settings.php:510
-#@ wp-qore
-msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
-msgstr "Esto le permite importar y exportar la configuración del widget. Una vez activado, un submenú etiquetado 'Export Reproductores' e 'importación Reproductores' aparecerá en el wp-admin > menú Herramientas."
-
-#: settings.php:516
-#@ wp-qore
-msgid "Clean source code"
-msgstr "Código fuente limpia"
-
-#: settings.php:523
-#@ wp-qore
-msgid "Remove WP version from source code (Recommended)"
-msgstr "Quite la versión WP partir del código fuente (Recomendado)"
-
-#: settings.php:529
-#@ wp-qore
-msgid "Cache assistance"
-msgstr "Asistencia caché"
-
-#: settings.php:537
-#@ wp-qore
-msgid ""
-"Caching your frontend can increase your sitespeed significantly. It is highly recommended you use caching, however the choice is always yours. Once enabled, a submenu labeled 'Cache Assistance' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize.<br><br>\n"
-"<b>Attention:</b> Do not enable this option if you have any other cache plugins enabled. This option simply enables the Cache Assistance module, but does not enable caching. In order to enable caching the frontend, you will need to turn it 'On' from the Cache Assistance options panel."
-msgstr ""
-"Almacenamiento en caché de tu frontend puede aumentar su sitespeed significativamente. Es muy recomendable que utilice el almacenamiento en caché, sin embargo, la elección es siempre suya. Una vez activado, un submenú etiquetado 'Asistencia Cache' aparecerá en el wp-admin > WP Qore > submenú. Si usted no lo ve, y luego ir al panel primero y se inicializará<br><br>\n"
-"<b>Atención:</b> No active esta opción si usted tiene cualquier otro tipo de caché plugins habilitados. Esta opción simplemente permite que el módulo de Asistencia de caché, pero no permite el almacenamiento en caché. A fin de permitir el almacenamiento en caché de la interfaz, tendrá que convertirlo en 'On' del panel de opciones de asistencia Cache."
-
-#: settings.php:558
-#@ wp-qore
-msgid "Minify your html"
-msgstr "Reducir tu html"
-
-#: settings.php:566
-#@ wp-qore
-msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
-msgstr "Esto minify el código HTML de su código fuente. Esto hace que su sitio web de carga mucho más rápido y hace que sea más difícil para la gente para ver el código fuente de su sitio web."
-
-#: settings.php:572
-#@ wp-qore
-msgid "Remove wp meta tags"
-msgstr "Remove wp meta tags"
-
-#: settings.php:579
-#@ wp-qore
-msgid "Turn 'On' to remove from source code"
-msgstr "Gire a 'On' para eliminar desde el código fuente"
-
-#: settings.php:580
-#@ wp-qore
-msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
-msgstr "Retire, etiquetas meta generador del manifiesto, postes adyacentes rel links, enlaces rel colocar padre, feed vínculos, vínculo rsd y enlaces rel índice desde el código fuente."
-
-#: settings.php:586
-#@ wp-qore
-msgid "Plugin/theme editor"
-msgstr "Editor Plugin/Tema"
-
-#: settings.php:594
-#@ wp-qore
-msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
-msgstr "Esto desactiva el tema y editor plugin desde dentro de WordPress. Esta es una buena idea para los entornos de producción."
-
-#: settings.php:600
-#@ wp-qore
-msgid "Database audit"
-msgstr "MySQL Auditoría"
-
-#: settings.php:603
-#@ wp-qore
-msgid "This checks your Database and then gives you suggestions about security and making your website faster."
-msgstr "Esto comprueba la base de datos y luego te da sugerencias acerca de la seguridad y hacer que su sitio web más rápido."
-
-#: settings.php:615
-#@ wp-qore
-msgid "Save changes"
-msgstr "Guardar"
-
-#: settings.php:203
-#@ wp-qore
-msgid "Dashboard Settings"
-msgstr "Configuración del panel"
-
-#: settings.php:219
-#@ wp-qore
-msgid "Custom dashboard"
-msgstr "Dashboard personalizado"
-
-#: settings.php:225
-#@ wp-qore
-msgid "When 'On', this will override the WPQORE dashboard with the one you may create below."
-msgstr "Cuando 'On', esto anulará el salpicadero WPQORE con el que usted puede crear a continuación."
-
-#: settings.php:227
-#@ wp-qore
-msgid "Customize dashboard"
-msgstr "Personalizar salpicadero"
-
-#: settings.php:267
-#@ wp-qore
-msgid "Automatic Updates"
-msgstr "Actualizaciones Automáticas"
-
-#: settings.php:270
-#@ wp-qore
-msgid "Major Updates"
-msgstr "Major"
-
-#: settings.php:278
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
-msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las versiones del núcleo de WordPress."
-
-#: settings.php:283
-#@ wp-qore
-msgid "Minor Updates"
-msgstr "Menor"
-
-#: settings.php:291
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
-msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las versiones del núcleo de WordPress menores."
-
-#: settings.php:296
-#@ wp-qore
-msgid "Plugin Updates"
-msgstr "Plugin"
-
-#: settings.php:304
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all plugins."
-msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todos los plugins."
-
-#: settings.php:309
-#@ wp-qore
-msgid "Theme Updates"
-msgstr "Tema"
-
-#: settings.php:317
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all themes."
-msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todos los temas."
-
-#: settings.php:322
-#@ wp-qore
-msgid "Translation Updates"
-msgstr "Traducción"
-
-#: settings.php:330
-#@ wp-qore
-msgid "When 'On', this will enable automatic updates of all translations."
-msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las traducciones."
-
-#: settings.php:335
-#@ wp-qore
-msgid "Send Emails"
-msgstr "Enviar Email"
-
-#: settings.php:343
-#@ wp-qore
-msgid "When 'On', this will send the admin an email every time automatic updates are performed."
-msgstr "Cuando 'On', esto enviará al administrador un correo electrónico cada vez que se realizan las actualizaciones automáticas."
-
-#: settings.php:348
-#@ wp-qore
-msgid "Debug Emails"
-msgstr "Depurar Email"
-
-#: settings.php:356
-#@ wp-qore
-msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
-msgstr "Cuando 'On', esto enviará los mensajes de correo electrónico de administrador con información de depuración cada vez que las actualizaciones automáticas se realizan."
-
-#: functions/dashboard_view.php:173
-#@ wp-qore
-msgid "Task"
-msgstr "Task"
-
-#: functions/dashboard_view.php:173
-#: functions/dashboard_view.php:179
-#@ wp-qore
-msgid "PHP Memory"
-msgstr "Memoria PHP"
-
-#: functions/dashboard_view.php:174
-#@ wp-qore
-msgid "Limit"
-msgstr "Límite"
-
-#: functions/dashboard_view.php:175
-#@ wp-qore
-msgid "Usage"
-msgstr "Uso"
-
-#: functions/dashboard_view.php:201
-#@ wp-qore
-msgid "Dashboard"
-msgstr "Salpicadero"
-
-#: functions/dashboard_view.php:211
-#@ wp-qore
-msgid "Welcome to the admin backend"
-msgstr "Bienvenido al backend de administración"
-
-#: functions/dashboard_view.php:218
-#@ wp-qore
-msgid "A Warning Alert"
-msgstr "Una alerta de la alarma"
-
-#: functions/dashboard_view.php:219
-#@ wp-qore
-msgid "An Error Message"
-msgstr "Un mensaje de error"
-
-#: functions/dashboard_view.php:220
-#@ wp-qore
-msgid "A Success Message"
-msgstr "Un mensaje de éxito"
-
-#: functions/dashboard_view.php:225
-#@ wp-qore
-msgid "Stats"
-msgstr "Stats"
-
-#: functions/dashboard_view.php:236
-#@ wp-qore
-msgid "posts"
-msgstr "mensajes"
-
-#: functions/dashboard_view.php:238
-#@ wp-qore
-msgid "comments"
-msgstr "comentarios"
-
-#: functions/dashboard_view.php:242
-#@ wp-qore
-msgid "pages"
-msgstr "páginas"
-
-#: functions/dashboard_view.php:244
-#@ wp-qore
-msgid "users"
-msgstr "usuarios"
-
-#: functions/dashboard_view.php:251
-#@ wp-qore
-msgid "uploads"
-msgstr "uploads"
-
-#: functions/dashboard_view.php:253
-#@ wp-qore
-msgid "wp-content"
-msgstr "wp-content"
-
-#: functions/dashboard_view.php:257
-#@ wp-qore
-msgid "wp total"
-msgstr "total de wp"
-
-#: functions/dashboard_view.php:301
-#@ wp-qore
-msgid "Control"
-msgstr "Control"
-
-#: functions/dashboard_view.php:453
-#@ wp-qore
-msgid "Recent Pages"
-msgstr "Páginas recientes"
-
-#: functions/dashboard_view.php:486
-#@ wp-qore
-msgid "Recent Posts"
-msgstr "Mensajes recientes"
-
-#: functions/dashboard_view.php:508
-#@ wp-qore
-msgid "find content"
-msgstr "búsqueda"
-
-#: functions/dashboard_view.php:519
-#@ wp-qore
-msgid "System Info"
-msgstr "Información del sistema"
-
-#: functions/dashboard_view.php:533
-#@ wp-qore
-msgid "About WPQore"
-msgstr "Acerca WPQore"
-
-#: functions/dashboard_view.php:259
-#@ wp-qore
-msgid "free hdd"
-msgstr "hdd libre"
-
-#: functions/server_info.php:166
-#@ wp-qore
-msgid "Settings Saved"
-msgstr "Ajustes guardados"
-
-#: functions/server_info.php:169
-#: functions/server_info.php:170
-#@ wp-qore
-msgid "unknow"
-msgstr "desconocido"
-
-#: functions/dashboard_view.php:266
-#@ wp-qore
-msgid "OS"
-msgstr "OS"
-
-#: functions/dashboard_view.php:268
-#@ wp-qore
-msgid "Php"
-msgstr "Php"
-
-#: functions/dashboard_view.php:272
-#@ wp-qore
-msgid "MySQL"
-msgstr "MySQL"
-
-#: functions/dashboard_view.php:274
-#@ wp-qore
-msgid "WordPress"
-msgstr "WordPress"
-
-#: functions/dashboard_view.php:281
-#@ wp-qore
-msgid "SAPI"
-msgstr "SAPI"
-
-#: functions/dashboard_view.php:283
-#@ wp-qore
-msgid "APC Enabled"
-msgstr "APC Activado"
-
-#: functions/dashboard_view.php:287
-#@ wp-qore
-msgid "Language"
-msgstr "Idioma"
-
-#: functions/dashboard_view.php:288
-#@ wp-qore
-msgid "On"
-msgstr "En"
-
-#: functions/dashboard_view.php:288
-#@ wp-qore
-msgid "Off"
-msgstr "Apagado"
-
-#: functions/dashboard_view.php:289
-#@ wp-qore
-msgid "Safe Mode"
-msgstr "Modo Seguro"
-
-#: functions/dashboard_view.php:522
-#@ wp-qore
-msgid "Web Server"
-msgstr "Servidor Web"
-
-#: functions/dashboard_view.php:524
-#@ wp-qore
-msgid "Max Execution Time"
-msgstr "Tiempo máximo de ejecución"
-
-#: functions/dashboard_view.php:526
-#@ wp-qore
-msgid "Server Disk Quota"
-msgstr "De cuota de disco del servidor"
-
-#: functions/adminbar_menu.php:62
-#: settings.php:54
-#@ wp-qore
-msgid "WP Qore Options"
-msgstr "WP Qore Opciones"
-
-#: functions/adminbar_menu.php:71
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:144
-#: modules/dropbox_mod/wpq-2-dbx.php:74
-#@ wp-qore
-msgid "Backup Settings"
-msgstr "Backup Config"
-
-#: functions/adminbar_menu.php:72
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:78
-#: modules/dropbox_mod/wpq-2-dbx.php:78
-#@ wp-qore
-msgid "Backup Monitor"
-msgstr "Backup Monitor"
-
-#: functions/dashboard_view.php:214
-#@ wp-qore
-msgid "Uh oh, Cache is feeling grumpy. We'll have it fixed soon. To disable this message, turn off Cache Assistance from the <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Settings</a> panel."
-msgstr "Uh oh, caché está sintiendo malhumorado. Tendremos que lo arreglen pronto. Para desactivar este mensaje, apague Asistencia caché del <a href=\"admin.php?page=wp-qore/functions.php\">WP Qore Configuración</a> panel."
-
-#. translators: plugin header field 'Version'
-#: index.php:0
-#@ wp-qore
-msgid "1.7.0"
-msgstr "1.7.0"
-
-#: modules/dropbox_mod/Classes/BackupController.php:78
-#@ wp-qore
-msgid "Processed 1 file."
-msgstr "Procesados ​​1 archivo."
-
-#: modules/dropbox_mod/Classes/BackupController.php:78
-#, php-format
-#@ wp-qore
-msgid "Processed %s files."
-msgstr "Archivos procesados​​ %s."
-
-#: modules/dropbox_mod/Classes/BackupController.php:89
-#, php-format
-#@ wp-qore
-msgid "Approximately %s%% complete."
-msgstr "Aproximadamente %s%% de avance."
-
-#: modules/dropbox_mod/Classes/BackupController.php:151
-#@ wp-qore
-msgid "Your Dropbox account is not authorized yet."
-msgstr "Su cuenta de Dropbox aún no está autorizado."
-
-#: modules/dropbox_mod/Classes/BackupController.php:160
-#@ wp-qore
-msgid "Resuming SQL backup."
-msgstr "Reanudación de copia de seguridad de SQL."
-
-#: modules/dropbox_mod/Classes/BackupController.php:162
-#@ wp-qore
-msgid "Starting SQL backup."
-msgstr "A partir de la copia de seguridad de SQL."
-
-#: modules/dropbox_mod/Classes/BackupController.php:167
-#@ wp-qore
-msgid "SQL backup complete. Starting file backup."
-msgstr "Copia de seguridad de SQL completa. A partir de la copia de seguridad de archivos."
-
-#: modules/dropbox_mod/Classes/BackupController.php:188
-#@ wp-qore
-msgid "Backup complete."
-msgstr "Completa de copia de seguridad."
-
-#: modules/dropbox_mod/Classes/BackupController.php:189
-#, php-format
-#@ wp-qore
-msgid "A total of %s files were processed."
-msgstr "Se tramitaron un total de %s archivos."
-
-#: modules/dropbox_mod/Classes/BackupController.php:191
-#, php-format
-#@ wp-qore
-msgid "A total of %dMB of memory was used to complete this backup."
-msgstr "Se utilizó un total de %d MB de memoria para completar esta copia de seguridad"
-
-#: modules/dropbox_mod/Classes/BackupController.php:213
-#@ wp-qore
-msgid "The plugin is no longer authorized with Dropbox."
-msgstr "El plugin ya no está autorizado con Dropbox."
-
-#: modules/dropbox_mod/Classes/BackupController.php:215
-#@ wp-qore
-msgid "A fatal error occured: "
-msgstr "Un error fatal ha ocurrido:"
-
-#: modules/dropbox_mod/Classes/BackupController.php:252
-#, php-format
-#@ default
-msgid "WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin."
-msgstr ""
-
-#: modules/dropbox_mod/Classes/BackupController.php:265
-#, php-format
-#@ wp-qore
-msgid "WordPress Backup to Dropbox requires write access to '%s', please ensure it exists and has write permissions."
-msgstr "WordPress Backup para Dropbox requiere acceso de escritura para %s, por favor asegúrese de que existe y tiene permisos de escritura."
-
-#: modules/dropbox_mod/Classes/Config.php:215
-#@ wp-qore
-msgid "Backup stopped by user."
-msgstr "Copia de seguridad detenida por el usuario."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:79
-#, php-format
-#@ wp-qore
-msgid "Resuming table '%s' at row %s."
-msgstr "Reanudación de la tabla '%s' en la línea %s."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:84
-#, php-format
-#@ wp-qore
-msgid "Processed table '%s'."
-msgstr "Procesado mesa '%s'."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:118
-#, php-format
-#@ wp-qore
-msgid "A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access."
-msgstr "Una copia de seguridad de base de datos no se puede crear porque WordPress no tiene acceso de escritura a '%s', asegúrese de este directorio tiene acceso de escritura."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:149
-#@ wp-qore
-msgid "Error while accessing database."
-msgstr "Error al acceder a la base de datos."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:214
-#@ wp-qore
-msgid "Error writing to php://memory."
-msgstr "Error al escribir en php:/ /memory."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:227
-#@ wp-qore
-msgid "Error closing sql dump file."
-msgstr "Error al cerrar el archivo de volcado sql."
-
-#: modules/dropbox_mod/Classes/DatabaseBackup.php:231
-#@ wp-qore
-msgid "Error closing php://memory."
-msgstr "Error de cierre php:/ /memory."
-
-#: modules/dropbox_mod/Classes/DropboxFacade.php:51
-#, php-format
-#@ wp-qore
-msgid "The cURL extension is not loaded. %sPlease ensure its installed and activated.%s"
-msgstr "La extensión cURL no está cargado. %s Please asegurar su instalado y activado.%s"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:40
-#, php-format
-#@ wp-qore
-msgid "The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup."
-msgstr "La copia de seguridad está teniendo problemas para subir archivos a Dropbox, ha fracasado veces %s y se aborta la copia de seguridad."
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:43
-#@ default
-msgid "Dropbox API not set"
-msgstr ""
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:54
-#, php-format
-#@ wp-qore
-msgid "Uploading large file '%s' (%sMB) in chunks"
-msgstr "Carga de archivos de gran tamaño '%s' (%s MB) en trozos"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:56
-#, php-format
-#@ wp-qore
-msgid "Resuming upload of large file '%s'"
-msgstr "La reanudación de carga de archivos de gran tamaño '%s'"
-
-#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:71
-#, php-format
-#@ wp-qore
-msgid "Error uploading '%s' to Dropbox: %s"
-msgstr "Error al enviar el '%s' a Dropbox: %s"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:90
-#@ wp-qore
-msgid "There was an error getting the list of premium extensions"
-msgstr "Hubo un error al obtener la lista de extensiones de primera calidad"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:124
-#@ wp-qore
-msgid "access is deined, this could be because your payment has expired."
-msgstr "se deined acceso, esto podría ser debido a que su pago ha expirado."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:126
-#@ wp-qore
-msgid "you have exceeded your download limit for this extension on this site."
-msgstr "usted ha excedido su límite de descarga para esta extensión en este sitio."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:129
-#@ wp-qore
-msgid "There was an error downloading your premium extension because"
-msgstr "Se ha producido un error al descargar la extensión de la prima porque"
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:138
-#, php-format
-#@ wp-qore
-msgid "'%s' is not writeable."
-msgstr "'%s' no se puede escribir."
-
-#: modules/dropbox_mod/Classes/Extension/Manager.php:141
-#@ wp-qore
-msgid "There was an error installing your premium extension because"
-msgstr "Hubo un error al instalar la extensión de la prima porque"
-
-#: modules/dropbox_mod/Classes/UploadTracker.php:37
-#, php-format
-#@ wp-qore
-msgid "Uploaded %sMB of %sMB"
-msgstr "Subido %s MB de %s MB"
-
-#: modules/dropbox_mod/Views/wpq2dbx-deprecated.php:34
-#@ wp-qore
-msgid "Dropbox Backup Module"
-msgstr "Módulo de copia de seguridad de Dropbox"
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:28
-#@ wp-qore
-msgid "Backup stopped."
-msgstr "De copia de seguridad se detuvo."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:35
-#@ wp-qore
-msgid "Backup started."
-msgstr "Copia de seguridad en marcha."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:85
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:383
-#@ wp-qore
-#@ default
-msgid "Loading..."
-msgstr "Loading..."
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:95
-#@ wp-qore
-msgid "Stop Backup"
-msgstr "Deténgase"
-
-#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:97
-#@ wp-qore
-msgid "Start Backup"
-msgstr "Comienzo"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:24
-#@ wp-qore
-msgid "WordPress Backup to Dropbox failed to initialize due to these database errors."
-msgstr "WordPress Backup para Dropbox no se pudo inicializar debido a estos errores de base de datos."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:43
-#@ wp-qore
-msgid "The sub directory must only contain alphanumeric characters."
-msgstr "El subdirectorio debe contener sólo caracteres alfanuméricos."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:85
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:271
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:332
-#@ wp-qore
-msgid "Daily"
-msgstr "Diario"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:159
-#@ wp-qore
-msgid "Dropbox Account"
-msgstr "Cuenta Dropbox"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:166
-#@ wp-qore
-msgid "you have"
-msgstr "tienes"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:168
-#@ wp-qore
-msgid "Gigabyte"
-msgstr "Gigabyte"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:169
-#@ wp-qore
-msgid "of"
-msgstr "de"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:170
-#@ wp-qore
-msgid "free"
-msgstr "libre"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:172
-#@ wp-qore
-msgid "Unlink Account"
-msgstr "Desconectar"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:183
-#@ wp-qore
-msgid "Next Scheduled"
-msgstr "Siguiente Programado"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:188
-#, php-format
-#@ wp-qore
-msgid "Next backup scheduled for %s at %s"
-msgstr "Siguiente copia de seguridad programada para %s en %s"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:190
-#@ wp-qore
-msgid "No backups are scheduled yet. Please select a day, time and frequency below. "
-msgstr "No hay copias de seguridad todavía están programadas. Por favor seleccione el día, la hora y la frecuencia a continuación."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:201
-#@ wp-qore
-msgid "History"
-msgstr "Historia"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:217
-#, php-format
-#@ wp-qore
-msgid "Backup completed on %s at %s."
-msgstr "Copia de seguridad completada en %s en %s."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:220
-#@ wp-qore
-msgid "Clear history"
-msgstr "Claro"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:222
-#@ wp-qore
-msgid "No history"
-msgstr "No hay historial"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:239
-#@ wp-qore
-msgid "Create a new folder within WPQORE app folder"
-msgstr "Cree una nueva carpeta dentro de la carpeta de aplicaciones WPQORE"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:253
-#@ wp-qore
-msgid "Day and Time"
-msgstr "Día y Hora"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:257
-#@ wp-qore
-msgid "Monday"
-msgstr "Lunes"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:259
-#@ wp-qore
-msgid "Tuesday"
-msgstr "Martes"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:261
-#@ wp-qore
-msgid "Wednesday"
-msgstr "Miércoles"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:263
-#@ wp-qore
-msgid "Thursday"
-msgstr "Jueves"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:265
-#@ wp-qore
-msgid "Friday"
-msgstr "Viernes"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:267
-#@ wp-qore
-msgid "Saturday"
-msgstr "Sábado"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:269
-#@ wp-qore
-msgid "Sunday"
-msgstr "Domingo"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:273
-#@ wp-qore
-msgid "at"
-msgstr "en"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:324
-#@ wp-qore
-msgid "The day and time the backup will run."
-msgstr "El día y hora de la copia de seguridad se ejecutará."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:328
-#@ wp-qore
-msgid "Frequency"
-msgstr "Frecuencia"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:335
-#@ wp-qore
-msgid "Weekly"
-msgstr "Semanal"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:339
-#@ wp-qore
-msgid "Fortnightly"
-msgstr "Quincenal"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:342
-#@ wp-qore
-msgid "Every 4 weeks"
-msgstr "Cada 4 semanas"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:346
-#@ wp-qore
-msgid "Every 8 weeks"
-msgstr "Cada 8 semanas"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:350
-#@ wp-qore
-msgid "Every 12 weeks"
-msgstr "Cada 12 semanas"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:353
-#@ wp-qore
-msgid "Frequency of backup."
-msgstr "Frecuencia de copia de seguridad."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:368
-#@ wp-qore
-msgid "Excluded Files and Directories"
-msgstr "Los archivos y directorios excluidos"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:372
-#@ wp-qore
-msgid "Select the files and directories that you wish to exclude from your backup. You can expand directories with contents by clicking its name."
-msgstr "Seleccione los archivos y directorios que desea excluir de la copia de seguridad. Puede expandir directorios con contenidos haciendo clic en su nombre."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
-#@ wp-qore
-msgid "Notice:"
-msgstr "Aviso:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:373
-#@ wp-qore
-msgid "Your SQL dump file will always be backed up regardless of what is selected below."
-msgstr "Su archivo de volcado de SQL siempre una copia de seguridad, independientemente de lo que se seleccione a continuación."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:388
-#@ wp-qore
-msgid "Exclude:"
-msgstr "Excluir:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:389
-#@ wp-qore
-msgid "All"
-msgstr "Todo"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:390
-#@ wp-qore
-msgid "None"
-msgstr "Ninguno"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:391
-#@ wp-qore
-msgid "Inverse"
-msgstr "Inverso"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:428
-#@ wp-qore
-msgid "Authorize"
-msgstr "Autorizar"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:431
-#@ wp-qore
-msgid "Continue"
-msgstr "Continuar"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:438
-#@ wp-qore
-msgid "Error"
-msgstr "Error"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:439
-#@ wp-qore
-msgid "There was a fatal error loading WordPress Backup to Dropbox. Please fix the problems listed and reload the page."
-msgstr "Hubo un error fatal de cargar WordPress Backup para Dropbox. Por favor, corrija los problemas enumerados y volver a cargar la página."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:440
-#@ wp-qore
-msgid "If the problem persists please re-install WordPress Backup to Dropbox."
-msgstr "Si el problema persiste, por favor, vuelva a instalar WordPress Backup para Dropbox."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:441
-#@ wp-qore
-msgid "Error message:"
-msgstr "Mensaje de error:"
-
-#: modules/dropbox_mod/Views/wpq2dbx-progress.php:27
-#@ wp-qore
-msgid "You have not run a backup yet. Once you do, you'll see a log of it here."
-msgstr "Usted no ha ejecutado una copia de seguridad aún. Una vez que usted lo hace, usted verá un registro de aquí."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:135
-#, php-format
-#@ wp-qore
-msgid "Backup started on %s."
-msgstr "Backup started on %s."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:139
-#, php-format
-#@ default
-msgid "Your time limit is %s and your memory limit is %s"
-msgstr ""
-
-#: modules/dropbox_mod/wpq-2-dbx.php:140
-#@ wp-qore
-msgid "seconds"
-msgstr "segundo"
-
-#: modules/dropbox_mod/wpq-2-dbx.php:140
-#@ wp-qore
-msgid "unlimited"
-msgstr "ilimitado"
-
-#: modules/dropbox_mod/wpq-2-dbx.php:145
-#@ wp-qore
-msgid "Safe mode is enabled on your server so the PHP time and memory limit cannot be set by the backup process. So if your backup fails it's highly probable that these settings are too low."
-msgstr "El modo seguro está habilitado en su servidor lo que el tiempo límite de memoria de PHP y no se pueden ajustar por el proceso de copia de seguridad. Así que si no su copia de seguridad que es altamente probable que estos valores son demasiado bajos."
-
-#: modules/dropbox_mod/wpq-2-dbx.php:167
-#@ wp-qore
-msgid "There has been no backup activity for a long time. Attempting to resume the backup."
-msgstr "No ha habido ninguna actividad de copia de seguridad durante un largo tiempo. El intento de reanudar la copia de seguridad."
-
-#: settings.php:544
-#@ wp-qore
-msgid "Dropbox Backups"
-msgstr "Las copias de seguridad de Dropbox"
-
-#: settings.php:552
-#@ wp-qore
-msgid "This will enable the Dropbox module. Once enabled, two sub-menus called 'Backup Settings' and 'Backup Monitor' will appear under the WP Qore menu. You still need to authorize your Dropbox account before backups can begin."
-msgstr "Esto permitirá que el módulo de Dropbox. Una vez habilitado, dos sub-menús llamados \\\"Backup Settings\\\" y \\\"monitor de reserva\\\" van a aparecer en el menú WP Qore. Usted todavía tiene que autorizar a su cuenta de Dropbox antes de que comiencen las copias de seguridad."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:414
-#@ wp-qore
-msgid "WordPress to Dropbox Backup"
-msgstr "WordPress para Dropbox de copia de seguridad"
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:416
-#@ wp-qore
-msgid "In order to use this option, you will need to first authorized WP Qore with your Dropbox account."
-msgstr "Para utilizar esta opción, tendrá que autorizó primero WP Qore con su cuenta de Dropbox."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:417
-#@ wp-qore
-msgid "Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page."
-msgstr "Por favor, haga clic en el botón Autorizar a continuación y siga las instrucciones en el interior de la ventana emergente. Una vez que haya hecho eso, y luego volver a esta página y haga clic en Autorizar nuevamente. Entonces actualice la página."
-
-#: modules/dropbox_mod/Views/wpq2dbx-options.php:420
-#@ wp-qore
-msgid "There was an error authorizing WP Qore with your Dropbox account. Please try again."
-msgstr "Hubo un error al autorizar WP Qore con su cuenta de Dropbox. Por favor, inténtelo de nuevo."
-
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Qore v1.7.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-17 04:16:37+0000\n"
+"Last-Translator: admin <enqinet@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: functions/adminbar_menu.php:67
+#: index.php:0
+#@ wp-qore
+msgid "WP Qore"
+msgstr "WP Qore"
+
+#: functions/adminbar_menu.php:79
+#: sec-advisor.php:389
+#: sec-advisor.php:390
+#: sec-advisor.php:960
+#@ wp-qore
+msgid "Security Advisor"
+msgstr "Asesor de Seguridad"
+
+#: functions/branding.php:5
+#@ wp-qore
+msgid "Copyright "
+msgstr "Derechos de autor "
+
+#: functions/branding.php:17
+#@ wp-qore
+msgid "WP Qore: "
+msgstr "WP Qore: "
+
+#: settings.php:277
+#: settings.php:290
+#: settings.php:303
+#: settings.php:316
+#: settings.php:329
+#: settings.php:342
+#: settings.php:355
+#: settings.php:480
+#: settings.php:494
+#: settings.php:509
+#: settings.php:550
+#@ wp-qore
+msgid "Turn 'On' to enable"
+msgstr "Gire a 'On' para activar"
+
+#: functions/dashboard_func.php:28
+#: functions/dashboard_view.php:203
+#@ wp-qore
+msgid "General"
+msgstr "General"
+
+#: functions/dashboard_view.php:305
+#: functions/dashboard_view.php:370
+#@ wp-qore
+msgid "All Posts"
+msgstr "Todos los mensajes"
+
+#: functions/dashboard_view.php:309
+#: functions/dashboard_view.php:374
+#@ wp-qore
+msgid "Add Posts"
+msgstr "Añadir Mensajes"
+
+#: functions/dashboard_view.php:313
+#: functions/dashboard_view.php:378
+#@ wp-qore
+msgid "Categories"
+msgstr "Categorías"
+
+#: functions/dashboard_view.php:314
+#: functions/dashboard_view.php:379
+#@ wp-qore
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: functions/dashboard_view.php:318
+#: functions/dashboard_view.php:383
+#@ wp-qore
+msgid "Media Library"
+msgstr "bibliotecas multimedia"
+
+#: functions/dashboard_view.php:319
+#: functions/dashboard_view.php:384
+#@ wp-qore
+msgid "Add Media"
+msgstr "Bibliotecas Multimedia"
+
+#: functions/dashboard_view.php:323
+#: functions/dashboard_view.php:388
+#@ wp-qore
+msgid "Comments"
+msgstr "Comentarios"
+
+#: functions/dashboard_view.php:327
+#: functions/dashboard_view.php:392
+#@ wp-qore
+msgid "Add Page"
+msgstr "Añadir página"
+
+#: functions/dashboard_view.php:331
+#: functions/dashboard_view.php:396
+#@ wp-qore
+msgid "Themes"
+msgstr "Temas"
+
+#: functions/dashboard_view.php:335
+#: functions/dashboard_view.php:404
+#@ wp-qore
+msgid "Widgets"
+msgstr "Reproductores"
+
+#: functions/dashboard_view.php:336
+#: functions/dashboard_view.php:405
+#@ wp-qore
+msgid "Menus"
+msgstr "Menús"
+
+#: functions/dashboard_view.php:340
+#: functions/dashboard_view.php:409
+#@ wp-qore
+msgid "Plugins"
+msgstr "Plugins"
+
+#: functions/dashboard_view.php:344
+#: functions/dashboard_view.php:413
+#@ wp-qore
+msgid "Add Plugin"
+msgstr "Añadir plugin"
+
+#: functions/dashboard_view.php:348
+#: functions/dashboard_view.php:421
+#@ wp-qore
+msgid "Users"
+msgstr "Usuarios"
+
+#: functions/dashboard_view.php:349
+#: functions/dashboard_view.php:422
+#@ wp-qore
+msgid "Add User"
+msgstr "Añadir Usuario"
+
+#: functions/dashboard_view.php:353
+#: functions/dashboard_view.php:426
+#@ wp-qore
+msgid "My Profile"
+msgstr "Mi Perfil"
+
+#: functions/dashboard_view.php:357
+#: functions/dashboard_view.php:430
+#@ wp-qore
+msgid "Import"
+msgstr "Importación"
+
+#: functions/dashboard_view.php:361
+#: functions/dashboard_view.php:434
+#@ wp-qore
+msgid "Export"
+msgstr "Exportación"
+
+#: functions/dashboard_view.php:365
+#: functions/dashboard_view.php:438
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:233
+#: sec-advisor.php:153
+#@ wp-qore
+msgid "Settings"
+msgstr "Configuración"
+
+#: functions/dashboard_view.php:400
+#@ wp-qore
+msgid "Theme Editor"
+msgstr "Editor de temas"
+
+#: functions/dashboard_view.php:417
+#@ wp-qore
+msgid "Plugins Editor"
+msgstr "Plugins Editor"
+
+#: functions/failed_login.php:4
+#@ wp-qore
+msgid "The login information you have entered is incorrect."
+msgstr "La información de inicio de sesión que ha introducido es incorrecta."
+
+#: functions/howdy.php:13
+#@ wp-qore
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: functions/php-widget.php:6
+#@ wp-qore
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr "Texto arbitrario, HTML o PHP Code"
+
+#: functions/php-widget.php:8
+#@ wp-qore
+msgid "PHP Code"
+msgstr "PHP Code"
+
+#: functions/php-widget.php:43
+#@ wp-qore
+msgid "Title:"
+msgstr "Título:"
+
+#: functions/php-widget.php:48
+#@ wp-qore
+msgid "Automatically add paragraphs."
+msgstr "Añadir automáticamente párrafos."
+
+#: functions/widget-expodata.php:50
+#@ wp-qore
+msgid "Export Widgets"
+msgstr "Exportación Reproductores"
+
+#: functions/widget-expodata.php:114
+#@ wp-qore
+msgid "Import Widgets"
+msgstr "Importar Reproductores"
+
+#: functions/widget-expodata.php:119
+#@ wp-qore
+msgid "check all"
+msgstr "marque todas las"
+
+#: functions/widget-expodata.php:120
+#@ wp-qore
+msgid "uncheck all"
+msgstr "desactivar todas"
+
+#: functions/widget-expodata.php:138
+#@ wp-qore
+msgid "Please select a widget to continue."
+msgstr "Por favor, seleccione un widget para continuar."
+
+#: functions/widget-expodata.php:139
+#@ wp-qore
+msgid "Sidebars"
+msgstr "Las barras laterales"
+
+#: functions/widget-expodata.php:190
+#@ wp-qore
+msgid "Import Widget Settings"
+msgstr "Configuración de widgets de importación"
+
+#: functions/widget-expodata.php:195
+#@ wp-qore
+msgid "Please select the widget export file to import settings."
+msgstr "Por favor, seleccione el archivo de exportación widget a ajustes de importación."
+
+#: functions/widget-expodata.php:198
+#@ wp-qore
+msgid "Select a file"
+msgstr "Seleccione un archivo"
+
+#: functions/widget-expodata.php:201
+#@ wp-qore
+msgid "Show Widget Settings"
+msgstr "Configuración Mostrar Widget"
+
+#: functions/widget-expodata.php:335
+#@ wp-qore
+msgid "No widget data posted to import"
+msgstr "No hay datos publicados de widgets para importar"
+
+#: functions/widget-expodata.php:364
+#@ wp-qore
+msgid "Unknown Error"
+msgstr "Error desconocido"
+
+#: functions.php:143
+#@ wp-qore
+msgid "Database table prefix is"
+msgstr "Prefijo de la tabla de base de datos es"
+
+#: functions.php:143
+#@ wp-qore
+msgid "It is ok."
+msgstr "Está bien"
+
+#. translators: plugin header field 'PluginURI'
+#: index.php:0
+#@ wp-qore
+msgid "http://wpqore.com/"
+msgstr "http://wpqore.com/"
+
+#. translators: plugin header field 'Description'
+#: index.php:0
+#@ wp-qore
+msgid "WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime."
+msgstr "WP Qore es un plugin para WordPress que proporciona seguridad adicional, la funcionalidad de rendimiento y herramientas de desarrollo que se pueden activar o desactivar en cualquier momento."
+
+#. translators: plugin header field 'Author'
+#: index.php:0
+#@ wp-qore
+msgid "Jason Jersey"
+msgstr "Jason Jersey"
+
+#. translators: plugin header field 'AuthorURI'
+#: index.php:0
+#@ wp-qore
+msgid "http://twitter.com/degersey"
+msgstr "http://twitter.com/degersey"
+
+#: sec-advisor.php:319
+#@ wp-qore
+msgid "Safe Browsing Alert"
+msgstr "Alerta Navegación segura"
+
+#: sec-advisor.php:322
+#@ wp-qore
+msgid "Please check the Google Safe Browsing diagnostic page:"
+msgstr "Por favor, consulte la página de diagnóstico de navegación segura de Google:"
+
+#: sec-advisor.php:339
+#@ wp-qore
+msgid "Potential security threat suspected"
+msgstr "Amenaza potencial para la seguridad sospechada"
+
+#: sec-advisor.php:342
+#: sec-advisor.php:887
+#@ wp-qore
+msgid "The daily security scan of your site suspects a potential threat."
+msgstr "El análisis de seguridad diaria de su sitio sospecha una amenaza potencial."
+
+#: sec-advisor.php:377
+#@ wp-qore
+msgid "Notification message from the WP Qore Security Advisor"
+msgstr "Mensaje de notificación del Asesor WP Qore Seguridad"
+
+#: sec-advisor.php:378
+#@ wp-qore
+msgid "http://wpqore.com"
+msgstr "http://wpqore.com"
+
+#: sec-advisor.php:426
+#@ wp-qore
+msgid "There is no threats"
+msgstr "No hay amenazas"
+
+#: sec-advisor.php:427
+#@ wp-qore
+msgid "View line"
+msgstr "Ver line"
+
+#: sec-advisor.php:428
+#@ wp-qore
+msgid "Scan completed"
+msgstr "Scan completed"
+
+#: sec-advisor.php:886
+#@ wp-qore
+msgid "Security threat suspected"
+msgstr "Amenaza de seguridad sospechosos"
+
+#: sec-advisor.php:894
+#@ wp-qore
+msgid "Manual scan"
+msgstr "Búsqueda manual"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:52
+#: sec-advisor.php:950
+#@ default
+#@ wp-qore
+msgid "Settings saved."
+msgstr "Configuración guardada."
+
+#: sec-advisor.php:969
+#@ wp-qore
+msgid "Manual Scan"
+msgstr "Exploración manual"
+
+#: sec-advisor.php:975
+#@ wp-qore
+msgid "Start Scanning"
+msgstr "Iniciar Escaneo"
+
+#: sec-advisor.php:984
+#@ wp-qore
+msgid "Security Advisor offers your WordPress website protection from security threats, such as: virus, malicious code, and security exploits."
+msgstr "Asesor de Seguridad ofrece su sitio web WordPress protección contra amenazas de seguridad, tales como: virus, código malicioso y ataques de seguridad."
+
+#: sec-advisor.php:995
+#@ wp-qore
+msgid "Automatic Scan"
+msgstr "Escaneo Automático"
+
+#: sec-advisor.php:997
+#@ wp-qore
+msgid "Daily Scanning"
+msgstr "Escaneos Diarios"
+
+#: sec-advisor.php:1010
+#@ wp-qore
+msgid "Next check"
+msgstr "A continuación, compruebe"
+
+#: sec-advisor.php:1022
+#@ wp-qore
+msgid "Alternate E-mail"
+msgstr "Suplente E-mail"
+
+#: sec-advisor.php:1027
+#@ wp-qore
+msgid "If this field is empty, the admin e-mail will be notified. Daily scanning must be 'On' to use this feature."
+msgstr "Si este campo está vacío, se le notificará al administrador por correo electrónico. Escaneos diarios debe ser 'On' para usar esta función."
+
+#: sec-advisor.php:1045
+#, php-format
+#@ wp-qore
+msgid "Check to enable %s (Recommended)"
+msgstr "Active para habilitar %s (Recomendado)"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:400
+#: sec-advisor.php:1063
+#@ wp-qore
+msgid "Save Changes"
+msgstr "Guardar"
+
+#: settings.php:63
+#@ wp-qore
+msgid "Login Settings"
+msgstr "Entrar Configuración"
+
+#: settings.php:66
+#@ wp-qore
+msgid "Customize login page"
+msgstr "Personalizar la página de inicio de sesión"
+
+#: settings.php:73
+#@ wp-qore
+msgid "Change login page logo and link (Default is, WordPress)"
+msgstr "Logo página Cambiar inicio de sesión y de enlace (por defecto es, WordPress)"
+
+#: settings.php:79
+#@ wp-qore
+msgid "Login logo image url"
+msgstr "Login url imagen del logotipo"
+
+#: settings.php:84
+#@ wp-qore
+msgid "Type url of image for login page. Make sure it is approximately 320px width x 80px height."
+msgstr "Escribe la URL de la imagen de la página de inicio de sesión. Asegúrese de que es aproximadamente 320px ancho x 80px de altura."
+
+#: settings.php:89
+#@ wp-qore
+msgid "Conceal login page"
+msgstr "Ocultar la página de inicio de sesión"
+
+#: settings.php:96
+#@ wp-qore
+msgid "Turn 'On' to lock login page"
+msgstr "Gire a 'On' para bloquear la página de inicio de sesión"
+
+#: settings.php:103
+#@ wp-qore
+msgid "Login secret key"
+msgstr "Ingresar clave secreta"
+
+#: settings.php:103
+#: settings.php:206
+#: settings.php:376
+#: settings.php:390
+#@ wp-qore
+msgid "click to see example..."
+msgstr "haga clic para ver el ejemplo..."
+
+#: settings.php:105
+#@ wp-qore
+msgctxt "placeholder text"
+msgid "for url get parameter"
+msgstr "para el parámetro get url"
+
+#: settings.php:109
+#, php-format
+#@ wp-qore
+msgid "Only %s will work, otherwise, included default wp-admin address will return 404."
+msgstr "Sólo %s va a funcionar, de lo contrario, incluyen por defecto la dirección wp-admin devolverá 404."
+
+#: settings.php:113
+#@ wp-qore
+msgid "Add custom login page exception"
+msgstr "Agregar conexión personalizada página de excepción"
+
+#: settings.php:116
+#@ wp-qore
+msgid "If you have custom login page (for example if you are using any community plugin such as Buddypress and your users log in to their profile via custom url such as <i>http://example.com/myloginpage</i> ) and you want that url continue working properly without wpqorefunc secret key, then just add that url to following input field."
+msgstr "Si usted tiene la página de inicio de sesión personalizado (por ejemplo, si usted está usando alguna plugin de la comunidad tales como BuddyPress y sus usuarios acceder a su perfil a través url personalizada, como <i>http://example.com/myloginpage</i> ) y usted quiere que url seguir trabajando correctamente sin llave secreta wpqorefunc, a continuación, sólo añadir que url para siguiente campo de entrada."
+
+#: settings.php:119
+#@ wp-qore
+msgid "And then if you want to block your wp-admin for logged in <i>subscriber users</i>, check the following checkbox"
+msgstr "Y luego, si desea bloquear su wp-admin para los usuarios registrados de abonado, marque la casilla siguiente"
+
+#: settings.php:126
+#@ wp-qore
+msgid "Block access to wp-admin for Logged in subscribers (all their requests will be redirected to homepage)."
+msgstr "Bloquear el acceso a wp-admin para Registro de suscriptores (todas sus solicitudes serán redirigidos a la página principal)."
+
+#: settings.php:152
+#@ wp-qore
+msgid "Source Obfuscation"
+msgstr "La ofuscación Fuente"
+
+#: settings.php:155
+#@ wp-qore
+msgid "New theme directory"
+msgstr "Nuevo directorio temático"
+
+#: settings.php:157
+#@ wp-qore
+msgctxt "placeholder text"
+msgid "theme directory"
+msgstr "directorio de temas"
+
+#: settings.php:160
+#, php-format
+#@ wp-qore
+msgid "Create folder called <i>%s</i> in %s folder and then paste there any inactive theme folder you will need to use."
+msgstr "Crear carpeta llamada <i>%s</i> en la carpeta% s y luego pegarlo Hay alguna carpeta del tema inactivo tendrá que utilizar."
+
+#: settings.php:166
+#@ wp-qore
+msgid "Warning!"
+msgstr "Advertencia!"
+
+#: settings.php:169
+#, php-format
+#@ wp-qore
+msgid "Don't cut/paste active theme from <i>themes</i> folder to <i>%s</i> folder. Do it only with inactive themes. First deactivate theme, cut & paste, then reactivate."
+msgstr "No corte / pega tema activo de <i>themes</i> carpeta para <i>%s</i> de la carpeta. Hágalo solamente con temas inactivos. Primero desactive el tema, cortar y pegar, y después se reactivará."
+
+#: settings.php:177
+#@ wp-qore
+msgid "Unique source code"
+msgstr "Código fuente Steam"
+
+#: settings.php:181
+#, php-format
+#@ wp-qore
+msgid "Go to your file manager (or ftp), open your wp-config.php file and add the following lines there. Then, you will need to rename the wp-content and plugin folders to the new names in which you set in the code below. Copy the following code (below) and paste the code onto the top of your wp-config.php file, place it just after the initial opening &lt;?php tag (see <a target=\"_blank\" href=\"%s\" >before</a> and <a target=\"_blank\" href=\"%s\" >after</a> examples).<br><br> <b>Please be attentive. If you don't know what something is for, please don't do it.</b>"
+msgstr "Vaya a su administrador de archivos (o ftp), abra el archivo wp-config.php y añadir las siguientes líneas. A continuación, tendrá que cambiar el nombre de las carpetas wp-contenido y Programas a los nuevos nombres en el que se establezca en el código de abajo. Copia el siguiente código (abajo) y pegue el código en la parte superior de su archivo wp-config.php, colóquelo justo después de la apertura inicial &lt;?php tag (ver <a target=\"_blank\" href =\"%s\">antes</a> y <a target=\"_blank\" href=\"%s\">después de</a> ejemplos).<br><br> <b>Por favor, estar atentos. Si usted no sabe qué es algo, por favor no lo hagas. </ B>"
+
+#: settings.php:373
+#@ wp-qore
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: settings.php:376
+#@ wp-qore
+msgid "Security advisor"
+msgstr "Asesor de Seguridad"
+
+#: settings.php:213
+#: settings.php:383
+#: settings.php:536
+#@ wp-qore
+msgid "Turn 'On' to enable (Recommended)"
+msgstr "Gire a 'On' para activar (recomendado)"
+
+#: settings.php:384
+#@ wp-qore
+msgid "When checked, this will turn on Security Advisor. Security Advisor offers you protection from security threats, such as: virus, malicious code, and security exploits. Once enabled, a submenu labeled 'Security Advisor' will appear within the wp-admin > WP Qore > submenu. If you don't see it, then go to the dashboard first and it will initialize."
+msgstr "Cuando se activa, esta se convertirá en asesor de Seguridad. Asesor de Seguridad le ofrece protección contra amenazas a la seguridad, tales como: virus, código malicioso y ataques de seguridad. Una vez activado, un submenú etiquetado 'Security Advisor' aparecerá en el wp-admin > WP Qore > submenú. Si usted no lo ve, y luego ir al panel primero y se inicializa."
+
+#: settings.php:206
+#@ wp-qore
+msgid "Replace dashboard"
+msgstr "Cambio salpicadero"
+
+#: settings.php:214
+#@ wp-qore
+msgid "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight."
+msgstr "Cuando 'On', este reemplazará el tablero de instrumentos wp-admin de serie con uno nuevo que está limpio y ligero."
+
+#: settings.php:390
+#@ wp-qore
+msgid "Nag updates"
+msgstr "Nag actualizaciones"
+
+#: settings.php:397
+#: settings.php:411
+#: settings.php:426
+#: settings.php:578
+#@ wp-qore
+msgid "Turn 'On' to disable"
+msgstr "Gire a 'On' para desactivar"
+
+#: settings.php:398
+#@ wp-qore
+msgid "This disables the annoying WordPress nag updates banner from appearing. This doesn't prevent updates, just conceals the update banner from the top of the wp-admin."
+msgstr "Esto desactiva la molesta nag WordPress bandera actualizaciones aparezcan. Esto no impide que las actualizaciones, simplemente oculta la bandera de actualización desde la parte superior del wp-admin."
+
+#: settings.php:404
+#@ wp-qore
+msgid "Core updates"
+msgstr "Core actualizaciones"
+
+#: settings.php:412
+#@ wp-qore
+msgid ""
+"This completely disables new WordPress version notifications and updates from being done.<br>\n"
+"<b>Warning:</b> It is highly recommended that on your production environment you keep this option off. This option is provided for development environments only."
+msgstr ""
+"Esto desactiva completamente nuevas WordPress versión notificaciones y actualizaciones desde que se realiza <br>\n"
+"<b>Advertencia:</b> Se recomienda que en su entorno de producción se mantiene esta opción. Esta opción se proporciona únicamente con los entornos de desarrollo."
+
+#: settings.php:419
+#@ wp-qore
+msgid "Post revisions"
+msgstr "Publique las revisiones"
+
+#: settings.php:427
+#@ wp-qore
+msgid "This disables saving multiple post revisions. Having multiple post revisions could cause bloat on your database. Disabling them will prevent such."
+msgstr "Esto desactiva el ahorro de múltiples revisiones posteriores. Tener múltiples revisiones de correos podría causar hinchazón en su base de datos. Desactive esa opción para evitar este tipo."
+
+#: settings.php:433
+#@ wp-qore
+msgid "Admin bar removal"
+msgstr "Eliminación de barra de admin"
+
+#: settings.php:440
+#@ wp-qore
+msgid "Remove admin bar from the frontend"
+msgstr "Retire la barra de administración de la interfaz"
+
+#: settings.php:446
+#@ wp-qore
+msgid "Collapse admin menu"
+msgstr "Menú de administración Collapse"
+
+#: settings.php:453
+#@ wp-qore
+msgid "This keeps the wp-admin menu on the left collapsed."
+msgstr "Esto mantiene el menú wp-admin en el lado izquierdo colapsado."
+
+#: settings.php:459
+#@ wp-qore
+msgid "Change default jQuery"
+msgstr "JQuery Change default"
+
+#: settings.php:466
+#@ wp-qore
+msgid ""
+"Use Google hosted jQuery instead of Wordpress core.</i><br><br>\n"
+"<b>Attention:</b> If this doesn't play well with your theme, then simply turn it off."
+msgstr ""
+"Utilice Google alojada jQuery en lugar del núcleo de Wordpress</i><br><br>\n"
+"<b>Atención:</b> Si esto no juega bien con su tema, entonces simplemente apagarlo."
+
+#: settings.php:473
+#@ wp-qore
+msgid "Shortcode in widgets"
+msgstr "Código corto en los widgets"
+
+#: settings.php:481
+#@ wp-qore
+msgid "This enables shortcode in widgets. In the instance you need to use shortcode within your widgets, then enabling this will help you."
+msgstr "Esto permite shortcode en los widgets. En la instancia deberá utilizar código corto plazo de sus aparatos, a continuación, permitiendo que esto le ayudará."
+
+#: settings.php:487
+#@ wp-qore
+msgid "Php in widgets"
+msgstr "Php en los widgets"
+
+#: settings.php:495
+#@ wp-qore
+msgid ""
+"This enables php code in widgets. In the instance you need to use php within your widgets, then enabling this will help you.<br><br>\n"
+"<b>Warning!</b> Turning this on may be a security risk. It's not recommended you use this unless you are very careful and know what you are doing. Use at your own risk."
+msgstr ""
+"Esto permite que el código php en widgets. En la instancia deberá utilizar php dentro de sus aparatos, a continuación, permitir que esto le ayudará.<br><br>\n"
+"<b>Advertencia!</b> Activar esta opción puede ser un riesgo de seguridad. No es recomendable que utilice esto a menos que usted es muy cuidadoso y saber lo que está haciendo. Utilice a su propio riesgo."
+
+#: settings.php:502
+#@ wp-qore
+msgid "Import/export widgets"
+msgstr "Widgets de importación/exportación"
+
+#: settings.php:510
+#@ wp-qore
+msgid "This allows you to import and export your widget settings. Once enabled, a submenu labeled 'Export Widgets' and 'Import Widgets' will appear within the wp-admin > Tools menu."
+msgstr "Esto le permite importar y exportar la configuración del widget. Una vez activado, un submenú etiquetado 'Export Reproductores' e 'importación Reproductores' aparecerá en el wp-admin > menú Herramientas."
+
+#: settings.php:516
+#@ wp-qore
+msgid "Clean source code"
+msgstr "Código fuente limpia"
+
+#: settings.php:523
+#@ wp-qore
+msgid "Remove WP version from source code (Recommended)"
+msgstr "Quite la versión WP partir del código fuente (Recomendado)"
+
+#: settings.php:543
+#@ wp-qore
+msgid "Minify your html"
+msgstr "Reducir tu html"
+
+#: settings.php:551
+#@ wp-qore
+msgid "This will minify the HTML of your source code. This makes your website load much faster and makes it harder for people to view the source code of your website."
+msgstr "Esto minify el código HTML de su código fuente. Esto hace que su sitio web de carga mucho más rápido y hace que sea más difícil para la gente para ver el código fuente de su sitio web."
+
+#: settings.php:557
+#@ wp-qore
+msgid "Remove wp meta tags"
+msgstr "Remove wp meta tags"
+
+#: settings.php:564
+#@ wp-qore
+msgid "Turn 'On' to remove from source code"
+msgstr "Gire a 'On' para eliminar desde el código fuente"
+
+#: settings.php:565
+#@ wp-qore
+msgid "Remove manifest, generator meta tags, adjacent posts rel links, parent post rel links, feed links, rsd link and index rel links from the source code."
+msgstr "Retire, etiquetas meta generador del manifiesto, postes adyacentes rel links, enlaces rel colocar padre, feed vínculos, vínculo rsd y enlaces rel índice desde el código fuente."
+
+#: settings.php:571
+#@ wp-qore
+msgid "Plugin/theme editor"
+msgstr "Editor Plugin/Tema"
+
+#: settings.php:579
+#@ wp-qore
+msgid "This disables the theme and plugin editor from within WordPress. This is a good idea for production environments."
+msgstr "Esto desactiva el tema y editor plugin desde dentro de WordPress. Esta es una buena idea para los entornos de producción."
+
+#: settings.php:585
+#@ wp-qore
+msgid "Database audit"
+msgstr "MySQL Auditoría"
+
+#: settings.php:588
+#@ wp-qore
+msgid "This checks your Database and then gives you suggestions about security and making your website faster."
+msgstr "Esto comprueba la base de datos y luego te da sugerencias acerca de la seguridad y hacer que su sitio web más rápido."
+
+#: settings.php:600
+#@ wp-qore
+msgid "Save changes"
+msgstr "Guardar"
+
+#: settings.php:203
+#@ wp-qore
+msgid "Dashboard Settings"
+msgstr "Configuración del panel"
+
+#: settings.php:219
+#@ wp-qore
+msgid "Custom dashboard"
+msgstr "Dashboard personalizado"
+
+#: settings.php:225
+#@ wp-qore
+msgid "When 'On', this will override the WPQORE dashboard with the one you may create below."
+msgstr "Cuando 'On', esto anulará el salpicadero WPQORE con el que usted puede crear a continuación."
+
+#: settings.php:227
+#@ wp-qore
+msgid "Customize dashboard"
+msgstr "Personalizar salpicadero"
+
+#: settings.php:267
+#@ wp-qore
+msgid "Automatic Updates"
+msgstr "Actualizaciones Automáticas"
+
+#: settings.php:270
+#@ wp-qore
+msgid "Major Updates"
+msgstr "Major"
+
+#: settings.php:278
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all major WordPress core versions."
+msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las versiones del núcleo de WordPress."
+
+#: settings.php:283
+#@ wp-qore
+msgid "Minor Updates"
+msgstr "Menor"
+
+#: settings.php:291
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all minor WordPress core versions."
+msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las versiones del núcleo de WordPress menores."
+
+#: settings.php:296
+#@ wp-qore
+msgid "Plugin Updates"
+msgstr "Plugin"
+
+#: settings.php:304
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all plugins."
+msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todos los plugins."
+
+#: settings.php:309
+#@ wp-qore
+msgid "Theme Updates"
+msgstr "Tema"
+
+#: settings.php:317
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all themes."
+msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todos los temas."
+
+#: settings.php:322
+#@ wp-qore
+msgid "Translation Updates"
+msgstr "Traducción"
+
+#: settings.php:330
+#@ wp-qore
+msgid "When 'On', this will enable automatic updates of all translations."
+msgstr "Cuando 'On', lo que permitirá a las actualizaciones automáticas de todas las traducciones."
+
+#: settings.php:335
+#@ wp-qore
+msgid "Send Emails"
+msgstr "Enviar Email"
+
+#: settings.php:343
+#@ wp-qore
+msgid "When 'On', this will send the admin an email every time automatic updates are performed."
+msgstr "Cuando 'On', esto enviará al administrador un correo electrónico cada vez que se realizan las actualizaciones automáticas."
+
+#: settings.php:348
+#@ wp-qore
+msgid "Debug Emails"
+msgstr "Depurar Email"
+
+#: settings.php:356
+#@ wp-qore
+msgid "When 'On', this will send the admin emails with debug information every time automatic updates are performed."
+msgstr "Cuando 'On', esto enviará los mensajes de correo electrónico de administrador con información de depuración cada vez que las actualizaciones automáticas se realizan."
+
+#: functions/dashboard_view.php:173
+#@ wp-qore
+msgid "Task"
+msgstr "Task"
+
+#: functions/dashboard_view.php:173
+#: functions/dashboard_view.php:179
+#@ wp-qore
+msgid "PHP Memory"
+msgstr "Memoria PHP"
+
+#: functions/dashboard_view.php:174
+#@ wp-qore
+msgid "Limit"
+msgstr "Límite"
+
+#: functions/dashboard_view.php:175
+#@ wp-qore
+msgid "Usage"
+msgstr "Uso"
+
+#: functions/dashboard_view.php:201
+#@ wp-qore
+msgid "Dashboard"
+msgstr "Salpicadero"
+
+#: functions/dashboard_view.php:211
+#@ wp-qore
+msgid "Welcome to the admin backend"
+msgstr "Bienvenido al backend de administración"
+
+#: functions/dashboard_view.php:214
+#@ wp-qore
+msgid "A Warning Alert"
+msgstr "Una alerta de la alarma"
+
+#: functions/dashboard_view.php:215
+#@ wp-qore
+msgid "An Error Message"
+msgstr "Un mensaje de error"
+
+#: functions/dashboard_view.php:216
+#@ wp-qore
+msgid "A Success Message"
+msgstr "Un mensaje de éxito"
+
+#: functions/dashboard_view.php:221
+#@ wp-qore
+msgid "Stats"
+msgstr "Stats"
+
+#: functions/dashboard_view.php:232
+#@ wp-qore
+msgid "posts"
+msgstr "mensajes"
+
+#: functions/dashboard_view.php:234
+#@ wp-qore
+msgid "comments"
+msgstr "comentarios"
+
+#: functions/dashboard_view.php:238
+#@ wp-qore
+msgid "pages"
+msgstr "páginas"
+
+#: functions/dashboard_view.php:240
+#@ wp-qore
+msgid "users"
+msgstr "usuarios"
+
+#: functions/dashboard_view.php:247
+#@ wp-qore
+msgid "uploads"
+msgstr "uploads"
+
+#: functions/dashboard_view.php:249
+#@ wp-qore
+msgid "wp-content"
+msgstr "wp-content"
+
+#: functions/dashboard_view.php:253
+#@ wp-qore
+msgid "wp total"
+msgstr "total de wp"
+
+#: functions/dashboard_view.php:297
+#@ wp-qore
+msgid "Control"
+msgstr "Control"
+
+#: functions/dashboard_view.php:449
+#@ wp-qore
+msgid "Recent Pages"
+msgstr "Páginas recientes"
+
+#: functions/dashboard_view.php:482
+#@ wp-qore
+msgid "Recent Posts"
+msgstr "Mensajes recientes"
+
+#: functions/dashboard_view.php:504
+#@ wp-qore
+msgid "find content"
+msgstr "búsqueda"
+
+#: functions/dashboard_view.php:515
+#@ wp-qore
+msgid "System Info"
+msgstr "Información del sistema"
+
+#: functions/dashboard_view.php:529
+#@ wp-qore
+msgid "About WPQore"
+msgstr "Acerca WPQore"
+
+#: functions/dashboard_view.php:255
+#@ wp-qore
+msgid "free hdd"
+msgstr "hdd libre"
+
+#: functions/server_info.php:166
+#@ wp-qore
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: functions/server_info.php:169
+#: functions/server_info.php:170
+#@ wp-qore
+msgid "unknow"
+msgstr "desconocido"
+
+#: functions/dashboard_view.php:262
+#@ wp-qore
+msgid "OS"
+msgstr "OS"
+
+#: functions/dashboard_view.php:264
+#@ wp-qore
+msgid "Php"
+msgstr "Php"
+
+#: functions/dashboard_view.php:268
+#@ wp-qore
+msgid "MySQL"
+msgstr "MySQL"
+
+#: functions/dashboard_view.php:270
+#@ wp-qore
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions/dashboard_view.php:277
+#@ wp-qore
+msgid "SAPI"
+msgstr "SAPI"
+
+#: functions/dashboard_view.php:279
+#@ wp-qore
+msgid "APC Enabled"
+msgstr "APC Activado"
+
+#: functions/dashboard_view.php:283
+#@ wp-qore
+msgid "Language"
+msgstr "Idioma"
+
+#: functions/dashboard_view.php:284
+#@ wp-qore
+msgid "On"
+msgstr "En"
+
+#: functions/dashboard_view.php:284
+#@ wp-qore
+msgid "Off"
+msgstr "Apagado"
+
+#: functions/dashboard_view.php:285
+#@ wp-qore
+msgid "Safe Mode"
+msgstr "Modo Seguro"
+
+#: functions/dashboard_view.php:518
+#@ wp-qore
+msgid "Web Server"
+msgstr "Servidor Web"
+
+#: functions/dashboard_view.php:520
+#@ wp-qore
+msgid "Max Execution Time"
+msgstr "Tiempo máximo de ejecución"
+
+#: functions/dashboard_view.php:522
+#@ wp-qore
+msgid "Server Disk Quota"
+msgstr "De cuota de disco del servidor"
+
+#: functions/adminbar_menu.php:68
+#: settings.php:54
+#@ wp-qore
+msgid "WP Qore Options"
+msgstr "WP Qore Opciones"
+
+#: functions/adminbar_menu.php:75
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:143
+#: modules/dropbox_mod/wpq-2-dbx.php:74
+#@ wp-qore
+msgid "Backup Settings"
+msgstr "Backup Config"
+
+#: functions/adminbar_menu.php:76
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:77
+#: modules/dropbox_mod/wpq-2-dbx.php:78
+#@ wp-qore
+msgid "Backup Monitor"
+msgstr "Backup Monitor"
+
+#: modules/dropbox_mod/Classes/BackupController.php:77
+#@ wp-qore
+msgid "Processed 1 file."
+msgstr "Procesados ​​1 archivo."
+
+#: modules/dropbox_mod/Classes/BackupController.php:77
+#, php-format
+#@ wp-qore
+msgid "Processed %s files."
+msgstr "Archivos procesados​​ %s."
+
+#: modules/dropbox_mod/Classes/BackupController.php:88
+#, php-format
+#@ wp-qore
+msgid "Approximately %s%% complete."
+msgstr "Aproximadamente %s%% de avance."
+
+#: modules/dropbox_mod/Classes/BackupController.php:150
+#@ wp-qore
+msgid "Your Dropbox account is not authorized yet."
+msgstr "Su cuenta de Dropbox aún no está autorizado."
+
+#: modules/dropbox_mod/Classes/BackupController.php:159
+#@ wp-qore
+msgid "Resuming SQL backup."
+msgstr "Reanudación de copia de seguridad de SQL."
+
+#: modules/dropbox_mod/Classes/BackupController.php:161
+#@ wp-qore
+msgid "Starting SQL backup."
+msgstr "A partir de la copia de seguridad de SQL."
+
+#: modules/dropbox_mod/Classes/BackupController.php:166
+#@ wp-qore
+msgid "SQL backup complete. Starting file backup."
+msgstr "Copia de seguridad de SQL completa. A partir de la copia de seguridad de archivos."
+
+#: modules/dropbox_mod/Classes/BackupController.php:187
+#@ wp-qore
+msgid "Backup complete."
+msgstr "Completa de copia de seguridad."
+
+#: modules/dropbox_mod/Classes/BackupController.php:188
+#, php-format
+#@ wp-qore
+msgid "A total of %s files were processed."
+msgstr "Se tramitaron un total de %s archivos."
+
+#: modules/dropbox_mod/Classes/BackupController.php:190
+#, php-format
+#@ wp-qore
+msgid "A total of %dMB of memory was used to complete this backup."
+msgstr "Se utilizó un total de %d MB de memoria para completar esta copia de seguridad"
+
+#: modules/dropbox_mod/Classes/BackupController.php:212
+#@ wp-qore
+msgid "The plugin is no longer authorized with Dropbox."
+msgstr "El plugin ya no está autorizado con Dropbox."
+
+#: modules/dropbox_mod/Classes/BackupController.php:214
+#@ wp-qore
+msgid "A fatal error occured: "
+msgstr "Un error fatal ha ocurrido:"
+
+#: modules/dropbox_mod/Classes/BackupController.php:251
+#, php-format
+#@ default
+msgid "WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin."
+msgstr ""
+
+#: modules/dropbox_mod/Classes/BackupController.php:264
+#, php-format
+#@ wp-qore
+msgid "WordPress Backup to Dropbox requires write access to '%s', please ensure it exists and has write permissions."
+msgstr "WordPress Backup para Dropbox requiere acceso de escritura para %s, por favor asegúrese de que existe y tiene permisos de escritura."
+
+#: modules/dropbox_mod/Classes/Config.php:214
+#@ wp-qore
+msgid "Backup stopped by user."
+msgstr "Copia de seguridad detenida por el usuario."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:78
+#, php-format
+#@ wp-qore
+msgid "Resuming table '%s' at row %s."
+msgstr "Reanudación de la tabla '%s' en la línea %s."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:83
+#, php-format
+#@ wp-qore
+msgid "Processed table '%s'."
+msgstr "Procesado mesa '%s'."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:117
+#, php-format
+#@ wp-qore
+msgid "A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access."
+msgstr "Una copia de seguridad de base de datos no se puede crear porque WordPress no tiene acceso de escritura a '%s', asegúrese de este directorio tiene acceso de escritura."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:148
+#@ wp-qore
+msgid "Error while accessing database."
+msgstr "Error al acceder a la base de datos."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:213
+#@ wp-qore
+msgid "Error writing to php://memory."
+msgstr "Error al escribir en php:/ /memory."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:226
+#@ wp-qore
+msgid "Error closing sql dump file."
+msgstr "Error al cerrar el archivo de volcado sql."
+
+#: modules/dropbox_mod/Classes/DatabaseBackup.php:230
+#@ wp-qore
+msgid "Error closing php://memory."
+msgstr "Error de cierre php:/ /memory."
+
+#: modules/dropbox_mod/Classes/DropboxFacade.php:50
+#, php-format
+#@ wp-qore
+msgid "The cURL extension is not loaded. %sPlease ensure its installed and activated.%s"
+msgstr "La extensión cURL no está cargado. %s Please asegurar su instalado y activado.%s"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:39
+#, php-format
+#@ wp-qore
+msgid "The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup."
+msgstr "La copia de seguridad está teniendo problemas para subir archivos a Dropbox, ha fracasado veces %s y se aborta la copia de seguridad."
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:42
+#@ default
+msgid "Dropbox API not set"
+msgstr ""
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:53
+#, php-format
+#@ wp-qore
+msgid "Uploading large file '%s' (%sMB) in chunks"
+msgstr "Carga de archivos de gran tamaño '%s' (%s MB) en trozos"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:55
+#, php-format
+#@ wp-qore
+msgid "Resuming upload of large file '%s'"
+msgstr "La reanudación de carga de archivos de gran tamaño '%s'"
+
+#: modules/dropbox_mod/Classes/Extension/DefaultOutput.php:70
+#, php-format
+#@ wp-qore
+msgid "Error uploading '%s' to Dropbox: %s"
+msgstr "Error al enviar el '%s' a Dropbox: %s"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:89
+#@ wp-qore
+msgid "There was an error getting the list of premium extensions"
+msgstr "Hubo un error al obtener la lista de extensiones de primera calidad"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:123
+#@ wp-qore
+msgid "access is deined, this could be because your payment has expired."
+msgstr "se deined acceso, esto podría ser debido a que su pago ha expirado."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:125
+#@ wp-qore
+msgid "you have exceeded your download limit for this extension on this site."
+msgstr "usted ha excedido su límite de descarga para esta extensión en este sitio."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:128
+#@ wp-qore
+msgid "There was an error downloading your premium extension because"
+msgstr "Se ha producido un error al descargar la extensión de la prima porque"
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:137
+#, php-format
+#@ wp-qore
+msgid "'%s' is not writeable."
+msgstr "'%s' no se puede escribir."
+
+#: modules/dropbox_mod/Classes/Extension/Manager.php:140
+#@ wp-qore
+msgid "There was an error installing your premium extension because"
+msgstr "Hubo un error al instalar la extensión de la prima porque"
+
+#: modules/dropbox_mod/Classes/UploadTracker.php:36
+#, php-format
+#@ wp-qore
+msgid "Uploaded %sMB of %sMB"
+msgstr "Subido %s MB de %s MB"
+
+#: modules/dropbox_mod/Views/wpq2dbx-deprecated.php:33
+#@ wp-qore
+msgid "Dropbox Backup Module"
+msgstr "Módulo de copia de seguridad de Dropbox"
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:27
+#@ wp-qore
+msgid "Backup stopped."
+msgstr "De copia de seguridad se detuvo."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:34
+#@ wp-qore
+msgid "Backup started."
+msgstr "Copia de seguridad en marcha."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:84
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:382
+#@ wp-qore
+#@ default
+msgid "Loading..."
+msgstr "Loading..."
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:94
+#@ wp-qore
+msgid "Stop Backup"
+msgstr "Deténgase"
+
+#: modules/dropbox_mod/Views/wpq2dbx-monitor.php:96
+#@ wp-qore
+msgid "Start Backup"
+msgstr "Comienzo"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:23
+#@ wp-qore
+msgid "WordPress Backup to Dropbox failed to initialize due to these database errors."
+msgstr "WordPress Backup para Dropbox no se pudo inicializar debido a estos errores de base de datos."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:42
+#@ wp-qore
+msgid "The sub directory must only contain alphanumeric characters."
+msgstr "El subdirectorio debe contener sólo caracteres alfanuméricos."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:84
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:270
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:331
+#@ wp-qore
+msgid "Daily"
+msgstr "Diario"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:158
+#@ wp-qore
+msgid "Dropbox Account"
+msgstr "Cuenta Dropbox"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:165
+#@ wp-qore
+msgid "you have"
+msgstr "tienes"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:167
+#@ wp-qore
+msgid "Gigabyte"
+msgstr "Gigabyte"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:168
+#@ wp-qore
+msgid "of"
+msgstr "de"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:169
+#@ wp-qore
+msgid "free"
+msgstr "libre"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:171
+#@ wp-qore
+msgid "Unlink Account"
+msgstr "Desconectar"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:182
+#@ wp-qore
+msgid "Next Scheduled"
+msgstr "Siguiente Programado"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:187
+#, php-format
+#@ wp-qore
+msgid "Next backup scheduled for %s at %s"
+msgstr "Siguiente copia de seguridad programada para %s en %s"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:189
+#@ wp-qore
+msgid "No backups are scheduled yet. Please select a day, time and frequency below. "
+msgstr "No hay copias de seguridad todavía están programadas. Por favor seleccione el día, la hora y la frecuencia a continuación."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:200
+#@ wp-qore
+msgid "History"
+msgstr "Historia"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:216
+#, php-format
+#@ wp-qore
+msgid "Backup completed on %s at %s."
+msgstr "Copia de seguridad completada en %s en %s."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:219
+#@ wp-qore
+msgid "Clear history"
+msgstr "Claro"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:221
+#@ wp-qore
+msgid "No history"
+msgstr "No hay historial"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:238
+#@ wp-qore
+msgid "Create a new folder within WPQORE app folder"
+msgstr "Cree una nueva carpeta dentro de la carpeta de aplicaciones WPQORE"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:252
+#@ wp-qore
+msgid "Day and Time"
+msgstr "Día y Hora"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:256
+#@ wp-qore
+msgid "Monday"
+msgstr "Lunes"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:258
+#@ wp-qore
+msgid "Tuesday"
+msgstr "Martes"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:260
+#@ wp-qore
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:262
+#@ wp-qore
+msgid "Thursday"
+msgstr "Jueves"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:264
+#@ wp-qore
+msgid "Friday"
+msgstr "Viernes"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:266
+#@ wp-qore
+msgid "Saturday"
+msgstr "Sábado"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:268
+#@ wp-qore
+msgid "Sunday"
+msgstr "Domingo"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:272
+#@ wp-qore
+msgid "at"
+msgstr "en"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:323
+#@ wp-qore
+msgid "The day and time the backup will run."
+msgstr "El día y hora de la copia de seguridad se ejecutará."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:327
+#@ wp-qore
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:334
+#@ wp-qore
+msgid "Weekly"
+msgstr "Semanal"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:338
+#@ wp-qore
+msgid "Fortnightly"
+msgstr "Quincenal"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:341
+#@ wp-qore
+msgid "Every 4 weeks"
+msgstr "Cada 4 semanas"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:345
+#@ wp-qore
+msgid "Every 8 weeks"
+msgstr "Cada 8 semanas"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:349
+#@ wp-qore
+msgid "Every 12 weeks"
+msgstr "Cada 12 semanas"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:352
+#@ wp-qore
+msgid "Frequency of backup."
+msgstr "Frecuencia de copia de seguridad."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:367
+#@ wp-qore
+msgid "Excluded Files and Directories"
+msgstr "Los archivos y directorios excluidos"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:371
+#@ wp-qore
+msgid "Select the files and directories that you wish to exclude from your backup. You can expand directories with contents by clicking its name."
+msgstr "Seleccione los archivos y directorios que desea excluir de la copia de seguridad. Puede expandir directorios con contenidos haciendo clic en su nombre."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:372
+#@ wp-qore
+msgid "Notice:"
+msgstr "Aviso:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:372
+#@ wp-qore
+msgid "Your SQL dump file will always be backed up regardless of what is selected below."
+msgstr "Su archivo de volcado de SQL siempre una copia de seguridad, independientemente de lo que se seleccione a continuación."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:387
+#@ wp-qore
+msgid "Exclude:"
+msgstr "Excluir:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:388
+#@ wp-qore
+msgid "All"
+msgstr "Todo"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:389
+#@ wp-qore
+msgid "None"
+msgstr "Ninguno"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:390
+#@ wp-qore
+msgid "Inverse"
+msgstr "Inverso"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:427
+#@ wp-qore
+msgid "Authorize"
+msgstr "Autorizar"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:430
+#@ wp-qore
+msgid "Continue"
+msgstr "Continuar"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:437
+#@ wp-qore
+msgid "Error"
+msgstr "Error"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:438
+#@ wp-qore
+msgid "There was a fatal error loading WordPress Backup to Dropbox. Please fix the problems listed and reload the page."
+msgstr "Hubo un error fatal de cargar WordPress Backup para Dropbox. Por favor, corrija los problemas enumerados y volver a cargar la página."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:439
+#@ wp-qore
+msgid "If the problem persists please re-install WordPress Backup to Dropbox."
+msgstr "Si el problema persiste, por favor, vuelva a instalar WordPress Backup para Dropbox."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:440
+#@ wp-qore
+msgid "Error message:"
+msgstr "Mensaje de error:"
+
+#: modules/dropbox_mod/Views/wpq2dbx-progress.php:26
+#@ wp-qore
+msgid "You have not run a backup yet. Once you do, you'll see a log of it here."
+msgstr "Usted no ha ejecutado una copia de seguridad aún. Una vez que usted lo hace, usted verá un registro de aquí."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:135
+#, php-format
+#@ wp-qore
+msgid "Backup started on %s."
+msgstr "Backup started on %s."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:139
+#, php-format
+#@ default
+msgid "Your time limit is %s and your memory limit is %s"
+msgstr ""
+
+#: modules/dropbox_mod/wpq-2-dbx.php:140
+#@ wp-qore
+msgid "seconds"
+msgstr "segundo"
+
+#: modules/dropbox_mod/wpq-2-dbx.php:140
+#@ wp-qore
+msgid "unlimited"
+msgstr "ilimitado"
+
+#: modules/dropbox_mod/wpq-2-dbx.php:145
+#@ wp-qore
+msgid "Safe mode is enabled on your server so the PHP time and memory limit cannot be set by the backup process. So if your backup fails it's highly probable that these settings are too low."
+msgstr "El modo seguro está habilitado en su servidor lo que el tiempo límite de memoria de PHP y no se pueden ajustar por el proceso de copia de seguridad. Así que si no su copia de seguridad que es altamente probable que estos valores son demasiado bajos."
+
+#: modules/dropbox_mod/wpq-2-dbx.php:167
+#@ wp-qore
+msgid "There has been no backup activity for a long time. Attempting to resume the backup."
+msgstr "No ha habido ninguna actividad de copia de seguridad durante un largo tiempo. El intento de reanudar la copia de seguridad."
+
+#: settings.php:529
+#@ wp-qore
+msgid "Dropbox Backups"
+msgstr "Las copias de seguridad de Dropbox"
+
+#: settings.php:537
+#@ wp-qore
+msgid "This will enable the Dropbox module. Once enabled, two sub-menus called 'Backup Settings' and 'Backup Monitor' will appear under the WP Qore menu. You still need to authorize your Dropbox account before backups can begin."
+msgstr "Esto permitirá que el módulo de Dropbox. Una vez habilitado, dos sub-menús llamados \\\"Backup Settings\\\" y \\\"monitor de reserva\\\" van a aparecer en el menú WP Qore. Usted todavía tiene que autorizar a su cuenta de Dropbox antes de que comiencen las copias de seguridad."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:413
+#@ wp-qore
+msgid "WordPress to Dropbox Backup"
+msgstr "WordPress para Dropbox de copia de seguridad"
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:415
+#@ wp-qore
+msgid "In order to use this option, you will need to first authorized WP Qore with your Dropbox account."
+msgstr "Para utilizar esta opción, tendrá que autorizó primero WP Qore con su cuenta de Dropbox."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:416
+#@ wp-qore
+msgid "Please click the Authorize button below and follow the instructions inside the pop up window. Once you have done that, then come back to this page and click Authorize again. Then refresh the page."
+msgstr "Por favor, haga clic en el botón Autorizar a continuación y siga las instrucciones en el interior de la ventana emergente. Una vez que haya hecho eso, y luego volver a esta página y haga clic en Autorizar nuevamente. Entonces actualice la página."
+
+#: modules/dropbox_mod/Views/wpq2dbx-options.php:419
+#@ wp-qore
+msgid "There was an error authorizing WP Qore with your Dropbox account. Please try again."
+msgstr "Hubo un error al autorizar WP Qore con su cuenta de Dropbox. Por favor, inténtelo de nuevo."
+
+#. translators: plugin header field 'Version'
+#: index.php:0
+#@ wp-qore
+msgid "1.7.5"
+msgstr "1.7.5"
+
+#: settings.php:97
+#@ wp-qore
+msgid "Once enabled, your example.com/wp-admin url will return a 404 error. The user who knows the secret key can access. For example, when example.com/wp-admin returns 404, example.com/wp-admin?secretkey1 will work. Remember, you should  change the secret key from secretkey1 to something unique and that you can always change this secret key in the future."
+msgstr "Una vez habilitado, el example.com / wp-admin url devolverá un error 404. El usuario que conozca la clave secreta puede tener acceso. Por ejemplo, cuando example.com/wp-admin devuelve 404, example.com/wp-admin?secretkey1 funcionará. Recuerde, usted debe cambiar la clave secreta de secretkey1 a algo único y que siempre se puede cambiar esta clave secreta en el futuro."
+
