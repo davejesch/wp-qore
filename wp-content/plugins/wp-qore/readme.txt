@@ -1,6 +1,6 @@
 === WP Qore ===
 Contributors: phatjay, keha76, planetzuda
-Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core, customize login page, hide login page, security advisor, replace dashboard, custom dashboard, disable nag updates, disable core updates, admin bar removal, collapse admin menu, use jquery cdn, shortcode in widget, php in widgets, export widgets, import widgets, remove wp version, minify your html, gzip compression, cleanup wp meta, new theme directory, unique source code, automatic updates
+Tags: developer, security, performance, antivirus, virus, malware, cache, tools, qore, core, customize login page, hide login page, security advisor, replace dashboard, custom dashboard, disable nag updates, disable core updates, admin bar removal, collapse admin menu, use jquery cdn, shortcode in widget, php in widgets, export widgets, import widgets, remove wp version, minify your html, gzip compression, cleanup wp meta, new theme directory, unique source code, automatic updates, admin bar opacity
 Requires at least: 3.3
 Tested up to: 3.8.1
 Stable tag: 4.8
@@ -28,6 +28,7 @@ Available Options: (toggle on/off)
 * disable nag updates
 * disable core updates
 * admin bar removal
+* admin bar opacity
 * collapse admin menu
 * use jquery cdn
 * shortcode in widget
@@ -69,6 +70,9 @@ I can't say this plugin compares with the others. It wasn't created to compete w
 Yes. I currently have WP Qore on Github. You may find the project here: https://github.com/icryptic/wp-qore
 
 == Changelog ==
+
+= 1.7.7 = 
+* Added frontend wp-admin bar opacity.
 
 = 1.7.6 = 
 * Added hacker teaser 404 page for login conceal feature.
@@ -288,6 +292,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.7.7 =
+* Upgrade for the latest version.
 
 = 1.7.6 =
 * Upgrade for the latest version.
