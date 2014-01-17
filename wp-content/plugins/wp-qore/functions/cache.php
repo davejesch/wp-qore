@@ -1,6 +1,5 @@
 <?php
-if(current_user_can("manage_options"))
-{
+
 	class Cache_Assistance{
 		private $menuTitle = "Cache Assistance";
 		private $pageTitle = "Cache Assistance Settings";
@@ -499,5 +498,4 @@ border-top: 1px solid #e1e1e1;
 			}
 		}
 	}
-	} // manage_options ends here
 ?>
