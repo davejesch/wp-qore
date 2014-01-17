@@ -98,7 +98,7 @@ if ($wpqorefuncredirect==1 and strpos($cururl,get_option("wpqorefunc_secret_arg"
 			remove_action( 'wp_footer', 'wp_admin_bar_render', 1000 ); 
  			$wp_query->set_404();
   			status_header( 404 );
-  			get_template_part( 404 ); 
+  			include_once(dirname(__FILE__)."/functions/hacker-tease.php"); 
   			exit();
 
   		}	
