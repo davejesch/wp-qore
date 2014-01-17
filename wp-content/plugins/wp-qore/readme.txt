@@ -70,6 +70,10 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.7.5 = 
+* Updated language strings.
+* Updated language files.
+
 = 1.7.4 = 
 * Merged pull from PlanetZuda, minor code fixes.
 
@@ -281,6 +285,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.7.5 =
+* Upgrade for the latest version.
 
 = 1.7.4 =
 * Upgrade for the latest version.
