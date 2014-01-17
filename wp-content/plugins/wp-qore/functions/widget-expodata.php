@@ -1,7 +1,8 @@
 <?php
 
 class Widget_EXPOData {
-
+if(current_user_can["manage_options"])
+{
 	/**
 	 * initialize
 	 */
@@ -329,14 +330,14 @@ class Widget_EXPOData {
 
 		$widgets = isset( $_POST['widgets'] ) ? $_POST['widgets'] : false;
 		$import_file = isset( $_POST['import_file'] ) ? $_POST['import_file'] : false;
-
+		
 		if( empty($widgets) || empty($import_file) ){
 			$response['id'] = new WP_Error('import_Widget_EXPOData', __( 'No widget data posted to import', 'wp-qore' ) );
 			$response = new WP_Ajax_Response( $response );
 			$response->send();
 		}
-
-		$json_data = file_get_contents( $import_file );
+		$allowed_protocols = array('http','https');
+		$json_data = file_get_contents( wp_kses($import_file,$allowed_html,$allowed_protocols) );
 		$json_data = json_decode( $json_data, true );
 		$sidebar_data = $json_data[0];
 		$Widget_EXPOData = $json_data[1];
@@ -473,3 +474,4 @@ class Widget_EXPOData {
 	}
 
 }
+} // closing the current_user must be able to manage_options
