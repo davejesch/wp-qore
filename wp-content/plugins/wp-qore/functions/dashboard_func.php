@@ -29,16 +29,12 @@ class edf_dashboard {
 
 	}
 
-
 	function p_edf_create_dashboard() {
 		include_once( 'dashboard_view.php'  );
 
 	}
     }
-
-
 /* instantiate plugin's class */
 $GLOBALS['plugin_edf_dashboard'] = new edf_dashboard();
-
 
 ?>

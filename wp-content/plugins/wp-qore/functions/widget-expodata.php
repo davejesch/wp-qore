@@ -1,7 +1,7 @@
 <?php
 
 class Widget_EXPOData {
-if(current_user_can["manage_options"])
+if(current_user_can("manage_options"))
 {
 	/**
 	 * initialize

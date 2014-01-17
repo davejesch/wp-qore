@@ -1,5 +1,6 @@
 <?php //wp-admin dashboard : begin 
-
+if(current_user_can("manage_options"))
+{
 //include server_info functions
 require_once("server_info.php");
 
@@ -543,4 +544,5 @@ WP Qore offers many powerful features such as Security Advisor, which is our mal
 </section>
 
 <?php } //wp-admin dashboard : end 
+} // ends manage_options
  ?>
