@@ -65,7 +65,7 @@ function WPQore_Adminbar_Menu(){
    $pathbox = $home . "wp-admin/admin.php?page=b2dbx";
    $pathmonitor = $home . "wp-admin/admin.php?page=b2dbx-monitor";
       $this->add_root_menu( __( "WP Qore", 'wp-qore' ), "wpqabl" );
-      $this->wpqore_add_submenu( __( "WP Qore Settings", 'wp-qore' ), $pathfunc, "wpqabl", "wpqablp" );
+      $this->wpqore_add_submenu( __( "WP Qore Options", 'wp-qore' ), $pathfunc, "wpqabl", "wpqablp" );
       
 	  //if (get_option("wpqorefunc_cache_assistance")=='checked') {
           //$this->wpqore_add_submenu( __( "Cache Assistance", 'wp-qore' ), $pathcache, "wpqabl", "wpqabla" );
