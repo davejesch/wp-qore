@@ -71,6 +71,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 
 == Changelog ==
 
+= 1.8.0 = 
+* Oops, quick howdy fix.
+
 = 1.7.9 = 
 * Added option to customize Howdy text.
 
@@ -298,6 +301,9 @@ Yes. I currently have WP Qore on Github. You may find the project here: https://
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.8.0 =
+* Upgrade for the latest version.
 
 = 1.7.9 =
 * Upgrade for the latest version.
