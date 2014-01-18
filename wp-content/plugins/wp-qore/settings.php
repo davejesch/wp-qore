@@ -53,6 +53,7 @@ wpqorefunc_is_checked("wpqorefunc_dash_posts");
 wpqorefunc_is_checked("wpqorefunc_dash_pages");
 wpqorefunc_is_checked("wpqorefunc_dash_serverinfo");
 wpqorefunc_is_checked("wpqorefunc_dash_about");
+wpqorefunc_string_setting("wpqorefunc_howdy_text",'Howdy');
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -613,6 +614,17 @@ jQuery("#wpqorefunc_cr_exc_div2").toggle("slow");
 </div>
 <i><?php _e( "Turn 'On' to disable", 'wp-qore' ); ?></i><br><br>
 <?php _e( 'This disables the theme and plugin editor from within WordPress. This is a good idea for production environments.', 'wp-qore' ); ?>
+</label>
+</td>
+</tr>
+
+<tr valign="top">
+<th scope="row"><label for="home"><?php _e( 'Change Howdy Text', 'wp-qore' ); ?></label></th>
+<td>
+<label for="wpqorefunc_howdy_text">
+<input type="text" name="wpqorefunc_howdy_text" style="width:300px" value="<?php echo get_option("wpqorefunc_howdy_text");?>" placeholder="<?php echo get_option("wpqorefunc_howdy_text");?>">
+<i><?php _e( "Changes Howdy to whatever you like.", 'wp-qore' ); ?></i><br><br>
+<?php _e( 'After you update this option, simply go to your dashboard or refresh the page to see the changes take effect.', 'wp-qore' ); ?>
 </label>
 </td>
 </tr>
