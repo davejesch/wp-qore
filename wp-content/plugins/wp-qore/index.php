@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.7.8
+Version: 1.7.9
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.7.8';
+    echo '1.7.9';
 }
 
 function wpqore_load_textdomain() {
@@ -42,6 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 require_once(dirname(__FILE__)."/settings.php");
 require_once(dirname(__FILE__)."/functions.php");
 require_once(dirname(__FILE__)."/functions/adminbar_menu.php");
+require_once(dirname(__FILE__)."/functions/howdy.php");
 
 // login logo
 if (get_option("wpqorefunc_login_logo")=='checked') {
@@ -209,6 +210,7 @@ function wpqore_plug_activate() {
     update_option("wpqorefunc_dash_pages", "0");
     update_option("wpqorefunc_dash_serverinfo", "0");
     update_option("wpqorefunc_dash_about", "0");
+    update_option("wpqorefunc_howdy_text","Howdy");
     
 }
 register_activation_hook( __FILE__, 'wpqore_plug_activate' );
@@ -254,6 +256,7 @@ function wpqore_plug_deactivate() {
     update_option("wpqorefunc_dash_pages", "");
     update_option("wpqorefunc_dash_serverinfo", "");
     update_option("wpqorefunc_dash_about", "");
+    update_option("wpqorefunc_howdy_text","");
     
 }
 register_deactivation_hook( __FILE__, 'wpqore_plug_deactivate' );
