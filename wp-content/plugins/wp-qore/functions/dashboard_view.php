@@ -14,83 +14,83 @@ function convert($size){
 
 // number of posts
 function wpqore_posts() {
-	global $wpqore_count_options;
-	$count_posts = wp_count_posts();
-	return $wpqore_count_options['count_posts_before'] . $count_posts->publish . $wpqore_count_options['count_posts_after'];
+    global $wpqore_count_options;
+    $count_posts = wp_count_posts();
+    return $wpqore_count_options['count_posts_before'] . $count_posts->publish . $wpqore_count_options['count_posts_after'];
 }
 
 // number of pages
 function wpqore_pages() {
-	global $wpqore_count_options;
-	$count_pages = wp_count_posts('page');
-	return $wpqore_count_options['count_pages_before'] . $count_pages->publish . $wpqore_count_options['count_pages_after'];
+    global $wpqore_count_options;
+    $count_pages = wp_count_posts('page');
+    return $wpqore_count_options['count_pages_before'] . $count_pages->publish . $wpqore_count_options['count_pages_after'];
 }
 
 // number of drafts
 function wpqore_drafts() {
-	global $wpqore_count_options;
-	$count_drafts = wp_count_posts();
-	return $wpqore_count_options['count_drafts_before'] . $count_drafts->draft . $wpqore_count_options['count_drafts_after'];
+    global $wpqore_count_options;
+    $count_drafts = wp_count_posts();
+    return $wpqore_count_options['count_drafts_before'] . $count_drafts->draft . $wpqore_count_options['count_drafts_after'];
 }
 
 // number of comments (total)
 function wpqore_comments() {
-	global $wpqore_count_options;
-	$count_comments = wp_count_comments();
-	return $wpqore_count_options['count_comments_before'] . $count_comments->total_comments . $wpqore_count_options['count_comments_after'];
+    global $wpqore_count_options;
+    $count_comments = wp_count_comments();
+    return $wpqore_count_options['count_comments_before'] . $count_comments->total_comments . $wpqore_count_options['count_comments_after'];
 }
 
 // number of comments (moderated)
 function wpqore_moderated() {
-	global $wpqore_count_options;
-	$count_moderated = wp_count_comments();
-	return $wpqore_count_options['count_moderated_before'] . $count_moderated->moderated . $wpqore_count_options['count_moderated_after'];
+    global $wpqore_count_options;
+    $count_moderated = wp_count_comments();
+    return $wpqore_count_options['count_moderated_before'] . $count_moderated->moderated . $wpqore_count_options['count_moderated_after'];
 }
 
 // number of comments (approved)
 function wpqore_approved() {
-	global $wpqore_count_options;
-	$count_approved = wp_count_comments();
-	return $wpqore_count_options['count_approved_before'] . $count_approved->approved . $wpqore_count_options['count_approved_after'];
+    global $wpqore_count_options;
+    $count_approved = wp_count_comments();
+    return $wpqore_count_options['count_approved_before'] . $count_approved->approved . $wpqore_count_options['count_approved_after'];
 }
 
 // number of users
 function wpqore_users() {
-	global $wpqore_count_options;
-	$count_users = count_users();
-	return $wpqore_count_options['count_users_before'] . $count_users['total_users'] . $wpqore_count_options['count_users_after'];
+    global $wpqore_count_options;
+    $count_users = count_users();
+    return $wpqore_count_options['count_users_before'] . $count_users['total_users'] . $wpqore_count_options['count_users_after'];
 }
 
 // number of categories
 function wpqore_cats() {
-	global $wpqore_count_options;
-	$cats = wp_list_categories('title_li=&style=none&echo=0');
-	$cats_parts = explode('<br />', $cats);
-	$cats_count = count($cats_parts) - 1;
-	return $wpqore_count_options['count_cats_before'] . $cats_count . $wpqore_count_options['count_cats_after'];
+    global $wpqore_count_options;
+    $cats = wp_list_categories('title_li=&style=none&echo=0');
+    $cats_parts = explode('<br />', $cats);
+    $cats_count = count($cats_parts) - 1;
+    return $wpqore_count_options['count_cats_before'] . $cats_count . $wpqore_count_options['count_cats_after'];
 }
 
 // number of tags
 function wpqore_tags() {
-	global $wpqore_count_options;
-	return $wpqore_count_options['count_tags_before'] . wp_count_terms('post_tag') . $wpqore_count_options['count_tags_after'];
+    global $wpqore_count_options;
+    return $wpqore_count_options['count_tags_before'] . wp_count_terms('post_tag') . $wpqore_count_options['count_tags_after'];
 }
 
 // last updated posts
 function wpqore_updated($d = '') {
-	global $wpqore_count_options;
-	$count_posts = wp_count_posts();
-	$published_posts = $count_posts->publish; 
-	$recent = new WP_Query("showposts=1&orderby=date&post_status=publish");
-	if ($recent->have_posts()) {
-		while ($recent->have_posts()) {
-			$recent->the_post();
-			$last_update = get_the_modified_date($d);
-		}
-		return $wpqore_count_options['site_updated_before'] . $last_update . $wpqore_count_options['site_updated_after'];
-	} else {
-		return $wpqore_count_options['site_updated_before'] . 'awhile ago' . $wpqore_count_options['site_updated_after'];
-	}
+    global $wpqore_count_options;
+    $count_posts = wp_count_posts();
+    $published_posts = $count_posts->publish; 
+    $recent = new WP_Query("showposts=1&orderby=date&post_status=publish");
+    if ($recent->have_posts()) {
+        while ($recent->have_posts()) {
+            $recent->the_post();
+            $last_update = get_the_modified_date($d);
+        }
+        return $wpqore_count_options['site_updated_before'] . $last_update . $wpqore_count_options['site_updated_after'];
+    } else {
+        return $wpqore_count_options['site_updated_before'] . 'awhile ago' . $wpqore_count_options['site_updated_after'];
+    }
 }
 
 // uploads space
@@ -162,7 +162,7 @@ function wpqore_format_size($size) {
 <link rel="stylesheet" href="<?php echo plugins_url( '../css/ie.css' , __FILE__ ); ?>" type="text/css" media="screen" />
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-	
+    
 <script type="text/javascript">
 //Memory Chart
 google.load("visualization", "1", {packages:["corechart"]});
@@ -195,7 +195,7 @@ function drawChart() {
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <section id="secondary_bar">
-<div class="breadcrumbs_container">	
+<div class="breadcrumbs_container">    
 
 <article class="breadcrumbs">
 <a href="#"><?php _e( 'Dashboard', 'wp-qore' ); ?></a> 
@@ -205,18 +205,19 @@ function drawChart() {
 
 </div>
 </section>
-	
+    
 <section id="main" class="column">
-		
+        
 <h4 class="alert_info"><?php _e( 'Welcome to the admin backend', 'wp-qore' ); ?>.</h4>
 
 <!--
 <h4 class="alert_warning"><?php _e( 'A Warning Alert', 'wp-qore' ); ?></h4>
 <h4 class="alert_error"><?php _e( 'An Error Message', 'wp-qore' ); ?></h4>
 <h4 class="alert_success"><?php _e( 'A Success Message', 'wp-qore' ); ?></h4>
--->		
+-->        
 
-<?php if ( current_user_can('manage_options') ) { ?>
+<?php if ( current_user_can('manage_options') ) { 
+      if (get_option("wpqorefunc_dash_stats")=='checked') { }else{ ?>
 <article class="module width_full" id="module_width_full">
 <header><h3><?php _e( 'Stats', 'wp-qore' ); ?></h3></header>
 <div class="module_content">
@@ -240,7 +241,7 @@ function drawChart() {
     <p class="overview_type"><?php _e( 'users', 'wp-qore' ); ?></p>
 </div>
 </article>
-			
+            
 <article class="stats_overview" id="stats_overview_2" style="margin-right:20px;margin-top:10px;margin-bottom:20px;padding-top:5px">
 <div class="overview_today">
     <p class="overview_count"><?php echo @wp_upload_space(); ?></p>
@@ -290,8 +291,9 @@ function drawChart() {
 </div>
 </div>
 </article>
-<?php } ?>
+<?php } } 
 
+if (get_option("wpqorefunc_dash_controls")=='checked') { }else{ ?>
 <article class="module width_full">
 <header>
 <h3><?php _e( 'Control', 'wp-qore' ); ?></h3>
@@ -442,8 +444,10 @@ if ( current_user_can('manage_options') ) { ?>
 </div>
 </div>
 </article>
+<?php } 
 
-<?php if ( current_user_can('read') ) { ?>
+if ( current_user_can('read') ) { 
+if (get_option("wpqorefunc_dash_pages")=='checked') { }else{ ?>
 <article class="module width_half">
 <header>
 <h3><?php _e( 'Recent Pages', 'wp-qore' ); ?></h3>
@@ -474,9 +478,10 @@ if( $my_query->have_posts() ) {
 
     </footer>
 </article>
-<?php }
+<?php } }
 
-if ( current_user_can('read') ) { ?>
+if ( current_user_can('read') ) { 
+if (get_option("wpqorefunc_dash_posts")=='checked') { }else{ ?>
 <article class="module width_half">
 <header>
 <h3><?php _e( 'Recent Posts', 'wp-qore' ); ?></h3>
@@ -502,13 +507,14 @@ endforeach;
     <footer>
         <form target="_blank" class="post_message" id="posts-filter" action="<?php bloginfo('wpurl');?>/" method="get">
             <input type="text" id="post-search-input" name="s" value="<?php _e( 'find content', 'wp-qore' ); ?>" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
-	    <input type="submit" class="btn_post_message" value=""/>
-	</form>
+        <input type="submit" class="btn_post_message" value=""/>
+    </form>
     </footer>
 </article>
-<?php } 
+<?php } } 
 
-if ( current_user_can('manage_options') ) { ?>
+if ( current_user_can('manage_options') ) {
+if (get_option("wpqorefunc_dash_serverinfo")=='checked') { }else{ ?>
 <div class="footer_section">
 <article class="module width_half">
 <header>
@@ -519,26 +525,26 @@ if ( current_user_can('manage_options') ) { ?>
 <br />
 <b><?php _e("Max Execution Time", 'wp-qore'); ?></b>: <?php echo @ini_get( 'max_execution_time' ); ?><br />
 <br />
-<b><?php _e('Server Disk Quota', 'wp-qore'); ?></b>: <?php echo WPQORE_bytesize($space_free);?> of <?php echo WPQORE_bytesize($space);?> available.<br />
-<br />
+<b><?php _e('Server Disk Quota', 'wp-qore'); ?></b>: <?php echo WPQORE_bytesize($space_free);?> of <?php echo WPQORE_bytesize($space);?> available.
 </div>
 </article>
+<?php } 
 
+if (get_option("wpqorefunc_dash_about")=='checked') { }else{ ?>
 <article class="module width_half">
 <header>
 <h3><?php _e( 'About WPQore', 'wp-qore' ); ?></h3>
 </header>
 <div class="module_content">
 <div style="float:right" class="fb-like-box" data-href="http://www.facebook.com/wpqore" data-width="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
-<p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time.<br />
-<br />
-WP Qore offers many powerful features such as Security Advisor, which is our malware and anti-virus scanner.</p>
+<p align="justify"><a target="_blank" href="http://wpqore.com/">WP Qore</a>, a WordPress plugin that provides additional security, performance functionality, and developer tools that can be turned on or off at any time. WP Qore offers many powerful features such as a malware and antivirus scanner.</p>
 </div>
 </article>
+<?php } ?>
 </div>
 <?php } ?>
 
-<div class="clear"></div>		
+<div class="clear"></div>        
 
 </section>
 
