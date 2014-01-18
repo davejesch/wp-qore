@@ -1,7 +1,6 @@
 <?php
 
-
-/* Customize admin message "Howdy" to "Welcome" */
+// Customize howdy message
 add_filter('gettext', 'change_howdy', 10, 3);
 
 function change_howdy($translated, $text, $domain) {
@@ -10,10 +9,10 @@ function change_howdy($translated, $text, $domain) {
         return $translated;
 
     if (false !== strpos($translated, 'Howdy'))
-        return str_replace('Howdy', __( 'Welcome', 'wp-qore' ), $translated);
+        $howdy_text = get_option("wpqorefunc_howdy_text");
+        return str_replace('Howdy', __( $howdy_text, 'wp-qore' ), $translated);
 
     return $translated;
 }
-
 
 ?>
