@@ -47,6 +47,12 @@ wpqorefunc_is_checked("wpqorefunc_automatic_updates_send_debug_email");
 wpqorefunc_is_checked("wpqorefunc_auto_update_translation");
 wpqorefunc_is_checked("wpqorefunc_dropbox_mod");
 wpqorefunc_is_checked("wpqorefunc_wpadminbar_opacity");
+wpqorefunc_is_checked("wpqorefunc_dash_stats");
+wpqorefunc_is_checked("wpqorefunc_dash_controls");
+wpqorefunc_is_checked("wpqorefunc_dash_posts");
+wpqorefunc_is_checked("wpqorefunc_dash_pages");
+wpqorefunc_is_checked("wpqorefunc_dash_serverinfo");
+wpqorefunc_is_checked("wpqorefunc_dash_about");
 //wpqorefunc_string_setting("wpqorefunc_1st_pass"); //disabled since 1.0.0
 
 ?>
@@ -213,6 +219,22 @@ WP_PLUGIN_URL.'/'.basename( dirname( __FILE__ ) ).'/example/screenshot_03.png'
 </div>
 <i><?php _e( "Turn 'On' to enable (Recommended)", 'wp-qore' ); ?></i><br><br>
 <?php _e( "When 'On', this will replace the standard wp-admin dashboard with a new one that is clean and lightweight.", 'wp-qore' ); ?>
+<br />
+<div style="border: 1px dashed #CCCCCC;margin-top:10px;padding:10px">
+<b>Dashboard Sections:</b> (check to hide)<br />
+<br />
+<input name="wpqorefunc_dash_stats" type="checkbox" id="wpqorefunc_dash_stats" value="1" <?php echo get_option("wpqorefunc_dash_stats");?>> Stats
+
+<input name="wpqorefunc_dash_controls" type="checkbox" id="wpqorefunc_dash_controls" value="1" <?php echo get_option("wpqorefunc_dash_controls");?>> Controls
+
+<input name="wpqorefunc_dash_posts" type="checkbox" id="wpqorefunc_dash_posts" value="1" <?php echo get_option("wpqorefunc_dash_posts");?>> Posts
+
+<input name="wpqorefunc_dash_pages" type="checkbox" id="wpqorefunc_dash_pages" value="1" <?php echo get_option("wpqorefunc_dash_pages");?>> Pages
+
+<input name="wpqorefunc_dash_serverinfo" type="checkbox" id="wpqorefunc_dash_serverinfo" value="1" <?php echo get_option("wpqorefunc_dash_serverinfo");?>> System
+
+<input name="wpqorefunc_dash_about" type="checkbox" id="wpqorefunc_dash_about" value="1" <?php echo get_option("wpqorefunc_dash_about");?>> About
+</div>
 </td>
 </tr>
 
