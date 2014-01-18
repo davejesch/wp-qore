@@ -3,7 +3,7 @@
 Plugin Name: WP Qore
 Plugin URI: http://wpqore.com/
 Description: WP Qore is a WordPress plugin that provides additional security, performance functionality, and developer tools that can be toggled on or off at anytime.
-Version: 1.7.9
+Version: 1.8.0
 Author: Jason Jersey
 Author URI: http://twitter.com/degersey
 License: GNU GPL 3.0
@@ -27,7 +27,7 @@ Domain Path: lang
 
 // wp-qore version
 function wpqoreplugv() {
-    echo '1.7.9';
+    echo '1.8.0';
 }
 
 function wpqore_load_textdomain() {
@@ -42,7 +42,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 require_once(dirname(__FILE__)."/settings.php");
 require_once(dirname(__FILE__)."/functions.php");
 require_once(dirname(__FILE__)."/functions/adminbar_menu.php");
-require_once(dirname(__FILE__)."/functions/howdy.php");
 
 // login logo
 if (get_option("wpqorefunc_login_logo")=='checked') {
@@ -116,6 +115,7 @@ if (get_option("wpqorefunc_auto_update_theme")=='checked') add_filter( 'auto_upd
 if (get_option("wpqorefunc_auto_core_update_send_email")=='checked') { add_filter( 'auto_core_update_send_email', '__return_true' ); } else { add_filter( 'auto_core_update_send_email', '__return_false' ); }
 if (get_option("wpqorefunc_automatic_updates_send_debug_email")=='checked') { add_filter( 'automatic_updates_send_debug_email', '__return_true' ); } else { add_filter( 'automatic_updates_send_debug_email', '__return_false' ); }
 if (get_option("wpqorefunc_auto_update_translation")=='checked') { add_filter( 'auto_update_translation', '__return_true' ); } else { add_filter( 'auto_update_translation', '__return_false' ); }
+if (get_option("wpqorefunc_howdy_text")) require_once(dirname(__FILE__)."/functions/howdy.php");
 
 // frontend wp-admin bar opacity
 if (get_option("wpqorefunc_wpadminbar_opacity")=='checked'){
