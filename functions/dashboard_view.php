@@ -1,9 +1,9 @@
-<?php //wp-admin dashboard : begin 
+<?php //wp-admin dashboard : begin
 
 //include server_info functions
 require_once("server_info.php");
 
-    if (get_option("wpqorefunc_dashboard_switch")=='checked') { 
+    if (get_option("wpqorefunc_dashboard_switch")=='checked') {
         echo get_option("wpqorefunc_custom_dashboard");
     } else {
 
@@ -80,7 +80,7 @@ function wpqore_tags() {
 function wpqore_updated($d = '') {
     global $wpqore_count_options;
     $count_posts = wp_count_posts();
-    $published_posts = $count_posts->publish; 
+    $published_posts = $count_posts->publish;
     $recent = new WP_Query("showposts=1&orderby=date&post_status=publish");
     if ($recent->have_posts()) {
         while ($recent->have_posts()) {
@@ -95,50 +95,76 @@ function wpqore_updated($d = '') {
 
 // uploads space
 function wp_upload_space() {
-    $upload_dir     = wp_upload_dir(); 
+    $upload_dir     = wp_upload_dir();
     $upload_space   = wpqore_foldersize( $upload_dir['basedir'] );
     $content_space  = wpqore_foldersize( WP_CONTENT_DIR );
     $wp_space       = wpqore_foldersize( ABSPATH );
 
-    echo wpqore_format_size( $upload_space ); 
+    echo wpqore_format_size( $upload_space );
 }
 
 // wp-content space
 function wp_content_space() {
-    $upload_dir     = wp_upload_dir(); 
+    $upload_dir     = wp_upload_dir();
     $upload_space   = wpqore_foldersize( $upload_dir['basedir'] );
     $content_space  = wpqore_foldersize( WP_CONTENT_DIR );
     $wp_space       = wpqore_foldersize( ABSPATH );
 
-    echo wpqore_format_size( $content_space );  
+    echo wpqore_format_size( $content_space );
 }
 
 // wp total space
 function wp_wp_space() {
-    $upload_dir     = wp_upload_dir(); 
+    $upload_dir     = wp_upload_dir();
     $upload_space   = wpqore_foldersize( $upload_dir['basedir'] );
     $content_space  = wpqore_foldersize( WP_CONTENT_DIR );
-    $wp_space       = wpqore_foldersize( ABSPATH ); 
+    $wp_space       = wpqore_foldersize( ABSPATH );
 
-    echo wpqore_format_size( $wp_space );   
+    echo wpqore_format_size( $wp_space );
 }
 
 function wpqore_foldersize( $path ) {
     $total_size = 0;
+    $path = untrailingslashit($path);
+
+    $transient = 'wp_qore_foldersize_' . str_replace(ABSPATH, '', $path);
+
+    // return transient value if we've done this recently
+    $size = get_transient($transient);
+    if ($size !== false)
+        return ($size);
+
+    // set up the timer
+    list($usec, $sec) = explode(' ', microtime());
+    $starttime = $sec;
+
+    $size = wp_qore_calcfoldersize($path, $starttime);
+    // save transient value for 4 hours
+    set_transient($transient, $size, 60 * 60 * 4);
+    return $size;
+}
+
+function wp_qore_calcfoldersize($path, $starttime)
+{
+    // check timer
+    list($usec, $sec) = explode(' ', microtime());
+    if ($sec - $starttime > 15)
+        return 0;           // spending more than 15 seconds, give up
+
+    $cleanPath = $path . '/';
     $files = scandir( $path );
-    $cleanPath = rtrim( $path, '/' ) . '/';
 
     foreach( $files as $t ) {
         if ( '.' != $t && '..' != $t ) {
             $currentFile = $cleanPath . $t;
             if ( is_dir( $currentFile ) ) {
-                $size = wpqore_foldersize( $currentFile );
+                $size = wp_qore_calcfoldersize( $currentFile );
                 $total_size += $size;
             } else {
                 $size = filesize( $currentFile );
                 $total_size += $size;
             }
-        }   
+        }
     }
 
     return $total_size;
@@ -162,7 +188,7 @@ function wpqore_format_size($size) {
 <link rel="stylesheet" href="<?php echo plugins_url( '../css/ie.css' , __FILE__ ); ?>" type="text/css" media="screen" />
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-    
+
 <script type="text/javascript">
 //Memory Chart
 google.load("visualization", "1", {packages:["corechart"]});
@@ -195,28 +221,28 @@ function drawChart() {
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <section id="secondary_bar">
-<div class="breadcrumbs_container">    
+<div class="breadcrumbs_container">
 
 <article class="breadcrumbs">
-<a href="#"><?php _e( 'Dashboard', 'wp-qore' ); ?></a> 
-<div class="breadcrumb_divider"></div> 
+<a href="#"><?php _e( 'Dashboard', 'wp-qore' ); ?></a>
+<div class="breadcrumb_divider"></div>
 <a class="current"><?php _e( 'General', 'wp-qore' ); ?></a>
 </article>
 
 </div>
 </section>
-    
+
 <section id="main" class="column">
-        
+
 <h4 class="alert_info"><?php _e( 'Welcome to the admin backend', 'wp-qore' ); ?>.</h4>
 
 <!--
 <h4 class="alert_warning"><?php _e( 'A Warning Alert', 'wp-qore' ); ?></h4>
 <h4 class="alert_error"><?php _e( 'An Error Message', 'wp-qore' ); ?></h4>
 <h4 class="alert_success"><?php _e( 'A Success Message', 'wp-qore' ); ?></h4>
--->        
+-->
 
-<?php if ( current_user_can('manage_options') ) { 
+<?php if ( current_user_can('manage_options') ) {
       if (get_option("wpqorefunc_dash_stats")=='checked') { }else{ ?>
 <article class="module width_full" id="module_width_full">
 <header><h3><?php _e( 'Stats', 'wp-qore' ); ?></h3></header>
@@ -241,7 +267,7 @@ function drawChart() {
     <p class="overview_type"><?php _e( 'users', 'wp-qore' ); ?></p>
 </div>
 </article>
-            
+
 <article class="stats_overview" id="stats_overview_2" style="margin-right:20px;margin-top:10px;margin-bottom:20px;padding-top:5px">
 <div class="overview_today">
     <p class="overview_count"><?php echo @wp_upload_space(); ?></p>
@@ -291,7 +317,7 @@ function drawChart() {
 </div>
 </div>
 </article>
-<?php } } 
+<?php } }
 
 if (get_option("wpqorefunc_dash_controls")=='checked') { }else{ ?>
 <article class="module width_full">
@@ -366,7 +392,7 @@ if ( current_user_can('export') ) { ?>
 if ( current_user_can('manage_options') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'Settings', 'wp-qore' ); ?></div><a href="options-general.php" title="General Settings"><img src="<?php echo plugins_url( '../images/dashboard/general.png' , __FILE__ ); ?>"/></a></div>
 
-<?php } }else{ 
+<?php } }else{
 
 if ( current_user_can('read') ) { ?>
 <div class="dashboard_icons"><div  class="dash_text"><?php _e( 'All Posts', 'wp-qore' ); ?></div><a href="edit.php" title="View All Posts"><img src="<?php echo plugins_url( '../images/dashboard/edit.png' , __FILE__ ); ?>"/></a></div>
@@ -444,9 +470,9 @@ if ( current_user_can('manage_options') ) { ?>
 </div>
 </div>
 </article>
-<?php } 
+<?php }
 
-if ( current_user_can('read') ) { 
+if ( current_user_can('read') ) {
 if (get_option("wpqorefunc_dash_pages")=='checked') { }else{ ?>
 <article class="module width_half">
 <header>
@@ -480,7 +506,7 @@ if( $my_query->have_posts() ) {
 </article>
 <?php } }
 
-if ( current_user_can('read') ) { 
+if ( current_user_can('read') ) {
 if (get_option("wpqorefunc_dash_posts")=='checked') { }else{ ?>
 <article class="module width_half">
 <header>
@@ -497,9 +523,9 @@ foreach( $myposts as $post ) :  setup_postdata($post); ?>
 <div class="message">
 <p><h3><a target="_blank" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3></p>
 </div>
-<?php 
+<?php
 
-endforeach; 
+endforeach;
 
 ?>
 </div>
@@ -511,7 +537,7 @@ endforeach;
     </form>
     </footer>
 </article>
-<?php } } 
+<?php } }
 
 if ( current_user_can('manage_options') ) {
 if (get_option("wpqorefunc_dash_serverinfo")=='checked') { }else{ ?>
@@ -528,7 +554,7 @@ if (get_option("wpqorefunc_dash_serverinfo")=='checked') { }else{ ?>
 <b><?php _e('Server Disk Quota', 'wp-qore'); ?></b>: <?php echo WPQORE_bytesize($space_free);?> of <?php echo WPQORE_bytesize($space);?> available.
 </div>
 </article>
-<?php } 
+<?php }
 
 if (get_option("wpqorefunc_dash_about")=='checked') { }else{ ?>
 <article class="module width_half">
@@ -544,9 +570,9 @@ if (get_option("wpqorefunc_dash_about")=='checked') { }else{ ?>
 </div>
 <?php } ?>
 
-<div class="clear"></div>        
+<div class="clear"></div>
 
 </section>
 
-<?php } //wp-admin dashboard : end 
+<?php } //wp-admin dashboard : end
  ?>
