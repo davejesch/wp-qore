@@ -1,0 +1,62 @@
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+
+.dashboard_icons, .dashboard_icons:hover {
+    float: left;
+    padding-right:60px;
+    margin-top: 20px;
+}
+
+.dashboard_icons img {
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+    -moz-border-radius: 33px;
+    -webkit-border-radius: 33px;
+    border: 2px solid #FFF;
+    box-shadow: 0 3px 5px #373737;
+    -moz-box-shadow: 0 3px 5px #373737;
+    -webkit-box-shadow: 0 3px 5px #373737;
+}
+
+.dashboard_icons img:hover {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.dash_text {
+    font-size: 9px;
+    width: 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width:480px) {
+    #module_width_full{display:none}
+    .footer_section{display:none}
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    #module_width_full{display:none}
+    .footer_section{display:none}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    #module_width_full{display:none}
+    .footer_section{display:none}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1280px) {
+    #module_width_full{display:none}
+    .footer_section{display:none}
+}
+
+@media only screen and (min-width:1280px) and (max-width:1300px) {
+    #stats_overview{margin-right:-20px}
+    #stats_overview_2{margin-right:-20px}
+}
