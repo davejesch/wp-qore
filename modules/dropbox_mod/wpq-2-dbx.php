@@ -136,7 +136,7 @@ function execute_drobox_backup(){
 
     $time = ini_get('max_execution_time');
     WPQ2DBX_Factory::get('logger')->log(sprintf(
-        __('Your time limit is %s and your memory limit is %s'),
+        __('Your time limit is %s and your memory limit is %s', 'wp-qore'),
         $time ? $time . ' ' . __('seconds', 'wp-qore') : __('unlimited', 'wp-qore'),
         ini_get('memory_limit')
     ));

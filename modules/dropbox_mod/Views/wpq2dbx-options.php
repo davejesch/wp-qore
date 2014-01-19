@@ -49,7 +49,7 @@ try {
                 ->set_option('store_in_subfolder', @$_POST['store_in_subfolder'] == "on")
                 ->set_option('dropbox_location', @$_POST['dropbox_location']);
 
-            add_settings_error('general', 'settings_updated', __('Settings saved.'), 'updated');
+            add_settings_error('general', 'settings_updated', __('Settings saved.', 'wp-qore'), 'updated');
         }
     } elseif (array_key_exists('unlink', $_POST)) {
         check_admin_referer('b_2_dbx_options_save');
@@ -379,7 +379,7 @@ try {
             <div id="circleG_2" class="circleG"></div>
             <div id="circleG_3" class="circleG"></div>
         </div>
-        <div class="loading start"><?php _e('Loading...') ?></div>
+        <div class="loading start"><?php _e('Loading...', 'wp-qore') ?></div>
     </div>
     </div>
     </div>
