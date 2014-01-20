@@ -248,7 +248,7 @@ class WPQ2DBX_BackupController
             if (!$fh) {
                 throw new Exception(
                     sprintf(
-                        __("WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin."),
+                        __("WordPress does not have write access to '%s'. Please grant it write privileges before using this plugin.", 'wp-qore'),
                         WPQ2DBX_Factory::get('config')->get_backup_dir()
                     )
                 );
