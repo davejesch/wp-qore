@@ -39,7 +39,7 @@ class WPQ2DBX_Extension_DefaultOutput extends WPQ2DBX_Extension_Base
             throw new Exception(sprintf(__('The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup.', 'wp-qore'), self::MAX_ERRORS));
 
         if (!$this->dropbox)
-            throw new Exception(__("Dropbox API not set"));
+            throw new Exception(__("Dropbox API not set", 'wp-qore'));
 
         $dropbox_path = $this->config->get_dropbox_path($source, $file, $this->root);
 
